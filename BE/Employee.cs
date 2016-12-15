@@ -21,5 +21,6 @@ namespace BE
         enum Education { student, firstDegree, secondDegree, thirdDegree };
 
 
+
     }
 }
