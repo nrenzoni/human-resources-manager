@@ -10,14 +10,17 @@ namespace BE
     public class Specialization
     {
         // enum fieldName { Programming, Communications, SoftwareSecurity, GraphicDesign };
-        // second parameter is int[]; first index is minimum wage, second index is maximum wage per hour, and third index is specializationID
+
+        /// <summary>
+        /// second parameter is int[]; first index is minimum wage, second index is maximum wage per hour, and third index specializationID
+        /// </summary>
         static Dictionary<string,int[]> fieldNames = new Dictionary<string, int[]>()
         {
-            { "Programming", new int[] { 8,10,0 } },
-            {"Communications", new int[] { 6,10,1} },
-            {"SoftwareSecurity", new int[] { 7,9,2} },
-            { "GraphicDesign", new int[] { 4,6,3} },
-            { "QA", new int[] {1,5} }
+            { "Programming",        new int[] { 8,10,0 } },
+            {"Communications",      new int[] { 6,10,1} },
+            {"SoftwareSecurity",    new int[] { 7,9,2} },
+            { "GraphicDesign",      new int[] { 4,6,3} },
+            { "QA",                 new int[] { 1,5,4} }
         };
 
         int _specializationID;
@@ -54,4 +57,3 @@ namespace BE
         }
     }
 }
-///
