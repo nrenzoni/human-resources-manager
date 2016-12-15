@@ -21,14 +21,7 @@ namespace BE
         };
 
         int _specializationID;
-
-        public int SpecializationID
-        {
-            get
-            {
-                return _specializationID;
-            }
-        }
+        public int SpecializationID { get { return _specializationID; } }
 
         int minWage, maxWage;
         string _SpecializationField;
