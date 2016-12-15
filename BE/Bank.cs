@@ -12,6 +12,8 @@ namespace BE
         int accountNumber;
         int bankNumber;
 
+
+
         struct Branch
         {
             int branchNumber;
@@ -22,3 +24,4 @@ namespace BE
            
     }
 }
+//
