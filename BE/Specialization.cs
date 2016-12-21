@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace BE
 {
+    enum SpecializationName { Programming, Communications, SoftwareSecurity, GraphicDesign };
+
     public class Specialization
     {
-        // enum fieldName { Programming, Communications, SoftwareSecurity, GraphicDesign };
-
         /// <summary>
         /// second parameter is int[]; first index is minimum wage, second index is maximum wage per hour, and third index specializationID
         /// </summary>
