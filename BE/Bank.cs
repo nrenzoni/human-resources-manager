@@ -8,20 +8,16 @@ namespace BE
 {
     public class Bank
     {
-        string name;
-        int accountNumber;
-        int bankNumber;
+        string BankName { get; set; }
+        int AccountNumber { get; set; };
+        int BankNumber { get; set; }
+        int Branch { get; set; }
+        string Adress { get; set; }
+        string City { get; set; }
 
-
-
-        struct Branch
-        {
-            int branchNumber;
-            string city;
-            string address;
-        }
-
-           
+        //public override string ToString()
+        //{
+        //    return base.ToString();
+        //}
     }
 }
-//

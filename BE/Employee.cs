@@ -26,7 +26,10 @@ namespace BE
 
         public override string ToString()
         {
-            return lastName + ", " + firstName + ". ID: " + ID + ", birthday: " + birthday.ToString("d") + ", Phone: " + phoneNumber + " address: " + address + ", Years of Experience: " + yearsOfExperience + ", Education: " + education.ToString() + ((armyGraduate) ? " served in Army" : "did not serve in Army") + ", recommendation Notes: " + recommendationNotes + ", Bank Account Info: " + bankAccount.ToString();
+            return  lastName + ", " + firstName + ". ID: " + ID + ", birthday: " + birthday.ToString("d") + ", Phone: " +
+                    phoneNumber + " address: " + address + ", Years of Experience: " + yearsOfExperience + ", Education: " +
+                    education.ToString() + ((armyGraduate) ? " served in Army" : "did not serve in Army") + ", recommendation Notes: " +
+                    recommendationNotes + ", Bank Account Info: " + bankAccount.ToString();
         }
 
     }
