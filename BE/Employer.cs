@@ -6,12 +6,25 @@ using System.Threading.Tasks;
 
 namespace BE
 {
-    class Employer
+    public class Employer
     {
+        public Employer(uint ID, string companyname, uint phoneNum, string addr, SpecializationName specName, DateTime estabDate, string firstname="", string lastname="", bool isPrivate=false)
+        {
+            privatePerson = isPrivate;
+            EmployerID = ID;
+            firstName = firstname;
+            lastName = lastname;
+            companyName = companyname;
+            phoneNumber = phoneNum;
+            address = addr;
+            specializationName = specName;
+            establishmentDate = estabDate;
+        }
+
         // if not private person then company
         bool privatePerson;
 
-        uint EmployerID;
+        readonly uint EmployerID;
 
         // if privatePerson
         string firstName, lastName;
@@ -21,8 +34,7 @@ namespace BE
 
         uint phoneNumber;
         string address;
-
-        // if Employer has a field of type Specialization, then can use SpecializationField property to return value for specializationName
+        
         SpecializationName specializationName; // enum
 
         DateTime establishmentDate;

@@ -8,7 +8,14 @@ namespace BE
 {
     public class Contract
     {
-        static uint contractID = 10000000;
+        public Contract()
+        {
+            contractID = contractIDCounter++;
+        }
+
+        static uint contractIDCounter = 10000000;
+        uint contractID;
+
         uint EmployerID;
         uint EmployeeID;
 
@@ -22,12 +29,7 @@ namespace BE
         DateTime contractEstablishedDate;
         DateTime contractTerminatedDate;
 
-        uint maxWorkHours; 
-
-        public Contract()
-        {
-            contractID++;
-        }
+        uint maxWorkHours;
 
         public override string ToString()
         {

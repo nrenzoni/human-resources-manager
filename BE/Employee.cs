@@ -6,23 +6,31 @@ using System.Threading.Tasks;
 
 namespace BE
 {
+    public enum Education { student, firstDegree, secondDegree, thirdDegree };
+
     public class Employee
     {
-        int ID;
+        // needs implementation
+        public Employee()
+        {
+
+        }
+
+        readonly uint ID;
         string lastName, firstName;
         DateTime birthday;
         int phoneNumber;
         string address;
         uint yearsOfExperience;
         string recommendationNotes;
+        string email;
         Education education;
         bool armyGraduate;
-        Bank bankAccount;
+        Bank bankAccount; // maybe struct?
 
-        Specialization specialty;
+        //Specialization specialty; (removed)
         uint specializationID; // specializationID also exists in Specialazation class
 
-        enum Education { student, firstDegree, secondDegree, thirdDegree };
 
         public override string ToString()
         {

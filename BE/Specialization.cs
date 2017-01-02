@@ -7,48 +7,33 @@ using System.Threading.Tasks;
 
 namespace BE
 {
-    enum SpecializationName { Programming, Communications, SoftwareSecurity, GraphicDesign };
+    public enum SpecializationName { Programming=10000000, Communications, SoftwareSecurity, GraphicDesign };
 
     public class Specialization
     {
-        /// <summary>
-        /// second parameter is int[]; first index is minimum wage, second index is maximum wage per hour, and third index specializationID
-        /// </summary>
-        static Dictionary<string, int[]> fieldNames = new Dictionary<string, int[]>()
+        //static uint specilizationIDCounter = 10000000;
+
+        public uint specilizationID { get; }
+        public SpecializationName specilizationName { get; }
+        public double minWagePerHour { get; set; }
+        public double maxWagePerHour { get; set; }
+
+        public Specialization(SpecializationName specName, double minWage, double maxWage)
         {
-            { "Programming",        new int[] { 8,10,0 } },
-            {"Communications",      new int[] { 6,10,1} },
-            {"SoftwareSecurity",    new int[] { 7,9,2} },
-            { "GraphicDesign",      new int[] { 4,6,3} },
-            { "QA",                 new int[] { 1,5,4} }
-        };
+            specilizationID = (uint)specName;
+            specilizationName = specName;
+            minWagePerHour = minWage;
+            maxWagePerHour = maxWage;
+        }
 
-        int _specializationID;
-        public int SpecializationID { get { return _specializationID; } }
-
-        int minWage, maxWage;
-        string _SpecializationField;
-
-        public string SpecializationField
+        public static bool operator==(Specialization s1, Specialization s2)
         {
-            get
-            {
-                return _SpecializationField;
-            }
+            return s1.specilizationID == s2.specilizationID;
+        }
 
-            set // value should be key in fieldNames OrderedDict
-            {
-                if (!fieldNames.ContainsKey(value))
-                    throw new Exception("specialty field does not exist in dictionary");
-
-                _SpecializationField = value;
-
-                // assigns first and second value at respective index of int[] key in fieldNames OrderedDictionary
-                minWage = fieldNames[value][0];
-                maxWage = fieldNames[value][1];
-
-                _specializationID = fieldNames[value][2];
-            }
+        public static bool operator !=(Specialization s1, Specialization s2)
+        {
+            return s1.specilizationID != s2.specilizationID;
         }
 
         public override string ToString()
