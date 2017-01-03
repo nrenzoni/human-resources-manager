@@ -11,7 +11,7 @@ namespace BE
     public class Employee
     {
         // needs implementation
-        public Employee()
+        public Employee(string _firstName, string _lastName, DateTime _birthday, uint _ID, string _address, uint _yearsOfExperience, string _email, Education _education, bool _armyGraduate, Bank _bankAccount)
         {
 
         }

@@ -10,18 +10,17 @@ namespace DAL
 {
     public class DAL_Imp : IDAL
     {
-        public bool addSpecilization(Specialization specilization)
+        bool addToList<T>(List<T> list, T element)
         {
-            if (DataSource.specList.Contains(specilization))
-                throw new Exception("specilization already exists in DS");
-
-            DataSource.specList.Add(specilization);
+            if(list.Contains(element))
+                throw new Exception(element.GetType() + "already exists in " + nameof(list));
+            list.Add(element);
             return true;
         }
 
-        public bool deleteSpecilization(Specialization specilization)
+        bool deleteFromList<T>(List<T> list, T element) where T : class
         {
-            int foundIndex = DataSource.specList.FindIndex(s => s == specilization); // comparision based on specilizationID
+            int foundIndex = list.FindIndex(x => x == element); // comparision based on specilizationID
             if (foundIndex != -1)
             {
                 DataSource.specList.RemoveAt(foundIndex);
@@ -29,6 +28,14 @@ namespace DAL
             }
             else throw new Exception("cannot delete, specilization not found in DS");
         }
+
+        bool update
+
+        public bool addSpecilization(Specialization specilization) => 
+            addToList(DataSource.specList, specilization); // returns retuned value of addToList
+
+        public bool deleteSpecilization(Specialization specilization) =>
+            deleteFromList(DataSource.specList, specilization);
 
         // only minWage and maxWage updated. Cannot update ID and specilization Name
         public bool updateSpecilization(Specialization specilization)
@@ -42,6 +49,22 @@ namespace DAL
                 return true;
             }
             else throw new Exception("cannot update specilization, not found in DS");
+        }
+
+
+        public bool addEmployee(Employee employee)
+        {
+
+        }
+
+        public bool deleteEmployee(Employee employee)
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool updateEmployee(Employee employee)
+        {
+            throw new NotImplementedException();
         }
     }
 }
