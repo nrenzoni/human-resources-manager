@@ -10,16 +10,27 @@ namespace BE
 
     public class Employee
     {
-        // needs implementation
-        public Employee(string _firstName, string _lastName, DateTime _birthday, uint _ID, string _address, uint _yearsOfExperience, string _email, Education _education, bool _armyGraduate, Bank _bank, uint _bankAccountNumber)
+        // no recommendation in constructor; recommendation assigned using property
+        public Employee(uint _ID, string _firstName, string _lastName, DateTime _birthday, uint _phone, string _address, uint _yearsOfExperience, string _email, Education _education, bool _armyGraduate, Bank _bank, uint _bankAccountNumber)
         {
-
+            ID = _ID;
+            lastName = _lastName;
+            firstName = _firstName;
+            birthday = _birthday;
+            phoneNumber = _phone;
+            address = _address;
+            yearsOfExperience = _yearsOfExperience;
+            email = _email;
+            education = _education;
+            armyGraduate = _armyGraduate;
+            bank = _bank;
+            bankAccountNumber = _bankAccountNumber;
         }
 
         readonly uint ID;
         string lastName, firstName;
         DateTime birthday;
-        int phoneNumber;
+        uint phoneNumber;
         string address;
         uint yearsOfExperience;
         string recommendationNotes;
@@ -27,7 +38,7 @@ namespace BE
         Education education;
         bool armyGraduate;
 
-        Bank bankAccount;
+        Bank bank;
         uint bankAccountNumber { get; }
 
         //Specialization specialty; (removed)

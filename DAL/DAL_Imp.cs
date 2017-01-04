@@ -10,6 +10,7 @@ namespace DAL
 {
     public class DAL_Imp : IDAL
     {
+        // add optional Action parameter for checking if element ID exists already in list, or if 0, assign new ID
         bool addToList<T>(List<T> list, T element)
         {
             if(list.Contains(element))
@@ -29,7 +30,6 @@ namespace DAL
             else throw new Exception("cannot delete, " + nameof(element) + " not found in " + nameof(list));
         }
 
-        /// act performs action on matching element in list
         bool updateInList<T>(List<T> list, T newElement, T oldElement=null) where T : class
         {
             try
@@ -59,11 +59,9 @@ namespace DAL
         public bool deleteSpecilization(Specialization specilization) =>
             deleteFromList(DataSource.specList, specilization);
 
-        // only minWage and maxWage updated. Cannot update ID and specilization Name
-        public bool updateSpecilization(Specialization specilization)
-        {
-            return updateInList(DataSource.specList, specilization);
-        }
+        // Illegal to update ID and specilization Name
+        public bool updateSpecilization(Specialization specilization) =>
+            updateInList(DataSource.specList, specilization);
         
         public bool addEmployee(Employee employee) =>
             addToList(DataSource.employeeList, employee);
@@ -74,20 +72,14 @@ namespace DAL
         public bool updateEmployee(Employee employee) =>
             updateInList(DataSource.employeeList, employee);
 
-        public bool addContract(Contract contract)
-        {
-            return addToList(DataSource.contractList, contract);
-        }
+        public bool addContract(Contract contract) =>
+            addToList(DataSource.contractList, contract);
 
-        public bool deleteContract(Contract contract)
-        {
-            return deleteFromList(DataSource.contractList, contract);
-        }
+        public bool deleteContract(Contract contract) =>
+            deleteFromList(DataSource.contractList, contract);
 
         public bool updateContract(Contract newContract, Contract oldContract) // oldContract needed for finding old Contract in DS by operator==
-        {
-            return updateInList(DataSource.contractList, newContract, oldContract);
-        }
+            => updateInList(DataSource.contractList, newContract, oldContract);
 
 
 
@@ -101,11 +93,20 @@ namespace DAL
             updateInList(DataSource.employerList, employer);
 
 
-        List<Specialization> getSpecilizationList() => DataSource.specList;
-        List<Employee> getEmployeeList()            => DataSource.employeeList;
-        List<Employer> getEmployerList()            => DataSource.employerList;
-        List<Contract> getContractList()            => DataSource.contractList;
+        public List<Specialization> getSpecilizationList() => DataSource.specList;
+        public List<Employee> getEmployeeList()            => DataSource.employeeList;
+        public List<Employer> getEmployerList()            => DataSource.employerList;
+        public List<Contract> getContractList()            => DataSource.contractList;
 
-
+        public List<Bank> getTempBanks()
+        {
+            return new List<Bank>
+            {
+                new Bank("Leumi", 1155, 19, "20 Havaad Haleumi St", "Jerusalem"),
+                new Bank("Hapoalim", 9866, 24, "14 Malki St", "Jerusalem"),
+                new Bank("Discount", 8543, 11, "Hagai St", "Jerusalem"),
+                new Bank("Bank of Jerusalem", 6654, 8, "Keren Hayesod St", "Jerusalem")
+            };
+        }
     }
 }
