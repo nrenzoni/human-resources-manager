@@ -49,5 +49,15 @@ namespace BE
                 " Phone Number: " + phoneNumber +
                 " Address: " + address; 
         }
+
+        public static bool operator ==(Employer e1, Employer e2)
+        {
+            return e1.EmployerID == e2.EmployerID;
+        }
+
+        public static bool operator !=(Employer e1, Employer e2)
+        {
+            return e1.EmployerID != e2.EmployerID;
+        }
     }
 }

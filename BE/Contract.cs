@@ -19,6 +19,7 @@ namespace BE
         uint EmployerID;
         uint EmployeeID;
 
+
         bool isInterviewed; 
 
         bool contractFinalized; // contract was signed by both parties
@@ -35,6 +36,16 @@ namespace BE
         {
             return "Contract ID: " + contractID +
                 "" // for completion
+        }
+
+        public static bool operator ==(Contract c1, Contract c2)
+        {
+            return c1.contractID == c2.contractID;
+        }
+
+        public static bool operator !=(Contract c1, Contract c2)
+        {
+            return c1.contractID != c2.contractID;
         }
     }
 }

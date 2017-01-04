@@ -9,7 +9,6 @@ namespace BE
     public class Bank
     {
         string BankName { get; set; }
-        int AccountNumber { get; set; };
         int BankNumber { get; set; }
         int Branch { get; set; }
         string Adress { get; set; }

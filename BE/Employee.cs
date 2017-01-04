@@ -11,7 +11,7 @@ namespace BE
     public class Employee
     {
         // needs implementation
-        public Employee(string _firstName, string _lastName, DateTime _birthday, uint _ID, string _address, uint _yearsOfExperience, string _email, Education _education, bool _armyGraduate, Bank _bankAccount)
+        public Employee(string _firstName, string _lastName, DateTime _birthday, uint _ID, string _address, uint _yearsOfExperience, string _email, Education _education, bool _armyGraduate, Bank _bank, uint _bankAccountNumber)
         {
 
         }
@@ -26,7 +26,9 @@ namespace BE
         string email;
         Education education;
         bool armyGraduate;
-        Bank bankAccount; // maybe struct?
+
+        Bank bankAccount;
+        uint bankAccountNumber { get; }
 
         //Specialization specialty; (removed)
         uint specializationID; // specializationID also exists in Specialazation class
@@ -40,5 +42,14 @@ namespace BE
                     recommendationNotes + ", Bank Account Info: " + bankAccount.ToString();
         }
 
+        public static bool operator ==(Employee e1, Employee e2)
+        {
+            return e1.specializationID == e2.specializationID;
+        }
+
+        public static bool operator !=(Employee e1, Employee e2)
+        {
+            return e1.specializationID != e2.specializationID;
+        }
     }
 }

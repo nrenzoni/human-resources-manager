@@ -16,5 +16,20 @@ namespace DAL
         bool addEmployee(Employee employee);
         bool deleteEmployee(Employee employee);
         bool updateEmployee(Employee employee);
+
+        bool addContract(Contract contract);
+        bool deleteContract(Contract contract);
+        bool updateContract(Contract oldContract, Contract newContract);
+
+        bool addEmployer(Employer employer);
+        bool deleteEmployer(Employer employer);
+        bool updateEmployer(Employer employer);
+
+        List<Specialization>    getSpecilizationList();
+        List<Employee>          getEmployeeList();
+        List<Employer>          getEmployerList();
+        List<Contract>          getContractList();
+
+        List<Bank>              getTempBanks();
     }
 }
