@@ -7,12 +7,10 @@ using System.Threading.Tasks;
 
 namespace BE
 {
-    public enum SpecializationName { Programming=10000000, Communications, SoftwareSecurity, GraphicDesign };
+    public enum SpecializationName { Programming, Communications, SoftwareSecurity, GraphicDesign };
 
     public class Specialization
     {
-        //static uint specilizationIDCounter = 10000000;
-
         public uint specilizationID { get; }
         public SpecializationName specilizationName { get; }
         public double minWagePerHour { get; set; }
@@ -26,7 +24,8 @@ namespace BE
             maxWagePerHour = maxWage;
         }
 
-        public static bool operator==(Specialization s1, Specialization s2)
+        #region Operators
+        public static bool operator ==(Specialization s1, Specialization s2)
         {
             return s1.specilizationID == s2.specilizationID;
         }
@@ -34,7 +33,8 @@ namespace BE
         public static bool operator !=(Specialization s1, Specialization s2)
         {
             return s1.specilizationID != s2.specilizationID;
-        }
+        } 
+        #endregion
 
         public override string ToString()
         {

@@ -8,9 +8,8 @@ using DS;
 
 namespace DAL
 {
-    public class DAL_Imp : IDAL
+    public class DAL_Imp_List : IDAL
     {
-        // add optional Action parameter for checking if element ID exists already in list, or if 0, assign new ID
         bool addToList<T>(List<T> list, T element)
         {
             if(list.Contains(element))
@@ -53,7 +52,7 @@ namespace DAL
             }
         }
 
-        public bool addSpecilization(Specialization specilization) => 
+        public bool addSpecilization(Specialization specilization) =>
             addToList(DataSource.specList, specilization); // returns retuned value of addToList
 
         public bool deleteSpecilization(Specialization specilization) =>
@@ -72,8 +71,23 @@ namespace DAL
         public bool updateEmployee(Employee employee) =>
             updateInList(DataSource.employeeList, employee);
 
-        public bool addContract(Contract contract) =>
-            addToList(DataSource.contractList, contract);
+        public bool addContract(Contract contract)
+        {
+            if (contract.contractID == 0) // update contractID if = 0
+            {
+                uint maxID = 0;
+                if (DataSource.contractList.Count != 0)
+                {
+                    maxID = DataSource.contractList.Max(x => x.contractID);
+                }
+                else { maxID = 10000000; }
+
+                // update ID
+                contract.contractID = maxID;
+            }
+            // addToList checks if contract already exists in contractList
+            return addToList(DataSource.contractList, contract);
+        }
 
         public bool deleteContract(Contract contract) =>
             deleteFromList(DataSource.contractList, contract);
@@ -98,7 +112,7 @@ namespace DAL
         public List<Employer> getEmployerList()            => DataSource.employerList;
         public List<Contract> getContractList()            => DataSource.contractList;
 
-        public List<Bank> getTempBanks()
+        private List<Bank> getTempBanks()
         {
             return new List<Bank>
             {

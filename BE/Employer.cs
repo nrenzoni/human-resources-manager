@@ -47,7 +47,7 @@ namespace BE
                 lastName + ", " + firstName : "") +
                 ((string.IsNullOrEmpty(companyName)) ? "" : " Company Name: " + companyName) +
                 " Phone Number: " + phoneNumber +
-                " Address: " + address; 
+                " Address: " + address;
         }
 
         public static bool operator ==(Employer e1, Employer e2)

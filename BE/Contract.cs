@@ -8,13 +8,13 @@ namespace BE
 {
     public class Contract
     {
-        public Contract()
+        // need to finish
+        public Contract(uint _EmployeID, uint _EmployeeID, bool _isInterviewed, bool contractFinalized, )
         {
-            contractID = contractIDCounter++;
-        }
 
-        static uint contractIDCounter = 10000000;
-        uint contractID;
+        }
+        
+        public uint contractID { get; set; }
 
         uint EmployerID;
         uint EmployeeID;
