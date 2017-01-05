@@ -7,7 +7,7 @@ using BE;
 
 namespace DAL
 {
-    interface IDAL
+    public interface IDAL
     {
         bool addSpecilization(Specialization specilization);
         bool deleteSpecilization(Specialization specilization);
