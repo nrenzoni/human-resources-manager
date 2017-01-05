@@ -16,21 +16,21 @@ namespace BE
         
         public uint contractID { get; set; }
 
-        uint EmployerID;
-        uint EmployeeID;
+        public uint EmployerID { get; set; }
+        public uint EmployeeID { get; set; }
 
 
-        bool isInterviewed; 
+        public bool isInterviewed { get; set; }
 
-        bool contractFinalized; // contract was signed by both parties
+        public bool contractFinalized { get; set; } // contract was signed by both parties
 
-        uint grossWagePerHour; // before taxes etc
-        uint netWagePerHour; // payment employee receives
+        public uint grossWagePerHour { get; set; } // before taxes etc
+        public uint netWagePerHour { get; set; } // payment employee receives
 
-        DateTime contractEstablishedDate;
-        DateTime contractTerminatedDate;
+        public DateTime contractEstablishedDate { get; set; }
+        public DateTime contractTerminatedDate { get; set; }
 
-        uint maxWorkHours;
+        public uint maxWorkHours { get; set; }
 
         public override string ToString()
         {

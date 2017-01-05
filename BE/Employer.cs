@@ -22,22 +22,23 @@ namespace BE
         }
 
         // if not private person then company
-        bool privatePerson;
+        public bool privatePerson { get; set; }
 
-        readonly uint EmployerID;
+        public uint EmployerID { get; set; }
 
         // if privatePerson
-        string firstName, lastName;
+        public string firstName { get; set; }
+        public string lastName{ get; set; }
 
         // optional if private person
-        string companyName;
+        public string companyName { get; set; }
 
-        uint phoneNumber;
-        string address;
-        
-        SpecializationName specializationName; // enum
+        public uint phoneNumber { get; set; }
+        public string address { get; set; }
 
-        DateTime establishmentDate;
+        public SpecializationName specializationName { get; set; } // enum
+
+        public DateTime establishmentDate { get; set; }
 
         public override string ToString()
         {

@@ -27,22 +27,22 @@ namespace BE
             bankAccountNumber = _bankAccountNumber;
         }
 
-        readonly uint ID;
-        string lastName, firstName;
-        DateTime birthday;
-        uint phoneNumber;
-        string address;
-        uint yearsOfExperience;
-        string recommendationNotes;
-        string email;
-        Education education;
-        bool armyGraduate;
+        public uint ID { get; set; }
+        public string lastName { get; set; }
+        public string firstName { get; set; }
+        public DateTime birthday { get; set; }
+        public uint phoneNumber { get; set; }
+        public string address { get; set; }
+        public uint yearsOfExperience { get; set; }
+        public string recommendationNotes { get; set; }
+        public string email { get; set; }
+        public Education education { get; set; }
+        public bool armyGraduate { get; set; }
 
-        Bank bank;
-        uint bankAccountNumber { get; }
+        public Bank bank { get; set; }
+        public uint bankAccountNumber { get; set; }
 
-        //Specialization specialty; (removed)
-        uint specializationID; // specializationID also exists in Specialazation class
+        public uint specializationID { get; set; }
 
 
         public override string ToString()
