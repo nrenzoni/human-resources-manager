@@ -8,10 +8,16 @@ namespace BE
 {
     public enum Education { student, firstDegree, secondDegree, thirdDegree };
 
+    public class CivicAddress
+    {
+        string address { get; set; }
+        string city { get; set; }
+    }
+
     public class Employee
     {
         // no recommendation in constructor; recommendation assigned using property
-        public Employee(uint _ID, string _firstName, string _lastName, DateTime _birthday, uint _phone, string _address, uint _yearsOfExperience, string _email, Education _education, bool _armyGraduate, Bank _bank, uint _bankAccountNumber)
+        public Employee(uint _ID, string _firstName, string _lastName, DateTime _birthday, uint _phone, CivicAddress _address, uint _yearsOfExperience, string _email, Education _education, bool _armyGraduate, Bank _bank, uint _bankAccountNumber)
         {
             ID = _ID;
             lastName = _lastName;
@@ -32,7 +38,7 @@ namespace BE
         public string firstName { get; set; }
         public DateTime birthday { get; set; }
         public uint phoneNumber { get; set; }
-        public string address { get; set; }
+        public CivicAddress address { get; set; }
         public uint yearsOfExperience { get; set; }
         public string recommendationNotes { get; set; }
         public string email { get; set; }

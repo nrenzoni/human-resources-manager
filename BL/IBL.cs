@@ -7,7 +7,7 @@ using BE;
 
 namespace BL
 {
-    interface IBL
+    public interface IBL
     {
         bool addSpecilization(Specialization specilization);
         bool deleteSpecilization(Specialization specilization);
@@ -24,5 +24,14 @@ namespace BL
         bool addEmployer(Employer employer);
         bool deleteEmployer(Employer employer);
         bool updateEmployer(Employer employer);
+
+        IEnumerable<Contract> getContractListByFilter(Predicate<Contract> condition);
+        int ContractListByFilterCount(Predicate<Contract> condition);
+
+        IEnumerable<IGrouping<Specialization, Contract>> groupContractBySpec(bool ordered = false);
+        IEnumerable<IGrouping<string, Contract>> groupContractByEmployerCity(bool ordered = false);
+        IEnumerable<IGrouping<string, Contract>> groupContractByEmployeeCity(bool ordered = false);
+        IEnumerable<IGrouping<Employee, Contract>> groupContractByEmployerCity(bool ordered = false);
+
     }
 }

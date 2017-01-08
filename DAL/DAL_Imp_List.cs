@@ -29,6 +29,7 @@ namespace DAL
             else throw new Exception("cannot delete, " + nameof(element) + " not found in " + nameof(list));
         }
 
+        // only need oldElement for updateContract function (new ID)
         bool updateInList<T>(List<T> list, T newElement, T oldElement=null) where T : class
         {
             try
@@ -92,6 +93,7 @@ namespace DAL
         public bool deleteContract(Contract contract) =>
             deleteFromList(DataSource.contractList, contract);
 
+        // updated contract has new ID
         public bool updateContract(Contract newContract, Contract oldContract) // oldContract needed for finding old Contract in DS by operator==
             => updateInList(DataSource.contractList, newContract, oldContract);
 

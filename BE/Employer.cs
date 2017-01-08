@@ -8,7 +8,7 @@ namespace BE
 {
     public class Employer
     {
-        public Employer(uint ID, string companyname, uint phoneNum, string addr, SpecializationName specName, DateTime estabDate, string firstname="", string lastname="", bool isPrivate=false)
+        public Employer(uint ID, string companyname, uint phoneNum, CivicAddress addr, SpecializationName specName, DateTime estabDate, string firstname="", string lastname="", bool isPrivate=false)
         {
             privatePerson = isPrivate;
             EmployerID = ID;
@@ -34,7 +34,7 @@ namespace BE
         public string companyName { get; set; }
 
         public uint phoneNumber { get; set; }
-        public string address { get; set; }
+        public CivicAddress address { get; set; }
 
         public SpecializationName specializationName { get; set; } // enum
 

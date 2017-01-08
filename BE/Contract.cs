@@ -24,8 +24,8 @@ namespace BE
 
         public bool contractFinalized { get; set; } // contract was signed by both parties
 
-        public uint grossWagePerHour { get; set; } // before taxes etc
-        public uint netWagePerHour { get; set; } // payment employee receives
+        public double grossWagePerHour { get; set; } // before taxes etc
+        public double netWagePerHour { get; set; } // payment employee receives
 
         public DateTime contractEstablishedDate { get; set; }
         public DateTime contractTerminatedDate { get; set; }
