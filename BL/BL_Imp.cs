@@ -182,23 +182,36 @@ namespace BL
             getContractListByFilter(condition).Count();
 
         public IEnumerable<IGrouping<Specialization, Contract>> groupContractBySpec(bool ordered = false)
-        {
-
-        }
-
-        public IEnumerable<IGrouping<string, Contract>> groupContractByEmployerCity(bool ordered = false)
-        {
-            throw new NotImplementedException();
-        }
+         => from contr in DAL_Object.getContractList()
+            let contr_employee = DAL_Object.getEmployeeList().Find(e => e.ID == contr.EmployeeID)
+            let contr_spec = DAL_Object.getSpecilizationList().Find(s => s.ID == contr_employee.specializationID)
+            orderby // if ordered = true, first order contracts by spec name, then group
+                ordered ? contr_spec.specilizationName : 0
+            group contr by contr_spec;
 
         public IEnumerable<IGrouping<string, Contract>> groupContractByEmployeeCity(bool ordered = false)
-        {
-            throw new NotImplementedException();
-        }
+         => from contr in DAL_Object.getContractList()
+            let contr_employee = DAL_Object.getEmployeeList().Find(e => e.ID == contr.EmployeeID)
+            let contr_employee_city = contr_employee.address.City
+            orderby // if ordered = true, first order contracts by contract employee city, then group
+                ordered ? contr_employee_city : default(string) // null
+            group contr by contr_employee_city;
 
-        IEnumerable<IGrouping<Employee, Contract>> IBL.groupContractByEmployerCity(bool ordered)
+        public IEnumerable<IGrouping<string, Contract>> groupContractByEmployerCity(bool ordered = false)
+        => from contr in DAL_Object.getContractList()
+           let contr_employer = DAL_Object.getEmployerList().Find(e => e.ID == contr.EmployerID)
+           let contr_employer_city = contr_employer.address.City
+           orderby // if ordered = true, first order contracts by contract employer city, then group
+               ordered ? contr_employer_city : default(string) // null
+           group contr by contr_employer_city;
+
+        // profit by year of management company
+        IEnumerable<IGrouping<int, double>> IBL.getProfitByYear(bool ordered=false) // <int=year (key), double=profit>
         {
-            throw new NotImplementedException();
+            DateTime currDate = DateTime.Today;
+            var temp = 
+                from contr in DAL_Object.getContractList()
+                
         }
     }
 }

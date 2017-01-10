@@ -31,7 +31,7 @@ namespace BL
         IEnumerable<IGrouping<Specialization, Contract>> groupContractBySpec(bool ordered = false);
         IEnumerable<IGrouping<string, Contract>> groupContractByEmployerCity(bool ordered = false);
         IEnumerable<IGrouping<string, Contract>> groupContractByEmployeeCity(bool ordered = false);
-        IEnumerable<IGrouping<Employee, Contract>> groupContractByEmployerCity(bool ordered = false);
+        IEnumerable<IGrouping<int, double>> getProfitByYear(bool ordered = false); // <int=year (key), double=profit>
 
     }
 }

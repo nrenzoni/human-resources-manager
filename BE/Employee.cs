@@ -10,8 +10,8 @@ namespace BE
 
     public class CivicAddress
     {
-        string address { get; set; }
-        string city { get; set; }
+        public string Address { get; set; }
+        public string City { get; set; }
     }
 
     public class Employee

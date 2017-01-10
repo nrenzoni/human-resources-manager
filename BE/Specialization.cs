@@ -11,14 +11,14 @@ namespace BE
 
     public class Specialization
     {
-        public uint specilizationID { get; }
+        public uint ID { get; }
         public SpecializationName specilizationName { get; }
         public double minWagePerHour { get; set; }
         public double maxWagePerHour { get; set; }
 
         public Specialization(SpecializationName specName, double minWage, double maxWage)
         {
-            specilizationID = (uint)specName;
+            ID = (uint)specName;
             specilizationName = specName;
             minWagePerHour = minWage;
             maxWagePerHour = maxWage;
@@ -27,12 +27,12 @@ namespace BE
         #region Operators
         public static bool operator ==(Specialization s1, Specialization s2)
         {
-            return s1.specilizationID == s2.specilizationID;
+            return s1.ID == s2.ID;
         }
 
         public static bool operator !=(Specialization s1, Specialization s2)
         {
-            return s1.specilizationID != s2.specilizationID;
+            return s1.ID != s2.ID;
         } 
         #endregion
 
