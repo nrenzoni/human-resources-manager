@@ -11,7 +11,7 @@ namespace BE
         public Employer(uint ID, string companyname, uint phoneNum, CivicAddress addr, SpecializationName specName, DateTime estabDate, string firstname="", string lastname="", bool isPrivate=false)
         {
             privatePerson = isPrivate;
-            EmployerID = ID;
+            this.ID = ID;
             firstName = firstname;
             lastName = lastname;
             companyName = companyname;
@@ -24,7 +24,7 @@ namespace BE
         // if not private person then company
         public bool privatePerson { get; set; }
 
-        public uint EmployerID { get; set; }
+        public uint ID { get; set; }
 
         // if privatePerson
         public string firstName { get; set; }
@@ -43,7 +43,7 @@ namespace BE
         public override string ToString()
         {
             return ((privatePerson) ? "Private Employer" : "Company") +
-                " ID: " + EmployerID +
+                " ID: " + ID +
                 ((privatePerson) ? " Name: " +
                 lastName + ", " + firstName : "") +
                 ((string.IsNullOrEmpty(companyName)) ? "" : " Company Name: " + companyName) +
@@ -53,12 +53,12 @@ namespace BE
 
         public static bool operator ==(Employer e1, Employer e2)
         {
-            return e1.EmployerID == e2.EmployerID;
+            return e1.ID == e2.ID;
         }
 
         public static bool operator !=(Employer e1, Employer e2)
         {
-            return e1.EmployerID != e2.EmployerID;
+            return e1.ID != e2.ID;
         }
     }
 }

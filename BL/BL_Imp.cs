@@ -66,27 +66,21 @@ namespace BL
         public bool addContract(Contract contract)
         {
             #region check if employee and employer exist in DS
-
-            int temp1 =
-                (from match in DAL_Object.getEmployeeList()
-                 where match.ID == contract.EmployeeID
-                 select match).Count();
-
+            int temp1 = DAL_Object.getEmployeeList().Count(x => x.ID == contract.EmployeeID);
             if (temp1 != 1)
                 throw new Exception("cannot add contract for employee that does not exist");
 
-            int temp2 =
-                (from match in DAL_Object.getEmployerList()
-                 where match.EmployerID == contract.EmployerID
-                 select match).Count();
-
+            int temp2 = DAL_Object.getEmployerList().Count(x => x.ID == contract.EmployerID);
+                //(from match in DAL_Object.getEmployerList()
+                // where match.EmployerID == contract.EmployerID
+                // select match).Count();
             if (temp2 != 1)
                 throw new Exception("cannot add contract for employer that does not exist");
 
             #endregion
 
             #region check if company established less than year ago
-            Employer employer = DAL_Object.getEmployerList().Find(x => x.EmployerID == contract.EmployerID);
+            Employer employer = DAL_Object.getEmployerList().Find(x => x.ID == contract.EmployerID);
             if (DateTime.Today.Year - employer.establishmentDate.Year < 1) // company less than 1 year old
             {
                 throw new Exception("cannot create contract with company established less than a year ago");
@@ -164,7 +158,7 @@ namespace BL
             // open contracts with employer
             int contrCount =
                 (from contr in DAL_Object.getContractList()
-                 where contr.EmployerID == employer.EmployerID && ((DateTime.Today - contr.contractTerminatedDate).Days <= 0)
+                 where contr.EmployerID == employer.ID && ((DateTime.Today - contr.contractTerminatedDate).Days <= 0)
                  select contr).Count();
             if (contrCount > 0)
                 throw new Exception("cannot delete employer with open contract");
