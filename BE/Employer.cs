@@ -8,18 +8,18 @@ namespace BE
 {
     public class Employer
     {
-        public Employer(uint ID, string companyname, uint phoneNum, CivicAddress addr, SpecializationName specName, DateTime estabDate, string firstname="", string lastname="", bool isPrivate=false)
-        {
-            privatePerson = isPrivate;
-            this.ID = ID;
-            firstName = firstname;
-            lastName = lastname;
-            companyName = companyname;
-            phoneNumber = phoneNum;
-            address = addr;
-            specializationName = specName;
-            establishmentDate = estabDate;
-        }
+        //public Employer(uint ID, string companyname, uint phoneNum, CivicAddress addr, SpecializationName specName, DateTime estabDate, string firstname="", string lastname="", bool isPrivate=false)
+        //{
+        //    privatePerson = isPrivate;
+        //    this.ID = ID;
+        //    firstName = firstname;
+        //    lastName = lastname;
+        //    companyName = companyname;
+        //    phoneNumber = phoneNum;
+        //    address = addr;
+        //    specializationName = specName;
+        //    establishmentDate = estabDate;
+        //}
 
         // if not private person then company
         public bool privatePerson { get; set; }
@@ -48,7 +48,7 @@ namespace BE
                 lastName + ", " + firstName : "") +
                 ((string.IsNullOrEmpty(companyName)) ? "" : " Company Name: " + companyName) +
                 " Phone Number: " + phoneNumber +
-                " Address: " + address;
+                ", " + address;
         }
 
         public static bool operator ==(Employer e1, Employer e2)

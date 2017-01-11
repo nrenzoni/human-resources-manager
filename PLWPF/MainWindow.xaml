@@ -5,8 +5,24 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PLWPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="450" Width="700">
     <Grid>
-        
+        <TabControl>
+            <TabItem Header="View">
+                <local:ViewUserControl />
+            </TabItem>
+            <TabItem Header="Modify" />
+        </TabControl>
     </Grid>
+    <!--<Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Button Name="addContractButton" Content="Add Contract"/>
+        <Button Name="addEmloyeeButton" Content="Add Employee" Grid.Row="1"/>
+        <Button Name="addCEmployerButton" Content="Add Employer" Grid.Row="2" />
+    </Grid>-->
 </Window>

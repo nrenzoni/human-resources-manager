@@ -9,6 +9,11 @@ namespace DAL
 {
     public interface IDAL
     {
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="specilization"></param>
+        /// <returns></returns>
         bool addSpecilization(Specialization specilization);
         bool deleteSpecilization(Specialization specilization);
         bool updateSpecilization(Specialization specilization);

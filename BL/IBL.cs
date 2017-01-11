@@ -33,5 +33,6 @@ namespace BL
         IEnumerable<IGrouping<string, Contract>> groupContractByEmployeeCity(bool ordered = false);
         IEnumerable<IGrouping<int, double>> getProfitByYear(bool ordered = false); // <int=year (key), double=profit>
 
+        IEnumerable<Employee> getEmployees(); // temp
     }
 }

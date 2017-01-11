@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using BE;
+using BL;
 
 namespace PLWPF
 {
@@ -22,7 +24,7 @@ namespace PLWPF
     {
         public MainWindow()
         {
-            InitializeComponent();
+            InitializeComponent();        
         }
     }
 }

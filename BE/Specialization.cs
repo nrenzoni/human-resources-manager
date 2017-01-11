@@ -33,13 +33,13 @@ namespace BE
         public static bool operator !=(Specialization s1, Specialization s2)
         {
             return s1.ID != s2.ID;
-        } 
+        }
         #endregion
 
         public override string ToString()
-        {
-            return "Specialty: " + SpecializationField + " min wage: " + minWage + ", max wage: " + maxWage + "\n";
-        }
+            => "ID: " + ID +
+            ", Specialty: " + specilizationName.ToString() +
+            ", min wage per hour: " + minWagePerHour +
+            ", max wage per hour: " + maxWagePerHour;
     }
 }
-///

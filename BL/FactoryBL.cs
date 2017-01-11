@@ -13,6 +13,6 @@ namespace BL
         private FactoryBL() { }
         static FactoryBL() { bl_instance = new BL_Imp(); } // called once at program startup
 
-        public static IBL getBLInstance { get { return bl_instance; } }
+        public static IBL IBLInstance { get { return bl_instance; } }
     }
 }

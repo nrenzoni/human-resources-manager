@@ -10,7 +10,7 @@ namespace BL
 {
     internal class BL_Imp : IBL
     {
-        IDAL DAL_Object = FactoryDAL.getDALInstance;
+        IDAL DAL_Object = FactoryDAL.DALInstance;
 
         public bool addSpecilization(Specialization specilization)
         {
@@ -206,7 +206,7 @@ namespace BL
            group contr by contr_employer_city;
 
         // profit by year of management company
-        IEnumerable<IGrouping<int, double>> getProfitByYear(bool ordered=false) // <int=year (key), double=yearly profit>
+        public IEnumerable<IGrouping<int, double>> getProfitByYear(bool ordered=false) // <int=year (key), double=yearly profit>
         {
             DateTime currDate = DateTime.Today;
             return
@@ -226,5 +226,8 @@ namespace BL
                     ordered ? g_year : null 
                 group g_year.Sum() by g_year.Key;
         }
+
+        public IEnumerable<Employee> getEmployees()
+            => DAL_Object.getEmployeeList();
     }
 }

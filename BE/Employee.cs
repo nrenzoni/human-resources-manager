@@ -12,26 +12,28 @@ namespace BE
     {
         public string Address { get; set; }
         public string City { get; set; }
+        public override string ToString()
+            => (!string.IsNullOrEmpty(Address) ?  "Address: " + Address + ", " : "" ) + "City: " + City;
     }
 
     public class Employee
     {
         // no recommendation in constructor; recommendation assigned using property
-        public Employee(uint _ID, string _firstName, string _lastName, DateTime _birthday, uint _phone, CivicAddress _address, uint _yearsOfExperience, string _email, Education _education, bool _armyGraduate, Bank _bank, uint _bankAccountNumber)
-        {
-            ID = _ID;
-            lastName = _lastName;
-            firstName = _firstName;
-            birthday = _birthday;
-            phoneNumber = _phone;
-            address = _address;
-            yearsOfExperience = _yearsOfExperience;
-            email = _email;
-            education = _education;
-            armyGraduate = _armyGraduate;
-            bank = _bank;
-            bankAccountNumber = _bankAccountNumber;
-        }
+        //public Employee(uint _ID, string _firstName, string _lastName, DateTime _birthday, uint _phone, CivicAddress _address, uint _yearsOfExperience, string _email, Education _education, bool _armyGraduate, Bank _bank, uint _bankAccountNumber)
+        //{
+        //    ID = _ID;
+        //    lastName = _lastName;
+        //    firstName = _firstName;
+        //    birthday = _birthday;
+        //    phoneNumber = _phone;
+        //    address = _address;
+        //    yearsOfExperience = _yearsOfExperience;
+        //    email = _email;
+        //    education = _education;
+        //    armyGraduate = _armyGraduate;
+        //    bank = _bank;
+        //    bankAccountNumber = _bankAccountNumber;
+        //}
 
         public uint ID { get; set; }
         public string lastName { get; set; }
@@ -50,14 +52,15 @@ namespace BE
 
         public uint specializationID { get; set; }
 
-
         public override string ToString()
-        {
-            return  lastName + ", " + firstName + ". ID: " + ID + ", birthday: " + birthday.ToString("d") + ", Phone: " +
-                    phoneNumber + " address: " + address + ", Years of Experience: " + yearsOfExperience + ", Education: " +
-                    education.ToString() + ((armyGraduate) ? " served in Army" : "did not serve in Army") + ", recommendation Notes: " +
-                    recommendationNotes + ", Bank Account Info: " + bankAccount.ToString();
-        }
+        => lastName + ", " + firstName + ". ID: " + ID +
+            ", Birthday: " + birthday.ToString("d") + ", Phone: " +
+            phoneNumber + ", " + address + ", Years of Experience: " +
+            yearsOfExperience + ", Education: " +
+            education.ToString() + ", " +
+            (armyGraduate ? " served in Army" : "did not serve in Army") +
+            (string.IsNullOrEmpty(recommendationNotes) ? ", recommendation Notes: " + recommendationNotes : "") +
+            ", Bank Account #: " + bankAccountNumber;
 
         public static bool operator ==(Employee e1, Employee e2)
         {
