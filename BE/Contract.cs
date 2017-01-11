@@ -30,7 +30,7 @@ namespace BE
         public DateTime contractEstablishedDate { get; set; }
         public DateTime contractTerminatedDate { get; set; }
 
-        public uint maxWorkHours { get; set; }
+        public uint maxWorkHours { get; set; } // per week
 
         public override string ToString()
         {

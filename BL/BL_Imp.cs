@@ -206,12 +206,25 @@ namespace BL
            group contr by contr_employer_city;
 
         // profit by year of management company
-        IEnumerable<IGrouping<int, double>> IBL.getProfitByYear(bool ordered=false) // <int=year (key), double=profit>
+        IEnumerable<IGrouping<int, double>> getProfitByYear(bool ordered=false) // <int=year (key), double=yearly profit>
         {
             DateTime currDate = DateTime.Today;
-            var temp = 
+            return
                 from contr in DAL_Object.getContractList()
-                
+                where contr.contractFinalized
+                let earlier_end_date = contr.contractTerminatedDate < currDate ? contr.contractTerminatedDate : currDate
+                from year in Enumerable.Range(contr.contractEstablishedDate.Year, earlier_end_date.Year)
+                let year_profit =
+                    // 4 weeks in a month. if not first or last year in contr then 12 months in year, otherwise months in year different.
+                    (contr.grossWagePerHour - contr.netWagePerHour) * contr.maxWorkHours * 4 * // profit per month
+                    // calculate months in year of contr
+                    ( contr.contractEstablishedDate.Year == year ? 13 - contr.contractEstablishedDate.Month : 1 ) * 
+                    ( contr.contractTerminatedDate.Year == year ? contr.contractTerminatedDate.Month : 1) *
+                    ( contr.contractEstablishedDate.Year !=  year && contr.contractTerminatedDate.Year != year ? 12 : 1)
+                group year_profit by year into g_year
+                orderby // ordering by year ( possibly could order by profit in year- year.Sum() )
+                    ordered ? g_year : null 
+                group g_year.Sum() by g_year.Key;
         }
     }
 }
