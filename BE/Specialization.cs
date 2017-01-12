@@ -11,18 +11,14 @@ namespace BE
 
     public class Specialization
     {
-        public uint ID { get; }
-        public SpecializationName specilizationName { get; }
+        public uint ID { get; private set; }
+        SpecializationName _specilizationName;
+        public SpecializationName specilizationName
+        { get { return specilizationName; }
+            set { ID = (uint)value; }
+        }
         public double minWagePerHour { get; set; }
         public double maxWagePerHour { get; set; }
-
-        public Specialization(SpecializationName specName, double minWage, double maxWage)
-        {
-            ID = (uint)specName;
-            specilizationName = specName;
-            minWagePerHour = minWage;
-            maxWagePerHour = maxWage;
-        }
 
         #region Operators
         public static bool operator ==(Specialization s1, Specialization s2)

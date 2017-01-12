@@ -19,6 +19,8 @@ namespace BL
 
         public bool deleteSpecilization(Specialization specilization)
         {
+            if (DAL_Object.getEmployeeList().Find(e => e.specializationID == specilization.ID) != default(Employee))
+                throw new Exception("cannot delete specialization, in use by employee");
             return DAL_Object.deleteSpecilization(specilization);
         }
 
@@ -87,32 +89,37 @@ namespace BL
             }
             #endregion
 
-            #region calculate net wage for person by subtracting commission from gross wage
-
+            #region calculate net wage by subtracting commission from gross wage
             int existingContractEmployeeCount =
                 (from contr in DAL_Object.getContractList()
                  where contr.EmployeeID == contract.EmployeeID
-                 select contr).ToList().Count();
+                 select contr).Count();
 
-            // 1st time commission = 10% (existingContractEmployerCount = 0)
-            // 2nd time commission = 9%
-            // 3rd time commission = 8%
+            // 1st employee job commission = 10% (existingContractEmployerCount = 0)
+            // 2nd employee job commission = 9%  (existingContractEmployerCount = 1)
+            // 3rd employee job commission = 8%  ...
             // ...
-            // 8th time commission = 3% (minimum commission)
-            // nth time commission = 3%
+            // 8th employee job commission = 3%  (existingContractEmployerCount = 7) (minimum commission)
+            // nth employee job commission = 3%
             // ...
 
-            int commissionFromEmployee;
+            double commission;
             if (existingContractEmployeeCount >= 0 && existingContractEmployeeCount < 8)
-                commissionFromEmployee = 10 - existingContractEmployeeCount;
-            else commissionFromEmployee = 3;
+                commission = 10 - existingContractEmployeeCount; // 10,9,8,7,...,3
+            else commission = 3;
 
+            // take commission if company has less than 50 contracts
+            int existingContractEmployerCount =
+                (from contr in DAL_Object.getContractList()
+                 where contr.EmployerID == contract.EmployerID
+                 select contr).Count();
 
+            // only take commission for company if they have less than 50 contracts
+            if (existingContractEmployerCount < 50)
+                commission += (10 - existingContractEmployerCount * .2);
 
-            contract.netWagePerHour = contract.grossWagePerHour - (contract.grossWagePerHour * commissionFromEmployee)/100;
+            contract.netWagePerHour = contract.grossWagePerHour - (contract.grossWagePerHour * commission)/100;
             #endregion
-
-
 
             return DAL_Object.addContract(contract);
         }

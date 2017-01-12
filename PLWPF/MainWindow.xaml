@@ -11,18 +11,9 @@
             <TabItem Header="View">
                 <local:ViewUserControl />
             </TabItem>
-            <TabItem Header="Modify" />
+            <TabItem Header="Edit">
+                <local:Edit_UserControl />
+            </TabItem>
         </TabControl>
     </Grid>
-    <!--<Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
-
-        <Button Name="addContractButton" Content="Add Contract"/>
-        <Button Name="addEmloyeeButton" Content="Add Employee" Grid.Row="1"/>
-        <Button Name="addCEmployerButton" Content="Add Employer" Grid.Row="2" />
-    </Grid>-->
 </Window>

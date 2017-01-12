@@ -1,0 +1,35 @@
+﻿<UserControl x:Class="PLWPF.Edit_UserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PLWPF"
+             mc:Ignorable="d" 
+             d:DesignHeight="500" d:DesignWidth="700">
+    <UserControl.Resources>
+        <Style TargetType="TabItem">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TabItem">
+                        <Grid Name="Panel" VerticalAlignment="Center">
+                            <TextBlock>hello</TextBlock>
+                            <Button x:Name="addButton" Content="Header"/>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+    <Grid>
+        <TabControl>
+            <TabItem Header="Employer">
+            </TabItem>
+            <TabItem Header="Employee">
+            </TabItem>
+            <TabItem Header="Contract">
+            </TabItem>
+            <TabItem Header="Specialization">
+            </TabItem>
+        </TabControl>
+    </Grid>
+</UserControl>
