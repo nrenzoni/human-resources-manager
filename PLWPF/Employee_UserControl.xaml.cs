@@ -16,28 +16,13 @@ using System.Windows.Shapes;
 namespace PLWPF
 {
     /// <summary>
-    /// Interaction logic for Edit_UserControl.xaml
+    /// Interaction logic for Employee_UserControl.xaml
     /// </summary>
-    public partial class Edit_UserControl : UserControl
+    public partial class Employee_UserControl : UserControl
     {
-        public Edit_UserControl()
+        public Employee_UserControl()
         {
             InitializeComponent();
-        }
-
-        private void Add_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Delete_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Update_Click(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }

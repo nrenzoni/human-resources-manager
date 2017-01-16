@@ -58,10 +58,24 @@
     <Compile Include="Edit_UserControl.xaml.cs">
       <DependentUpon>Edit_UserControl.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Employee_UserControl.xaml.cs">
+      <DependentUpon>Employee_UserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Employer_UserControl.xaml.cs">
+      <DependentUpon>Employer_UserControl.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ViewUserControl.xaml.cs">
       <DependentUpon>ViewUserControl.xaml</DependentUpon>
     </Compile>
     <Page Include="Edit_UserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Employee_UserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Employer_UserControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

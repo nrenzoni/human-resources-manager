@@ -1,0 +1,52 @@
+﻿<UserControl x:Class="PLWPF.Employer_UserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PLWPF"
+             mc:Ignorable="d" 
+             d:DesignHeight="500" d:DesignWidth="500">
+    <StackPanel HorizontalAlignment="Left" Margin="15,0">
+        <StackPanel.Resources>
+            <Style TargetType="TextBox">
+                <Setter Property="Width" Value="200"/>
+            </Style>
+        </StackPanel.Resources>
+        
+        <WrapPanel>
+            <Label Content="_ID:" Target="{Binding ElementName=txtID}"/>
+            <TextBox Name="txtID"/>
+        </WrapPanel>
+
+        <WrapPanel>
+            <Label Content="_First Name:" Target="{Binding ElementName=txtFirstName}"/>
+            <TextBox Name="txtFirstName"/>
+        </WrapPanel>
+
+        <WrapPanel>
+            <Label Content="_Last Name:" Target="{Binding ElementName=txtLastName}"/>
+            <TextBox Name="txtLastName"/>
+        </WrapPanel>
+
+        <WrapPanel>
+            <Label Content="_Company Name:" Target="{Binding ElementName=txtCompName}"/>
+            <TextBox Name="txtCompName"/>
+        </WrapPanel>
+
+        <WrapPanel>
+            <Label Content="_Phone Number:" Target="{Binding ElementName=txtPhoneNum}"/>
+            <TextBox Name="txtPhoneNum"/>
+        </WrapPanel>
+
+        <StackPanel>
+            <Label Content="_Address:" Target="{Binding ElementName=txtAddress}"/>
+            <StackPanel local:MarginSetter.Margin="10,0,0,0">
+                <Label Content="Address:"/>
+                <TextBox Name="txtAddress"/>
+                
+                <Label Content="_City" Target="{Binding ElementName=txtCity}"/>
+                <TextBox Name="txtCity"/>
+            </StackPanel>
+        </StackPanel>
+    </StackPanel>
+</UserControl>
