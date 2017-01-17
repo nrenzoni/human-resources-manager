@@ -25,14 +25,17 @@ namespace BL
         bool deleteEmployer(Employer employer);
         bool updateEmployer(Employer employer);
 
-        IEnumerable<Contract> getContractListByFilter(Predicate<Contract> condition);
-        int ContractListByFilterCount(Predicate<Contract> condition);
+        IEnumerable<Contract> getContractListByFilter(Predicate<Contract> condition = null);
+        int ContractListByFilterCount(Predicate<Contract> condition = null);
 
         IEnumerable<IGrouping<Specialization, Contract>> groupContractBySpec(bool ordered = false);
         IEnumerable<IGrouping<string, Contract>> groupContractByEmployerCity(bool ordered = false);
         IEnumerable<IGrouping<string, Contract>> groupContractByEmployeeCity(bool ordered = false);
         IEnumerable<IGrouping<int, double>> getProfitByYear(bool ordered = false); // <int=year (key), double=profit>
 
-        IEnumerable<Employee> getEmployees(); // temp
+        List<Specialization> getSpecilizationList();
+        List<Employee> getEmployeeList();
+        List<Employer> getEmployerList();
+        List<Contract> getContractList();
     }
 }

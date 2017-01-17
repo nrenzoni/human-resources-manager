@@ -27,12 +27,12 @@ namespace BE
         public uint maxWorkHours { get; set; } // per week
 
         public override string ToString()
-            => "ID: " + contractID + ", Employer ID: " + EmployerID + ", Employee ID: " + EmployeeID +
+            => "ID: " + contractID + ", Employer ID: " + EmployerID + ", Employee ID: " + EmployeeID + " " +
             (isInterviewed ? "was" : "was not") + " interviewed" +
             ", contract " + (contractFinalized ? "is finalized" : "is not finalized") +
             ", gross wage per hour: " + grossWagePerHour + ", net wage per hour: " + netWagePerHour +
             ", contract established date: " + contractEstablishedDate + ", contract " +
-            ((DateTime.Today.Date - contractTerminatedDate.Date).Days > 0 ? "terminated" : "terminated") + " on: "
+            ((DateTime.Today.Date - contractTerminatedDate.Date).Days > 0 ? "terminated" : "terminates") + " on: "
             + contractTerminatedDate.ToShortDateString() +
             ", max work hours: " + maxWorkHours;
 

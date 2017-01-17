@@ -65,9 +65,17 @@ namespace PLWPF
     /// </summary>
     public partial class Employer_UserControl : UserControl
     {
+        public BL.IBL BL_Object = BL.FactoryBL.IBLInstance;
+
         public Employer_UserControl()
         {
+
             InitializeComponent();
+            txtCity.ItemsSource = BE.CivicAddress.Cities;
+            txtSpec.ItemsSource = from spec in BL_Object.getSpecilizationList()
+                                  select spec.specilizationName;
+            txtID.ItemsSource = from emp in BL_Object.getEmployerList()
+                                select emp.ID;
         }
     }
 }

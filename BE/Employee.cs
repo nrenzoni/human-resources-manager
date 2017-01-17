@@ -14,6 +14,8 @@ namespace BE
         public string City { get; set; }
         public override string ToString()
             => (!string.IsNullOrEmpty(Address) ?  "Address: " + Address + ", " : "" ) + "City: " + City;
+
+        static public List<string> Cities = new List<string> { "עפולה", "עכו", "ערד", "אריאל", "אשדוד", "אשקלון", "בת ים", "באר שבע", "בית שאן", "בית שמש", "ביתר עילית", "בני ברק", "דימונה", "אילת", "גבעתיים", "חדרה", "חיפה", "הרצליה", "הוד השרון", "חולון", "ירושלים", "כרמיאל", "כפר סבא", "קרית אתא", "קרית ביאליק", "קרית גת", "קרית מלאכי", "קרית מוצקין", "קרית אונו", "קרית שמונה", "קרית ים", "לוד", "מעלה אדומים", "מעלות-תרשיחא", "מגדל העמק", "מודיעין-מכבים-רעות", "נצרת", "נצרת עילית", "נס ציונה", "נשר", "נתניה", "נתיבות", "אופקים", "אור עקיבא", "אור יהודה", "פתח תקוה", "רעננה", "רמת השרון", "רמת גן", "רמלה", "רחובות", "ראשון לציון", "ראש העין", "שדרות", "תל אביב-יפו", "טבריה", "טירת כרמל", "צפת", "יבנה", "יהוד-מונוסון" };
     }
 
     public class Employee
@@ -38,6 +40,7 @@ namespace BE
         public uint ID { get; set; }
         public string lastName { get; set; }
         public string firstName { get; set; }
+        public bool isMale { get; set; }
         public DateTime birthday { get; set; }
         public uint phoneNumber { get; set; }
         public CivicAddress address { get; set; }
@@ -54,7 +57,9 @@ namespace BE
 
         public override string ToString()
         => lastName + ", " + firstName + ". ID: " + ID +
-            ", Birthday: " + birthday.ToString("d") + ", Phone: " +
+            ", Birthday: " + birthday.ToString("d") + ", " +
+            (isMale ? "Male" : "Female") +
+            ", Phone: " +
             phoneNumber + ", " + address + ", Years of Experience: " +
             yearsOfExperience + ", Education: " +
             education.ToString() + ", " +

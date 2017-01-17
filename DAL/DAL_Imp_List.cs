@@ -113,16 +113,5 @@ namespace DAL
         public List<Employee> getEmployeeList()            => DataSource.employeeList;
         public List<Employer> getEmployerList()            => DataSource.employerList;
         public List<Contract> getContractList()            => DataSource.contractList;
-
-        private List<Bank> getTempBanks()
-        {
-            return new List<Bank>
-            {
-                new Bank("Leumi", 1155, 19, "20 Havaad Haleumi St", "Jerusalem"),
-                new Bank("Hapoalim", 9866, 24, "14 Malki St", "Jerusalem"),
-                new Bank("Discount", 8543, 11, "Hagai St", "Jerusalem"),
-                new Bank("Bank of Jerusalem", 6654, 8, "Keren Hayesod St", "Jerusalem")
-            };
-        }
     }
 }

@@ -10,10 +10,10 @@
     <Grid>
         <Grid.Resources>
             <Style TargetType="TextBox">
-                <Setter Property="Grid.Column" Value="1"/>
-                <Setter Property="Margin" Value="0,5"/>
                 <Setter Property="Width" Value="200"/>
-                
+                <Setter Property="Grid.Column" Value="1"/>
+                <Setter Property="HorizontalAlignment" Value="Left"/>
+                <Setter Property="Margin" Value="0,5"/>
             </Style>
         </Grid.Resources>
         
@@ -23,6 +23,7 @@
         </Grid.ColumnDefinitions>
         
         <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
@@ -43,28 +44,33 @@
         <Label Content="_Last Name:" Target="{Binding ElementName=txtLastName}" Grid.Row="2"/>
         <TextBox Name="txtLastName" Grid.Row="2"/>
 
-        <Label Content="_Birthday" Target="{Binding ElementName=Birthday}" Grid.Row="3"/>
-        <TextBox Name="txtBirthday" Grid.Row="3"/>
+        <Label Content="_Gender:" Target="{Binding ElementName=IsMale}" Grid.Row="3"/>
+        <WrapPanel Grid.Row="3" Grid.Column="1">
+            <RadioButton Content="Male" IsChecked="True"/>
+            <RadioButton Content="Female" Margin="5,0"/>
+        </WrapPanel>
 
-        <Label Content="_Phone Number:" Target="{Binding ElementName=txtPhoneNumber}" Grid.Row="4"/>
-        <TextBox Name="txtPhoneNumber" Grid.Row="4"/>
+        <Label Content="_Birthday" Target="{Binding ElementName=Birthday}" Grid.Row="4"/>
+        <TextBox Name="txtBirthday" Grid.Row="4"/>
+
+        <Label Content="_Phone Number:" Target="{Binding ElementName=txtPhoneNumber}" Grid.Row="5"/>
+        <TextBox Name="txtPhoneNumber" Grid.Row="5"/>
         
-        <Label Content="_Civic Address:" Grid.Row="5"/>
+        <Label Content="_Civic Address:" Grid.Row="6"/>
         <StackPanel >
             <Grid>
                 
             </Grid>
         </StackPanel>
 
-        <Label Content="_Experiance (years):" Target="{Binding ElementName=txtExperiance}" Grid.Row="6"/>
-        <TextBox Name="txtExperiance" Grid.Row="6"/>
+        <Label Content="_Years of Experience:" Target="{Binding ElementName=txtExperiance}" Grid.Row="7"/>
+        <TextBox Name="txtExperiance" Grid.Row="7"/>
 
-        <Label Content="_Recommendations:" Target="{Binding ElementName=txtRecommendations}" Grid.Row="7"/>
-        <TextBox Name="txtRecommendations" Grid.Row="7"/>
+        <Label Content="_Recommendations:" Target="{Binding ElementName=txtRecommendations}" Grid.Row="8"/>
+        <TextBox Name="txtRecommendations" Grid.Row="8"/>
 
-        <Label Content="_Email:" Target="{Binding ElementName=txtEmail}" Grid.Row="8"/>
-        <TextBox Name="txtEmail" Grid.Row="8"/>
-
+        <Label Content="_Email:" Target="{Binding ElementName=txtEmail}" Grid.Row="9"/>
+        <TextBox Name="txtEmail" Grid.Row="9"/>
 
     </Grid>
 </UserControl>

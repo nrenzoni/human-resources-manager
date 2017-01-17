@@ -11,15 +11,50 @@ namespace DS
     {
         public static List<Employee> employeeList = new List<Employee>();
         public static List<Employer> employerList = new List<Employer>();
-        public static List<Specialization> specList;
-        public static List<Contract> contractList;
+        public static List<Specialization> specList = new List<Specialization>();
+        public static List<Contract> contractList = new List<Contract>();
+
+        public static List<Bank> bankList = new List<Bank>();
 
         static DataSource()
         {
-            generateTestData();
+            generateSpecs();
+            generateBanks();
+            generateEmployerEmployeeData();
+            generateContracts();
         }
 
-        static void generateTestData()
+        private static void generateSpecs()
+        {
+            Random randGen = new Random();
+
+            foreach (SpecializationName spec in Enum.GetValues(typeof(SpecializationName)))
+            {
+                specList.Add(new Specialization
+                {
+                    specilizationName = spec,
+                    minWagePerHour = randGen.Next(50, 250),
+                    maxWagePerHour = randGen.Next(250,1000)
+                });
+            }
+        }
+
+        private static void generateBanks()
+        {
+            List<Bank> tempBanks = new List<Bank> { 
+                new Bank("Leumi", 1155, 19, "20 Havaad Haleumi St", "Jerusalem"),
+                new Bank("Hapoalim", 9866, 24, "14 Malki St", "Jerusalem"),
+                new Bank("Discount", 8543, 11, "Hagai St", "Jerusalem"),
+                new Bank("Bank of Jerusalem", 6654, 8, "Keren Hayesod St", "Jerusalem")
+            };
+
+            foreach (Bank bank in tempBanks)
+            {
+                bankList.Add(bank);
+            }
+        }
+
+        private static void generateEmployerEmployeeData()
         {
             Random randGen = new Random();
 
@@ -61,10 +96,12 @@ namespace DS
                         birthday = dates[i],
                         email = emails[i],
                         bankAccountNumber = (uint)bankAccnts[i],
+                        bank = bankList[randGen.Next(bankList.Count)],
                         phoneNumber = (uint)phoneNums[i],
                         yearsOfExperience = (uint)yearsxp[i],
                         armyGraduate = (randGen.Next(0, 1) == 0 ? true : false),
                         education = (Education)randGen.Next(1, 4),
+                        specializationID = specList[randGen.Next(specList.Count)].ID
                     });
 
                 employerList.Add(
@@ -77,8 +114,41 @@ namespace DS
                         phoneNumber = (uint)phoneNums[i + 10],
                         privatePerson = false,
                         companyName = compNames[i],
-                        establishmentDate = dates[i + 10]
+                        establishmentDate = dates[i + 10],
+                        specializationName = specList[randGen.Next(specList.Count)].specilizationName
                     });
+            }
+        }
+
+        private static void generateContracts()
+        {
+            Random randGen = new Random();
+
+            int[] randIDs = (from num in Enumerable.Range(1, 10)
+                             select randGen.Next(10000000, 100000000)).ToArray();
+
+            DateTime[] ContractStartDates = (from offset in Enumerable.Range(1, 10)
+                                             select new DateTime(1980, 1, 1).AddYears(randGen.Next(20)).AddMonths(randGen.Next(12)).AddDays(randGen.Next(30))).ToArray();
+
+            DateTime[] ContractTermDates = (from offset in Enumerable.Range(1, 10)
+                                            select new DateTime(2010, 1, 1).AddYears(randGen.Next(20)).AddMonths(randGen.Next(12)).AddDays(randGen.Next(30))).ToArray();
+
+            for (int i=0; i<10; i++)
+            {
+                var tempGrossWage = (specList.Find(x => x.ID == employeeList[i].specializationID).minWagePerHour + specList.Find(x => x.ID == employeeList[i].specializationID).maxWagePerHour) / 2;
+                contractList.Add(new Contract
+                {
+                    contractEstablishedDate = ContractStartDates[i],
+                    contractTerminatedDate = ContractTermDates[i],
+                    contractID = (uint)randIDs[i],
+                    contractFinalized = (randGen.Next(0, 1) == 0 ? true : false),
+                    isInterviewed = (randGen.Next(0, 1) == 0 ? true : false),
+                    EmployeeID = employeeList[i].ID,
+                    EmployerID = employerList[i].ID,
+                    maxWorkHours = (uint)randGen.Next(25, 50),
+                    grossWagePerHour = tempGrossWage,
+                    netWagePerHour = tempGrossWage - randGen.NextDouble() * .1 * tempGrossWage
+                });
             }
         }
     }

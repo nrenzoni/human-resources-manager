@@ -180,6 +180,8 @@ namespace BL
 
         public IEnumerable<Contract> getContractListByFilter(Predicate<Contract> condition)
         {
+            if (condition == null) return DAL_Object.getContractList();
+
             return from contr in DAL_Object.getContractList()
                    where condition(contr) == true
                    select contr;
@@ -234,7 +236,18 @@ namespace BL
                 group g_year.Sum() by g_year.Key;
         }
 
-        public IEnumerable<Employee> getEmployees()
+
+
+        public List<Specialization> getSpecilizationList()
+            => DAL_Object.getSpecilizationList();
+
+        public List<Employee> getEmployeeList()
             => DAL_Object.getEmployeeList();
+
+        public List<Employer> getEmployerList()
+            => DAL_Object.getEmployerList();
+
+        public List<Contract> getContractList()
+            => DAL_Object.getContractList();
     }
 }
