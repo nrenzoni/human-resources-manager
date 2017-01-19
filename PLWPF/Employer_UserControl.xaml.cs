@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -60,22 +61,49 @@ namespace PLWPF
     }
 
 
+
     /// <summary>
     /// Interaction logic for Employer_UserControl.xaml
     /// </summary>
     public partial class Employer_UserControl : UserControl
     {
         public BL.IBL BL_Object = BL.FactoryBL.IBLInstance;
+        BE.Employer tempEmployer = new BE.Employer{companyName="comp" };
 
         public Employer_UserControl()
         {
-
             InitializeComponent();
-            txtCity.ItemsSource = BE.CivicAddress.Cities;
-            txtSpec.ItemsSource = from spec in BL_Object.getSpecilizationList()
+            DataContext = tempEmployer;
+
+            ComEmplyeCity.ItemsSource = BE.CivicAddress.Cities;
+            ComEmplyeSpec.ItemsSource = from spec in BL_Object.getSpecilizationList()
                                   select spec.specilizationName;
-            txtID.ItemsSource = from emp in BL_Object.getEmployerList()
+            ComEmplyeID.ItemsSource = from emp in BL_Object.getEmployerList()
                                 select emp.ID;
+        }
+
+        // only called when new ID selected from combobox list
+        private void ComEmplyeID_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            // reflection for copying properties from selected Employer in ID field to properties of tempEmployer
+            if (ComEmplyeID.SelectedItem == null) // check if null because uint cast potentially on null
+                return;
+            
+            BE.Employer selectedEmployer = BL_Object.getEmployerList().FirstOrDefault(x => x.ID == (uint)ComEmplyeID.SelectedItem);
+            
+
+            if (selectedEmployer.Equals( null))
+            {
+                selectedEmployer = new BE.Employer();
+                return;
+            }
+
+            foreach (var property in selectedEmployer.GetType().GetProperties())
+            {
+                PropertyInfo propertyS = tempEmployer.GetType().GetProperty(property.Name);
+                var value = property.GetValue(selectedEmployer, null);
+                propertyS.SetValue(tempEmployer, property.GetValue(selectedEmployer, null), null);
+            }
         }
     }
 }
