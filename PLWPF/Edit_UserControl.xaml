@@ -15,7 +15,7 @@
                         <Setter Property="Padding" Value="10"/>
                     </Style>
                 </StackPanel.Resources>
-                <Button Name="addButton" Click="Add_Click" IsEnabled="True">Add</Button>
+                <Button Name="addButton" Click="Add_Click" >Add</Button>
                 <Button Name="deleteButton" Click="Delete_Click">Delete</Button>
                 <Button Name="updateButton" Click="Update_Click">Update</Button>
             </StackPanel>
@@ -27,7 +27,7 @@
             <TabItem Header="Employer">
                 <DockPanel Margin="5">
                     <ContentControl x:Name="employerTabButtonPane" Content="{StaticResource ResourceKey=tabButtonPane}" DockPanel.Dock="Left"/>
-                    <local:Employer_UserControl Margin="10,0,0,0" />
+                    <local:Employer_UserControl x:Name="employerUC" Margin="10,0,0,0" />
                 </DockPanel>
             </TabItem>
             <TabItem Header="Employee">

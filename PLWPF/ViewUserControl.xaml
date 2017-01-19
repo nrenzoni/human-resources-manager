@@ -20,7 +20,7 @@
 
         <TextBlock FontWeight="Bold" Margin="15,0">Contracts</TextBlock>
 
-        <ListView Margin="10" Name="ContractList" Grid.ColumnSpan="2" Grid.Row="1">
+        <ListView Margin="10" Name="ContractList" ItemsSource="{Binding}" Grid.ColumnSpan="2" Grid.Row="1">
             <ListView.View>
                 <GridView>
                     <GridViewColumn Header="Contract ID" DisplayMemberBinding="{Binding contractID}" />
@@ -40,7 +40,7 @@
         <StackPanel  Grid.Row="3" >
             <WrapPanel>
                 <TextBlock Text="Number of Contracts: "/>
-                <TextBlock Name="txtContractCount" />
+                <TextBlock Name="txtContractCount" Text="{Binding ElementName=ContractList, Path=Items.Count}" />
             </WrapPanel>
         </StackPanel>
     </Grid>

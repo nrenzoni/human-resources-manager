@@ -22,21 +22,12 @@ namespace PLWPF
     /// </summary>
     public partial class ViewUserControl : UserControl
     {
+        public IBL BL_Object = FactoryBL.IBLInstance;
+
         public ViewUserControl()
         {
-            var currentApp = System.Windows.Application.Current as App;
-
             InitializeComponent();
-
-            try
-            {
-                ContractList.ItemsSource = currentApp.BL_Object.getContractList();
-                txtContractCount.Text = ((List<Contract>)ContractList.ItemsSource).Count.ToString() ;
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message + "\n" + ex.InnerException);
-            }
+            DataContext = BL_Object.getContractList();
         }
     }
 }

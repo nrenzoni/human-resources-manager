@@ -68,7 +68,7 @@ namespace PLWPF
     public partial class Employer_UserControl : UserControl
     {
         public BL.IBL BL_Object = BL.FactoryBL.IBLInstance;
-        BE.Employer tempEmployer = new BE.Employer{companyName="comp" };
+        BE.Employer tempEmployer = new BE.Employer();
 
         public Employer_UserControl()
         {
@@ -89,20 +89,21 @@ namespace PLWPF
             if (ComEmplyeID.SelectedItem == null) // check if null because uint cast potentially on null
                 return;
             
-            BE.Employer selectedEmployer = BL_Object.getEmployerList().FirstOrDefault(x => x.ID == (uint)ComEmplyeID.SelectedItem);
+            BE.Employer foundEmployer = BL_Object.getEmployerList().FirstOrDefault(x => x.ID == (uint)ComEmplyeID.SelectedItem);
             
 
-            if (selectedEmployer.Equals( null))
+            if (foundEmployer.Equals( null))
             {
-                selectedEmployer = new BE.Employer();
+                foundEmployer = new BE.Employer();
                 return;
             }
 
-            foreach (var property in selectedEmployer.GetType().GetProperties())
+            // copy values (by use of property get/set) of foundEmployer to tempEmployer
+            foreach (var property in foundEmployer.GetType().GetProperties())
             {
                 PropertyInfo propertyS = tempEmployer.GetType().GetProperty(property.Name);
-                var value = property.GetValue(selectedEmployer, null);
-                propertyS.SetValue(tempEmployer, property.GetValue(selectedEmployer, null), null);
+                var value = property.GetValue(foundEmployer, null);
+                propertyS.SetValue(tempEmployer, value, null);
             }
         }
     }

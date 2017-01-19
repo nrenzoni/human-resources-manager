@@ -21,11 +21,30 @@ namespace PLWPF
     public partial class Edit_UserControl : UserControl
     {
         ContentControl tabButtonPane;
-        Button addButton;
 
         public Edit_UserControl()
         {
             InitializeComponent();
+
+            tabButtonPane = ((ContentControl)employerTabButtonPane.Content);
+            Button[] employerButtons = new Button[3];
+            int i = 0;
+            foreach (var element in ((StackPanel)tabButtonPane.Content).Children)
+            {
+                if (element is Button)
+                    employerButtons[i++] = (Button)element;
+            }
+
+
+            //binding of IsEnabled of add button for employer
+            UserControl UserControl = (UserControl) FindName("employerUC");
+            ComboBox cb = (ComboBox) UserControl.FindName("ComEmplyeID");
+
+            Binding binding1 = new Binding();
+            binding1.Source = cb;
+            binding1.Path = new PropertyPath("Text");
+            binding1.Converter = ;
+            employerButtons[0].SetBinding(Button.IsEnabledProperty, binding1);
         }
 
         private void addButtonEnableCheck()
@@ -34,12 +53,6 @@ namespace PLWPF
 
         private void Add_Click(object sender, RoutedEventArgs e)
         {
-            // need to initialize vars if this works
-            tabButtonPane = ((ContentControl)employerTabButtonPane.Content);
-            Button[] employerButtons = new Button[3];
-            int i = 0;
-            foreach (Button button in ((StackPanel)tabButtonPane.Content).Children)
-            { employerButtons[i++] = button; }
         }
 
         private void Delete_Click(object sender, RoutedEventArgs e)

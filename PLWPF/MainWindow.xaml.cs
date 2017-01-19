@@ -24,7 +24,15 @@ namespace PLWPF
     {
         public MainWindow()
         {
-            InitializeComponent();        
+
+            try
+            {
+                InitializeComponent();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message + "\n" + ex.InnerException, "Exception Caught!", MessageBoxButton.OK,MessageBoxImage.Error);
+            }       
         }
     }
 }
