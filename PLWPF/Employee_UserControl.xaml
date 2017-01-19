@@ -51,16 +51,19 @@
         </WrapPanel>
 
         <Label Content="_Birthday" Target="{Binding ElementName=Birthday}" Grid.Row="4"/>
-        <TextBox Name="txtBirthday" Grid.Row="4"/>
+        <DatePicker Name="txtBirthday" Grid.Row="4" Grid.Column="1" Margin="0,5"/>
 
         <Label Content="_Phone Number:" Target="{Binding ElementName=txtPhoneNumber}" Grid.Row="5"/>
         <TextBox Name="txtPhoneNumber" Grid.Row="5"/>
         
         <Label Content="_Civic Address:" Grid.Row="6"/>
-        <StackPanel >
-            <Grid>
-                
-            </Grid>
+        <StackPanel Grid.Column="1" Grid.Row="6" >            
+                <Label Content="Address:"/>
+                <TextBox Name="txtEmplyeeAdd"/>
+            <WrapPanel>
+                <Label Content="Ci_ty:" Target="{Binding ElementName=ComEmplyeeCity}"/>
+                <ComboBox Name="ComEmplyeeCity" Width="100" Margin="15,0"/>
+            </WrapPanel>      
         </StackPanel>
 
         <Label Content="_Years of Experience:" Target="{Binding ElementName=txtExperiance}" Grid.Row="7"/>
