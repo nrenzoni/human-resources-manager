@@ -30,8 +30,8 @@ namespace PLWPF
 
             try
             {
-                ContractList.ItemsSource = currentApp.BL_Object.getContractList();
-                txtContractCount.Text = ((List<Contract>)ContractList.ItemsSource).Count.ToString() ;
+               // ContractList.ItemsSource = currentApp.BL_Object.getContractList();
+               //    txtContractCount.Text = ((List<Contract>)ContractList.ItemsSource).Count.ToString() ;
             }
             catch (Exception ex)
             {
