@@ -15,9 +15,9 @@
                         <Setter Property="Padding" Value="10"/>
                     </Style>
                 </StackPanel.Resources>
-                <Button Click="Add_Click" >Add</Button>
-                <Button Click="Delete_Click">Delete</Button>
-                <Button Click="Update_Click">Update</Button>
+                <Button Name="addButton" Click="Add_Click" IsEnabled="True">Add</Button>
+                <Button Name="deleteButton" Click="Delete_Click">Delete</Button>
+                <Button Name="updateButton" Click="Update_Click">Update</Button>
             </StackPanel>
         </ContentControl>
     </UserControl.Resources>
@@ -26,19 +26,19 @@
         <TabControl>
             <TabItem Header="Employer">
                 <DockPanel Margin="5">
-                    <ContentControl Content="{StaticResource ResourceKey=tabButtonPane}" DockPanel.Dock="Left"/>
-                    <local:Employer_UserControl Margin="10,0,0,0"/>
+                    <ContentControl x:Name="employerTabButtonPane" Content="{StaticResource ResourceKey=tabButtonPane}" DockPanel.Dock="Left"/>
+                    <local:Employer_UserControl Margin="10,0,0,0" />
                 </DockPanel>
             </TabItem>
             <TabItem Header="Employee">
                 <DockPanel Margin="5">
-                    <ContentControl Content="{StaticResource ResourceKey=tabButtonPane}" DockPanel.Dock="Left"/>
+                    <ContentControl x:Name="employeeTabButtonPane" Content="{StaticResource ResourceKey=tabButtonPane}" DockPanel.Dock="Left"/>
                     <local:Employee_UserControl Margin="10,0,0,0"/>
                 </DockPanel>
             </TabItem>
-            <TabItem Header="Contract">
+            <TabItem x:Name="contractTabButtonPane" Header="Contract">
             </TabItem>
-            <TabItem Header="Specialization">
+            <TabItem x:Name="specTabButtonPane" Header="Specialization">
             </TabItem>
         </TabControl>
     </Grid>

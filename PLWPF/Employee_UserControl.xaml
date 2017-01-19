@@ -44,7 +44,7 @@
         <Label Content="_Last Name:" Target="{Binding ElementName=txtLastName}" Grid.Row="2"/>
         <TextBox Name="txtLastName" Grid.Row="2" Width="200"/>
 
-        <Label Content="_Gender:" Target="{Binding ElementName=IsMale}" Grid.Row="3"/>
+        <Label Content="_Gender:" Grid.Row="3"/>
         <WrapPanel Grid.Row="3" Grid.Column="1">
             <RadioButton Content="Male" IsChecked="True"/>
             <RadioButton Content="Female" Margin="5,0" />
