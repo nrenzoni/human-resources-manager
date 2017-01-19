@@ -32,34 +32,34 @@
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
-            <RowDefinition Height="auto"/>
+            <RowDefinition Height="80"/>
         </Grid.RowDefinitions>
 
-        <Label Content="_ID:" Target="{Binding ElementName=txtID}" Grid.Column="0" />
-        <TextBox Name="txtID" />
+        <Label Content="_ID:" Target="{Binding ElementName=ComEmplyeeID}" />
+        <ComboBox Name="ComEmplyeeID" IsEditable="True" Grid.Column="1" Width="200" HorizontalAlignment="Left"/>
 
         <Label Content="_First Name:" Target="{Binding ElementName=txtFirstName}" Grid.Row="1"/>
-        <TextBox Name="txtFirstName" Grid.Row="1" />
+        <TextBox Name="txtFirstName" Grid.Row="1" Width="200"/>
 
         <Label Content="_Last Name:" Target="{Binding ElementName=txtLastName}" Grid.Row="2"/>
-        <TextBox Name="txtLastName" Grid.Row="2"/>
+        <TextBox Name="txtLastName" Grid.Row="2" Width="200"/>
 
         <Label Content="_Gender:" Grid.Row="3"/>
         <WrapPanel Grid.Row="3" Grid.Column="1">
             <RadioButton Content="Male" IsChecked="True"/>
-            <RadioButton Content="Female" Margin="5,0"/>
+            <RadioButton Content="Female" Margin="5,0" />
         </WrapPanel>
 
         <Label Content="_Birthday" Target="{Binding ElementName=Birthday}" Grid.Row="4"/>
-        <DatePicker Name="txtBirthday" Grid.Row="4" Grid.Column="1" Margin="0,5"/>
+        <DatePicker Name="txtBirthday" Grid.Row="4" Grid.Column="1" Margin="0,5" Width="200" HorizontalAlignment="Left"/>
 
         <Label Content="_Phone Number:" Target="{Binding ElementName=txtPhoneNumber}" Grid.Row="5"/>
-        <TextBox Name="txtPhoneNumber" Grid.Row="5"/>
+        <TextBox Name="txtPhoneNumber" Grid.Row="5" Width="200"/>
         
         <Label Content="_Civic Address:" Grid.Row="6"/>
         <StackPanel Grid.Column="1" Grid.Row="6" >            
-                <Label Content="Address:"/>
-                <TextBox Name="txtEmplyeeAdd"/>
+            <Label Content="Address:"/>
+            <TextBox Name="txtEmplyeeAdd" Width="200"/>
             <WrapPanel>
                 <Label Content="Ci_ty:" Target="{Binding ElementName=ComEmplyeeCity}"/>
                 <ComboBox Name="ComEmplyeeCity" Width="100" Margin="15,0"/>
@@ -67,13 +67,15 @@
         </StackPanel>
 
         <Label Content="_Years of Experience:" Target="{Binding ElementName=txtExperiance}" Grid.Row="7"/>
-        <TextBox Name="txtExperiance" Grid.Row="7"/>
+        <TextBox Name="txtExperiance" Grid.Row="7" Width="200"/>
 
-        <Label Content="_Recommendations:" Target="{Binding ElementName=txtRecommendations}" Grid.Row="8"/>
-        <TextBox Name="txtRecommendations" Grid.Row="8"/>
+        <Label Content="_Email:" Target="{Binding ElementName=txtEmail}" Grid.Row="8"/>
+        <TextBox Name="txtEmail" Grid.Row="8"/>
+        
+        <Label Content="_Recommendations:" Target="{Binding ElementName=txtRecommendations}" Grid.Row="9"/>
+        <TextBox Name="txtRecommendations" Grid.Row="9" Width="200" TextWrapping="Wrap" ScrollViewer.VerticalScrollBarVisibility="Auto"/>
 
-        <Label Content="_Email:" Target="{Binding ElementName=txtEmail}" Grid.Row="9"/>
-        <TextBox Name="txtEmail" Grid.Row="9"/>
+        
 
     </Grid>
 </UserControl>
