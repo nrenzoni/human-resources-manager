@@ -78,18 +78,18 @@ namespace PLWPF
             ComEmplyeCity.ItemsSource = BE.CivicAddress.Cities;
             ComEmplyeSpec.ItemsSource = from spec in BL_Object.getSpecilizationList()
                                   select spec.specilizationName;
-            ComEmplyeID.ItemsSource = from emp in BL_Object.getEmployerList()
+            ComEmployerID.ItemsSource = from emp in BL_Object.getEmployerList()
                                 select emp.ID;
         }
 
-        // only called when new ID selected from combobox list
-        private void ComEmplyeID_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        // only called when new ID selected from combobox list, if value entered is not in combobox list, not called
+        private void ComEmployerID_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             // reflection for copying properties from selected Employer in ID field to properties of tempEmployer
-            if (ComEmplyeID.SelectedItem == null) // check if null because uint cast potentially on null
+            if (ComEmployerID.SelectedItem == null) // check if null because uint cast potentially on null
                 return;
             
-            BE.Employer foundEmployer = BL_Object.getEmployerList().FirstOrDefault(x => x.ID == (uint)ComEmplyeID.SelectedItem);
+            BE.Employer foundEmployer = BL_Object.getEmployerList().FirstOrDefault(x => x.ID == (uint)ComEmployerID.SelectedItem);
             
 
             if (foundEmployer.Equals( null))
@@ -105,6 +105,24 @@ namespace PLWPF
                 var value = property.GetValue(foundEmployer, null);
                 propertyS.SetValue(tempEmployer, value, null);
             }
+        }
+
+        private void addButton_Click(object sender, RoutedEventArgs e)
+        {
+            try { BL_Object.addEmployer(tempEmployer); }
+            catch (Exception ex) { Globals.exceptionHandler(ex); }
+        }
+
+        private void deleteButton_Click(object sender, RoutedEventArgs e)
+        {
+            try { BL_Object.deleteEmployer(tempEmployer); }
+            catch(Exception ex) { Globals.exceptionHandler(ex); }
+        }
+
+        private void updateButton_Click(object sender, RoutedEventArgs e)
+        {
+            try { BL_Object.updateEmployer(tempEmployer); }
+            catch (Exception ex) { Globals.exceptionHandler(ex); }
         }
     }
 }

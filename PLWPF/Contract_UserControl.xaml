@@ -1,0 +1,74 @@
+﻿<UserControl x:Class="PLWPF.Contract_UserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PLWPF"
+             mc:Ignorable="d" 
+             Style="{StaticResource UserControlStyle}">
+
+    <DockPanel>
+
+        <StackPanel Style="{StaticResource StackPanelButtonPane}">
+            <Button Style="{StaticResource addButtonStyle}" Click="addButton_Click" IsEnabled="{Binding Text, ElementName=ComEmployerID, Converter={StaticResource IDToIsEnabledConverter}, ConverterParameter=Employer}"/>
+            <Button Style="{StaticResource deleteButtonStyle}" Click="deleteButton_Click" IsEnabled="{Binding Text, ElementName=ComEmployerID, Converter={StaticResource InverseIDToIsEnabledConverter}, ConverterParameter=Employer}"/>
+            <Button Style="{StaticResource updateButtonStyle}" Click="updateButton_Click" IsEnabled="{Binding Text, ElementName=ComEmployerID, Converter={StaticResource InverseIDToIsEnabledConverter},ConverterParameter=Employer}"/>
+        </StackPanel>
+
+        <Grid x:Name="mainGrid" Style="{StaticResource GridUserControlStyle}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="10"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+
+            <Grid.Resources>
+                <Style TargetType="TextBox" BasedOn="{StaticResource TextBox_in_Grid_Style}"/>
+                <Style TargetType="TextBlock" BasedOn="{StaticResource TextBlock_in_Grid_Style}"/>
+            </Grid.Resources>
+
+            <TextBlock Text="Contract ID:"/>
+            <TextBlock Margin="0,5" Grid.Column="2" Width="200" HorizontalAlignment="Left" Text="{Binding contractID}" />
+
+            <TextBlock Text="Employer ID:" Grid.Row="1"/>
+            <TextBlock Grid.Row="1" Grid.Column="2" Text="{Binding EmployerID}"/>
+
+            <TextBlock Text="Employee ID:" Grid.Row="2"/>
+            <TextBlock Grid.Row="2" Grid.Column="2" Text="{Binding EmployeeID}"/>
+
+            <TextBlock Text="Interviewed:" Grid.Row="3"/>
+            <CheckBox Grid.Row="3" Grid.Column="2" IsChecked="{Binding isInterviewed}"/>
+
+            <TextBlock Text="Contract Finalized:" Grid.Row="4"/>
+            <CheckBox Grid.Row="4" Grid.Column="2" IsChecked="{Binding contractFinalized}"/>
+
+            <TextBlock Text="Gross Wage Per Hour:" Grid.Row="5"/>
+            <TextBox Grid.Row="5" Grid.Column="2" Text="{Binding grossWagePerHour}"/>
+
+            <TextBlock Text="Net Wage Per Hour:" Grid.Row="6"/>
+            <TextBox Grid.Row="6" Grid.Column="2" Text="{Binding netWagePerHour}"/>
+
+            <TextBlock Text="Max Work Hours Per Week:" Grid.Row="7"/>
+            <TextBox Grid.Row="7" Grid.Column="2" Text="{Binding maxWorkHours}"/>
+            
+            <TextBlock Text="Established Date:" Grid.Row="8"/>
+            <DatePicker Grid.Row="8" Grid.Column="2" Margin="0,5" Width="200" HorizontalAlignment="Left" SelectedDate="{Binding contractEstablishedDate}"/>
+
+            <TextBlock Text="Termination Date:" Grid.Row="9"/>
+            <DatePicker Grid.Row="9" Grid.Column="2" Margin="0,5" Width="200" HorizontalAlignment="Left" SelectedDate="{Binding contractTerminatedDate}"/>
+        </Grid>
+
+    </DockPanel>
+</UserControl>

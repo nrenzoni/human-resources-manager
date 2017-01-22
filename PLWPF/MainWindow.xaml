@@ -12,7 +12,8 @@
                 <local:ViewUserControl />
             </TabItem>
             <TabItem Header="Edit">
-                <local:Edit_UserControl />
+                <local:Edit_UserControl x:Name="editControl">
+                </local:Edit_UserControl>
             </TabItem>
         </TabControl>
     </Grid>

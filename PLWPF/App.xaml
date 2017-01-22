@@ -4,6 +4,48 @@
              xmlns:local="clr-namespace:PLWPF"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <local:IDToIsEnabledConverter x:Key="IDToIsEnabledConverter" />
+        <local:InverseIDToIsEnabledConverter x:Key="InverseIDToIsEnabledConverter" />
+
+        <Style x:Key="UserControlStyle" TargetType="UserControl">
+            <Setter Property="Margin" Value="15,15,15,0"/>
+        </Style>
+        
+        <Style x:Key="StackPanelButtonPane" TargetType="StackPanel">
+            <Setter Property="Margin" Value="0,50,0,0"/>
+        </Style>
+
+        <Style x:Key="GridUserControlStyle" TargetType="Grid">
+            <Setter Property="Margin" Value="15,0,0,0"/>
+        </Style>
+        
+        <Style x:Key="baseButtonStyle" TargetType="Button">
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="Margin" Value="0,10,0,0"/>
+        </Style>
+
+        <Style x:Key="addButtonStyle" TargetType="Button" BasedOn="{StaticResource baseButtonStyle}">
+            <Setter Property="Content" Value="Add"/>
+        </Style>
+
+        <Style x:Key="deleteButtonStyle" TargetType="Button" BasedOn="{StaticResource baseButtonStyle}">
+            <Setter Property="Content" Value="Delete"/>
+        </Style>
+
+        <Style x:Key="updateButtonStyle" TargetType="Button" BasedOn="{StaticResource baseButtonStyle}">
+            <Setter Property="Content" Value="Update"/>
+        </Style>
+
+        <Style x:Key="TextBox_in_Grid_Style" TargetType="TextBox">
+            <Setter Property="Width" Value="200"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="Margin" Value="0,5"/>
+            <Setter Property="Padding" Value="4"/>
+        </Style>
+
+        <Style x:Key="TextBlock_in_Grid_Style" TargetType="TextBlock">
+            <Setter Property="Margin" Value="0,5"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+        </Style>
     </Application.Resources>
 </Application>

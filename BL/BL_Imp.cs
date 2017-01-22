@@ -155,7 +155,7 @@ namespace BL
                  where comp.companyName == employer.companyName
                  select comp).Count();
             if (matchingCompCount > 0)
-                throw new Exception("employer's company name already exists");
+                throw new Exception("Company name already exists");
 
             return DAL_Object.addEmployer(employer);
         }
@@ -190,7 +190,7 @@ namespace BL
         public int ContractListByFilterCount(Predicate<Contract> condition) =>
             getContractListByFilter(condition).Count();
 
-        public IEnumerable<IGrouping<Specialization, Contract>> groupContractBySpec(bool ordered = false)
+        public IEnumerable<IGrouping<Specialization, Contract>> groupContractByEmployeeSpec(bool ordered = false)
          => from contr in DAL_Object.getContractList()
             let contr_employee = DAL_Object.getEmployeeList().Find(e => e.ID == contr.EmployeeID)
             let contr_spec = DAL_Object.getSpecilizationList().Find(s => s.ID == contr_employee.specializationID)

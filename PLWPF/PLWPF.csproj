@@ -55,6 +55,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Contract_UserControl.xaml.cs">
+      <DependentUpon>Contract_UserControl.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Edit_UserControl.xaml.cs">
       <DependentUpon>Edit_UserControl.xaml</DependentUpon>
     </Compile>
@@ -64,9 +67,17 @@
     <Compile Include="Employer_UserControl.xaml.cs">
       <DependentUpon>Employer_UserControl.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Global_Methods.cs" />
+    <Compile Include="Spec_UserControl.xaml.cs">
+      <DependentUpon>Spec_UserControl.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ViewUserControl.xaml.cs">
       <DependentUpon>ViewUserControl.xaml</DependentUpon>
     </Compile>
+    <Page Include="Contract_UserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Edit_UserControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -91,6 +102,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Spec_UserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="ViewUserControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
