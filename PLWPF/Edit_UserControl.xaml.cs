@@ -43,7 +43,7 @@ namespace PLWPF
             Binding binding1 = new Binding();
             binding1.Source = cb;
             binding1.Path = new PropertyPath("Text");
-            binding1.Converter = ;
+            //binding1.Converter = ;
             employerButtons[0].SetBinding(Button.IsEnabledProperty, binding1);
         }
 

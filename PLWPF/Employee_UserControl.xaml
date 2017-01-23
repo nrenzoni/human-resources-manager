@@ -18,8 +18,10 @@
         </Grid.Resources>
         
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="auto" />
-            <ColumnDefinition/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
         </Grid.ColumnDefinitions>
         
         <Grid.RowDefinitions>
@@ -35,47 +37,64 @@
             <RowDefinition Height="80"/>
         </Grid.RowDefinitions>
 
-        <Label Content="_ID:" Target="{Binding ElementName=ComEmplyeeID}" />
-        <ComboBox Name="ComEmplyeeID" IsEditable="True" Grid.Column="1" Width="200" HorizontalAlignment="Left"/>
+        <Label Content="_ID:" Target="{Binding ElementName=ComEmplyeeID}" HorizontalAlignment="Center" VerticalAlignment="Center" />
+        <ComboBox Name="ComEmplyeeID" IsEditable="True" Grid.Column="1" Width="200" HorizontalAlignment="Left" SelectionChanged="ComEmplyeeID_SelectionChanged"/>
 
-        <Label Content="_First Name:" Target="{Binding ElementName=txtFirstName}" Grid.Row="1"/>
+        <Label Content="_First Name:" Target="{Binding ElementName=txtFirstName}" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         <TextBox Name="txtFirstName" Grid.Row="1" Width="200"/>
 
-        <Label Content="_Last Name:" Target="{Binding ElementName=txtLastName}" Grid.Row="2"/>
+        <Label Content="_Last Name:" Target="{Binding ElementName=txtLastName}" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         <TextBox Name="txtLastName" Grid.Row="2" Width="200"/>
 
-        <Label Content="_Gender:" Grid.Row="3"/>
+        <Label Content="_Gender:" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         <WrapPanel Grid.Row="3" Grid.Column="1">
-            <RadioButton Content="Male" IsChecked="True"/>
-            <RadioButton Content="Female" Margin="5,0" />
+            <RadioButton Content="Male" IsChecked="True" Margin="0,7" />
+            <RadioButton Content="Female" Margin="5,7"/>
         </WrapPanel>
 
-        <Label Content="_Birthday" Target="{Binding ElementName=Birthday}" Grid.Row="4"/>
+        <Label Content="_Birthday" Target="{Binding ElementName=Birthday}" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         <DatePicker Name="txtBirthday" Grid.Row="4" Grid.Column="1" Margin="0,5" Width="200" HorizontalAlignment="Left"/>
 
-        <Label Content="_Phone Number:" Target="{Binding ElementName=txtPhoneNumber}" Grid.Row="5"/>
+        <Label Content="_Phone Number:" Target="{Binding ElementName=txtPhoneNumber}" Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         <TextBox Name="txtPhoneNumber" Grid.Row="5" Width="200"/>
-        
-        <Label Content="_Civic Address:" Grid.Row="6"/>
+
+        <Label Content="_Civic Address:" Grid.Row="6" HorizontalAlignment="Center" />
         <StackPanel Grid.Column="1" Grid.Row="6" >            
             <Label Content="Address:"/>
             <TextBox Name="txtEmplyeeAdd" Width="200"/>
             <WrapPanel>
                 <Label Content="Ci_ty:" Target="{Binding ElementName=ComEmplyeeCity}"/>
-                <ComboBox Name="ComEmplyeeCity" Width="100" Margin="15,0"/>
+                <ComboBox Name="ComEmplyeeCity" Width="100" Margin="15,0" />                
             </WrapPanel>      
         </StackPanel>
 
-        <Label Content="_Years of Experience:" Target="{Binding ElementName=txtExperiance}" Grid.Row="7"/>
+        <Label Content="_Years of Experience:" Target="{Binding ElementName=txtExperiance}" Grid.Row="7" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         <TextBox Name="txtExperiance" Grid.Row="7" Width="200"/>
 
-        <Label Content="_Email:" Target="{Binding ElementName=txtEmail}" Grid.Row="8"/>
+        <Label Content="_Email:" Target="{Binding ElementName=txtEmail}" Grid.Row="8" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         <TextBox Name="txtEmail" Grid.Row="8"/>
-        
+
         <Label Content="_Recommendations:" Target="{Binding ElementName=txtRecommendations}" Grid.Row="9"/>
         <TextBox Name="txtRecommendations" Grid.Row="9" Width="200" TextWrapping="Wrap" ScrollViewer.VerticalScrollBarVisibility="Auto"/>
 
-        
+        <Label Content="_Education:" Target="{Binding ElementName=ComEmplyeeEduc}" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <ComboBox Name="ComEmplyeeEduc" Width="100" Grid.Column="3" HorizontalAlignment="Left"/>
+
+        <Label Content="_Army Graduate:" Grid.Column="2" Grid.Row="1" Target="{Binding ElementName=ChecArmyGrad}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <CheckBox Name="ChecArmyGrad" Content="Yes" IsChecked="True" Grid.Column="3" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+
+        <Label Content="_Bank Name:" Grid.Column="2" Grid.Row="2" Target="{Binding ElementName=comEmplyeBankName}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <ComboBox Name="comEmplyeBankName" Grid.Column="3" Grid.Row="2" Height="25"/>
+
+        <Label Content="_Branch Number:" Grid.Column="2" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Target="{Binding ElementName=ComEmplyeeBranchNum}"/>
+        <ComboBox Name="ComEmplyeeBranchNum" Grid.Column="3" Grid.Row="3" Height="25" />
+
+        <Label Content="_Branch Location:" Grid.Column="2" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" Target="{Binding ElementName=txtBranLoc}"/>
+        <TextBox Name="txtBranLoc" Grid.Column="3" Grid.Row="4" Width="100" HorizontalAlignment="Center"  IsEnabled="False"/> <!--The value Will be assign automaticlly according to the Branch Number-->
+
+        <Label Content="_Specialization:" Grid.Column="2" Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center" Target="{Binding ElementName=ComEmployeSpec}"/>
+        <ComboBox Name="ComEmployeSpec" Grid.Column="3" Grid.Row="5" Width="100" Height="25" />
+
 
     </Grid>
 </UserControl>

@@ -20,9 +20,26 @@ namespace PLWPF
     /// </summary>
     public partial class Employee_UserControl : UserControl
     {
+        public BL.IBL Bl_Object = BL.FactoryBL.IBLInstance;
+        BE.Employee UIEmployee = new BE.Employee();
+
         public Employee_UserControl()
         {
             InitializeComponent();
+
+            DataContext = UIEmployee;
+
+            ComEmplyeeCity.ItemsSource = BE.CivicAddress.Cities;
+            ComEmplyeeID.ItemsSource = from emplye in Bl_Object.getEmployeeList()
+                                       select emplye.ID;
+            ComEmplyeeEduc.ItemsSource = Enum.GetValues(typeof(BE.Education));
         }
+
+        private void ComEmplyeeID_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+      
     }
 }
