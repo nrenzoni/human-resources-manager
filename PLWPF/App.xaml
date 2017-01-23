@@ -18,6 +18,12 @@
         <Style x:Key="GridUserControlStyle" TargetType="Grid">
             <Setter Property="Margin" Value="15,0,0,0"/>
         </Style>
+
+        <Style x:Key="ComboBox_in_Grid_Style" TargetType="ComboBox">
+            <Setter Property="Margin" Value="0,5" />
+            <Setter Property="Width" Value="200"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+        </Style>
         
         <Style x:Key="baseButtonStyle" TargetType="Button">
             <Setter Property="Padding" Value="10"/>

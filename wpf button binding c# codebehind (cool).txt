@@ -1,0 +1,40 @@
+#region button binding (old)
+            /*string[] UCs = { "employerUC", "employeeUC", "contractUC", "specUC" }; // UserControl Names in Edit_UserControl
+        string[] srcElement = { "ComEmployerID", "ComEmplyeeID", "", "" }; // source element names to bind to
+             
+            Button[,] allTabButtons = new Button[4, 3];
+
+
+            ContentControl[] tabButtonPanes = { (ContentControl)employerTabButtonPane.Content,
+                                                (ContentControl)employeeTabButtonPane.Content,
+                                                (ContentControl)contractTabButtonPane.Content,
+                                                (ContentControl)specTabButtonPane.Content      };
+
+            //binding of template buttons to matching UserControl
+            for (int i = 0; i < 4; i++) // loop thru each buttonPane
+            {
+                for (int j = 0; j < 3; j++) // loop thru each button in pane
+                {
+                    // j'th child of current tabButtonPane
+                    var templateElement = ((StackPanel)tabButtonPanes[i].Content).Children[j];
+                    if (templateElement is Button)
+                        allTabButtons[i, j] = (Button)templateElement;
+                    else throw new Exception("change template binding logic"); // for safety
+
+                    UserControl currentUC = (UserControl)FindName(UCs[i]);
+                    if (currentUC == null)
+                        throw new Exception("UserControl in Binding logic set to null object");
+
+                    Binding b = new Binding
+                    {
+                        Source = (ComboBox)currentUC.FindName(srcElement[i]),
+                        Path = new PropertyPath("Text"), // what type for spec?
+                        ConverterParameter = Enum.GetNames(typeof(BE.converterParams))[i]
+                    };
+                    if (j == 0) b.Converter = new IDToIsEnabledConverter(); // add button
+                    else b.Converter = new InverseIDToIsEnabledConverter(); // delete and update button
+
+                    allTabButtons[i, j].SetBinding(Button.IsEnabledProperty, b);
+                }
+            }*/
+            #endregion

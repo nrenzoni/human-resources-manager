@@ -29,21 +29,43 @@ namespace PLWPF
             DataContext = tempEmployee;
         }
 
-        private void addButton_Click(object sender, RoutedEventArgs e)
+        private void addNewContract_Click(object sender, RoutedEventArgs e)
         {
-            try { BL_Object.addEmployee(tempEmployee); }
+            try
+            {
+                finalizeNewContract_Button.Visibility = Visibility.Visible;
+                CancelNewContract_Button.Visibility = Visibility.Visible;
+                TerminateContract_Button.Visibility = Visibility.Collapsed;
+            }
+            catch (Exception ex) { Globals.exceptionHandler(ex); }
+        }
+
+        private void CancelNewContract_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                finalizeNewContract_Button.Visibility = Visibility.Collapsed;
+                CancelNewContract_Button.Visibility = Visibility.Collapsed;
+                TerminateContract_Button.Visibility = Visibility.Visible;
+            }
             catch (Exception ex) { Globals.exceptionHandler(ex); }
         }
 
         private void deleteButton_Click(object sender, RoutedEventArgs e)
         {
-            try { BL_Object.deleteEmployee(tempEmployee); }
+            try
+            {
+
+            }
             catch (Exception ex) { Globals.exceptionHandler(ex); }
         }
 
         private void updateButton_Click(object sender, RoutedEventArgs e)
         {
-            try { BL_Object.updateEmployee(tempEmployee); }
+            try
+            {
+
+            }
             catch (Exception ex) { Globals.exceptionHandler(ex); }
         }
     }

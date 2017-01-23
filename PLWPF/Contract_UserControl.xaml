@@ -10,9 +10,27 @@
     <DockPanel>
 
         <StackPanel Style="{StaticResource StackPanelButtonPane}">
-            <Button Style="{StaticResource addButtonStyle}" Click="addButton_Click" IsEnabled="{Binding Text, ElementName=ComEmployerID, Converter={StaticResource IDToIsEnabledConverter}, ConverterParameter=Employer}"/>
-            <Button Style="{StaticResource deleteButtonStyle}" Click="deleteButton_Click" IsEnabled="{Binding Text, ElementName=ComEmployerID, Converter={StaticResource InverseIDToIsEnabledConverter}, ConverterParameter=Employer}"/>
-            <Button Style="{StaticResource updateButtonStyle}" Click="updateButton_Click" IsEnabled="{Binding Text, ElementName=ComEmployerID, Converter={StaticResource InverseIDToIsEnabledConverter},ConverterParameter=Employer}"/>
+            <StackPanel.Resources>
+                <Style TargetType="Button" BasedOn="{StaticResource baseButtonStyle}"/>
+            </StackPanel.Resources>
+            <Button Name="addNewContract_Button" Click="addNewContract_Click">
+                <Button.Content>
+                    <StackPanel>
+                        <TextBlock Text="Add New" HorizontalAlignment="Center"/>
+                        <TextBlock Text="Contract"/>
+                    </StackPanel>
+                </Button.Content>
+            </Button>
+            <Button Content="Finalize" Name="finalizeNewContract_Button" Visibility="Collapsed"/>
+            <Button Content="Cancel" Name="CancelNewContract_Button" Click="CancelNewContract_Click" Visibility="Collapsed"/>
+            <Button Name="TerminateContract_Button">
+                <Button.Content>
+                    <StackPanel>
+                        <TextBlock Text="Terminate" HorizontalAlignment="Center"/>
+                        <TextBlock Text="Contract"/>
+                    </StackPanel>
+                </Button.Content>
+            </Button>
         </StackPanel>
 
         <Grid x:Name="mainGrid" Style="{StaticResource GridUserControlStyle}">
@@ -37,16 +55,17 @@
             <Grid.Resources>
                 <Style TargetType="TextBox" BasedOn="{StaticResource TextBox_in_Grid_Style}"/>
                 <Style TargetType="TextBlock" BasedOn="{StaticResource TextBlock_in_Grid_Style}"/>
+                <Style TargetType="ComboBox" BasedOn="{StaticResource ComboBox_in_Grid_Style}"/>
             </Grid.Resources>
 
             <TextBlock Text="Contract ID:"/>
-            <TextBlock Margin="0,5" Grid.Column="2" Width="200" HorizontalAlignment="Left" Text="{Binding contractID}" />
+            <ComboBox Name="txtContractID" Margin="0,5" Grid.Column="2" Width="200" HorizontalAlignment="Left"/>
 
             <TextBlock Text="Employer ID:" Grid.Row="1"/>
-            <TextBlock Grid.Row="1" Grid.Column="2" Text="{Binding EmployerID}"/>
+            <ComboBox Grid.Row="1" Grid.Column="2" Text="{Binding EmployerID}"/>
 
             <TextBlock Text="Employee ID:" Grid.Row="2"/>
-            <TextBlock Grid.Row="2" Grid.Column="2" Text="{Binding EmployeeID}"/>
+            <ComboBox Grid.Row="2" Grid.Column="2" Text="{Binding EmployeeID}"/>
 
             <TextBlock Text="Interviewed:" Grid.Row="3"/>
             <CheckBox Grid.Row="3" Grid.Column="2" IsChecked="{Binding isInterviewed}"/>
@@ -60,8 +79,9 @@
             <TextBlock Text="Net Wage Per Hour:" Grid.Row="6"/>
             <TextBox Grid.Row="6" Grid.Column="2" Text="{Binding netWagePerHour}"/>
 
-            <TextBlock Text="Max Work Hours Per Week:" Grid.Row="7"/>
-            <TextBox Grid.Row="7" Grid.Column="2" Text="{Binding maxWorkHours}"/>
+
+            <TextBlock Text="Max Work Hours Per Week:" Grid.Row="7" TextWrapping="Wrap" Width="100" HorizontalAlignment="Left"/>
+            <TextBox Grid.Row="7" Grid.Column="2" Text="{Binding maxWorkHours}" Height="25"/>
             
             <TextBlock Text="Established Date:" Grid.Row="8"/>
             <DatePicker Grid.Row="8" Grid.Column="2" Margin="0,5" Width="200" HorizontalAlignment="Left" SelectedDate="{Binding contractEstablishedDate}"/>

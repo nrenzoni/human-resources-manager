@@ -55,6 +55,7 @@ namespace PLWPF
             listViewSortCol = column;
 
             ListSortDirection newDir = ListSortDirection.Descending;
+
             // if true, previous sorting applied to clicked on column in descending direction
             if (listViewSortCol == column && descdingDir) 
             {
