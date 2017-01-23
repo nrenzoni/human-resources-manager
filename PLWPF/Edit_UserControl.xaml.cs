@@ -20,39 +20,67 @@ namespace PLWPF
     /// </summary>
     public partial class Edit_UserControl : UserControl
     {
-        ContentControl tabButtonPane;
+        BL.IBL BL_Object = BL.FactoryBL.IBLInstance;
 
         public Edit_UserControl()
         {
             InitializeComponent();
 
-            tabButtonPane = ((ContentControl)employerTabButtonPane.Content);
-            Button[] employerButtons = new Button[3];
-            int i = 0;
-            foreach (var element in ((StackPanel)tabButtonPane.Content).Children)
+            #region button binding (old)
+            /*string[] UCs = { "employerUC", "employeeUC", "contractUC", "specUC" }; // UserControl Names in Edit_UserControl
+        string[] srcElement = { "ComEmployerID", "ComEmplyeeID", "", "" }; // source element names to bind to
+             
+            Button[,] allTabButtons = new Button[4, 3];
+
+
+            ContentControl[] tabButtonPanes = { (ContentControl)employerTabButtonPane.Content,
+                                                (ContentControl)employeeTabButtonPane.Content,
+                                                (ContentControl)contractTabButtonPane.Content,
+                                                (ContentControl)specTabButtonPane.Content      };
+
+            //binding of template buttons to matching UserControl
+            for (int i = 0; i < 4; i++) // loop thru each buttonPane
             {
-                if (element is Button)
-                    employerButtons[i++] = (Button)element;
-            }
+                for (int j = 0; j < 3; j++) // loop thru each button in pane
+                {
+                    // j'th child of current tabButtonPane
+                    var templateElement = ((StackPanel)tabButtonPanes[i].Content).Children[j];
+                    if (templateElement is Button)
+                        allTabButtons[i, j] = (Button)templateElement;
+                    else throw new Exception("change template binding logic"); // for safety
 
+                    UserControl currentUC = (UserControl)FindName(UCs[i]);
+                    if (currentUC == null)
+                        throw new Exception("UserControl in Binding logic set to null object");
 
-            //binding of IsEnabled of add button for employer
-            UserControl UserControl = (UserControl) FindName("employerUC");
-            ComboBox cb = (ComboBox) UserControl.FindName("ComEmplyeID");
+                    Binding b = new Binding
+                    {
+                        Source = (ComboBox)currentUC.FindName(srcElement[i]),
+                        Path = new PropertyPath("Text"), // what type for spec?
+                        ConverterParameter = Enum.GetNames(typeof(BE.converterParams))[i]
+                    };
+                    if (j == 0) b.Converter = new IDToIsEnabledConverter(); // add button
+                    else b.Converter = new InverseIDToIsEnabledConverter(); // delete and update button
 
-            Binding binding1 = new Binding();
-            binding1.Source = cb;
-            binding1.Path = new PropertyPath("Text");
-            //binding1.Converter = ;
-            employerButtons[0].SetBinding(Button.IsEnabledProperty, binding1);
-        }
-
-        private void addButtonEnableCheck()
-        {
+                    allTabButtons[i, j].SetBinding(Button.IsEnabledProperty, b);
+                }
+            }*/
+            #endregion
         }
 
         private void Add_Click(object sender, RoutedEventArgs e)
         {
+            int selectedI = tabC.SelectedIndex;
+            // check no tab selected
+            if (selectedI == -1) return;
+
+            switch (selectedI)
+            {
+                case 1: // employer tab
+
+                default:
+                    break;
+            }
         }
 
         private void Delete_Click(object sender, RoutedEventArgs e)
@@ -64,7 +92,7 @@ namespace PLWPF
         {
 
         }
-
+        
         private void Employer_UserControl_TextInput(object sender, TextCompositionEventArgs e)
         {
             MessageBox.Show(e.Text);

@@ -28,7 +28,7 @@ namespace BL
         IEnumerable<Contract> getContractListByFilter(Predicate<Contract> condition = null);
         int ContractListByFilterCount(Predicate<Contract> condition = null);
 
-        IEnumerable<IGrouping<Specialization, Contract>> groupContractBySpec(bool ordered = false);
+        IEnumerable<IGrouping<Specialization, Contract>> groupContractByEmployeeSpec(bool ordered = false);
         IEnumerable<IGrouping<string, Contract>> groupContractByEmployerCity(bool ordered = false);
         IEnumerable<IGrouping<string, Contract>> groupContractByEmployeeCity(bool ordered = false);
         IEnumerable<IGrouping<int, double>> getProfitByYear(bool ordered = false); // <int=year (key), double=profit>

@@ -21,8 +21,11 @@ namespace BE
         public double grossWagePerHour { get; set; } // before taxes etc
         public double netWagePerHour { get; set; } // payment employee receives
 
+        public double profit { get { return Math.Round(grossWagePerHour - netWagePerHour, 2); } }
+
         public DateTime contractEstablishedDate { get; set; }
         public DateTime contractTerminatedDate { get; set; }
+
 
         public uint maxWorkHours { get; set; } // per week
 

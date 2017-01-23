@@ -21,11 +21,53 @@
         <TextBlock FontWeight="Bold" Margin="15,0">Contracts</TextBlock>
 
         <ListView Margin="10" Name="ContractList" ItemsSource="{Binding}" Grid.ColumnSpan="2" Grid.Row="1">
+            <ListView.Resources>
+                <Style TargetType="{x:Type GridViewColumnHeader}">
+                    <Setter Property="HorizontalContentAlignment" Value="Left"/>
+                </Style>
+            </ListView.Resources>
             <ListView.View>
                 <GridView>
-                    <GridViewColumn Header="Contract ID" DisplayMemberBinding="{Binding contractID}" />
-                    <GridViewColumn Header="Employer ID" DisplayMemberBinding="{Binding EmployerID}" />
-                    <GridViewColumn Header="Employee ID" DisplayMemberBinding="{Binding EmployeeID}" />
+                    <GridViewColumn DisplayMemberBinding="{Binding contractID}">
+                        <GridViewColumn.Header>
+                            <GridViewColumnHeader Content="Contract ID" Tag="contractID" Click="ContractListHeader_Click" />
+                        </GridViewColumn.Header>
+                    </GridViewColumn>
+                    <GridViewColumn DisplayMemberBinding="{Binding EmployerID}">
+                        <GridViewColumn.Header>
+                            <GridViewColumnHeader Content="Employer ID" Tag="EmployerID" Click="ContractListHeader_Click"/>
+                        </GridViewColumn.Header>
+                    </GridViewColumn>
+                    <GridViewColumn DisplayMemberBinding="{Binding EmployeeID}" >
+                        <GridViewColumn.Header>
+                            <GridViewColumnHeader Content="Employee ID" Tag="EmployeeID" Click="ContractListHeader_Click"/>
+                        </GridViewColumn.Header>
+                    </GridViewColumn>
+                    <GridViewColumn DisplayMemberBinding="{Binding isInterviewed}">
+                        <GridViewColumn.Header>
+                            <GridViewColumnHeader Content="Interviewed" Tag="isInterviewed" Click="ContractListHeader_Click"/>
+                        </GridViewColumn.Header>
+                    </GridViewColumn>
+                    <GridViewColumn DisplayMemberBinding="{Binding contractFinalized}">
+                        <GridViewColumn.Header>
+                            <GridViewColumnHeader Content="Finalized" Tag="contractFinalized" Click="ContractListHeader_Click"/>
+                        </GridViewColumn.Header>
+                    </GridViewColumn>
+                    <GridViewColumn DisplayMemberBinding="{Binding profit, ConverterCulture='he-IL', StringFormat={}{0:C}}">
+                        <GridViewColumn.Header>
+                            <GridViewColumnHeader Content="Profit" Tag="profit" Click="ContractListHeader_Click"/>
+                        </GridViewColumn.Header>
+                    </GridViewColumn>
+                    <GridViewColumn DisplayMemberBinding="{Binding contractEstablishedDate, StringFormat={}{0:dd/MM/yyyy}}">
+                        <GridViewColumn.Header>
+                            <GridViewColumnHeader Content="Established" Tag="contractEstablishedDate" Click="ContractListHeader_Click"/>
+                        </GridViewColumn.Header>
+                    </GridViewColumn>
+                    <GridViewColumn DisplayMemberBinding="{Binding contractTerminatedDate, StringFormat={}{0:dd/MM/yyyy}}">
+                        <GridViewColumn.Header>
+                            <GridViewColumnHeader Content="Termination" Tag="contractTerminatedDate" Click="ContractListHeader_Click"/>
+                        </GridViewColumn.Header>
+                    </GridViewColumn>
                 </GridView>
             </ListView.View>
         </ListView>

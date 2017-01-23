@@ -6,40 +6,24 @@
              xmlns:local="clr-namespace:PLWPF"
              mc:Ignorable="d" 
              d:DesignHeight="500" d:DesignWidth="700">
-    <UserControl.Resources>
-        <ContentControl x:Key="tabButtonPane" x:Shared="False">
-            <StackPanel Margin="0,50,0,0">
-                <StackPanel.Resources>
-                    <Style TargetType="Button">
-                        <Setter Property="Margin" Value="0,10,0,0"/>
-                        <Setter Property="Padding" Value="10"/>
-                    </Style>
-                </StackPanel.Resources>
-                <Button Name="addButton" Click="Add_Click" >Add</Button>
-                <Button Name="deleteButton" Click="Delete_Click">Delete</Button>
-                <Button Name="updateButton" Click="Update_Click">Update</Button>
-            </StackPanel>
-        </ContentControl>
-    </UserControl.Resources>
-    
+
     <Grid>
-        <TabControl>
+        
+        <TabControl x:Name="tabC">
             <TabItem Header="Employer">
-                <DockPanel Margin="5">
-                    <ContentControl x:Name="employerTabButtonPane" Content="{StaticResource ResourceKey=tabButtonPane}" DockPanel.Dock="Left"/>
-                    <local:Employer_UserControl x:Name="employerUC" Margin="10,0,0,0" />
-                </DockPanel>
+                <local:Employer_UserControl x:Name="employerUC"/>
             </TabItem>
             <TabItem Header="Employee">
-                <DockPanel Margin="5">
-                    <ContentControl x:Name="employeeTabButtonPane" Content="{StaticResource ResourceKey=tabButtonPane}" DockPanel.Dock="Left"/>
-                    <local:Employee_UserControl Margin="10,0,0,0"/>
-                </DockPanel>
+                <local:Employee_UserControl x:Name="employeeUC"/>
             </TabItem>
-            <TabItem x:Name="contractTabButtonPane" Header="Contract">
+            <TabItem Header="Contract">
+                <local:Contract_UserControl x:Name="contractUC"/>
             </TabItem>
-            <TabItem x:Name="specTabButtonPane" Header="Specialization">
+            <TabItem Header="Specialization">
+                <local:Spec_UserControl x:Name="specUC"/>
             </TabItem>
         </TabControl>
+        
     </Grid>
+    
 </UserControl>
