@@ -21,7 +21,9 @@ namespace PLWPF
     public partial class Employee_UserControl : UserControl
     {
         public BL.IBL Bl_Object = BL.FactoryBL.IBLInstance;
-        BE.Employee UIEmployee = new BE.Employee();
+        public event Action Employee_DS_Change_Event;
+
+        BE.Employee UIEmployee = new BE.Employee();        
 
         public Employee_UserControl()
         {
@@ -30,29 +32,57 @@ namespace PLWPF
             DataContext = UIEmployee;
 
             ComEmplyeeCity.ItemsSource = BE.CivicAddress.Cities;
-            ComEmplyeeID.ItemsSource = from emplye in Bl_Object.getEmployeeList()
-                                       select emplye.ID;
+            ComEmplyeeID.ItemsSource = Bl_Object.getEmployeeList();
             ComEmplyeeEduc.ItemsSource = Enum.GetValues(typeof(BE.Education));
+            ComEmployeSpec.ItemsSource = from word in (Enum.GetNames(typeof(BE.SpecializationName)))
+                                         select word.Replace("_", " ");
+            
+
         }
 
         private void ComEmplyeeID_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+            BE.Employee foundEmploye = Bl_Object.getEmployeeList().FirstOrDefault(x => x == (BE.Employee)ComEmplyeeID.SelectedItem);
 
+            if (foundEmploye == null)
+            {
+                foundEmploye = new BE.Employee();
+                return;
+            }
+
+            Globals.CopyObject(foundEmploye, UIEmployee);
         }
 
         private void addButton_Click(object sender, RoutedEventArgs e)
         {
-
+            try
+            {
+                BE.Employee addEmploye = new BE.Employee();
+                Globals.CopyObject(UIEmployee, addEmploye);
+                Bl_Object.addEmployee(addEmploye);
+                Employee_DS_Change_Event?.Invoke();
+            }
+            catch (Exception ex) { Globals.exceptionHandler(ex); }
         }
 
         private void deleteButton_Click(object sender, RoutedEventArgs e)
         {
-
+            try
+            {
+                Bl_Object.deleteEmployee(UIEmployee);
+                Employee_DS_Change_Event?.Invoke();
+            }
+            catch (Exception ex) { Globals.exceptionHandler(ex); }
         }
 
         private void updateButton_Click(object sender, RoutedEventArgs e)
         {
-
+            try
+            { 
+                Bl_Object.updateEmployee(UIEmployee);
+                Employee_DS_Change_Event?.Invoke();
+            }
+            catch (Exception ex) { Globals.exceptionHandler(ex); }        
         }
     }
 }

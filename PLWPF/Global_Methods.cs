@@ -17,20 +17,20 @@ namespace PLWPF
             MessageBox.Show(ex.Message + "\n" + ex.InnerException, "Exception Caught!", MessageBoxButton.OK, MessageBoxImage.Error);
         }
 
-        public static  void CopyObject(object inObj, object outObj)
+        public static  void CopyObject(object sourceObj, object targetObj)
         {
-            if (inObj.GetType() != outObj.GetType())
+            if (sourceObj.GetType() != targetObj.GetType())
                 throw new InvalidOperationException("cannot copy object of different type");
 
             // copy values (by use of property get/set) of foundEmployer to tempContract
-            foreach (var property in inObj.GetType().GetProperties())
+            foreach (var property in sourceObj.GetType().GetProperties())
             {
                 // check if property has set method (profit property does not have setter)
                 if (property.GetSetMethod() != null)
                 {
-                    PropertyInfo propertyS = outObj.GetType().GetProperty(property.Name);
-                    var value = property.GetValue(inObj, null);
-                    propertyS.SetValue(outObj, value, null);
+                    PropertyInfo propertyS = targetObj.GetType().GetProperty(property.Name);
+                    var value = property.GetValue(sourceObj, null);
+                    propertyS.SetValue(targetObj, value, null);
                 }
             }
         }

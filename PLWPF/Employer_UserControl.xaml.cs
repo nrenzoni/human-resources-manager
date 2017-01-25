@@ -20,14 +20,14 @@ namespace PLWPF
     {
         public BL.IBL BL_Object = BL.FactoryBL.IBLInstance;
 
-        BE.Employer tempEmployer = new BE.Employer();
+        BE.Employer UIEmployer = new BE.Employer();
 
         public event Action Employer_DS_Change_Event;
 
         public Employer_UserControl()
         {
             InitializeComponent();
-            DataContext = tempEmployer;
+            DataContext = UIEmployer;
 
             ComEmplyeCity.ItemsSource = BE.CivicAddress.Cities;
             ComEmplyeSpec.ItemsSource = from spec in BL_Object.getSpecilizationList()
@@ -38,7 +38,7 @@ namespace PLWPF
         // only called when new ID selected from combobox list, if value entered is not in combobox list, not called
         private void ComEmployerID_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            // reflection for copying properties from selected Employer in ID field to properties of tempEmployer
+            // reflection for copying properties from selected Employer in ID field to properties of UIEmployer
             if (ComEmployerID.SelectedItem == null) // check if null because uint cast potentially on null
                 return;
             
@@ -51,8 +51,8 @@ namespace PLWPF
                 return;
             }
 
-            // copy values (by use of property get/set) of foundEmployer to tempEmployer so binding to tempEmployer not reset
-            Globals.CopyObject(foundEmployer, tempEmployer);
+            // copy values (by use of property get/set) of foundEmployer to UIEmployer so binding to UIEmployer not reset
+            Globals.CopyObject(foundEmployer, UIEmployer);
         }
 
         private void addButton_Click(object sender, RoutedEventArgs e)
@@ -60,7 +60,7 @@ namespace PLWPF
             try
             {
                 BE.Employer addEmployer = new BE.Employer();
-                Globals.CopyObject(tempEmployer, addEmployer);
+                Globals.CopyObject(UIEmployer, addEmployer);
                 BL_Object.addEmployer(addEmployer);
                 Employer_DS_Change_Event?.Invoke();
             }
@@ -71,7 +71,7 @@ namespace PLWPF
         {
             try
             {
-                BL_Object.deleteEmployer(tempEmployer);
+                BL_Object.deleteEmployer(UIEmployer);
                 Employer_DS_Change_Event?.Invoke();
             }
             catch(Exception ex) { Globals.exceptionHandler(ex); }
@@ -79,11 +79,17 @@ namespace PLWPF
 
         private void updateButton_Click(object sender, RoutedEventArgs e)
         {
-            try {
-                BL_Object.updateEmployer(tempEmployer);
+            try
+            {
+                BL_Object.updateEmployer(UIEmployer);
                 Employer_DS_Change_Event?.Invoke();
             }
             catch (Exception ex) { Globals.exceptionHandler(ex); }
+        }
+
+        private void ComEmplyeCity_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
         }
     }
 }
