@@ -13,7 +13,7 @@ namespace DAL
         bool addToList<T>(List<T> list, T element)
         {
             if(list.Contains(element))
-                throw new Exception(element.GetType() + "already exists in " + nameof(list));
+                throw new Exception(element.ToString() + " already exists in " + nameof(list));
             list.Add(element);
             return true;
         }
@@ -74,19 +74,9 @@ namespace DAL
 
         public bool addContract(Contract contract)
         {
-            if (contract.contractID == 0) // update contractID if = 0
-            {
-                uint maxID = 0;
-                if (DataSource.contractList.Count != 0)
-                {
-                    maxID = DataSource.contractList.Max(x => x.contractID);
-                }
-                else { maxID = 10000000; }
+            contract.contractID = getNextContractID();
 
-                // update ID
-                contract.contractID = maxID;
-            }
-            // addToList checks if contract already exists in contractList
+            // addToList checks if contract already exists in contractList, however, since nextID is unique, will always work
             return addToList(DataSource.contractList, contract);
         }
 
@@ -97,7 +87,9 @@ namespace DAL
         public bool updateContract(Contract newContract, Contract oldContract) // oldContract needed for finding old Contract in DS by operator==
             => updateInList(DataSource.contractList, newContract, oldContract);
 
-
+        public uint getNextContractID()
+            => DataSource.contractList.Count != 0 ? 
+            DataSource.contractList.Max(x => x.contractID) + 1 : 10000000
 
         public bool addEmployer(Employer employer) =>
             addToList(DataSource.employerList, employer);

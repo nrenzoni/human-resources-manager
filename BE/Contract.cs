@@ -1,33 +1,155 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace BE
 {
-    public class Contract
-    {        
-        public uint contractID { get; set; }
+    public class Contract : INotifyPropertyChanged, IEquatable<Contract>
+    {
+        uint _contractID;
+        public uint contractID
+        {
+            get { return _contractID; }
+            set
+            {
+                if(_contractID != value)
+                {
+                    _contractID = value;
+                    NotifyPropertyChanged("contractID");
+                }
+            }
+        }
 
-        public uint EmployerID { get; set; }
-        public uint EmployeeID { get; set; }
+        uint _EmployerID;
+        public uint EmployerID
+        {
+            get { return _EmployerID; }
+            set
+            {
+                if(_EmployerID != value)
+                {
+                    _EmployerID = value;
+                    NotifyPropertyChanged("EmployerID");
+                }
+            }
+        }
 
+        uint _EmployeeID;
+        public uint EmployeeID
+        {
+            get { return _EmployeeID; }
+            set
+            {
+                if (_EmployeeID != value)
+                {
+                    _EmployeeID = value;
+                    NotifyPropertyChanged("EmployeeID");
+                }
+            }
+        }
 
-        public bool isInterviewed { get; set; }
+        bool _isInterviewed;
+        public bool isInterviewed
+        {
+            get { return _isInterviewed; }
+            set
+            {
+                if(_isInterviewed != value)
+                {
+                    _isInterviewed = value;
+                    NotifyPropertyChanged("isInterviewed");
+                }
+            }
+        }
 
-        public bool contractFinalized { get; set; } // contract was signed by both parties
+        bool _contractFinalized;
+        public bool contractFinalized  // contract was signed by both parties
+        {
+            get { return _contractFinalized; }
+            set
+            {
+                if (_contractFinalized != value)
+                {
+                    _contractFinalized = value;
+                    NotifyPropertyChanged("contractFinalized");
+                }
+            }
+        }
 
-        public double grossWagePerHour { get; set; } // before taxes etc
-        public double netWagePerHour { get; set; } // payment employee receives
+        double _grossWagePerHour;
+        public double grossWagePerHour // before taxes etc
+        {
+            get { return _grossWagePerHour; }
+            set
+            {
+                if (_grossWagePerHour != value)
+                {
+                    _grossWagePerHour = value;
+                    NotifyPropertyChanged("grossWagePerHour");
+                }
+            }
+        }
+
+        double _netWagePerHour;
+        public double netWagePerHour // payment employee receives
+        {
+            get { return _netWagePerHour; }
+            set
+            {
+                if (_netWagePerHour != value)
+                {
+                    _netWagePerHour = value;
+                    NotifyPropertyChanged("netWagePerHour");
+                }
+            }
+        }
 
         public double profit { get { return grossWagePerHour - netWagePerHour; } }
 
-        public DateTime contractEstablishedDate { get; set; }
-        public DateTime contractTerminatedDate { get; set; }
+        DateTime _contractEstablishedDate;
+        public DateTime contractEstablishedDate
+        {
+            get { return _contractEstablishedDate; }
+            set
+            {
+                if (_contractEstablishedDate != value)
+                {
+                    _contractEstablishedDate = value;
+                    NotifyPropertyChanged("contractEstablishedDate");
+                }
+            }
+        }
 
+        DateTime _contractTerminatedDate;
+        public DateTime contractTerminatedDate
+        {
+            get { return _contractTerminatedDate; }
+            set
+            {
+                if (_contractTerminatedDate != value)
+                {
+                    _contractTerminatedDate = value;
+                    NotifyPropertyChanged("contractTerminatedDate");
+                }
+            }
+        }
 
-        public uint maxWorkHours { get; set; } // per week
+        uint _maxWorkHours;
+        public uint maxWorkHours  // per week
+        {
+            get { return _maxWorkHours; }
+            set
+            {
+                if (_maxWorkHours != value)
+                {
+                    _maxWorkHours = value;
+                    NotifyPropertyChanged("maxWorkHours");
+                }
+            }
+        }
 
         public override string ToString()
             => "ID: " + contractID + ", Employer ID: " + EmployerID + ", Employee ID: " + EmployeeID + " " +
@@ -40,14 +162,25 @@ namespace BE
             ", max work hours: " + maxWorkHours;
 
 
-        public static bool operator ==(Contract c1, Contract c2)
-        {
-            return c1.contractID == c2.contractID;
-        }
+        //public static bool operator ==(Contract c1, Contract c2)
+        //{
+        //    return c1.contractID == c2.contractID;
+        //}
 
-        public static bool operator !=(Contract c1, Contract c2)
+        public bool Equals(Contract other)
+         => contractID == other.contractID;
+
+        //public static bool operator !=(Contract c1, Contract c2)
+        //{
+        //    return c1.contractID != c2.contractID;
+        //}
+
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        public void NotifyPropertyChanged(string propName)
         {
-            return c1.contractID != c2.contractID;
+            if (PropertyChanged != null)
+                PropertyChanged(this, new PropertyChangedEventArgs(propName));
         }
     }
 }

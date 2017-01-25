@@ -42,7 +42,7 @@ namespace PLWPF
             {
                 // ID is for employer
                 case BE.converterParams.Employer:
-                    if (BL_Object.getEmployerList().Exists(e => e.ID == IDtoCheck))
+                    if (BL_Object.getEmployerList().ToList().Exists(e => e.ID == IDtoCheck))
                         return "False"; // can't add if item exists
                     return "True";
                 case BE.converterParams.Employee:
@@ -76,6 +76,23 @@ namespace PLWPF
         public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
         {
             throw new NotImplementedException("InverseIDToIsEnabledConverter does not implement ConvertBack");
+        }
+    }
+
+    public class InverseBoolConverter : IValueConverter
+    {
+        public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+            if (value.GetType() == typeof(bool))
+            {
+                return (bool)value ? "False" : "True";
+            }
+            else throw new Exception("cannot perform InverseBoolConverter on non-bool type");
+        }
+
+        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+            throw new NotImplementedException();
         }
     }
 }

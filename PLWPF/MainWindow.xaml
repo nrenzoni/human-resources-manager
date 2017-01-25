@@ -7,12 +7,12 @@
         mc:Ignorable="d"
         Title="Contracter" SizeToContent="WidthAndHeight" ResizeMode="NoResize" Topmost="True" Icon="group-of-people-in-a-formation.png">
     <Grid>
-        <TabControl>
+        <TabControl SelectedIndex="0" x:Name="mainTab">
             <TabItem Header="View">
-                <local:ViewUserControl />
+                <local:ViewUserControl x:Name="viewUC" />
             </TabItem>
             <TabItem Header="Edit">
-                <local:Edit_UserControl x:Name="editControl">
+                <local:Edit_UserControl x:Name="editUC">
                 </local:Edit_UserControl>
             </TabItem>
         </TabControl>

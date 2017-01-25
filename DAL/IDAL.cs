@@ -25,6 +25,7 @@ namespace DAL
         bool addContract(Contract contract);
         bool deleteContract(Contract contract);
         bool updateContract(Contract oldContract, Contract newContract);
+        uint getNextContractID();
 
         bool addEmployer(Employer employer);
         bool deleteEmployer(Employer employer);

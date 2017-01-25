@@ -4,12 +4,12 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:PLWPF"
-             mc:Ignorable="d" 
+             mc:Ignorable="d"
              Style="{StaticResource UserControlStyle}">
 
     <DockPanel>
 
-        <StackPanel Style="{StaticResource StackPanelButtonPane}">
+        <StackPanel Style="{StaticResource StackPanelButtonPane}" Width="75">
             <StackPanel.Resources>
                 <Style TargetType="Button" BasedOn="{StaticResource baseButtonStyle}"/>
             </StackPanel.Resources>
@@ -21,12 +21,20 @@
                     </StackPanel>
                 </Button.Content>
             </Button>
-            <Button Content="Finalize" Name="finalizeNewContract_Button" Visibility="Collapsed"/>
+            <Button Content="Save" Name="SaveNewContract_Button" Click="saveNewContract_Click" Visibility="Collapsed"/>
             <Button Content="Cancel" Name="CancelNewContract_Button" Click="CancelNewContract_Click" Visibility="Collapsed"/>
             <Button Name="TerminateContract_Button">
                 <Button.Content>
                     <StackPanel>
                         <TextBlock Text="Terminate" HorizontalAlignment="Center"/>
+                        <TextBlock Text="Contract"/>
+                    </StackPanel>
+                </Button.Content>
+            </Button>
+            <Button Name="FinalizeContract_Button" Click="FinalizeButton_Click" Visibility="{Binding contractFinalized, Converter={StaticResource visibilityConverter}}" IsEnabled="{Binding contractFinalized, Converter={StaticResource InverseBoolConverter}}">
+                <Button.Content>
+                    <StackPanel>
+                        <TextBlock Text="Finalize" HorizontalAlignment="Center"/>
                         <TextBlock Text="Contract"/>
                     </StackPanel>
                 </Button.Content>
@@ -59,35 +67,35 @@
             </Grid.Resources>
 
             <TextBlock Text="Contract ID:"/>
-            <ComboBox Name="txtContractID" Margin="0,5" Grid.Column="2" Width="200" HorizontalAlignment="Left"/>
+            <ComboBox Name="comboContractID" Grid.Column="2" ItemsSource="{Binding}" SelectionChanged="comboContractID_SelectionChanged" DisplayMemberPath="contractID" IsEditable="True" SelectedIndex="0"/>
 
             <TextBlock Text="Employer ID:" Grid.Row="1"/>
-            <ComboBox Grid.Row="1" Grid.Column="2" Text="{Binding EmployerID}"/>
+            <ComboBox Name="ComboEmployerID" Grid.Row="1" Grid.Column="2" ItemsSource="{Binding}" SelectedItem="{Binding SelectedValue.EmployerID, ElementName=comboContractID ,Mode=TwoWay}" IsEnabled="False"/>
 
             <TextBlock Text="Employee ID:" Grid.Row="2"/>
-            <ComboBox Grid.Row="2" Grid.Column="2" Text="{Binding EmployeeID}"/>
+            <ComboBox Name="ComboEmployeeID" Grid.Row="2" Grid.Column="2" ItemsSource="{Binding}" SelectedItem="{Binding SelectedValue.EmployeeID, ElementName=comboContractID, Mode=TwoWay}" IsEnabled="False"/>
 
             <TextBlock Text="Interviewed:" Grid.Row="3"/>
-            <CheckBox Grid.Row="3" Grid.Column="2" IsChecked="{Binding isInterviewed}"/>
+            <CheckBox Name="checkboxInterviewed" Checked="checkboxInterviewed_Checked" Grid.Row="3" Grid.Column="2" IsChecked="{Binding isInterviewed}" IsEnabled="False"/>
 
             <TextBlock Text="Contract Finalized:" Grid.Row="4"/>
-            <CheckBox Grid.Row="4" Grid.Column="2" IsChecked="{Binding contractFinalized}"/>
+            <CheckBox Name="checkboxFinalized" Grid.Row="4" Grid.Column="2" IsChecked="{Binding contractFinalized}" IsEnabled="False"/>
 
             <TextBlock Text="Gross Wage Per Hour:" Grid.Row="5"/>
-            <TextBox Grid.Row="5" Grid.Column="2" Text="{Binding grossWagePerHour}"/>
+            <TextBox Name="txtGrossWage" Grid.Row="5" Grid.Column="2" Text="{Binding grossWagePerHour, ConverterCulture='he-IL', StringFormat={}{0:C}}" IsEnabled="False"/>
 
             <TextBlock Text="Net Wage Per Hour:" Grid.Row="6"/>
-            <TextBox Grid.Row="6" Grid.Column="2" Text="{Binding netWagePerHour}"/>
+            <TextBox Name="txtNetWage" Grid.Row="6" Grid.Column="2" Text="{Binding netWagePerHour, ConverterCulture='he-IL', StringFormat={}{0:C}}" IsEnabled="False"/>
 
 
             <TextBlock Text="Max Work Hours Per Week:" Grid.Row="7" TextWrapping="Wrap" Width="100" HorizontalAlignment="Left"/>
-            <TextBox Grid.Row="7" Grid.Column="2" Text="{Binding maxWorkHours}" Height="25"/>
+            <TextBox Name="txtMaxWorkHRS" Grid.Row="7" Grid.Column="2" Text="{Binding maxWorkHours}" Height="25" IsEnabled="False"/>
             
             <TextBlock Text="Established Date:" Grid.Row="8"/>
-            <DatePicker Grid.Row="8" Grid.Column="2" Margin="0,5" Width="200" HorizontalAlignment="Left" SelectedDate="{Binding contractEstablishedDate}"/>
+            <DatePicker Grid.Row="8" Grid.Column="2" Margin="0,5" Width="200" HorizontalAlignment="Left" SelectedDate="{Binding contractEstablishedDate}" IsEnabled="False"/>
 
             <TextBlock Text="Termination Date:" Grid.Row="9"/>
-            <DatePicker Grid.Row="9" Grid.Column="2" Margin="0,5" Width="200" HorizontalAlignment="Left" SelectedDate="{Binding contractTerminatedDate}"/>
+            <DatePicker Name="DTtermDate" Grid.Row="9" Grid.Column="2" Margin="0,5" Width="200" HorizontalAlignment="Left" SelectedDate="{Binding contractTerminatedDate}" IsEnabled="False"/>
         </Grid>
 
     </DockPanel>

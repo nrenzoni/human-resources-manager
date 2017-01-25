@@ -25,7 +25,7 @@ namespace BE
         // if not private person then company
         public bool privatePerson { get; set; }
 
-        public uint ID { get; set; }
+        public uint ID { get; set; } // ID does not change
 
         // if privatePerson
         string _firstName;

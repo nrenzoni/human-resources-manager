@@ -25,15 +25,34 @@ namespace PLWPF
     {
         public IBL BL_Object = FactoryBL.IBLInstance;
 
+        public void refreshContractList()
+        {
+            switch (filter_Selection.SelectedIndex)
+            {
+                case 0: // no filter
+                    ContractList.ItemsSource = BL_Object.getContractList();
+                    break;
+                case 1: // unterminated contracts
+                    ContractList.ItemsSource = BL_Object.getContractListByFilter(c => c.contractTerminatedDate > DateTime.Today);
+                    break;
+                case 2: // terminated contracts
+                    ContractList.ItemsSource = BL_Object.getContractListByFilter(c => c.contractTerminatedDate < DateTime.Today);
+                    break;
+                default:
+                    break;
+            }
+        }
+
         GridViewColumnHeader listViewSortCol;
         bool descdingDir = false;
+
+        public event Action<BE.Contract> onContractDoubleClick;
 
         public ViewUserControl()
         {
             InitializeComponent();
-            DataContext = BL_Object.getContractList();
 
-            CollectionView view = (CollectionView)CollectionViewSource.GetDefaultView(ContractList.ItemsSource);
+            //CollectionView view = (CollectionView)CollectionViewSource.GetDefaultView(ContractList.ItemsSource);
         }
 
         /// <summary>
@@ -68,6 +87,30 @@ namespace PLWPF
             }
 
             ContractList.Items.SortDescriptions.Add(new SortDescription(sortBy, newDir));
+        }
+
+        private void ContractList_DoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            var selectedContract = (BE.Contract)ContractList.SelectedItem;
+            onContractDoubleClick?.Invoke(selectedContract);
+        }
+
+        private void filter_selection_Changed(object sender, SelectionChangedEventArgs e)
+        {
+            switch (filter_Selection.SelectedIndex)
+            {
+                case 0: // no filter
+                    ContractList.ItemsSource = BL_Object.getContractList();
+                    break;
+                case 1: // unterminated contracts
+                    ContractList.ItemsSource = BL_Object.getContractListByFilter(c => c.contractTerminatedDate > DateTime.Today);
+                    break;
+                case 2: // terminated contracts
+                    ContractList.ItemsSource = BL_Object.getContractListByFilter(c => c.contractTerminatedDate < DateTime.Today);
+                    break;
+                default:
+                    break;
+            }
         }
     }
 }

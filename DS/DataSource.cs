@@ -7,7 +7,7 @@ using BE;
 
 namespace DS
 {
-    static public class DataSource
+    public class DataSource
     {
         public static List<Employee> employeeList = new List<Employee>();
         public static List<Employer> employerList = new List<Employer>();
@@ -124,8 +124,8 @@ namespace DS
         {
             Random randGen = new Random();
 
-            int[] randIDs = (from num in Enumerable.Range(1, 10)
-                             select randGen.Next(10000000, 100000000)).ToArray();
+            int[] sequencialIDs = (from num in Enumerable.Range(10000000, 10)
+                             select num).ToArray();
 
             DateTime[] ContractStartDates = (from offset in Enumerable.Range(1, 10)
                                              select new DateTime(1980, 1, 1).AddYears(randGen.Next(20)).AddMonths(randGen.Next(12)).AddDays(randGen.Next(30))).ToArray();
@@ -140,7 +140,7 @@ namespace DS
                 {
                     contractEstablishedDate = ContractStartDates[i],
                     contractTerminatedDate = ContractTermDates[i],
-                    contractID = (uint)randIDs[i],
+                    contractID = (uint)sequencialIDs[i],
                     contractFinalized = (randGen.Next(0, 1) == 0 ? true : false),
                     isInterviewed = (randGen.Next(0, 1) == 0 ? true : false),
                     EmployeeID = employeeList[i].ID,

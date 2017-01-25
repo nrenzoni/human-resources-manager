@@ -6,6 +6,8 @@
     <Application.Resources>
         <local:IDToIsEnabledConverter x:Key="IDToIsEnabledConverter" />
         <local:InverseIDToIsEnabledConverter x:Key="InverseIDToIsEnabledConverter" />
+        <local:InverseBoolConverter x:Key="InverseBoolConverter" />
+        <BooleanToVisibilityConverter x:Key="visibilityConverter" />
 
         <Style x:Key="UserControlStyle" TargetType="UserControl">
             <Setter Property="Margin" Value="15,15,15,0"/>
@@ -19,12 +21,6 @@
             <Setter Property="Margin" Value="15,0,0,0"/>
         </Style>
 
-        <Style x:Key="ComboBox_in_Grid_Style" TargetType="ComboBox">
-            <Setter Property="Margin" Value="0,5" />
-            <Setter Property="Width" Value="200"/>
-            <Setter Property="HorizontalAlignment" Value="Left"/>
-        </Style>
-        
         <Style x:Key="baseButtonStyle" TargetType="Button">
             <Setter Property="Padding" Value="10"/>
             <Setter Property="Margin" Value="0,10,0,0"/>
@@ -42,6 +38,14 @@
             <Setter Property="Content" Value="Update"/>
         </Style>
 
+        
+        
+        <Style x:Key="ComboBox_in_Grid_Style" TargetType="ComboBox">
+            <Setter Property="Margin" Value="0,5" />
+            <Setter Property="Width" Value="200"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+        </Style>
+        
         <Style x:Key="TextBox_in_Grid_Style" TargetType="TextBox">
             <Setter Property="Width" Value="200"/>
             <Setter Property="HorizontalAlignment" Value="Left"/>

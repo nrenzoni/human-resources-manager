@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using BE;
 using DAL;
+using System.Collections.ObjectModel;
 
 namespace BL
 {
@@ -68,17 +69,11 @@ namespace BL
         public bool addContract(Contract contract)
         {
             #region check if employee and employer exist in DS
-            int temp1 = DAL_Object.getEmployeeList().Count(x => x.ID == contract.EmployeeID);
-            if (temp1 != 1)
+            if (DAL_Object.getEmployeeList().Count(x => x.ID == contract.EmployeeID) != 1)
                 throw new Exception("cannot add contract for employee that does not exist");
-
-            int temp2 = DAL_Object.getEmployerList().Count(x => x.ID == contract.EmployerID);
-                //(from match in DAL_Object.getEmployerList()
-                // where match.EmployerID == contract.EmployerID
-                // select match).Count();
-            if (temp2 != 1)
+            
+            if (DAL_Object.getEmployerList().Count(x => x.ID == contract.EmployerID) != 1)
                 throw new Exception("cannot add contract for employer that does not exist");
-
             #endregion
 
             #region check if company established less than year ago
@@ -142,6 +137,9 @@ namespace BL
 
             return DAL_Object.updateContract(oldContract, newContract);
         }
+
+        public uint getNextContractID()
+            => DAL_Object.getNextContractID();
 
         public bool addEmployer(Employer employer)
         {
@@ -239,15 +237,15 @@ namespace BL
 
 
         public List<Specialization> getSpecilizationList()
-            => DAL_Object.getSpecilizationList();
+            => new List<Specialization>(DAL_Object.getSpecilizationList());
 
         public List<Employee> getEmployeeList()
-            => DAL_Object.getEmployeeList();
+            => new List<Employee>(DAL_Object.getEmployeeList());
 
         public List<Employer> getEmployerList()
-            => DAL_Object.getEmployerList();
+            => new List<Employer>(DAL_Object.getEmployerList());
 
         public List<Contract> getContractList()
-            => DAL_Object.getContractList();
+            => new List<Contract>(DAL_Object.getContractList());
     }
 }

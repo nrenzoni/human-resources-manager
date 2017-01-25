@@ -22,9 +22,22 @@ namespace PLWPF
     /// </summary>
     public partial class MainWindow : Window
     {
+        BL.IBL BL_Object = BL.FactoryBL.IBLInstance;
+
         public MainWindow()
         {
             InitializeComponent();
+            editUC.DS_Edit_Event += EditUC_onChange;
+            viewUC.onContractDoubleClick += ViewUC_onContractDoubleClick;
         }
+
+        private void ViewUC_onContractDoubleClick(Contract obj)
+        {
+            mainTab.SelectedIndex = 1;
+            editUC.open_EditUC_Tab(obj);
+        }
+
+        private void EditUC_onChange()
+         => viewUC.refreshContractList();
     }
 }

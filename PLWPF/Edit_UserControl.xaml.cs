@@ -22,14 +22,24 @@ namespace PLWPF
     {
         BL.IBL BL_Object = BL.FactoryBL.IBLInstance;
 
+        public event Action DS_Edit_Event;
+
+        private void onUCupdate() => DS_Edit_Event?.Invoke();
+
+        public void open_EditUC_Tab(object obj)
+        {
+            if (obj is BE.Contract)
+            {
+                tabC.SelectedIndex = 2; // contractUC
+                contractUC.selectContract(obj as BE.Contract);
+            }
+        }
+
         public Edit_UserControl()
         {
             InitializeComponent();
-        }
-        
-        private void Employer_UserControl_TextInput(object sender, TextCompositionEventArgs e)
-        {
-            MessageBox.Show(e.Text);
+            employerUC.Employer_DS_Change_Event += onUCupdate;
+            contractUC.Contract_DS_Change_Event += onUCupdate;
         }
     }
 }

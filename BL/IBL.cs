@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using BE;
+using System.Collections.ObjectModel;
 
 namespace BL
 {
@@ -20,6 +21,7 @@ namespace BL
         bool addContract(Contract contract);
         bool deleteContract(Contract contract);
         bool updateContract(Contract oldContract, Contract newContract);
+        uint getNextContractID(); // returns next available contract ID
 
         bool addEmployer(Employer employer);
         bool deleteEmployer(Employer employer);
