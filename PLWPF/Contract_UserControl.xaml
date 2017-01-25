@@ -96,6 +96,7 @@
 
             <TextBlock Text="Termination Date:" Grid.Row="9"/>
             <DatePicker Name="DTtermDate" Grid.Row="9" Grid.Column="2" Margin="0,5" Width="200" HorizontalAlignment="Left" SelectedDate="{Binding contractTerminatedDate}" IsEnabled="False"/>
+            <ComboBox x:Name="ComboEmployeeID_Copy" Grid.Row="2" Grid.Column="1" ItemsSource="{Binding}" SelectedItem="{Binding SelectedValue.EmployeeID, ElementName=comboContractID, Mode=TwoWay}" IsEnabled="False" Grid.ColumnSpan="2" Margin="9,5,0,5"/>
         </Grid>
 
     </DockPanel>

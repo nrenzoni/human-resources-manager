@@ -45,12 +45,12 @@ namespace PLWPF
                     if (BL_Object.getEmployerList().ToList().Exists(e => e.ID == IDtoCheck))
                         return "False"; // can't add if item exists
                     return "True";
+
                 case BE.converterParams.Employee:
-                    break;
-                case BE.converterParams.Contract:
-                    break;
-                case BE.converterParams.Spec:
-                    break;
+                    if (BL_Object.getEmployeeList().ToList().Exists(e => e.ID == IDtoCheck))
+                        return "False"; // can't add if item exists
+                    return "True";    
+            
                 default:
                     break;
             }
@@ -69,6 +69,12 @@ namespace PLWPF
         // if int in box, true, else false
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
+            int IDtoCheck;
+
+            // if value is not int, disable add button
+            if (value == null || int.TryParse(value.ToString(), out IDtoCheck) != true)
+                return "False";
+
             var temp = new IDToIsEnabledConverter().Convert(value, targetType, parameter, culture);
             return (string)temp == "True" ? "False" : "True";
         }
@@ -92,7 +98,7 @@ namespace PLWPF
 
         public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
         {
-            throw new NotImplementedException();
+            return new InverseBoolConverter().Convert(value, targetType, parameter, culture);
         }
     }
 }

@@ -26,20 +26,34 @@ namespace PLWPF
 
         private void onUCupdate() => DS_Edit_Event?.Invoke();
 
-        public void open_EditUC_Tab(object obj)
-        {
-            if (obj is BE.Contract)
-            {
-                tabC.SelectedIndex = 2; // contractUC
-                contractUC.selectContract(obj as BE.Contract);
-            }
-        }
-
         public Edit_UserControl()
         {
             InitializeComponent();
             employerUC.Employer_DS_Change_Event += onUCupdate;
             contractUC.Contract_DS_Change_Event += onUCupdate;
+            employeeUC.Employee_DS_Change_Event += onUCupdate;
         }
+
+        public void open_EditUC_Tab(object obj)
+        {
+            if (obj is BE.Contract)
+            {
+                tabC.SelectedIndex = 2; // ContractUc
+                contractUC.selectContract(obj as BE.Contract);
+            }
+            if (obj is BE.Employee)
+            {
+                tabC.SelectedIndex = 1; // EmployeeUc
+              //  employeeUC.selectContract(obj as BE.Employee);
+            }
+            if (obj is BE.Employer)
+            {
+                tabC.SelectedIndex = 0; // EmployeeUc
+                //employerUC.selectContract(obj as BE.Employer);
+            }
+
+        }
+
+      
     }
 }

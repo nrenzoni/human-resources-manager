@@ -57,7 +57,7 @@
                 <TextBox Name="txtEmplyeAddress" Text="{Binding address.Address}"/>
                 <WrapPanel>
                     <Label Content="Ci_ty:" Target="{Binding ElementName=ComEmplyeCity}"/>
-                    <ComboBox Name="ComEmplyeCity" Width="135" Margin="30,0,0,0" Text="{Binding address.City}"/>
+                    <ComboBox Name="ComEmplyeCity" Width="135" Margin="30,0,0,0" Text="{Binding address.City}" SelectionChanged="ComEmplyeCity_SelectionChanged"/>
                 </WrapPanel>
             </StackPanel>
 
