@@ -23,8 +23,12 @@ namespace PLWPF
 
         public event Action Contract_DS_Change_Event;
 
-        private void refreshComboID()
-            => comboContractID.ItemsSource = BL_Object.getContractList();
+        private void refreshComboxesIDs()
+        {
+            comboContractID.ItemsSource = BL_Object.getContractList();
+            ComboEmployerID.ItemsSource = BL_Object.getEmployerList().Select(x => x.ID);
+            ComboEmployeeID.ItemsSource = BL_Object.getEmployeeList().Select(x => x.ID);
+        }
 
         public Contract_UserControl()
         {
@@ -33,10 +37,10 @@ namespace PLWPF
             DataContext = tempContract;
 
             comboContractID.DataContext = BL_Object.getContractList();
-            ComboEmployerID.DataContext = BL_Object.getEmployerList().Select(x => x.ID);
-            ComboEmployeeID.DataContext = BL_Object.getEmployeeList().Select(x => x.ID);
+            ComboEmployerID.ItemsSource = BL_Object.getEmployerList().Select(x => x.ID);
+            ComboEmployeeID.ItemsSource = BL_Object.getEmployeeList().Select(x => x.ID);
 
-            Contract_DS_Change_Event += refreshComboID;
+            Contract_DS_Change_Event += refreshComboxesIDs;
         }
 
         public void selectContract(BE.Contract contract)
@@ -83,10 +87,9 @@ namespace PLWPF
                 BE.Contract copyContract = new BE.Contract();
                 Globals.CopyObject(tempContract, copyContract); // copy bc otherwise added by reference
 
-                if (BL_Object.addContract(copyContract))
-                {
-                    Contract_DS_Change_Event?.Invoke(); // refreshes ContractList in ViewUC
-                }
+                BL_Object.addContract(copyContract); // exception thrown if failed add
+                Contract_DS_Change_Event?.Invoke(); // refreshes ContractList in ViewUC
+                
             }
             catch (Exception ex) { Globals.exceptionHandler(ex); }
             CancelNewContract_Click(sender, e); // restores original buttons

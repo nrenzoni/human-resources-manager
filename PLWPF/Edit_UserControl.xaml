@@ -9,7 +9,7 @@
 
     <Grid>
         
-        <TabControl x:Name="tabC" SelectedIndex="2">
+        <TabControl x:Name="tabC">
             <TabItem Header="Employer">
                 <local:Employer_UserControl x:Name="employerUC"/>
             </TabItem>

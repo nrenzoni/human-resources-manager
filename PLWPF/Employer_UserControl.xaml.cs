@@ -27,12 +27,18 @@ namespace PLWPF
         public Employer_UserControl()
         {
             InitializeComponent();
+            Employer_DS_Change_Event += refreshCombox;
             DataContext = tempEmployer;
 
             ComEmplyeCity.ItemsSource = BE.CivicAddress.Cities;
-            ComEmplyeSpec.ItemsSource = from spec in BL_Object.getSpecilizationList()
-                                  select spec.specilizationName;
+            refreshCombox();
+        }
+
+        private void refreshCombox()
+        {
             ComEmployerID.ItemsSource = BL_Object.getEmployerList();
+            ComEmplyeSpec.ItemsSource = from spec in BL_Object.getSpecilizationList()
+                                        select spec.specilizationName;
         }
 
         // only called when new ID selected from combobox list, if value entered is not in combobox list, not called
@@ -61,8 +67,8 @@ namespace PLWPF
             {
                 BE.Employer addEmployer = new BE.Employer();
                 Globals.CopyObject(tempEmployer, addEmployer);
-                BL_Object.addEmployer(addEmployer);
-                Employer_DS_Change_Event?.Invoke();
+                BL_Object.addEmployer(addEmployer); // added as reference, therefore copy needed
+                Employer_DS_Change_Event?.Invoke(); // invoked if no exception thrown from addEmployer method
             }
             catch (Exception ex) { Globals.exceptionHandler(ex); }
         }

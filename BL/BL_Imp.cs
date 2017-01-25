@@ -20,8 +20,12 @@ namespace BL
 
         public bool deleteSpecilization(Specialization specilization)
         {
-            if (DAL_Object.getEmployeeList().Find(e => e.specializationID == specilization.ID) != default(Employee))
+            if (DAL_Object.getEmployeeList().Exists(e => e.specializationID == specilization.ID) != true)
                 throw new Exception("cannot delete specialization, in use by employee");
+
+            if(DAL_Object.getEmployerList().Exists(e=> e.specializationName == specilization.specilizationName) != true)
+                throw new Exception("cannot delete specialization, in use by employer");
+
             return DAL_Object.deleteSpecilization(specilization);
         }
 
@@ -144,7 +148,7 @@ namespace BL
         public bool addEmployer(Employer employer)
         {
             // establishment date is in the future
-            if ((DateTime.Today - employer.establishmentDate).Days < 0)
+            if (DateTime.Today < employer.establishmentDate)
                 throw new Exception("establishment date of employer cannot be in future");
 
             // company name already exists
@@ -177,16 +181,18 @@ namespace BL
         }
 
         public IEnumerable<Contract> getContractListByFilter(Predicate<Contract> condition)
+         => from contr in DAL_Object.getContractList()
+                       where condition(contr) == true
+                       select contr;
+
+        public IEnumerable<Contract> getContractListByFilter(Predicate<Contract> condition, out int count)
         {
-            if (condition == null) return DAL_Object.getContractList();
-
-            return from contr in DAL_Object.getContractList()
-                   where condition(contr) == true
-                   select contr;
+            var filtered = from contr in DAL_Object.getContractList()
+                       where condition(contr) == true
+                       select contr;
+            count = filtered.Count();
+            return filtered;
         }
-
-        public int ContractListByFilterCount(Predicate<Contract> condition) =>
-            getContractListByFilter(condition).Count();
 
         public IEnumerable<IGrouping<Specialization, Contract>> groupContractByEmployeeSpec(bool ordered = false)
          => from contr in DAL_Object.getContractList()
@@ -196,21 +202,23 @@ namespace BL
                 ordered ? contr_spec.specilizationName : 0
             group contr by contr_spec;
 
-        public IEnumerable<IGrouping<string, Contract>> groupContractByEmployeeCity(bool ordered = false)
-         => from contr in DAL_Object.getContractList()
-            let contr_employee = DAL_Object.getEmployeeList().Find(e => e.ID == contr.EmployeeID)
-            let contr_employee_city = contr_employee.address.City
-            orderby // if ordered = true, first order contracts by contract employee city, then group
-                ordered ? contr_employee_city : default(string) // null
-            group contr by contr_employee_city;
-
         public IEnumerable<IGrouping<string, Contract>> groupContractByEmployerCity(bool ordered = false)
         => from contr in DAL_Object.getContractList()
            let contr_employer = DAL_Object.getEmployerList().Find(e => e.ID == contr.EmployerID)
-           let contr_employer_city = contr_employer.address.City
-           orderby // if ordered = true, first order contracts by contract employer city, then group
-               ordered ? contr_employer_city : default(string) // null
-           group contr by contr_employer_city;
+           let contr_employer_addr = contr_employer.address
+           orderby // if ordered = true, first order contracts by contract employer city, then address, then group
+               ordered ? contr_employer_addr.City : null,
+               ordered ? contr_employer_addr.Address : null
+           group contr by contr_employer_addr.City;
+
+        public IEnumerable<IGrouping<string, Contract>> groupContractByEmployeeCity(bool ordered = false)
+         => from contr in DAL_Object.getContractList()
+            let contr_employee = DAL_Object.getEmployeeList().Find(e => e.ID == contr.EmployeeID)
+            let contr_employee_city_addr = contr_employee.address
+            orderby // if ordered = true, first order contracts by contract employee city, then group
+                ordered ? contr_employee_city_addr.City : null,
+                ordered ? contr_employee_city_addr.Address : null
+            group contr by contr_employee_city_addr.City;
 
         // profit by year of management company
         public IEnumerable<IGrouping<int, double>> getProfitByYear(bool ordered=false) // <int=year (key), double=yearly profit>

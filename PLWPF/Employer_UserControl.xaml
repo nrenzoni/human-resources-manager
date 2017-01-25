@@ -37,7 +37,7 @@
             </Grid.Resources>
 
             <Label Content="_ID:" Target="{Binding ElementName=ComEmployerID}"/>
-            <ComboBox Name="ComEmployerID" Grid.Column="1" ItemsSource="{Binding}" DisplayMemberPath="ID"  IsEditable="True" SelectedIndex="0" SelectionChanged="ComEmployerID_SelectionChanged" />
+            <ComboBox Name="ComEmployerID" Grid.Column="1" DisplayMemberPath="ID"  IsEditable="True" SelectedIndex="0" SelectionChanged="ComEmployerID_SelectionChanged" />
 
             <Label Content="_First Name:" Target="{Binding ElementName=txtEmplyeFirstName}" Grid.Row="1"/>
             <TextBox Name="txtEmplyeFirstName" Grid.Row="1" Grid.Column="1" Text="{Binding firstName}"/>

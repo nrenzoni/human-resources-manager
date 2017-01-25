@@ -71,12 +71,25 @@
             </ListView.View>
         </ListView>
 
-        <TextBlock Text="Filter By:" Grid.Row="2" HorizontalAlignment="Right" Margin="15,0"/>
-        <ComboBox Grid.Row="2" Name="filter_Selection" Grid.Column="1" Width="100" SelectedIndex="0" SelectionChanged="filter_selection_Changed">
-            <ComboBoxItem>None</ComboBoxItem>
-            <ComboBoxItem>Unterminated</ComboBoxItem>
-            <ComboBoxItem>Terminated</ComboBoxItem>
-        </ComboBox>
+        <WrapPanel Grid.Row="2" HorizontalAlignment="Right" Grid.ColumnSpan="2" Margin="0,0,15,0" >
+            <WrapPanel>
+                <TextBlock Text="Group By:" Margin="15,0"/>
+                <ComboBox Name="group_Selection" Width="100" SelectedIndex="0" SelectionChanged="group_selection_Changed">
+                    <ComboBoxItem>None</ComboBoxItem>
+                    <ComboBoxItem>Employer Name</ComboBoxItem>
+                    <ComboBoxItem>Employee Name</ComboBoxItem>
+                    <ComboBoxItem>City</ComboBoxItem>
+                </ComboBox>
+            </WrapPanel>
+            <WrapPanel >
+                <TextBlock Text="Filter By:" Margin="15,0"/>
+                <ComboBox Name="filter_Selection" Width="100" SelectedIndex="0" SelectionChanged="filter_selection_Changed">
+                    <ComboBoxItem>None</ComboBoxItem>
+                    <ComboBoxItem>Unterminated</ComboBoxItem>
+                    <ComboBoxItem>Terminated</ComboBoxItem>
+                </ComboBox>
+            </WrapPanel>
+        </WrapPanel>
 
         <StackPanel  Grid.Row="3" >
             <WrapPanel>

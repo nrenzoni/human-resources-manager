@@ -112,5 +112,10 @@ namespace PLWPF
                     break;
             }
         }
+
+        private void group_selection_Changed(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }

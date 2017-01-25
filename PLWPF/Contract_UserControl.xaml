@@ -70,10 +70,10 @@
             <ComboBox Name="comboContractID" Grid.Column="2" ItemsSource="{Binding}" SelectionChanged="comboContractID_SelectionChanged" DisplayMemberPath="contractID" IsEditable="True" SelectedIndex="0"/>
 
             <TextBlock Text="Employer ID:" Grid.Row="1"/>
-            <ComboBox Name="ComboEmployerID" Grid.Row="1" Grid.Column="2" ItemsSource="{Binding}" SelectedItem="{Binding SelectedValue.EmployerID, ElementName=comboContractID ,Mode=TwoWay}" IsEnabled="False"/>
+            <ComboBox Name="ComboEmployerID" Grid.Row="1" Grid.Column="2" SelectedItem="{Binding SelectedValue.EmployerID, ElementName=comboContractID}" IsEnabled="False"/>
 
             <TextBlock Text="Employee ID:" Grid.Row="2"/>
-            <ComboBox Name="ComboEmployeeID" Grid.Row="2" Grid.Column="2" ItemsSource="{Binding}" SelectedItem="{Binding SelectedValue.EmployeeID, ElementName=comboContractID, Mode=TwoWay}" IsEnabled="False"/>
+            <ComboBox Name="ComboEmployeeID" Grid.Row="2" Grid.Column="2" SelectedItem="{Binding SelectedValue.EmployeeID, ElementName=comboContractID}" IsEnabled="False"/>
 
             <TextBlock Text="Interviewed:" Grid.Row="3"/>
             <CheckBox Name="checkboxInterviewed" Checked="checkboxInterviewed_Checked" Grid.Row="3" Grid.Column="2" IsChecked="{Binding isInterviewed}" IsEnabled="False"/>

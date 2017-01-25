@@ -14,7 +14,7 @@ namespace PLWPF
 
         public static void exceptionHandler(Exception ex)
         {
-            MessageBox.Show(ex.Message + "\n" + ex.InnerException, "Exception Caught!", MessageBoxButton.OK, MessageBoxImage.Error);
+            MessageBox.Show(ex.Message + "\n" + ex.InnerException, "Message", MessageBoxButton.OK, MessageBoxImage.Error);
         }
 
         public static  void CopyObject(object inObj, object outObj)
