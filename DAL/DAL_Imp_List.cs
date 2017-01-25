@@ -88,8 +88,8 @@ namespace DAL
             => updateInList(DataSource.contractList, newContract, oldContract);
 
         public uint getNextContractID()
-            => DataSource.contractList.Count != 0 ? 
-            DataSource.contractList.Max(x => x.contractID) + 1 : 10000000
+            => DataSource.contractList.Count != 0 ?
+            DataSource.contractList.Max(x => x.contractID) + 1 : 10000000;
 
         public bool addEmployer(Employer employer) =>
             addToList(DataSource.employerList, employer);
