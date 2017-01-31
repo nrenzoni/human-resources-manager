@@ -22,53 +22,77 @@
         <ListView Margin="10" Name="ContractList" Grid.ColumnSpan="2" Grid.Row="1" Height="300" MouseDoubleClick="ContractList_DoubleClick">
             <ListView.Resources>
                 <Style TargetType="{x:Type GridViewColumnHeader}">
-                    <Setter Property="HorizontalContentAlignment" Value="Left"/>
+                    <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                </Style>
+                <Style TargetType="ListViewItem">
+                    <Setter Property="HorizontalContentAlignment" Value="Center"/>
                 </Style>
             </ListView.Resources>
             <ListView.View>
                 <GridView>
-                    <GridViewColumn DisplayMemberBinding="{Binding contractID}">
+                    <GridViewColumn DisplayMemberBinding="{Binding contract.contractID, Mode=OneWay}">
                         <GridViewColumn.Header>
                             <GridViewColumnHeader Content="Contract ID" Tag="contractID" Click="ContractListHeader_Click" />
                         </GridViewColumn.Header>
                     </GridViewColumn>
-                    <GridViewColumn DisplayMemberBinding="{Binding EmployerID}">
+                    <GridViewColumn DisplayMemberBinding="{Binding contract.EmployerID, Mode=OneWay}">
                         <GridViewColumn.Header>
                             <GridViewColumnHeader Content="Employer ID" Tag="EmployerID" Click="ContractListHeader_Click"/>
                         </GridViewColumn.Header>
                     </GridViewColumn>
-                    <GridViewColumn DisplayMemberBinding="{Binding EmployeeID}" >
+                    <GridViewColumn DisplayMemberBinding="{Binding contract.EmployeeID, Mode=OneWay}" >
                         <GridViewColumn.Header>
                             <GridViewColumnHeader Content="Employee ID" Tag="EmployeeID" Click="ContractListHeader_Click"/>
                         </GridViewColumn.Header>
                     </GridViewColumn>
-                    <GridViewColumn DisplayMemberBinding="{Binding isInterviewed}">
+                    <GridViewColumn>
                         <GridViewColumn.Header>
                             <GridViewColumnHeader Content="Interviewed" Tag="isInterviewed" Click="ContractListHeader_Click"/>
                         </GridViewColumn.Header>
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <CheckBox IsChecked="{Binding contract.isInterviewed, Mode=OneWay}" IsEnabled="False"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
                     </GridViewColumn>
-                    <GridViewColumn DisplayMemberBinding="{Binding contractFinalized}">
+                    <GridViewColumn>
                         <GridViewColumn.Header>
                             <GridViewColumnHeader Content="Finalized" Tag="contractFinalized" Click="ContractListHeader_Click"/>
                         </GridViewColumn.Header>
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <CheckBox IsChecked="{Binding contract.contractFinalized, Mode=OneWay}" IsEnabled="False"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                        
                     </GridViewColumn>
-                    <GridViewColumn DisplayMemberBinding="{Binding profit, ConverterCulture='he-IL', StringFormat={}{0:C}}">
+                    <GridViewColumn DisplayMemberBinding="{Binding contract.profit, ConverterCulture='he-IL', StringFormat={}{0:C}}">
                         <GridViewColumn.Header>
                             <GridViewColumnHeader Content="Profit" Tag="profit" Click="ContractListHeader_Click"/>
                         </GridViewColumn.Header>
                     </GridViewColumn>
-                    <GridViewColumn DisplayMemberBinding="{Binding contractEstablishedDate, StringFormat={}{0:dd/MM/yyyy}}">
+                    <GridViewColumn DisplayMemberBinding="{Binding contract.contractEstablishedDate, StringFormat={}{0:dd/MM/yyyy}, Mode=OneWay}">
                         <GridViewColumn.Header>
                             <GridViewColumnHeader Content="Established" Tag="contractEstablishedDate" Click="ContractListHeader_Click"/>
                         </GridViewColumn.Header>
                     </GridViewColumn>
-                    <GridViewColumn DisplayMemberBinding="{Binding contractTerminatedDate, StringFormat={}{0:dd/MM/yyyy}}">
+                    <GridViewColumn DisplayMemberBinding="{Binding contract.contractTerminatedDate, StringFormat={}{0:dd/MM/yyyy}, Mode=OneWay}">
                         <GridViewColumn.Header>
                             <GridViewColumnHeader Content="Termination" Tag="contractTerminatedDate" Click="ContractListHeader_Click"/>
                         </GridViewColumn.Header>
                     </GridViewColumn>
                 </GridView>
             </ListView.View>
+
+            <ListView.GroupStyle>
+                <GroupStyle>
+                    <GroupStyle.HeaderTemplate>
+                        <DataTemplate>
+                            <TextBlock FontWeight="Bold" FontSize="18" Text="{Binding Name}"/>
+                        </DataTemplate>
+                    </GroupStyle.HeaderTemplate>
+                </GroupStyle>
+            </ListView.GroupStyle>
         </ListView>
 
         <WrapPanel Grid.Row="2" HorizontalAlignment="Right" Grid.ColumnSpan="2" Margin="0,0,15,0" >
@@ -76,8 +100,8 @@
                 <TextBlock Text="Group By:" Margin="15,0"/>
                 <ComboBox Name="group_Selection" Width="100" SelectedIndex="0" SelectionChanged="group_selection_Changed">
                     <ComboBoxItem>None</ComboBoxItem>
-                    <ComboBoxItem>Employer Name</ComboBoxItem>
-                    <ComboBoxItem>Employee Name</ComboBoxItem>
+                    <ComboBoxItem>Employer City</ComboBoxItem>
+                    <ComboBoxItem>Employee City</ComboBoxItem>
                     <ComboBoxItem>City</ComboBoxItem>
                 </ComboBox>
             </WrapPanel>

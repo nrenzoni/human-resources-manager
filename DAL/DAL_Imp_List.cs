@@ -20,10 +20,10 @@ namespace DAL
 
         bool deleteFromList<T>(List<T> list, T element) where T : class
         {
-            int foundIndex = list.FindIndex(x => x == element); // comparision based on specilizationID
+            int foundIndex = list.FindIndex(x => Equals(x,element)); // comparision based on specilizationID
             if (foundIndex != -1)
             {
-                DataSource.specList.RemoveAt(foundIndex);
+                list.RemoveAt(foundIndex);
                 return true;
             }
             else throw new Exception("cannot delete, " + nameof(element) + " not found in " + nameof(list));

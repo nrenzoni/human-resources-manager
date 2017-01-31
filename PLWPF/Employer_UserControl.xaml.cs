@@ -51,7 +51,7 @@ namespace PLWPF
             BE.Employer foundEmployer = BL_Object.getEmployerList().FirstOrDefault(x => x == (BE.Employer)ComEmployerID.SelectedItem);
             
 
-            if (foundEmployer.Equals( null))
+            if (ReferenceEquals(null, foundEmployer))
             {
                 foundEmployer = new BE.Employer();
                 return;

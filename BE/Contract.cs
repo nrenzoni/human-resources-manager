@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BE
 {
-    public class Contract : INotifyPropertyChanged, IEquatable<Contract>
+    public class Contract : INotifyPropertyChanged
     {
         uint _contractID;
         public uint contractID
@@ -167,8 +167,8 @@ namespace BE
         //    return c1.contractID == c2.contractID;
         //}
 
-        public bool Equals(Contract other)
-         => contractID == other.contractID;
+        public override bool Equals(object other)
+         => contractID == (other as Contract)?.contractID;
 
         //public static bool operator !=(Contract c1, Contract c2)
         //{

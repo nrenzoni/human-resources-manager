@@ -24,16 +24,54 @@ namespace PLWPF
     public partial class ViewUserControl : UserControl
     {
         public IBL BL_Object = FactoryBL.IBLInstance;
+        GridViewColumnHeader listViewSortCol;
+        bool descdingDir = false;
+        public event Action<BE.Contract> onContractDoubleClick;
+
+        public ViewUserControl() { InitializeComponent();}
 
         public void refreshContractList()
         {
+            CollectionView contractListView = (CollectionView)CollectionViewSource.GetDefaultView(ContractList.ItemsSource);
+
+            switch (group_Selection.SelectedIndex)
+            {
+                case 0: // no grouping
+                    contractListView?.GroupDescriptions.Clear();
+                    break;
+
+                case 1: // employer city
+                    ContractList.ItemsSource = BL_Object.groupContractByEmployerCity(true);
+                    contractListView = (CollectionView)CollectionViewSource.GetDefaultView(ContractList.ItemsSource);
+                    contractListView.GroupDescriptions.Add(new PropertyGroupDescription("key"));
+                    return;
+
+                default:
+                    break;
+            }
+
+            if (filter_Selection == null) return; // when called at program initialization, filter_selection is null
+
             switch (filter_Selection.SelectedIndex)
             {
                 case 0: // no filter
-                    ContractList.ItemsSource = BL_Object.getContractList();
+                    if (ContractList.Items.Count == 0)
+                        ContractList.ItemsSource = from contr in BL_Object.getContractList()
+                                                   select new ContractGroupingContainer { key = null, contract = contr };
                     break;
                 case 1: // unterminated contracts
-                    ContractList.ItemsSource = BL_Object.getContractListByFilter(c => c.contractTerminatedDate > DateTime.Today);
+                    //ContractList.ItemsSource = 
+                    //    from contr in BL_Object.getContractListByFilter(c => c.contractTerminatedDate > DateTime.Today)
+                    //    select new ContractGroupingContainer { key = null, contract = contr };
+
+                    List<ContractGroupingContainer> filtered_list = new List<ContractGroupingContainer>();
+                    foreach (ContractGroupingContainer item in ContractList.Items)
+                    {
+                        if (item.contract.contractTerminatedDate < DateTime.Today)
+                            filtered_list.Add(item);
+                    }
+                    ContractList.ItemsSource = filtered_list;
+
                     break;
                 case 2: // terminated contracts
                     ContractList.ItemsSource = BL_Object.getContractListByFilter(c => c.contractTerminatedDate < DateTime.Today);
@@ -41,18 +79,6 @@ namespace PLWPF
                 default:
                     break;
             }
-        }
-
-        GridViewColumnHeader listViewSortCol;
-        bool descdingDir = false;
-
-        public event Action<BE.Contract> onContractDoubleClick;
-
-        public ViewUserControl()
-        {
-            InitializeComponent();
-
-            //CollectionView view = (CollectionView)CollectionViewSource.GetDefaultView(ContractList.ItemsSource);
         }
 
         /// <summary>
@@ -91,31 +117,15 @@ namespace PLWPF
 
         private void ContractList_DoubleClick(object sender, MouseButtonEventArgs e)
         {
-            var selectedContract = (BE.Contract)ContractList.SelectedItem;
+            Contract selectedContract = (ContractList.SelectedItem as ContractGroupingContainer)?.contract;
+            if (selectedContract == null) return;
             onContractDoubleClick?.Invoke(selectedContract);
         }
 
         private void filter_selection_Changed(object sender, SelectionChangedEventArgs e)
-        {
-            switch (filter_Selection.SelectedIndex)
-            {
-                case 0: // no filter
-                    ContractList.ItemsSource = BL_Object.getContractList();
-                    break;
-                case 1: // unterminated contracts
-                    ContractList.ItemsSource = BL_Object.getContractListByFilter(c => c.contractTerminatedDate > DateTime.Today);
-                    break;
-                case 2: // terminated contracts
-                    ContractList.ItemsSource = BL_Object.getContractListByFilter(c => c.contractTerminatedDate < DateTime.Today);
-                    break;
-                default:
-                    break;
-            }
-        }
+        => refreshContractList();
 
         private void group_selection_Changed(object sender, SelectionChangedEventArgs e)
-        {
-
-        }
+        => refreshContractList();
     }
 }

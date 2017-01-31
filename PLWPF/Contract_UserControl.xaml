@@ -23,7 +23,7 @@
             </Button>
             <Button Content="Save" Name="SaveNewContract_Button" Click="saveNewContract_Click" Visibility="Collapsed"/>
             <Button Content="Cancel" Name="CancelNewContract_Button" Click="CancelNewContract_Click" Visibility="Collapsed"/>
-            <Button Name="TerminateContract_Button">
+            <Button Name="TerminateContract_Button" Click="TerminContract_Click">
                 <Button.Content>
                     <StackPanel>
                         <TextBlock Text="Terminate" HorizontalAlignment="Center"/>
@@ -90,13 +90,12 @@
 
             <TextBlock Text="Max Work Hours Per Week:" Grid.Row="7" TextWrapping="Wrap" Width="100" HorizontalAlignment="Left"/>
             <TextBox Name="txtMaxWorkHRS" Grid.Row="7" Grid.Column="2" Text="{Binding maxWorkHours}" Height="25" IsEnabled="False"/>
-            
+
             <TextBlock Text="Established Date:" Grid.Row="8"/>
             <DatePicker Grid.Row="8" Grid.Column="2" Margin="0,5" Width="200" HorizontalAlignment="Left" SelectedDate="{Binding contractEstablishedDate}" IsEnabled="False"/>
 
             <TextBlock Text="Termination Date:" Grid.Row="9"/>
             <DatePicker Name="DTtermDate" Grid.Row="9" Grid.Column="2" Margin="0,5" Width="200" HorizontalAlignment="Left" SelectedDate="{Binding contractTerminatedDate}" IsEnabled="False"/>
-            <ComboBox x:Name="ComboEmployeeID_Copy" Grid.Row="2" Grid.Column="1" ItemsSource="{Binding}" SelectedItem="{Binding SelectedValue.EmployeeID, ElementName=comboContractID, Mode=TwoWay}" IsEnabled="False" Grid.ColumnSpan="2" Margin="9,5,0,5"/>
         </Grid>
 
     </DockPanel>

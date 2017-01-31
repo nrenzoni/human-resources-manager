@@ -19,7 +19,7 @@ namespace PLWPF
     public partial class Contract_UserControl : UserControl
     {
         public BL.IBL BL_Object = BL.FactoryBL.IBLInstance;
-        BE.Contract tempContract = new BE.Contract();
+        BE.Contract UIContract = new BE.Contract();
 
         public event Action Contract_DS_Change_Event;
 
@@ -30,11 +30,15 @@ namespace PLWPF
             ComboEmployeeID.ItemsSource = BL_Object.getEmployeeList().Select(x => x.ID);
         }
 
+        // triggers INotify since copy
+        void updateUIContract(BE.Contract newContract)
+            => Globals.CopyObject(newContract, UIContract);
+
         public Contract_UserControl()
         {
             InitializeComponent();
 
-            DataContext = tempContract;
+            DataContext = UIContract;
 
             comboContractID.DataContext = BL_Object.getContractList();
             ComboEmployerID.ItemsSource = BL_Object.getEmployerList().Select(x => x.ID);
@@ -68,8 +72,8 @@ namespace PLWPF
 
             comboContractID.SelectedIndex = -1;
             comboContractID.Text = BL_Object.getNextContractID().ToString();
-            tempContract.contractEstablishedDate = DateTime.Today;
-            tempContract.contractFinalized = false; // finalized in later stage by user clicking button
+            UIContract.contractEstablishedDate = DateTime.Today;
+            UIContract.contractFinalized = false; // finalized in later stage by user clicking button
         }
 
         private void saveNewContract_Click(object sender, RoutedEventArgs e)
@@ -81,11 +85,11 @@ namespace PLWPF
                 if (emplyerID == null || employeeID == null)
                     throw new Exception("please fill out all fields");
 
-                tempContract.EmployerID = (uint)emplyerID;
-                tempContract.EmployeeID = (uint)employeeID;
+                UIContract.EmployerID = (uint)emplyerID;
+                UIContract.EmployeeID = (uint)employeeID;
 
                 BE.Contract copyContract = new BE.Contract();
-                Globals.CopyObject(tempContract, copyContract); // copy bc otherwise added by reference
+                Globals.CopyObject(UIContract, copyContract); // copy bc otherwise added by reference
 
                 BL_Object.addContract(copyContract); // exception thrown if failed add
                 Contract_DS_Change_Event?.Invoke(); // refreshes ContractList in ViewUC
@@ -126,32 +130,42 @@ namespace PLWPF
         private void comboContractID_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             // check if no selection
-            if (((ComboBox)sender).SelectedItem == null)
-                return;
-
-            BE.Contract newSelection = (BE.Contract)e.AddedItems[0];
-
-            // copy values (by use of property get/set) of newSelection to tempContract
-            Globals.CopyObject(newSelection, tempContract);
+            if ((sender as ComboBox)?.SelectedItem == null) return;
+            updateUIContract(e.AddedItems[0] as BE.Contract); // updates UIContract with new selection
         }
-
-
 
         private void FinalizeButton_Click(object sender, RoutedEventArgs e)
         {
-            BE.Contract Contract_ref = BL_Object.getContractListByFilter(x => x.Equals(tempContract)).First();
+            BE.Contract Contract_ref = BL_Object.getContractListByFilter(x => Equals(x,UIContract)).First();
             Contract_ref.contractFinalized = true;
-            Globals.CopyObject(Contract_ref, tempContract);
+            updateUIContract(Contract_ref);
             Contract_DS_Change_Event?.Invoke();
         }
 
         private void checkboxInterviewed_Checked(object sender, RoutedEventArgs e)
         {
             checkboxInterviewed.IsEnabled = false;
-            BE.Contract Contract_ref = BL_Object.getContractListByFilter(x => x.Equals(tempContract)).First();
+            BE.Contract Contract_ref = BL_Object.getContractListByFilter(x => Equals(x,UIContract)).First();
             Contract_ref.isInterviewed = true;
-            Globals.CopyObject(Contract_ref, tempContract);
+            Globals.CopyObject(Contract_ref, UIContract);
             Contract_DS_Change_Event?.Invoke();
+        }
+
+        private void TerminContract_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                BL_Object.terminateContract(UIContract);
+                Contract_DS_Change_Event?.Invoke();
+
+                // refresh UI elements
+                int selectedi = comboContractID.SelectedIndex;
+                comboContractID.SelectedIndex = -1;
+                comboContractID.SelectedIndex = selectedi;
+
+                throw new Exception("Contract terminated successfuly");
+            }
+            catch (Exception ex) { Globals.exceptionHandler(ex); }
         }
     }
 }

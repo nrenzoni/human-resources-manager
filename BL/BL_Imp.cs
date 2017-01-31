@@ -132,14 +132,19 @@ namespace BL
             return DAL_Object.deleteContract(contract);
         }
 
-        public bool updateContract(Contract oldContract, Contract newContract)
+        public bool terminateContract(Contract contract)
         {
             // can only update terminated contract
-            Contract temp = DAL_Object.getContractList().Find(x => x == oldContract);
-            if ((DateTime.Today - temp.contractTerminatedDate).Days >= 0)
-                throw new Exception("cannot update open contract");
+            Contract foundContr = DAL_Object.getContractList().Find(x => Equals(x,contract));
+            if (DateTime.Now < foundContr.contractTerminatedDate) // previous termination date in future
+            {
+                foundContr.contractTerminatedDate = DateTime.Now;
+                return true;
+            }
+            else // contract already terminated
+                throw new Exception("Contract already terminated");
 
-            return DAL_Object.updateContract(oldContract, newContract);
+            //return DAL_Object.updateContract(oldContract, newContract);
         }
 
         public uint getNextContractID()
@@ -180,11 +185,14 @@ namespace BL
             return DAL_Object.updateEmployer(employer);
         }
 
-        public IEnumerable<Contract> getContractListByFilter(Predicate<Contract> condition)
-         => from contr in DAL_Object.getContractList()
-                       where condition(contr) == true
-                       select contr;
-
+        public IEnumerable<Contract> getContractListByFilter(Predicate<Contract> condition = null)
+        { 
+            return condition == null ? 
+                DAL_Object.getContractList() :
+                from contr in DAL_Object.getContractList()
+                where condition(contr) == true
+                select contr;
+        }
         public IEnumerable<Contract> getContractListByFilter(Predicate<Contract> condition, out int count)
         {
             var filtered = from contr in DAL_Object.getContractList()
@@ -194,22 +202,22 @@ namespace BL
             return filtered;
         }
 
-        public IEnumerable<IGrouping<Specialization, Contract>> groupContractByEmployeeSpec(bool ordered = false)
+        public IEnumerable<ContractGroupingContainer> groupContractByEmployeeSpec(bool ordered = false)
          => from contr in DAL_Object.getContractList()
             let contr_employee = DAL_Object.getEmployeeList().Find(e => e.ID == contr.EmployeeID)
             let contr_spec = DAL_Object.getSpecilizationList().Find(s => s.ID == contr_employee.specializationID)
             orderby // if ordered = true, first order contracts by spec name, then group
                 ordered ? contr_spec.specilizationName : 0
-            group contr by contr_spec;
+            select new ContractGroupingContainer { key = contr_spec, contract = contr };
 
-        public IEnumerable<IGrouping<string, Contract>> groupContractByEmployerCity(bool ordered = false)
+        public IEnumerable<ContractGroupingContainer> groupContractByEmployerCity(bool ordered = false)
         => from contr in DAL_Object.getContractList()
            let contr_employer = DAL_Object.getEmployerList().Find(e => e.ID == contr.EmployerID)
            let contr_employer_addr = contr_employer.address
            orderby // if ordered = true, first order contracts by contract employer city, then address, then group
                ordered ? contr_employer_addr.City : null,
                ordered ? contr_employer_addr.Address : null
-           group contr by contr_employer_addr.City;
+           select new ContractGroupingContainer { key = contr_employer_addr.City, contract = contr };
 
         public IEnumerable<IGrouping<string, Contract>> groupContractByEmployeeCity(bool ordered = false)
          => from contr in DAL_Object.getContractList()

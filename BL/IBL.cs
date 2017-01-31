@@ -63,7 +63,7 @@ namespace BL
         /// <param name="oldContract"></param>
         /// <param name="newContract"></param>
         /// <returns></returns>
-        bool updateContract(Contract oldContract, Contract newContract);
+        bool terminateContract(Contract contract);
 
         /// <summary>
         /// returns next available contract ID from DAL
@@ -98,7 +98,7 @@ namespace BL
         /// </summary>
         /// <param name="condition"></param>
         /// <returns></returns>
-        IEnumerable<Contract> getContractListByFilter(Predicate<Contract> condition);
+        IEnumerable<Contract> getContractListByFilter(Predicate<Contract> condition = null);
 
         /// <summary>
         /// overloaded method that returns returns contracts by lambda expression as well as count of filtered contracts as well
@@ -115,7 +115,7 @@ namespace BL
         /// </summary>
         /// <param name="ordered"></param>
         /// <returns></returns>
-        IEnumerable<IGrouping<Specialization, Contract>> groupContractByEmployeeSpec(bool ordered = false);
+        IEnumerable<ContractGroupingContainer> groupContractByEmployeeSpec(bool ordered = false);
 
         /// <summary>
         /// returns contracts grouped by employer city.
@@ -123,7 +123,7 @@ namespace BL
         /// </summary>
         /// <param name="ordered"></param>
         /// <returns></returns>
-        IEnumerable<IGrouping<string, Contract>> groupContractByEmployerCity(bool ordered = false);
+        IEnumerable<ContractGroupingContainer> groupContractByEmployerCity(bool ordered = false);
 
         /// <summary>
         /// returns contracts grouped by employee city.
