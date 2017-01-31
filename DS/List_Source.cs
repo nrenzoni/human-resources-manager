@@ -7,7 +7,7 @@ using BE;
 
 namespace DS
 {
-    public class DataSource
+    public class List_Source
     {
         public static List<Employee> employeeList = new List<Employee>();
         public static List<Employer> employerList = new List<Employer>();
@@ -16,7 +16,7 @@ namespace DS
 
         public static List<Bank> bankList = new List<Bank>();
 
-        static DataSource()
+        static List_Source()
         {
             generateSpecs();
             generateBanks();

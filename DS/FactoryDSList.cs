@@ -8,11 +8,14 @@ namespace DS
 {
     public class FactoryDSList
     {
-        private static DS.DataSource ds_instance;
+        private static DS.List_Source ds_instance;
 
         private FactoryDSList() { }
-        static FactoryDSList() { ds_instance = new DataSource(); }
+        static FactoryDSList()
+        {
+            ds_instance = new List_Source();
+        }
 
-        public static DataSource DSInstance {  get { return ds_instance; } }
+        public static List_Source DSInstance {  get { return ds_instance; } }
     }
 }
