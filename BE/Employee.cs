@@ -262,8 +262,9 @@ namespace BE
             (string.IsNullOrEmpty(_recommendationNotes) ? ", recommendation Notes: " + _recommendationNotes : "") +
             ", Bank Account #: " + _bankAccountNumber;
 
-        public bool Equals(Employee emp)
-            => ID == emp.ID;
+        public override bool Equals(object other)
+            => ID == (other as Employee)?.ID;
+
         public static bool operator ==(Employee e1, Employee e2)
         {
             return e1?.specializationID == e2?.specializationID;
