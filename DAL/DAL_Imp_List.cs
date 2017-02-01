@@ -83,10 +83,6 @@ namespace DAL
         public bool deleteContract(Contract contract) =>
             deleteFromList(List_Source.contractList, contract);
 
-        // updated contract has new ID
-        public bool updateContract(Contract newContract, Contract oldContract) // oldContract needed for finding old Contract in DS by operator==
-            => updateInList(List_Source.contractList, newContract, oldContract);
-
         public uint getNextContractID()
             => List_Source.contractList.Count != 0 ?
             List_Source.contractList.Max(x => x.contractID) + 1 : 10000000;

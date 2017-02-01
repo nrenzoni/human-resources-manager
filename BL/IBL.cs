@@ -10,7 +10,7 @@ namespace BL
 {
     public interface IBL
     {
-        bool addSpecilization(Specialization specilization);
+        bool addSpecialization(Specialization specilization);
 
         /// <summary>
         /// deletes specialization on condition that not in use by employee or employer
@@ -144,5 +144,7 @@ namespace BL
         List<Employee> getEmployeeList();
         List<Employer> getEmployerList();
         List<Contract> getContractList();
+
+        IEnumerable<ContractGroupingContainer> getContractsInContainer();
     }
 }

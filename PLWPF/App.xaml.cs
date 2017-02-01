@@ -49,8 +49,13 @@ namespace PLWPF
                 case BE.converterParams.Employee:
                     if (BL_Object.getEmployeeList().ToList().Exists(e => e.ID == IDtoCheck))
                         return "False"; // can't add if item exists
-                    return "True";    
-            
+                    return "True";
+
+                case BE.converterParams.Spec:
+                    if(BL_Object.getSpecilizationList().Exists(s => s.ID == IDtoCheck))
+                        return "False"; // can't add if item exists
+                    return "True";
+
                 default:
                     break;
             }

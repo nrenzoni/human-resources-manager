@@ -35,9 +35,11 @@ namespace PLWPF
             ComEmplyeeCity.ItemsSource = BE.CivicAddress.Cities;
             ComEmplyeeID.ItemsSource = Bl_Object.getEmployeeList();
             ComEmplyeeEduc.ItemsSource = Enum.GetValues(typeof(BE.Education));
-            ComEmployeSpec.ItemsSource = (from word in (Enum.GetNames(typeof(BE.SpecializationName)))
-                                         select word.Replace("_", " ")).ToList();
-           
+            ComEmployeSpec.ItemsSource = Bl_Object.getSpecilizationList();
+
+            //ComEmployeSpec.ItemsSource = from word in (Enum.GetNames(typeof(BE.SpecializationName)))
+            //                             select word.Replace("_", " ");
+
 
         }
 

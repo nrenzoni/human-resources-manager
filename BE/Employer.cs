@@ -9,19 +9,6 @@ namespace BE
 {
     public class Employer : INotifyPropertyChanged
     {
-        //public Employer(uint ID, string companyname, uint phoneNum, CivicAddress addr, SpecializationName specName, DateTime estabDate, string firstname="", string lastname="", bool isPrivate=false)
-        //{
-        //    privatePerson = isPrivate;
-        //    this.ID = ID;
-        //    firstName = firstname;
-        //    lastName = lastname;
-        //    companyName = companyname;
-        //    phoneNumber = phoneNum;
-        //    address = addr;
-        //    specializationName = specName;
-        //    establishmentDate = estabDate;
-        //}
-
         // if not private person then company
         public bool privatePerson { get; set; }
 
@@ -97,16 +84,16 @@ namespace BE
             }
         }
 
-        SpecializationName _specializationName;  // enum
-        public SpecializationName specializationName
+        uint _specializationID;  // enum
+        public uint specializationID
         {
-            get { return _specializationName; }
+            get { return _specializationID; }
             set
             {
-                if (_specializationName != value)
+                if (_specializationID != value)
                 {
-                    _specializationName = value;
-                    NotifyPropertyChanged("specializationName");
+                    _specializationID = value;
+                    NotifyPropertyChanged("specializationID");
                 }
             }
         }

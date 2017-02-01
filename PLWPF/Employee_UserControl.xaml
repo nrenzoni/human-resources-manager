@@ -103,7 +103,7 @@
             <!--The value Will be assign automaticlly according to the Branch Number--> <!--need to combined the addres and city together in one combobox-->
             
             <Label Content="_Specialization:" Grid.Column="2" Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center" Target="{Binding ElementName=ComEmployeSpec}"/>
-            <ComboBox Name="ComEmployeSpec" SelectedIndex="{Binding specializationID}" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"  Grid.Column="3" Grid.Row="5" Height="25" />
+            <ComboBox Name="ComEmployeSpec" SelectedIndex="{Binding specializationID}" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"  Grid.Column="3" Grid.Row="5" Height="25" DisplayMemberPath="specializationName" />
 
 
         </Grid>

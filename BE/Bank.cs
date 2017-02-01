@@ -8,11 +8,11 @@ namespace BE
 {
     public class Bank
     {
-        string BankName { get; set; }
-        uint BankNumber { get; set; }
-        uint Branch { get; set; }
-        string Address { get; set; }
-        string City { get; set; }
+        public string BankName { get; set; }
+        public uint BankNumber { get; set; }
+        public uint Branch { get; set; }
+        public string Address { get; set; }
+        public string City { get; set; }
 
         public Bank(string _BankName, uint _BankNumber, uint _Branch, string _Address, string _City)
         {

@@ -37,8 +37,7 @@ namespace PLWPF
         private void refreshCombox()
         {
             ComEmployerID.ItemsSource = BL_Object.getEmployerList();
-            ComEmplyeSpec.ItemsSource = from spec in BL_Object.getSpecilizationList()
-                                        select spec.specilizationName;
+            ComEmplyeSpec.ItemsSource = BL_Object.getSpecilizationList();
         }
 
         // only called when new ID selected from combobox list, if value entered is not in combobox list, not called

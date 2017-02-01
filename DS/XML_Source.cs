@@ -70,17 +70,20 @@ namespace DS
             if (typeof(T) == typeof(Specialization))
                 specializationRoot.Save(concatXMLName(specName));
 
-            if (typeof(T) == typeof(Bank))
+            else if (typeof(T) == typeof(Bank))
                 bankRoot.Save(concatXMLName(bankName));
 
-            if (typeof(T) == typeof(Contract))
+            else if (typeof(T) == typeof(Contract))
                 contractRoot.Save(concatXMLName(contractName));
 
-            if (typeof(T) == typeof(Employee))
+            else if (typeof(T) == typeof(Employee))
                 employeeRoot.Save(concatXMLName(employeeName));
 
-            if (typeof(T) == typeof(Employer))
+            else if (typeof(T) == typeof(Employer))
                 employerRoot.Save(concatXMLName(employerName));
+
+            else
+                throw new Exception("bad type passed to T of SaveXML<T>()");
         }
     }
 }
