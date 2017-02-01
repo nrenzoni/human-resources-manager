@@ -62,7 +62,7 @@
             </StackPanel>
 
             <Label Content="_Speciality:" Target="{Binding ElementName=ComEmplyeSpec}" Grid.Row="6"/>
-            <ComboBox Name="ComEmplyeSpec" Grid.Row="6" Grid.Column="1" Text="{Binding specializationName}"/>
+            <ComboBox Name="ComEmplyeSpec" Grid.Row="6" Grid.Column="1" Text="{Binding specializationName}" DisplayMemberPath="specializationName"/>
 
             <Label Content="_Established:" TabIndex="{Binding ElementName=DPEmplyeEstabDate}" Grid.Row="7"/>
             <DatePicker Name="DPEmplyeEstabDate" Grid.Row="7" Grid.Column="1" Margin="0,5" Width="200" HorizontalAlignment="Left" SelectedDate="{Binding establishmentDate}"/>

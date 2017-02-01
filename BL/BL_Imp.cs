@@ -13,7 +13,7 @@ namespace BL
     {
         IDAL DAL_Object = FactoryDAL.DALInstance;
 
-        public bool addSpecilization(Specialization specilization)
+        public bool addSpecialization(Specialization specilization)
         {
             return DAL_Object.addSpecilization(specilization);
         }
@@ -23,7 +23,7 @@ namespace BL
             if (DAL_Object.getEmployeeList().Exists(e => e.specializationID == specilization.ID) != true)
                 throw new Exception("cannot delete specialization, in use by employee");
 
-            if(DAL_Object.getEmployerList().Exists(e=> e.specializationName == specilization.specilizationName) != true)
+            if(DAL_Object.getEmployerList().Exists(e=> e.specializationID == specilization.ID) != true)
                 throw new Exception("cannot delete specialization, in use by employer");
 
             return DAL_Object.deleteSpecilization(specilization);
@@ -207,7 +207,7 @@ namespace BL
             let contr_employee = DAL_Object.getEmployeeList().Find(e => e.ID == contr.EmployeeID)
             let contr_spec = DAL_Object.getSpecilizationList().Find(s => s.ID == contr_employee.specializationID)
             orderby // if ordered = true, first order contracts by spec name, then group
-                ordered ? contr_spec.specilizationName : 0
+                ordered ? contr_spec.specializationName : null
             select new ContractGroupingContainer { key = contr_spec, contract = contr };
 
         public IEnumerable<ContractGroupingContainer> groupContractByEmployerCity(bool ordered = false)
@@ -263,5 +263,9 @@ namespace BL
 
         public List<Contract> getContractList()
             => new List<Contract>(DAL_Object.getContractList());
+
+        public IEnumerable<ContractGroupingContainer> getContractsInContainer()
+            => from contr in DAL_Object.getContractList()
+               select new ContractGroupingContainer { key = null, contract = contr };
     }
 }

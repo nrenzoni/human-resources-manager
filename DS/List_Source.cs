@@ -28,13 +28,14 @@ namespace DS
         {
             Random randGen = new Random();
 
-            foreach (SpecializationName spec in Enum.GetValues(typeof(SpecializationName)))
+            string[] specNames = { "programming", "graphic design", "management", "Communications" };
+            foreach (string spec in specNames)
             {
                 specList.Add(new Specialization
                 {
-                    specilizationName = spec,
+                    specializationName = spec,
                     minWagePerHour = randGen.Next(50, 250),
-                    maxWagePerHour = randGen.Next(250,1000)
+                    maxWagePerHour = randGen.Next(250, 1000)
                 });
             }
         }
@@ -84,7 +85,7 @@ namespace DS
 
             string[] cities = { "אופקים","אור יהודה","אור עקיבא","אילת","אריאל","אשדוד","אשקלון","באר שבע","בית שאן","בית שמש","ביתר עילית","בני ברק","בת ים","גבעתיים","דימונה","הוד השרון","הרצליה","חדרה","חולון","חיפה","טבריה","טירת כרמל","יבנה","יהוד - מונוסון","ירושלים","כפר סבא","כרמיאל","לוד","מגדל העמק","מודיעין - מכבים - רעות","מעלה אדומים","מעלות - תרשיחא","נס ציונה","נצרת","נצרת עילית","נשר","נתיבות","נתניה","עכו","עפולה","ערד","פתח תקוה","צפת","קרית אונו","קרית אתא","קרית ביאליק","קרית גת","קרית ים","קרית מוצקין","קרית מלאכי","קרית שמונה","ראש העין","ראשון לציון","רחובות","רמלה","רמת גן","רמת השרון","רעננה","שדרות","תל אביב - יפו" };
 
-            foreach (var i in Enumerable.Range(0,10))
+            foreach (uint i in Enumerable.Range(0,10))
             {
                 employeeList.Add(
                     new Employee
@@ -116,7 +117,7 @@ namespace DS
                         privatePerson = false,
                         companyName = compNames[i],
                         establishmentDate = dates[i + 10],
-                        specializationName = specList[randGen.Next(specList.Count)].specilizationName
+                        specializationID = i
                     });
             }
         }
