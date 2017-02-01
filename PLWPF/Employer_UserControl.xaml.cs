@@ -62,6 +62,7 @@ namespace PLWPF
 
         private void addButton_Click(object sender, RoutedEventArgs e)
         {
+            UIEmployer.ID = uint.Parse(ComEmployerID.Text);
             try
             {
                 BE.Employer addEmployer = new BE.Employer();

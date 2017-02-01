@@ -26,21 +26,42 @@ namespace PLWPF
         public IBL BL_Object = FactoryBL.IBLInstance;
         GridViewColumnHeader listViewSortCol;
         bool descdingDir = false;
-        IEnumerable<ContractGroupingContainer> unfilteredSource;
         public event Action<BE.Contract> onContractDoubleClick;
 
         public ViewUserControl()
         {
-            InitializeComponent();
-            unfilteredSource = BL_Object.getContractsInContainer();
+            InitializeComponent();            
         }
 
         public void refreshContractList()
         {
-            group_selection_Changed(); // sets unfilteredSource
-            filter_selection_Changed();
+            group_selection_Changed();
+        }
 
+        // method goes over every object in listview. if returns true for current object, object is visible. otherwise not displayed.
+        private bool Filter(object item)
+        {
+            if (filter_Selection == null) return true;
 
+            // no filter selected,
+            if (filter_Selection.SelectedIndex == -1 || filter_Selection.SelectedIndex == 0)
+                return true;
+
+            // filter only contracts that have not terminated
+            else if(filter_Selection.SelectedIndex == 1)
+            {
+                if ((item as ContractGroupingContainer).contract.contractTerminatedDate > DateTime.Today)
+                    return true;
+            }
+
+            // filter only contracts that have terminated already
+            else if(filter_Selection.SelectedIndex == 2)
+            {
+                if ((item as ContractGroupingContainer).contract.contractTerminatedDate <= DateTime.Today)
+                    return true;
+            }
+
+            return false;
         }
 
         /// <summary>
@@ -86,41 +107,17 @@ namespace PLWPF
 
         private void filter_selection_Changed(object sender=null, SelectionChangedEventArgs e=null)
         {
-            if (filter_Selection == null) return; // when called at program initialization, filter_selection is null
-
-            switch (filter_Selection.SelectedIndex)
-            {
-                case 0: // no filter
-                    ContractList.ItemsSource = unfilteredSource;
-                    break;
-
-                case 1: // unterminated contracts
-                    ContractList.ItemsSource = 
-                        unfilteredSource.Where(contrGroup => contrGroup.contract.contractTerminatedDate > DateTime.Today);
-                    break;
-
-                case 2: // terminated contracts
-                    ContractList.ItemsSource =
-                        unfilteredSource.Where(contrGroup => contrGroup.contract.contractTerminatedDate <= DateTime.Today);
-                    break;
-
-                default:
-                    break;
-            }
+            // refreshs filter
+            CollectionViewSource.GetDefaultView(ContractList.ItemsSource).Refresh();
         }
 
         private void group_selection_Changed(object sender=null, SelectionChangedEventArgs e=null)
         {
-            CollectionView contractListView; //= (CollectionView)CollectionViewSource.GetDefaultView(ContractList.ItemsSource);
-
             switch (group_Selection.SelectedIndex)
             {
                 case 0: // no grouping
-                    unfilteredSource = BL_Object.getContractsInContainer();
-                    ContractList.ItemsSource = unfilteredSource;
-                    contractListView = (CollectionView)CollectionViewSource.GetDefaultView(ContractList.ItemsSource);
-                    contractListView?.GroupDescriptions.Clear();
-                    return; // no GroupDescription added because of return
+                    ContractList.ItemsSource = BL_Object.getContractsInContainer();
+                    break;
 
                 case 1: // Employer City
                     ContractList.ItemsSource = BL_Object.groupContractByEmployerCity(true); // returns sorted
@@ -128,16 +125,17 @@ namespace PLWPF
 
                 case 2: // Employee City
                     ContractList.ItemsSource = BL_Object.groupContractByEmployeeCity(true); // sorted
-                    contractListView = (CollectionView)CollectionViewSource.GetDefaultView(ContractList.ItemsSource);
                     break;
 
                 default:
                     return;
             }
-            
+
             // sorts contracts by "key" in ContractGroupingContainer
-            contractListView = (CollectionView)CollectionViewSource.GetDefaultView(ContractList.ItemsSource);
+            CollectionView contractListView =
+                (CollectionView)CollectionViewSource.GetDefaultView(ContractList.ItemsSource);
             contractListView.GroupDescriptions.Add(new PropertyGroupDescription("key"));
+            contractListView.Filter = Filter;
         }
     }
 }

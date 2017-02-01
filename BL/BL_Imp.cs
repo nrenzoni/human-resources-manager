@@ -219,14 +219,14 @@ namespace BL
                ordered ? contr_employer_addr.Address : null
            select new ContractGroupingContainer { key = contr_employer_addr.City, contract = contr };
 
-        public IEnumerable<IGrouping<string, Contract>> groupContractByEmployeeCity(bool ordered = false)
+        public IEnumerable<ContractGroupingContainer> groupContractByEmployeeCity(bool ordered = false)
          => from contr in DAL_Object.getContractList()
             let contr_employee = DAL_Object.getEmployeeList().Find(e => e.ID == contr.EmployeeID)
             let contr_employee_city_addr = contr_employee.address
             orderby // if ordered = true, first order contracts by contract employee city, then group
                 ordered ? contr_employee_city_addr.City : null,
                 ordered ? contr_employee_city_addr.Address : null
-            group contr by contr_employee_city_addr.City;
+            select new ContractGroupingContainer { key = contr_employee_city_addr.City, contract=contr };
 
         // profit by year of management company
         public IEnumerable<IGrouping<int, double>> getProfitByYear(bool ordered=false) // <int=year (key), double=yearly profit>

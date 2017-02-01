@@ -11,6 +11,12 @@ namespace DAL
 {
     public class DAL_XML_Imp : IDAL
     {
+        static uint nextContractID;
+        static DAL_XML_Imp()
+        {
+            //nextContractID; // finish
+        }
+
         // check if element already exists in XML file
         XElement ElementIfExists(XElement root, XElement element)
             => (from spec in root.Elements()
@@ -80,10 +86,8 @@ namespace DAL
                 && addSpecilization(spec);
         }
 
-        public bool addEmployee(Employee e)
-        {
-            XElement employee =
-                new XElement("employee", new XAttribute("ID", e.ID),
+        XElement createEmployeeXElement(Employee e)
+            => new XElement("employee", new XAttribute("ID", e.ID),
                   new XElement("firstName", e.firstName),
                   new XElement("lastName", e.lastName),
                   new XElement("isMale", e.isMale),
@@ -105,35 +109,67 @@ namespace DAL
                   new XElement("recommendationNotes", e.recommendationNotes)
                 );
 
-            if (ElementIfExists(XML_Source.employeeRoot, employee) != null)
+        public bool addEmployee(Employee e)
+        {
+            if (ElementIfExists(XML_Source.employeeRoot, e.ID) != null)
             {
                 throw new Exception(e.ID + " already exists in file");
             }
 
-            XML_Source.employeeRoot.Add(employee);
+            XML_Source.employeeRoot.Add(createEmployeeXElement(e));
             XML_Source.SaveXML<Employee>();
             return true;
         }
         public bool deleteEmployee(Employee employee)
-        {
-            throw new NotImplementedException();
-        }
+            => removeElementFromXML(XML_Source.employeeRoot, employee.ID);
+
         public bool updateEmployee(Employee employee)
         {
-            throw new NotImplementedException();
+            XElement foundElement = ElementIfExists(XML_Source.employeeRoot, employee.ID);
+            if (foundElement == null)
+                throw new Exception(employee.ID + " does not exist in XML");
+
+            return
+                removeElementFromXML(XML_Source.employeeRoot, foundElement)
+                && addEmployee(employee);
         }
-         
+
+        XElement createContractXElement(Contract c)
+            => new XElement("contract", new XAttribute("ID", c.contractID),
+                 new XElement("EmployerID", c.EmployerID),
+                 new XElement("EmployeeID", c.EmployeeID),
+                 new XElement("isInterviewed", c.isInterviewed),
+                 new XElement("contractFinalized", c.contractFinalized),
+                 new XElement("grossWagePerHour", c.grossWagePerHour),
+                 new XElement("netWagePerHour", c.netWagePerHour),
+                 new XElement("isInterviewed", c.isInterviewed),
+                 new XElement("maxWorkHours", c.maxWorkHours),
+                 new XElement("contractEstablishedDate", c.contractEstablishedDate),
+                 new XElement("contractTerminatedDate", c.contractTerminatedDate)
+                 );
+
         public bool addContract(Contract contract)
         {
-            throw new NotImplementedException();
+            contract.contractID = getNextContractID();
+
+            if (ElementIfExists(XML_Source.contractRoot, contract.contractID) != null)
+            {
+                throw new Exception(contract.contractID + " already exists in file");
+            }
+
+            XML_Source.contractRoot.Add(createContractXElement(contract));
+            XML_Source.SaveXML<Contract>();
+            return true;
+
         }
+
         public bool deleteContract(Contract contract)
-        {
-            throw new NotImplementedException();
-        }
+            => removeElementFromXML(XML_Source.contractRoot, contract.contractID);
+
+
         public uint getNextContractID()
         {
-            throw new NotImplementedException();
+            return nextContractID++;
         }
          
         public bool addEmployer(Employer employer)
@@ -141,12 +177,17 @@ namespace DAL
             throw new NotImplementedException();
         }
         public bool deleteEmployer(Employer employer)
-        {
-            throw new NotImplementedException();
-        }
+            => removeElementFromXML(XML_Source.employerRoot, employer.ID);
+
         public bool updateEmployer(Employer employer)
         {
-            throw new NotImplementedException();
+            XElement foundElement = ElementIfExists(XML_Source.employerRoot, employer.ID);
+            if (foundElement == null)
+                throw new Exception(employer.ID + " does not exist in XML");
+
+            return
+                removeElementFromXML(XML_Source.employerRoot, foundElement)
+                && addEmployer(employer);
         }
          
         public List<Specialization> getSpecilizationList()

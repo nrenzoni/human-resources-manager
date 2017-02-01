@@ -31,16 +31,12 @@ namespace PLWPF
             InitializeComponent();
             Spec_DS_Change_Event += refreshCombox;
             DataContext = UISpec;
-
-            ComEmplyeCity.ItemsSource = BE.CivicAddress.Cities;
             refreshCombox();
         }
 
 
         private void refreshCombox()
-        {
-            ComSpecID.ItemsSource = BL_Object.getSpecilizationList();
-        }
+            => ComSpecID.ItemsSource = BL_Object.getSpecilizationList();
 
         // only called when new ID selected from combobox list, if value entered is not in combobox list, not called
         private void ComSpecID_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -49,16 +45,17 @@ namespace PLWPF
             if (ComSpecID.SelectedItem == null) // check if null because uint cast potentially on null
                 return;
 
-            BE.Specialization foundSpec = BL_Object.getSpecilizationList().FirstOrDefault(x => x == (BE.Specialization)ComSpecID.SelectedItem);
-
-
+            BE.Specialization foundSpec = 
+                BL_Object.getSpecilizationList().FirstOrDefault(x => x == (BE.Specialization)ComSpecID.SelectedItem);
+            
+            // if selected ID does not exist in DS, return
             if (ReferenceEquals(null, foundSpec))
             {
-                foundSpec = new BE.Specialization();
+                //foundSpec = new BE.Specialization();
                 return;
             }
 
-            // else copy values (by use of property get/set) of foundSpec to UISpec so binding to UISpec not reset
+            // copy values (by use of property get/set) of foundSpec to UISpec so binding to UISpec not reset
             Globals.CopyObject(foundSpec, UISpec);
         }
 

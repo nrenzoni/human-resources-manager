@@ -11,7 +11,7 @@ namespace BE
 
     public class Specialization
     {
-        public uint ID { get; private set; } // need to implement setter
+        public uint ID { get; set; }
         string _specializationName;
         public string specializationName
         {
