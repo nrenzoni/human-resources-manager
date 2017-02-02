@@ -12,7 +12,7 @@ namespace DAL
     {
         bool addToList<T>(List<T> list, T element)
         {
-            if(list.Contains(element))
+            if(list.Contains(element)) // uses 
                 throw new Exception(element.ToString() + " already exists in " + nameof(list));
             list.Add(element);
             return true;
@@ -53,8 +53,15 @@ namespace DAL
             }
         }
 
-        public bool addSpecilization(Specialization specilization) =>
-            addToList(List_Source.specList, specilization); // returns retuned value of addToList
+        public bool addSpecilization(Specialization specilization)
+        {
+            specilization.ID = getNextSpecID();
+            return addToList(List_Source.specList, specilization); // returns retuned value of addToList
+        }
+
+        uint getNextSpecID()
+            => List_Source.specList.Count != 0 ?
+                List_Source.specList.Max(s => s.ID) + 1 : 10000000;
 
         public bool deleteSpecilization(Specialization specilization) =>
             deleteFromList(List_Source.specList, specilization);

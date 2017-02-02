@@ -29,10 +29,12 @@ namespace DS
             Random randGen = new Random();
 
             string[] specNames = { "programming", "graphic design", "management", "Communications" };
+            uint i = 0;
             foreach (string spec in specNames)
             {
                 specList.Add(new Specialization
                 {
+                    ID = i++,
                     specializationName = spec,
                     minWagePerHour = randGen.Next(50, 250),
                     maxWagePerHour = randGen.Next(250, 1000)

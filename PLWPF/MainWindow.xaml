@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PLWPF"
         mc:Ignorable="d"
-        Title="Contracter" SizeToContent="WidthAndHeight" ResizeMode="NoResize" Topmost="True" Icon="group-of-people-in-a-formation.png">
+        Title="Contracter" SizeToContent="WidthAndHeight" ResizeMode="NoResize" Icon="group-of-people-in-a-formation.png">
     <Grid>
         <TabControl SelectedIndex="0" x:Name="mainTab">
             <TabItem Header="View">

@@ -75,18 +75,32 @@ namespace BL
             #region check if employee and employer exist in DS
             if (DAL_Object.getEmployeeList().Count(x => x.ID == contract.EmployeeID) != 1)
                 throw new Exception("cannot add contract for employee that does not exist");
-            
+
             if (DAL_Object.getEmployerList().Count(x => x.ID == contract.EmployerID) != 1)
                 throw new Exception("cannot add contract for employer that does not exist");
             #endregion
 
             #region check if company established less than year ago
+
             Employer employer = DAL_Object.getEmployerList().Find(x => x.ID == contract.EmployerID);
             if (DateTime.Today.Year - employer.establishmentDate.Year < 1) // company less than 1 year old
             {
                 throw new Exception("cannot create contract with company established less than a year ago");
             }
+
             #endregion
+
+            #region check if gross wage per hour is within range of employee's specialization min/max wage
+
+            Employee contract_employee = DAL_Object.getEmployeeList().Find(x => x.ID == contract.EmployeeID);
+            Specialization contract_spec =  
+                DAL_Object.getSpecilizationList().Find(s => s.ID == contract_employee.specializationID);
+            if (contract.grossWagePerHour < contract_spec.minWagePerHour
+                || contract.grossWagePerHour > contract_spec.maxWagePerHour)
+                throw new Exception("gross wage per hour not within range of min/max of " + contract_spec.ToString());
+
+            #endregion
+
 
             #region calculate net wage by subtracting commission from gross wage
             int existingContractEmployeeCount =
@@ -219,14 +233,14 @@ namespace BL
                ordered ? contr_employer_addr.Address : null
            select new ContractGroupingContainer { key = contr_employer_addr.City, contract = contr };
 
-        public IEnumerable<IGrouping<string, Contract>> groupContractByEmployeeCity(bool ordered = false)
+        public IEnumerable<ContractGroupingContainer> groupContractByEmployeeCity(bool ordered = false)
          => from contr in DAL_Object.getContractList()
             let contr_employee = DAL_Object.getEmployeeList().Find(e => e.ID == contr.EmployeeID)
             let contr_employee_city_addr = contr_employee.address
             orderby // if ordered = true, first order contracts by contract employee city, then group
                 ordered ? contr_employee_city_addr.City : null,
                 ordered ? contr_employee_city_addr.Address : null
-            group contr by contr_employee_city_addr.City;
+            select new ContractGroupingContainer { key = contr_employee_city_addr.City, contract=contr };
 
         // profit by year of management company
         public IEnumerable<IGrouping<int, double>> getProfitByYear(bool ordered=false) // <int=year (key), double=yearly profit>

@@ -131,7 +131,7 @@ namespace BL
         /// </summary>
         /// <param name="ordered"></param>
         /// <returns></returns>
-        IEnumerable<IGrouping<string, Contract>> groupContractByEmployeeCity(bool ordered = false);
+        IEnumerable<ContractGroupingContainer> groupContractByEmployeeCity(bool ordered = false);
 
         /// <summary>
         /// returns profit by year of management company. key= year, value= profit
