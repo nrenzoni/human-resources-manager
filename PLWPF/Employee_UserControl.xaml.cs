@@ -32,7 +32,7 @@ namespace PLWPF
 
             DataContext = UIEmployee;
 
-            
+            ComEmplyeeEduc.Text=" ";
             ComEmplyeeCity.ItemsSource = BE.CivicAddress.Cities;
             ComEmplyeeID.ItemsSource = Bl_Object.getEmployeeList();
             ComEmplyeeEduc.ItemsSource = Enum.GetValues(typeof(BE.Education));
@@ -50,11 +50,11 @@ namespace PLWPF
 
             if (foundEmploye == null)
             {
-                foundEmploye = new BE.Employee();
+                Globals.ClearAllFields(EmployeeGrid); // Clear the fields in the current grid.
                 return;
             }
 
-            Globals.CopyObject(foundEmploye, UIEmployee);
+           else  Globals.CopyObject(foundEmploye, UIEmployee);
         }
 
         private void addButton_Click(object sender, RoutedEventArgs e)

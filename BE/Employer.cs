@@ -136,12 +136,12 @@ namespace BE
 
         public static bool operator ==(Employer e1, Employer e2)
         {
-            return e1.ID == e2.ID;
+            return e1?.ID == e2?.ID;
         }
 
         public static bool operator !=(Employer e1, Employer e2)
         {
-            return e1.ID != e2.ID;
+            return e1?.ID != e2?.ID;
         }
     }
 }

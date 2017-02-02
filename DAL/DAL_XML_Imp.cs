@@ -85,7 +85,7 @@ namespace DAL
                 removeElementFromXML(XML_Source.specializationRoot, foundElement) 
                 && addSpecilization(spec);
         }
-
+        
         XElement createEmployeeXElement(Employee e)
             => new XElement("employee", new XAttribute("ID", e.ID),
                   new XElement("firstName", e.firstName),
@@ -207,6 +207,7 @@ namespace DAL
                 throw new Exception("getSpecilizationList() exception");
             }
         }
+
         public List<Employee> getEmployeeList()
         {
             throw new NotImplementedException();
@@ -217,7 +218,25 @@ namespace DAL
         }
         public List<Contract> getContractList()
         {
-            throw new NotImplementedException();
+            try
+            {
+                return (from cont in XML_Source.contractRoot.Elements()
+                        select new Contract()
+                        {
+                            contractID = uint.Parse(cont.Element("contractID").Value),
+                            EmployerID = uint.Parse(cont.Element("EmployerID").Value),
+                            EmployeeID = uint.Parse(cont.Element("EmployeeID").Value),
+                            isInterviewed = bool.Parse(cont.Element("isInterviewed").Value),
+                            contractFinalized = bool.Parse(cont.Element("contractFinalized").Value),
+                            grossWagePerHour = double.Parse(cont.Element("grossWagePerHour").Value),
+                            netWagePerHour = double.Parse(cont.Element("netWagePerHour").Value),
+                            contractEstablishedDate = DateTime.Parse(cont.Element("contractEstablishedDate").Value),
+                            contractTerminatedDate = DateTime.Parse(cont.Element("contractTerminatedDate").Value),
+                            maxWorkHours = uint.Parse(cont.Element("maxWorkHours").Value)
+
+                        }).ToList();
+            }
+            catch { throw new Exception("getContractList() exception"); }
         }
     }
 }

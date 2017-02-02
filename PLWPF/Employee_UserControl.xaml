@@ -14,8 +14,8 @@
             <Button Style="{StaticResource deleteButtonStyle}" Click="deleteButton_Click" IsEnabled="{Binding Text,ElementName=ComEmplyeeID , Converter={StaticResource InverseIDToIsEnabledConverter}, ConverterParameter=Employee}"/>
             <Button Style="{StaticResource updateButtonStyle}" Click="updateButton_Click" IsEnabled="{Binding Text,ElementName=ComEmplyeeID ,Converter={StaticResource InverseIDToIsEnabledConverter}, ConverterParameter=Employee}"/>          
         </StackPanel>
-        
-        <Grid Style="{StaticResource GridUserControlStyle}">
+
+        <Grid Name="EmployeeGrid" Style="{StaticResource GridUserControlStyle}">
             <Grid.Resources>
                 <Style TargetType="TextBox" BasedOn="{StaticResource TextBox_in_Grid_Style}">
                     <Setter Property="Grid.Column" Value="1"/>
@@ -92,18 +92,21 @@
             <Label Content="_Bank Name:" Grid.Column="2" Grid.Row="2" Target="{Binding ElementName=comEmplyeBankName}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             <ComboBox Name="comEmplyeBankName" Text="{Binding bank.BankName}" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"  Grid.Column="3" Grid.Row="2" Height="25"/>
 
-            <Label Content="_Branch Number:" Grid.Column="2" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Target="{Binding ElementName=ComEmplyeeBranchNum}"/>
-            <ComboBox Name="ComEmplyeeBranchNum" Text="{Binding bank.BankNumber}" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"  Grid.Column="3" Grid.Row="3" Height="25" />
+            <Label Content="_Bank Account:" Grid.Column="2" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center" Target="{Binding ElementName=txtEmployeBaAcc}" />
+            <TextBox Name="txtEmployeBaAcc" Text="{Binding bank.BankNumber}" Grid.Column="3" Grid.Row="3" Width="100" Height="25" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            
+            <Label Content="_Branch Number:" Grid.Column="2" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" Target="{Binding ElementName=ComEmplyeeBranchNum}"/>
+            <ComboBox Name="ComEmplyeeBranchNum" Text="{Binding bank.BankNumber}" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"  Grid.Column="3" Grid.Row="4" Height="25" />
 
-            <Label Content="_Branch Location:" Grid.Column="2" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" Target="{Binding ElementName=txtBranLoc}"/>
-            <WrapPanel Grid.Column="3" Grid.Row="4">
+            <Label Content="_Branch Location:" Grid.Column="2" Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center" Target="{Binding ElementName=txtBranLoc}"/>
+            <WrapPanel Grid.Column="3" Grid.Row="5">
                 <TextBox Name="txtBranAddLoc" Width="50" Text="{Binding bank.Address}" HorizontalAlignment="Center"  IsEnabled="False"/>
                 <TextBox Name="txtBranCityLoc" Width="50" Text="{Binding bank.City}" HorizontalAlignment="Center"  IsEnabled="False"/>
             </WrapPanel>            
             <!--The value Will be assign automaticlly according to the Branch Number--> <!--need to combined the addres and city together in one combobox-->
             
-            <Label Content="_Specialization:" Grid.Column="2" Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center" Target="{Binding ElementName=ComEmployeSpec}"/>
-            <ComboBox Name="ComEmployeSpec" SelectedIndex="{Binding specializationID}" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"  Grid.Column="3" Grid.Row="5" Height="25" DisplayMemberPath="specializationName" />
+            <Label Content="_Specialization:" Grid.Column="2" Grid.Row="6" HorizontalAlignment="Center" VerticalAlignment="Top" Target="{Binding ElementName=ComEmployeSpec}"/>
+            <ComboBox Name="ComEmployeSpec" SelectedIndex="{Binding specializationID}" VerticalContentAlignment="Center" VerticalAlignment="Top" HorizontalContentAlignment="Center"  Grid.Column="3" Grid.Row="6" Height="25" DisplayMemberPath="specializationName" />
 
 
         </Grid>
