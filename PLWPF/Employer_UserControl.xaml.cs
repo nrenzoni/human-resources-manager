@@ -13,6 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Reflection;
 
 namespace PLWPF
 {
@@ -30,8 +31,11 @@ namespace PLWPF
             Employer_DS_Change_Event += refreshCombox;
             DataContext = UIEmployer;
 
+
+
             ComEmplyeCity.ItemsSource = BE.CivicAddress.Cities;
             refreshCombox();
+            Globals.ClearAllFields(EmployerGrid);
         }
 
         private void refreshCombox()
@@ -43,16 +47,11 @@ namespace PLWPF
         // only called when new ID selected from combobox list, if value entered is not in combobox list, not called
         private void ComEmployerID_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            // reflection for copying properties from selected Employer in ID field to properties of UIEmployer
-            if (ComEmployerID.SelectedItem == null) // check if null because uint cast potentially on null
-                return;
-            
             BE.Employer foundEmployer = BL_Object.getEmployerList().FirstOrDefault(x => x == (BE.Employer)ComEmployerID.SelectedItem);
             
-
-            if (ReferenceEquals(null, foundEmployer))
+            if (foundEmployer == null) // check if null because uint cast potentially on null
             {
-                foundEmployer = new BE.Employer();
+                Globals.ClearAllFields(EmployerGrid); // Clear the fields in the current grid.
                 return;
             }
 

@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Reflection;
 
 namespace PLWPF
 {
@@ -31,7 +32,7 @@ namespace PLWPF
 
             DataContext = UIEmployee;
 
-            
+            ComEmplyeeEduc.Text=" ";
             ComEmplyeeCity.ItemsSource = BE.CivicAddress.Cities;
             ComEmplyeeID.ItemsSource = Bl_Object.getEmployeeList();
             ComEmplyeeEduc.ItemsSource = Enum.GetValues(typeof(BE.Education));
@@ -49,69 +50,29 @@ namespace PLWPF
 
             if (foundEmploye == null)
             {
-                foundEmploye = new BE.Employee();
+                Globals.ClearAllFields(EmployeeGrid); // Clear the fields in the current grid.
                 return;
             }
 
-            Globals.CopyObject(foundEmploye, UIEmployee);
+           else  Globals.CopyObject(foundEmploye, UIEmployee);
         }
 
         private void addButton_Click(object sender, RoutedEventArgs e)
         {
             try
             {
-                List<object> checkValue = new List<object> ();
-
-                var employeID = ComEmplyeeID.SelectedValue;
-                checkValue.Add(employeID);
-
-                var employeLName = txtLastName.Text;
-                checkValue.Add(employeLName);
-
-                var employeFName = txtFirstName.Text;
-                checkValue.Add(employeFName);
-
-                var employePhoneNum = int.Parse(txtPhoneNumber.Text);
-                checkValue.Add(employePhoneNum);
-
-                var employeAddress = txtEmplyeeAdd.Text;
-                checkValue.Add(employeAddress);
-
-                var employeCity = ComEmplyeeCity.SelectedValue;
-                checkValue.Add(employeCity);
-
-                var employeExpYears = txtExperiance.Text;
-                checkValue.Add(employeExpYears);
-
-                var employeEdu = ComEmplyeeEduc.SelectedItem;
-                checkValue.Add(employeEdu);
-
-                var employeSpec = ComEmployeSpec.SelectedItem;
-                checkValue.Add(employeSpec);
-
-                //NEED TO IMPLEMENT THE CHECKS IF THE BANK DETAILS ARE EMPTY, 
-                //    WHEN FINISH TO CONNECT THE XML!~!~!
-
-                foreach (var item in checkValue)
+                foreach (var property in UIEmployee.GetType().GetProperties())
                 {
-                    if (item==null)
-                        throw new Exception("please fill out all fields");
+                    if (property.Name != "recommendationNotes")
+                    {
+                        if (property.GetGetMethod() != null)
+                        {
+                            if (property.GetValue(UIEmployee) == null)
+                                throw new Exception("please fill out all fields");
+                        }
+                    }
                 }
                 
-                UIEmployee.ID = (uint)employeID;
-                UIEmployee.lastName = employeLName;
-                UIEmployee.firstName = employeFName;
-                UIEmployee.phoneNumber = (uint)employePhoneNum;
-                UIEmployee.address.Address = employeAddress;
-                UIEmployee.address.City =(string)employeCity;
-                UIEmployee.yearsOfExperience = uint.Parse(employeExpYears);
-               // UIEmployee.education = Enum. employeEdu;
-                //UIEmployee.specializationID = employeSpec;
-
-
-
-
-
                 BE.Employee addEmploye = new BE.Employee();
                 Globals.CopyObject(UIEmployee, addEmploye);
                 Bl_Object.addEmployee(addEmploye);
