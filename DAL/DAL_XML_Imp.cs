@@ -171,11 +171,43 @@ namespace DAL
         {
             return nextContractID++;
         }
-         
-        public bool addEmployer(Employer employer)
+
+        XElement createEmployerXElement(Employer e)
         {
-            throw new NotImplementedException();
+            XElement employer =  new XElement("employer", new XAttribute("ID", e.ID),
+                                    new XElement("companyName", e.companyName),
+                                    new XElement("phoneNumber", e.phoneNumber),
+                                    new XElement("privatePerson", e.privatePerson),
+                                    new XElement("civicAddress",
+                                    new XElement("address", e.address.Address),
+                                    new XElement("city", e.address.City)
+                                    ),
+                                    new XElement("specializationID", e.specializationID),
+                                    new XElement("establishmentDate", e.establishmentDate)
+                                );
+
+            // if private person, add first name and last name
+            if (e.privatePerson)
+                employer.AddFirst(
+                    new XElement("firstName", e.firstName),
+                    new XElement("lastName", e.lastName)
+                    );
+
+            return employer;
         }
+
+        public bool addEmployer(Employer e)
+        {
+            if (ElementIfExists(XML_Source.employerRoot, e.ID) != null)
+            {
+                throw new Exception(e.ID + " already exists in file");
+            }
+
+            XML_Source.employerRoot.Add(createEmployerXElement(e));
+            XML_Source.SaveXML<Employer>();
+            return true;
+        }
+
         public bool deleteEmployer(Employer employer)
             => removeElementFromXML(XML_Source.employerRoot, employer.ID);
 
@@ -207,14 +239,62 @@ namespace DAL
                 throw new Exception("getSpecilizationList() exception");
             }
         }
+
         public List<Employee> getEmployeeList()
         {
-            throw new NotImplementedException();
+            try
+            {
+                return (from e in XML_Source.employeeRoot.Elements()
+                        select new Employee()
+                        {
+                            ID = (uint)e.Attribute("ID"),
+                            firstName = e.Element("firstName")?.Value,
+                            lastName = e.Element("lastName")?.Value,
+                            address = (CivicAddress)e.Element("address"),
+                            isMale = (bool)e.Element("isMale"),
+                            email = e.Element("email")?.Value,
+                            phoneNumber = (uint)e.Element("phoneNumber"),
+                            armyGraduate = (bool)e.Element("armyGraduate"),
+                            yearsOfExperience = (uint)e.Element("yearsOfExperience"),
+                            specializationID = (uint)e.Element("specializationID"),
+                            birthday = (DateTime)e.Element("birthday"),
+                            education = (Education)Enum.Parse(typeof(Education),e.Element("education").Value),
+                            bankAccountNumber = (uint)e.Element("bankAccountNumber"),
+                            bank = (Bank)e.Element("bank"),
+                            recommendationNotes = e.Element("recommendationNotes")?.Value
+                        }).ToList();
+            }
+            catch
+            {
+                throw new Exception("getEmployeeList() exception");
+            }
         }
+
         public List<Employer> getEmployerList()
         {
-            throw new NotImplementedException();
+            try
+            {
+                return (from e in XML_Source.employerRoot.Elements()
+                        select new Employer()
+                        {
+                            ID = (uint)e.Attribute("ID"),
+                            companyName = (string)e.Element("companyName"),
+                            privatePerson = (bool)e.Element("privatePerson"),
+                            firstName = (string)e.Element("firstName"), // check if exists perhaps
+                            lastName = (string)e.Element("lastName"),
+                            phoneNumber = (uint)e.Element("phoneNumber"),
+                            specializationID = (uint)e.Element("specializationID"),
+                            establishmentDate = (DateTime)e.Element("establishmentDate"),
+                            address = (CivicAddress)e.Element("address") // calls explicit converter of Xlement to CivicAddress
+                        }
+                        ).ToList();
+            }
+            catch
+            {
+                throw new Exception("getEmployerList() exception");
+            }
         }
+
         public List<Contract> getContractList()
         {
             throw new NotImplementedException();

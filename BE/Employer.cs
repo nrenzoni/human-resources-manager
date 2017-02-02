@@ -9,12 +9,11 @@ namespace BE
 {
     public class Employer : INotifyPropertyChanged
     {
-        // if not private person then company
         public bool privatePerson { get; set; }
 
         public uint ID { get; set; } // ID does not change
 
-        // if privatePerson
+        // if private person
         string _firstName;
         public string firstName {
             get { return _firstName; }
@@ -28,6 +27,7 @@ namespace BE
             }
         }
 
+        // if private person
         string _lastName;
         public string lastName{
             get {return _lastName; }
@@ -41,7 +41,6 @@ namespace BE
             }
         }
 
-        // optional if private person
         string _companyName;
         public string companyName
         {

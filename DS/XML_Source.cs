@@ -5,13 +5,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
+using System.Xml.Serialization;
 using BE;
 
 namespace DS
 {
     static public class XML_Source
     {
-        static string prefix = @"";
+        static string prefix = @"../../../"; // relative source of files
 
         static public string specName     = "specializations";
         static public string bankName     = "banks";
@@ -85,5 +86,29 @@ namespace DS
             else
                 throw new Exception("bad type passed to T of SaveXML<T>()");
         }
+
+
+        //static void Serialize<T>(T obj)
+        //{
+        //    XmlSerializer serializer = new XmlSerializer(typeof(T));
+        //    TextWriter writer;
+
+        //    if (typeof(T) == typeof(Specialization))
+        //        writer = new StreamWriter(concatXMLName(specName));
+
+        //    else if (typeof(T) == typeof(Employer))
+        //        writer = new StreamWriter(concatXMLName(employerName));
+
+        //    else if (typeof(T) == typeof(Employee))
+        //        writer = new StreamWriter(concatXMLName(employeeName));
+
+        //    else if (typeof(T) == typeof(Contract))
+        //        writer = new StreamWriter(concatXMLName(contractName));
+
+        //    else return;
+
+        //    serializer.Serialize(writer, obj);
+        //    writer.Close();
+        //}
     }
 }

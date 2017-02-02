@@ -13,9 +13,12 @@ namespace BL
     {
         IDAL DAL_Object = FactoryDAL.DALInstance;
 
-        public bool addSpecialization(Specialization specilization)
+        public bool addSpecialization(Specialization specialization)
         {
-            return DAL_Object.addSpecilization(specilization);
+            if (DAL_Object.getSpecilizationList().Exists(s => s.specializationName.Trim() == specialization.specializationName.Trim()))
+                throw new Exception("a specialization already exists with name" + specialization.specializationName);
+
+            return DAL_Object.addSpecilization(specialization);
         }
 
         public bool deleteSpecilization(Specialization specilization)
