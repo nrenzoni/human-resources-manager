@@ -127,6 +127,10 @@ namespace PLWPF
                     ContractList.ItemsSource = BL_Object.groupContractByEmployeeCity(true); // sorted
                     break;
 
+                case 3: // Employee Specialization
+                    ContractList.ItemsSource = BL_Object.groupContractByEmployeeSpec(true); // sorted
+                    break;
+
                 default:
                     return;
             }

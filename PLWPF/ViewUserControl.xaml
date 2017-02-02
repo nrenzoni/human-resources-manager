@@ -102,7 +102,7 @@
                     <ComboBoxItem>None</ComboBoxItem>
                     <ComboBoxItem>Employer City</ComboBoxItem>
                     <ComboBoxItem>Employee City</ComboBoxItem>
-                    <ComboBoxItem>City</ComboBoxItem>
+                    <ComboBoxItem>Specialization</ComboBoxItem>
                 </ComboBox>
             </WrapPanel>
             <WrapPanel >

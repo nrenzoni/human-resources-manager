@@ -102,7 +102,7 @@ namespace DAL
                     new XElement("address", e.address.Address),
                     new XElement("city", e.address.City)
                   ),
-                  new XElement("bank", new XElement("bankAccount", e.bankAccountNumber),
+                  new XElement("bank", new XAttribute("bankAccount", e.bankAccountNumber),
                     new XElement("bankNumber", e.bank.BankNumber),
                     new XElement("bankBranch", e.bank.Branch)
                   ),

@@ -75,18 +75,32 @@ namespace BL
             #region check if employee and employer exist in DS
             if (DAL_Object.getEmployeeList().Count(x => x.ID == contract.EmployeeID) != 1)
                 throw new Exception("cannot add contract for employee that does not exist");
-            
+
             if (DAL_Object.getEmployerList().Count(x => x.ID == contract.EmployerID) != 1)
                 throw new Exception("cannot add contract for employer that does not exist");
             #endregion
 
             #region check if company established less than year ago
+
             Employer employer = DAL_Object.getEmployerList().Find(x => x.ID == contract.EmployerID);
             if (DateTime.Today.Year - employer.establishmentDate.Year < 1) // company less than 1 year old
             {
                 throw new Exception("cannot create contract with company established less than a year ago");
             }
+
             #endregion
+
+            #region check if gross wage per hour is within range of employee's specialization min/max wage
+
+            Employee contract_employee = DAL_Object.getEmployeeList().Find(x => x.ID == contract.EmployeeID);
+            Specialization contract_spec =  
+                DAL_Object.getSpecilizationList().Find(s => s.ID == contract_employee.specializationID);
+            if (contract.grossWagePerHour < contract_spec.minWagePerHour
+                || contract.grossWagePerHour > contract_spec.maxWagePerHour)
+                throw new Exception("gross wage per hour not within range of min/max of " + contract_spec.ToString());
+
+            #endregion
+
 
             #region calculate net wage by subtracting commission from gross wage
             int existingContractEmployeeCount =
