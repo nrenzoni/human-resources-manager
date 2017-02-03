@@ -41,8 +41,12 @@ namespace PLWPF
         private void ComSpecID_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             // check if null because uint cast potentially on null
-            if (ComSpecID.SelectedItem == null || ComSpecID.SelectedIndex == -1) 
-                //Globals.ClearAllFields()
+            if (ComSpecID.SelectedItem == null || ComSpecID.SelectedIndex == -1)
+            {
+                Globals.ClearAllFields(SpecializationGrid);
+                return;
+
+            }          
             else
                 Globals.CopyObject((BE.Specialization)ComSpecID.SelectedItem, UISpec);
         }
