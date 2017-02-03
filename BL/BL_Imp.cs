@@ -18,6 +18,10 @@ namespace BL
             if (DAL_Object.getSpecilizationList().Exists(s => s.specializationName.Trim() == specialization.specializationName.Trim()))
                 throw new Exception("a specialization already exists with name" + specialization.specializationName);
 
+            // verify max wage is greater than min wage
+            if (specialization.maxWagePerHour <= specialization.minWagePerHour)
+                throw new Exception("max wage is under min wage");
+
             return DAL_Object.addSpecilization(specialization);
         }
 

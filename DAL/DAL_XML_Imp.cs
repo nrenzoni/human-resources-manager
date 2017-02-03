@@ -12,9 +12,17 @@ namespace DAL
     public class DAL_XML_Imp : IDAL
     {
         static uint nextContractID;
+
         static DAL_XML_Imp()
         {
-            //nextContractID; // finish
+            if (XML_Source.contractRoot.HasElements == false) // no children nodes
+            {
+                nextContractID = 100000;
+            }
+            else
+                nextContractID = (from cont in XML_Source.contractRoot.Elements()
+                                  where cont.Attributes("ID").Any()
+                                  select (uint)cont.Attribute("ID")).Max() + 1;
         }
 
         // check if element already exists in XML file
@@ -169,7 +177,7 @@ namespace DAL
 
         public uint getNextContractID()
         {
-            return nextContractID++;
+            return nextContractID;
         }
 
         XElement createEmployerXElement(Employer e)
@@ -229,9 +237,10 @@ namespace DAL
                 return (from spec in XML_Source.specializationRoot.Elements()
                             select new Specialization()
                             {
+                                ID =                 (uint)spec.Attribute("ID"),
                                 specializationName = spec.Element("specializationName").Value,
-                                maxWagePerHour    = double.Parse(spec.Element("maxWagePerHour").Value),
-                                minWagePerHour    = double.Parse(spec.Element("minWagePerHour").Value)
+                                maxWagePerHour    =  double.Parse(spec.Element("maxWagePerHour").Value),
+                                minWagePerHour    =  double.Parse(spec.Element("minWagePerHour").Value)
                             }).ToList();
             }
             catch
@@ -300,22 +309,25 @@ namespace DAL
             try
             {
                 return (from cont in XML_Source.contractRoot.Elements()
+                        where cont.Name == "Contract"
                         select new Contract()
                         {
-                            contractID = uint.Parse(cont.Element("contractID").Value),
-                            EmployerID = uint.Parse(cont.Element("EmployerID").Value),
-                            EmployeeID = uint.Parse(cont.Element("EmployeeID").Value),
-                            isInterviewed = bool.Parse(cont.Element("isInterviewed").Value),
-                            contractFinalized = bool.Parse(cont.Element("contractFinalized").Value),
-                            grossWagePerHour = double.Parse(cont.Element("grossWagePerHour").Value),
-                            netWagePerHour = double.Parse(cont.Element("netWagePerHour").Value),
-                            contractEstablishedDate = DateTime.Parse(cont.Element("contractEstablishedDate").Value),
-                            contractTerminatedDate = DateTime.Parse(cont.Element("contractTerminatedDate").Value),
-                            maxWorkHours = uint.Parse(cont.Element("maxWorkHours").Value)
-
+                            contractID =              (uint)cont.Element("contractID"),
+                            EmployerID =              (uint)cont.Element("EmployerID"),
+                            EmployeeID =              (uint)cont.Element("EmployeeID"),
+                            isInterviewed =           (bool)cont.Element("isInterviewed"),
+                            contractFinalized =       (bool)cont.Element("contractFinalized"),
+                            grossWagePerHour =        (double)cont.Element("grossWagePerHour"),
+                            netWagePerHour =          (double)cont.Element("netWagePerHour"),
+                            contractEstablishedDate = (DateTime)cont.Element("contractEstablishedDate"),
+                            contractTerminatedDate =  (DateTime)cont.Element("contractTerminatedDate"),
+                            maxWorkHours =            (uint)cont.Element("maxWorkHours")
                         }).ToList();
             }
             catch { throw new Exception("getContractList() exception"); }
         }
+
+        public List<Bank> getBankList()
+            => XML_Source.Banks.ToList();
     }
 }

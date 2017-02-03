@@ -108,5 +108,9 @@ namespace DAL
         public List<Employee> getEmployeeList()            => List_Source.employeeList;
         public List<Employer> getEmployerList()            => List_Source.employerList;
         public List<Contract> getContractList()            => List_Source.contractList;
+        public List<Bank> getBankList()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
