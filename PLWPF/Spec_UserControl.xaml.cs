@@ -31,38 +31,75 @@ namespace PLWPF
             InitializeComponent();
             Spec_DS_Change_Event += refreshCombox;
             DataContext = UISpec;
-            refreshCombox();
+            refreshCombox(); // refreshes comspecID itemssource
         }
 
 
         private void refreshCombox()
             => ComSpecID.ItemsSource = BL_Object.getSpecilizationList();
 
-        // only called when new ID selected from combobox list, if value entered is not in combobox list, not called
         private void ComSpecID_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {            
-            BE.Specialization foundSpec = BL_Object.getSpecilizationList().FirstOrDefault(x => x == (BE.Specialization)ComSpecID.SelectedItem);
-
-            // if selected ID does not exist in DS, return
-            if (BE.Specialization.Equals(null, foundSpec))
-            {
-                Globals.ClearAllFields(SpecializationGrid);
-                return;
-            }
-            // copy values (by use of property get/set) of foundSpec to UISpec so binding to UISpec not reset
-            else { Globals.CopyObject(foundSpec, UISpec); }
+        {
+            // check if null because uint cast potentially on null
+            if (ComSpecID.SelectedItem == null || ComSpecID.SelectedIndex == -1) 
+                //Globals.ClearAllFields()
+            else
+                Globals.CopyObject((BE.Specialization)ComSpecID.SelectedItem, UISpec);
         }
 
         private void addButton_Click(object sender, RoutedEventArgs e)
         {
+            addButton.Visibility = Visibility.Collapsed;
+            finalizeButton.Visibility = Visibility.Visible;
+            cancelButton.Visibility = Visibility.Visible;
+            deleteButton.Visibility = Visibility.Hidden;
+            updateButton.Visibility = Visibility.Hidden;
+
+            txtSpecName.IsEnabled = true;
+            txtMinWagePerHour.IsEnabled = true;
+            txtMaxWagePerHour.IsEnabled = true;
+
+
+            ComSpecID.IsEnabled = false;
+            
+            ComSpecID.Text = BL_Object.getNextContractID().ToString();
+        }
+
+        private void finalizeButton_Click(object sender, RoutedEventArgs e)
+        {
+            UISpec.ID = uint.Parse(ComSpecID.Text);
+
             try
             {
                 BE.Specialization addSpec = new BE.Specialization();
                 Globals.CopyObject(UISpec, addSpec);
                 BL_Object.addSpecialization(addSpec);
-                Spec_DS_Change_Event?.Invoke();
+
+                lockFields();
+
+                Spec_DS_Change_Event?.Invoke(); // refreshes combobox as well
             }
             catch (Exception ex) { Globals.exceptionHandler(ex); }
+        }
+
+        private void cancelButton_Click(object sender, RoutedEventArgs e)
+        {
+            lockFields();
+        }
+
+        void lockFields()
+        {
+            addButton.Visibility = Visibility.Visible;
+            finalizeButton.Visibility = Visibility.Collapsed;
+            cancelButton.Visibility = Visibility.Collapsed;
+            deleteButton.Visibility = Visibility.Visible;
+            updateButton.Visibility = Visibility.Visible;
+
+            txtSpecName.IsEnabled = false;
+            txtMinWagePerHour.IsEnabled = false;
+            txtMaxWagePerHour.IsEnabled = false;
+
+            ComSpecID.IsEnabled = true;
         }
 
         private void deleteButton_Click(object sender, RoutedEventArgs e)

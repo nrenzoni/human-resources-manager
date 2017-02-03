@@ -21,6 +21,7 @@ namespace BE
             Branch = _Branch;
             Address = _Address;
         }
+        public Bank() { }
 
         public static explicit operator Bank(XElement XRoot)
         {

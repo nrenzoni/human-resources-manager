@@ -12,7 +12,7 @@ namespace DS
 {
     static public class XML_Source
     {
-        static string prefix = @"../../../"; // relative source of files
+        static string prefix = @"../../../XML DB Files/"; // relative source of files
 
         static public string specName     = "specializations";
         static public string bankName     = "banks";
@@ -20,41 +20,74 @@ namespace DS
         static public string employeeName = "employees";
         static public string employerName = "employers";
 
-        static XML_Source()
-        {
-            // initialize roots
-
-            loadOrCreate(specName, specializationRoot);
-            loadOrCreate(bankName, bankRoot);
-            loadOrCreate(contractName, contractRoot);
-            loadOrCreate(employerName, employerRoot);
-            loadOrCreate(employeeName, employeeRoot);
-        }
-
         static public XElement specializationRoot;
         static public XElement bankRoot;
         static public XElement contractRoot;
         static public XElement employeeRoot;
         static public XElement employerRoot;
 
-        static void loadOrCreate(string filename, XElement root)
+        static public IEnumerable<Bank> Banks;
+
+        static XML_Source()
+            {
+            // initialize roots
+
+            loadOrCreate(specName, out specializationRoot);
+            loadOrCreate(contractName, out contractRoot);
+            loadOrCreate(employerName, out employerRoot);
+            loadOrCreate(employeeName, out employeeRoot);
+
+            // download bank.xml, and load into list
+            try
+            {
+                XElement banks = XElement.Load(@"http://www.boi.org.il/he/BankingSupervision/BanksAndBranchLocations/Lists/BoiBankBranchesDocs/atm.xml");
+
+                Banks = from XBank in banks.Elements()
+                         let tempAddress = new CivicAddress
+                         {
+                             Address = (string)XBank.Element("כתובת_ה-ATM"),
+                             City = (string)XBank.Element("ישוב")
+                         }
+                         group new Bank
+                         {
+                             BankName = (string)XBank.Element("שם_בנק"),
+                             BankNumber = (uint)XBank.Element("קוד_בנק"),
+                             Address = tempAddress,
+                             Branch = (uint)XBank.Element("קוד_סניף")
+                         } by (string)XBank.Element("קוד_בנק") + (string)XBank.Element("כתובת_ה-ATM") into bankNumAndAddress
+                         select bankNumAndAddress.First();
+
+                XmlSerializer serializer = new XmlSerializer(typeof(List<Bank>));
+                TextWriter writer = new StreamWriter((concatXMLName("banks")));
+                serializer.Serialize(writer, Banks.ToList());
+                writer.Close();
+            }
+            catch
+            {
+                loadXMLFile(bankName, out bankRoot);
+            }
+
+
+        }
+
+        static void loadOrCreate(string filename, out XElement root)
         {
             if (!File.Exists(concatXMLName(filename)))
-                createXMLFile(filename, root);
+                createXMLFile(filename, out root);
             else
-                loadXMLFile(filename, root);
+                loadXMLFile(filename, out root);
         }
 
         static public string concatXMLName(string filename)
             => prefix + filename + ".xml";
 
-        static void createXMLFile(string filename, XElement root)
+        static void createXMLFile(string filename, out XElement root)
         {
             root = new XElement(filename);
             root.Save(concatXMLName(filename));
         }
 
-        static void loadXMLFile(string filename, XElement root)
+        static void loadXMLFile(string filename, out XElement root)
         {
             try
             {

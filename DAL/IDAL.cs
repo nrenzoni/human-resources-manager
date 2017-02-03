@@ -29,5 +29,6 @@ namespace DAL
         List<Employee>          getEmployeeList();
         List<Employer>          getEmployerList();
         List<Contract>          getContractList();
+        List<Bank>              getBankList();
     }
 }

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<specializations>
+  <specialization ID="100000">
+    <specializationName>programming</specializationName>
+    <maxWagePerHour>10000</maxWagePerHour>
+    <minWagePerHour>450</minWagePerHour>
+  </specialization>
+</specializations>
