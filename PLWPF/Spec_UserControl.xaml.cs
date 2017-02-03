@@ -41,8 +41,7 @@ namespace PLWPF
         private void ComSpecID_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             // check if null because uint cast potentially on null
-            if (ComSpecID.SelectedItem == null || ComSpecID.SelectedIndex == -1) 
-                //Globals.ClearAllFields()
+            if (ComSpecID.SelectedItem == null || ComSpecID.SelectedIndex == -1)
             else
                 Globals.CopyObject((BE.Specialization)ComSpecID.SelectedItem, UISpec);
         }
@@ -58,7 +57,6 @@ namespace PLWPF
             txtSpecName.IsEnabled = true;
             txtMinWagePerHour.IsEnabled = true;
             txtMaxWagePerHour.IsEnabled = true;
-
 
             ComSpecID.IsEnabled = false;
             
