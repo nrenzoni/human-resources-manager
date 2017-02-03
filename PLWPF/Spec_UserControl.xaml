@@ -14,7 +14,7 @@
             <Button Style="{StaticResource updateButtonStyle}" Click="updateButton_Click" IsEnabled="{Binding Text, ElementName=ComSpecID, Converter={StaticResource InverseIDToIsEnabledConverter},ConverterParameter=Spec}"/>
         </StackPanel>
 
-        <Grid Style="{StaticResource GridUserControlStyle}">
+        <Grid Name="SpecializationGrid" Style="{StaticResource GridUserControlStyle}">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="auto"/>
                 <ColumnDefinition/>

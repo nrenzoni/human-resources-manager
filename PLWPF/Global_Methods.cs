@@ -49,6 +49,10 @@ namespace PLWPF
                 else if (item.GetType() == typeof(DatePicker))
                     (item as DatePicker).Text = "";
             }
-        }        
+        }
+
+        public static DateTime ResetDatePicker()
+            => new DateTime(2000, 1, 1);          
+              
     }
 }

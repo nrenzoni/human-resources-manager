@@ -31,47 +31,46 @@ namespace PLWPF
             InitializeComponent();
 
             DataContext = UIEmployee;
-
-            ComEmplyeeEduc.Text=" ";
+            
             ComEmplyeeCity.ItemsSource = BE.CivicAddress.Cities;
             ComEmplyeeID.ItemsSource = Bl_Object.getEmployeeList();
             ComEmplyeeEduc.ItemsSource = Enum.GetValues(typeof(BE.Education));
             ComEmployeSpec.ItemsSource = Bl_Object.getSpecilizationList();
+            UIEmployee.birthday=Globals.ResetDatePicker();
 
             //ComEmployeSpec.ItemsSource = from word in (Enum.GetNames(typeof(BE.SpecializationName)))
             //                             select word.Replace("_", " ");
-
-
+            
         }
 
         private void ComEmplyeeID_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             BE.Employee foundEmploye = Bl_Object.getEmployeeList().FirstOrDefault(x => x == (BE.Employee)ComEmplyeeID.SelectedItem);
 
-            if (foundEmploye == null)
+            if (BE.Employee.Equals(foundEmploye, null))
             {
                 Globals.ClearAllFields(EmployeeGrid); // Clear the fields in the current grid.
                 return;
             }
 
-           else  Globals.CopyObject(foundEmploye, UIEmployee);
+            else Globals.CopyObject(foundEmploye, UIEmployee);
         }
 
         private void addButton_Click(object sender, RoutedEventArgs e)
         {
             try
             {
-                foreach (var property in UIEmployee.GetType().GetProperties())
-                {
-                    if (property.Name != "recommendationNotes")
-                    {
-                        if (property.GetGetMethod() != null)
-                        {
-                            if (property.GetValue(UIEmployee) == null)
-                                throw new Exception("please fill out all fields");
-                        }
-                    }
-                }
+                //foreach (var property in UIEmployee.GetType().GetProperties())
+                //{
+                //    if (property.Name != "recommendationNotes")
+                //    {
+                //        if (property.GetGetMethod() != null) //Check if Get Method are exist in the specific properity
+                //        {
+                //            if (property.GetValue(UIEmployee) == null)
+                //                throw new Exception("please fill out all fields");
+                //        }
+                //    }
+                //}
                 
                 BE.Employee addEmploye = new BE.Employee();
                 Globals.CopyObject(UIEmployee, addEmploye);

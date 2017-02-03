@@ -40,23 +40,17 @@ namespace PLWPF
 
         // only called when new ID selected from combobox list, if value entered is not in combobox list, not called
         private void ComSpecID_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            // reflection for copying properties from selected Spec in ID field to properties of UISpec
-            if (ComSpecID.SelectedItem == null) // check if null because uint cast potentially on null
-                return;
+        {            
+            BE.Specialization foundSpec = BL_Object.getSpecilizationList().FirstOrDefault(x => x == (BE.Specialization)ComSpecID.SelectedItem);
 
-            BE.Specialization foundSpec = 
-                BL_Object.getSpecilizationList().FirstOrDefault(x => x == (BE.Specialization)ComSpecID.SelectedItem);
-            
             // if selected ID does not exist in DS, return
-            if (ReferenceEquals(null, foundSpec))
+            if (BE.Specialization.Equals(null, foundSpec))
             {
-                //foundSpec = new BE.Specialization();
+                Globals.ClearAllFields(SpecializationGrid);
                 return;
             }
-
             // copy values (by use of property get/set) of foundSpec to UISpec so binding to UISpec not reset
-            Globals.CopyObject(foundSpec, UISpec);
+            else { Globals.CopyObject(foundSpec, UISpec); }
         }
 
         private void addButton_Click(object sender, RoutedEventArgs e)

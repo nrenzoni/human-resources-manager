@@ -48,15 +48,15 @@ namespace PLWPF
         private void ComEmployerID_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             BE.Employer foundEmployer = BL_Object.getEmployerList().FirstOrDefault(x => x == (BE.Employer)ComEmployerID.SelectedItem);
-            
-            if (foundEmployer == null) // check if null because uint cast potentially on null
+
+            if (BE.Employer.Equals(foundEmployer , null)) // check if null because uint cast potentially on null
             {
                 Globals.ClearAllFields(EmployerGrid); // Clear the fields in the current grid.
                 return;
             }
 
             // copy values (by use of property get/set) of foundEmployer to UIEmployer so binding to UIEmployer not reset
-            Globals.CopyObject(foundEmployer, UIEmployer);
+            else { Globals.CopyObject(foundEmployer, UIEmployer); }
         }
 
         private void addButton_Click(object sender, RoutedEventArgs e)

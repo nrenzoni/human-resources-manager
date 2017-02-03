@@ -240,3 +240,8 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+/specializations.xml
+/employers.xml
+/employees.xml
+/contracts.xml
+/banks.xml
