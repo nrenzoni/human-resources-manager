@@ -82,9 +82,8 @@ namespace DS
 
             string[] emails = { "jgranos@hotmail.com", "sparkzilla@cableone.net", "lowkell@gmail.com", "mcgregor@uwo.ca", "tamtruong99@yahoo.com", "eve@thecsrgroup.com", "cyber_zac52@hotmail.com", "clarkfa@2mawnr.usmc.mil", "hsa@uzsi.cz", "tjnichols@fsbdial.co.uk", "daniel.hiestand@3-a.ch", "dale_turner@scotiacapital.com", "Sinister13thUrge@aol.com", "gary_san@yahoo.com", "stehlyja@1mawmag12.usmc.mil", "racorrea@mre.gov.br", "kangrc@gmail.com", "outremere@comcast.net", "yvonne.deboer@international.gc.ca", "jbloore@aol.com", "arif@alfalahsec.com", "milan@eim.ae", "acbortree@yahoo.com", "dm_heilig@yahoo.com", "lazy7777@aol.com", "edp7@email.byu.edu" };
 
-            int[] bankAccnts = (from i in Enumerable.Range(1, 20)
-                                select randGen.Next(100000000, 999999999)).ToArray();
-
+            int[] bankAccnts = Enumerable.Range(1000, 20).ToArray();
+            
             string[] cities = { "אופקים","אור יהודה","אור עקיבא","אילת","אריאל","אשדוד","אשקלון","באר שבע","בית שאן","בית שמש","ביתר עילית","בני ברק","בת ים","גבעתיים","דימונה","הוד השרון","הרצליה","חדרה","חולון","חיפה","טבריה","טירת כרמל","יבנה","יהוד - מונוסון","ירושלים","כפר סבא","כרמיאל","לוד","מגדל העמק","מודיעין - מכבים - רעות","מעלה אדומים","מעלות - תרשיחא","נס ציונה","נצרת","נצרת עילית","נשר","נתיבות","נתניה","עכו","עפולה","ערד","פתח תקוה","צפת","קרית אונו","קרית אתא","קרית ביאליק","קרית גת","קרית ים","קרית מוצקין","קרית מלאכי","קרית שמונה","ראש העין","ראשון לציון","רחובות","רמלה","רמת גן","רמת השרון","רעננה","שדרות","תל אביב - יפו" };
 
             foreach (uint i in Enumerable.Range(0,10))

@@ -15,7 +15,7 @@ namespace BL
 
         public bool addSpecialization(Specialization specialization)
         {
-            if (DAL_Object.getSpecilizationList().Exists(s => s.specializationName.Trim() == specialization.specializationName.Trim()))
+            if (DAL_Object.getSpecilizationList().Exists(s => s.specializationName.Trim().ToLower() == specialization.specializationName.Trim().ToLower()))
                 throw new Exception("a specialization already exists with name" + specialization.specializationName);
 
             // verify max wage is greater than min wage
