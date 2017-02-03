@@ -63,7 +63,6 @@ namespace PLWPF
             txtMinWagePerHour.IsEnabled = true;
             txtMaxWagePerHour.IsEnabled = true;
 
-
             ComSpecID.IsEnabled = false;
             
             ComSpecID.Text = BL_Object.getNextContractID().ToString();
