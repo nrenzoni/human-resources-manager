@@ -72,6 +72,12 @@ namespace BL
         uint getNextContractID();
 
         /// <summary>
+        /// returns next available specialization ID from DAL
+        /// </summary>
+        /// <returns></returns>
+        uint getNextSpecID();
+
+        /// <summary>
         /// adds employer on condition that company establishment is not in future, and that same company does not already exist
         /// </summary>
         /// <param name="employer"></param>
@@ -139,6 +145,12 @@ namespace BL
         /// <param name="ordered"></param>
         /// <returns></returns>
         IEnumerable<IGrouping<int, double>> getProfitByYear(bool ordered = false); // <int=year (key), double=profit>
+
+        /// <summary>
+        /// returns banks grouped by bank name, then city
+        /// </summary>
+        /// <returns></returns>
+        //IEnumerable<IGrouping<string, IGrouping<string, Bank>> getBanks();
 
         List<Specialization> getSpecilizationList();
         List<Employee> getEmployeeList();

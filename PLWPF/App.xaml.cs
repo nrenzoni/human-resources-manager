@@ -106,4 +106,26 @@ namespace PLWPF
             return new InverseBoolConverter().Convert(value, targetType, parameter, culture);
         }
     }
+
+    public class ContractTerminatedConverter : IValueConverter
+    {
+        public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+            if(value.GetType() == typeof(DateTime))
+            {
+                // if contract hasn't terminated, return visible for 'Terminate' Button
+                if (((DateTime)value).Date > DateTime.Today)
+                    return "Visible";
+                else
+                    return "Collapsed";
+            }
+
+            throw new Exception("ContractTerminatedConverter only accepts value of type DateTime");
+        }
+
+        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+            throw new NotImplementedException();
+        }
+    }
 }

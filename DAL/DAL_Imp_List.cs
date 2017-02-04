@@ -59,7 +59,7 @@ namespace DAL
             return addToList(List_Source.specList, specilization); // returns retuned value of addToList
         }
 
-        uint getNextSpecID()
+        public uint getNextSpecID()
             => List_Source.specList.Count != 0 ?
                 List_Source.specList.Max(s => s.ID) + 1 : 10000000;
 

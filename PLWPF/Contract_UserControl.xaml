@@ -23,7 +23,7 @@
             </Button>
             <Button Content="Save" Name="SaveNewContract_Button" Click="saveNewContract_Click" Visibility="Collapsed"/>
             <Button Content="Cancel" Name="CancelNewContract_Button" Click="CancelNewContract_Click" Visibility="Collapsed"/>
-            <Button Name="TerminateContract_Button" Click="TerminContract_Click">
+            <Button Name="TerminateContract_Button" Click="TerminContract_Click" Visibility="{Binding contractTerminatedDate, Converter={StaticResource ContractTerminatedConverter}}">
                 <Button.Content>
                     <StackPanel>
                         <TextBlock Text="Terminate" HorizontalAlignment="Center"/>

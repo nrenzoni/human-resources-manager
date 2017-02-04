@@ -12,17 +12,24 @@ namespace DAL
     public class DAL_XML_Imp : IDAL
     {
         static uint nextContractID;
+        static uint nextSpecID;
 
         static DAL_XML_Imp()
         {
-            if (XML_Source.contractRoot.HasElements == false) // no children nodes
+            setNextID(XML_Source.contractRoot, out nextContractID, 100000);
+            setNextID(XML_Source.specializationRoot, out nextSpecID, 100000);
+        }
+
+        static void setNextID(XElement XRoot, out uint nextParam, uint defaultNext)
+        {
+            if (XRoot.HasElements == false) // no children nodes
             {
-                nextContractID = 100000;
+                nextParam = defaultNext;
             }
             else
-                nextContractID = (from cont in XML_Source.contractRoot.Elements()
-                                  where cont.Attributes("ID").Any()
-                                  select (uint)cont.Attribute("ID")).Max() + 1;
+                nextParam = (from node in XRoot.Elements()
+                            where node.Attributes("ID").Any()
+                            select (uint)node.Attribute("ID")).Max() + 1;
         }
 
         // check if element already exists in XML file
@@ -77,6 +84,8 @@ namespace DAL
 
             XML_Source.specializationRoot.Add(createSpecXElement(spec));
             XML_Source.SaveXML<Specialization>();
+
+            nextSpecID++;
             return true;
         }
 
@@ -93,7 +102,9 @@ namespace DAL
                 removeElementFromXML(XML_Source.specializationRoot, foundElement) 
                 && addSpecilization(spec);
         }
-        
+
+        public uint getNextSpecID() => nextSpecID;
+
         XElement createEmployeeXElement(Employee e)
             => new XElement("employee", new XAttribute("ID", e.ID),
                   new XElement("firstName", e.firstName),
@@ -158,8 +169,6 @@ namespace DAL
 
         public bool addContract(Contract contract)
         {
-            contract.contractID = getNextContractID();
-
             if (ElementIfExists(XML_Source.contractRoot, contract.contractID) != null)
             {
                 throw new Exception(contract.contractID + " already exists in file");
@@ -167,6 +176,8 @@ namespace DAL
 
             XML_Source.contractRoot.Add(createContractXElement(contract));
             XML_Source.SaveXML<Contract>();
+
+            nextContractID++;
             return true;
 
         }
@@ -286,19 +297,19 @@ namespace DAL
                 return (from e in XML_Source.employerRoot.Elements()
                         select new Employer()
                         {
-                            ID = (uint)e.Attribute("ID"),
-                            companyName = (string)e.Element("companyName"),
-                            privatePerson = (bool)e.Element("privatePerson"),
+                            ID = uint.Parse(e.Attribute("ID").Value),
+                            companyName = e.Element("companyName").Value,
+                            privatePerson = bool.Parse(e.Element("privatePerson").Value),
                             firstName = (string)e.Element("firstName"), // check if exists perhaps
                             lastName = (string)e.Element("lastName"),
-                            phoneNumber = (uint)e.Element("phoneNumber"),
-                            specializationID = (uint)e.Element("specializationID"),
-                            establishmentDate = (DateTime)e.Element("establishmentDate"),
-                            address = (CivicAddress)e.Element("address") // calls explicit converter of Xlement to CivicAddress
+                            phoneNumber = uint.Parse(e.Element("phoneNumber").Value),
+                            specializationID = uint.Parse(e.Element("specializationID").Value),
+                            establishmentDate = DateTime.Parse(e.Element("establishmentDate").Value),
+                            address = (CivicAddress)e.Element("civicAddress") // calls explicit converter of Xlement to CivicAddress
                         }
                         ).ToList();
             }
-            catch
+            catch(Exception ex)
             {
                 throw new Exception("getEmployerList() exception");
             }

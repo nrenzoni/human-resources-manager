@@ -24,7 +24,11 @@ namespace PLWPF
 
         public event Action DS_Edit_Event;
 
-        private void onUCupdate() => DS_Edit_Event?.Invoke();
+        private void onUCupdate()
+        {
+            DS_Edit_Event?.Invoke();
+            employerUC.refreshCombox();
+        }
 
         public Edit_UserControl()
         {
@@ -32,6 +36,7 @@ namespace PLWPF
             employerUC.Employer_DS_Change_Event += onUCupdate;
             contractUC.Contract_DS_Change_Event += onUCupdate;
             employeeUC.Employee_DS_Change_Event += onUCupdate;
+            specUC.Spec_DS_Change_Event         += onUCupdate;
         }
 
         public void open_EditUC_Tab(object obj)

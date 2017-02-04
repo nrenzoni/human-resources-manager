@@ -1,4 +1,6 @@
-﻿using System;
+﻿#define DEBUG
+
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -38,6 +40,9 @@ namespace DS
             loadOrCreate(employeeName, out employeeRoot);
 
             // download bank.xml, and load into list
+#if DEBUG
+            loadXMLFile(bankName, out bankRoot);
+#else
             try
             {
                 XElement banks = XElement.Load(@"http://www.boi.org.il/he/BankingSupervision/BanksAndBranchLocations/Lists/BoiBankBranchesDocs/atm.xml");
@@ -66,7 +71,7 @@ namespace DS
             {
                 loadXMLFile(bankName, out bankRoot);
             }
-
+#endif
 
         }
 

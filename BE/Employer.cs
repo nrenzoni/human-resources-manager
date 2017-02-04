@@ -69,7 +69,7 @@ namespace BE
             }
         }
 
-        CivicAddress _address;
+        CivicAddress _address = new CivicAddress();
         public CivicAddress address
         {
             get { return _address; }
@@ -97,7 +97,7 @@ namespace BE
             }
         }
 
-        DateTime _establishmentDate;
+        DateTime _establishmentDate = new DateTime();
         public DateTime establishmentDate
         {
             get { return _establishmentDate; }

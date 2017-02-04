@@ -31,7 +31,7 @@ namespace PLWPF
             InitializeComponent();
             Spec_DS_Change_Event += refreshCombox;
             DataContext = UISpec;
-            refreshCombox(); // refreshes comspecID itemssource
+            refreshCombox(); // initializes comspecID itemssource
         }
 
 
@@ -40,13 +40,9 @@ namespace PLWPF
 
         private void ComSpecID_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            // check if null because uint cast potentially on null
-            if (ComSpecID.SelectedItem == null || ComSpecID.SelectedIndex == -1)
-            {
-                Globals.ClearAllFields(SpecializationGrid);
-                return;
-
-            }          
+            // if selection is not one of the specs in lcombobox
+            if (ComSpecID.SelectedItem == null)
+                Globals.CopyObject(new BE.Specialization(), UISpec);
             else
                 Globals.CopyObject((BE.Specialization)ComSpecID.SelectedItem, UISpec);
         }
@@ -65,7 +61,7 @@ namespace PLWPF
 
             ComSpecID.IsEnabled = false;
             
-            ComSpecID.Text = BL_Object.getNextContractID().ToString();
+            ComSpecID.Text = BL_Object.getNextSpecID().ToString();
         }
 
         private void finalizeButton_Click(object sender, RoutedEventArgs e)

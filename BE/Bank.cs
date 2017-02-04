@@ -12,7 +12,7 @@ namespace BE
         public string BankName { get; set; }
         public uint BankNumber { get; set; }
         public uint Branch { get; set; }
-        public CivicAddress Address { get; set; }
+        public CivicAddress Address { get; set; } = new CivicAddress();
 
         public Bank(string _BankName="", uint _BankNumber=0, uint _Branch=0, CivicAddress _Address=null)
         {

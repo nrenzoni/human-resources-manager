@@ -9,10 +9,24 @@
              Style="{StaticResource UserControlStyle}">
              
     <DockPanel>
+        
         <StackPanel Style="{StaticResource StackPanelButtonPane}">
-            <Button Style="{StaticResource addButtonStyle}" Click="addButton_Click" IsEnabled="{Binding Text,ElementName=ComEmplyeeID, Converter={StaticResource IDToIsEnabledConverter},ConverterParameter=Employee}"/>
-            <Button Style="{StaticResource deleteButtonStyle}" Click="deleteButton_Click" IsEnabled="{Binding Text,ElementName=ComEmplyeeID , Converter={StaticResource InverseIDToIsEnabledConverter}, ConverterParameter=Employee}"/>
-            <Button Style="{StaticResource updateButtonStyle}" Click="updateButton_Click" IsEnabled="{Binding Text,ElementName=ComEmplyeeID ,Converter={StaticResource InverseIDToIsEnabledConverter}, ConverterParameter=Employee}"/>          
+            
+            <Button Name="addFirstButton" Style="{StaticResource addButtonStyle}" Click="addNew_Click">
+                <StackPanel>
+                    <TextBlock Text="Add New"/>
+                    <TextBlock Text="Employee"/>
+                </StackPanel>
+            </Button>
+
+            <Button Name="addSecondButton" Style="{StaticResource addButtonStyle}" Click="addSecondButton_Click" Visibility="Collapsed" />
+
+            <Button Name="cancelButton" Content="Cancel" Style="{StaticResource addButtonStyle}" Click="cancelButton_Click" Visibility="Collapsed"/>
+
+            <Button Name="deleteButton" Style="{StaticResource deleteButtonStyle}" Click="deleteButton_Click" IsEnabled="{Binding Text,ElementName=ComEmplyeeID , Converter={StaticResource InverseIDToIsEnabledConverter}, ConverterParameter=Employee}"/>
+
+            <Button Name="updateButton" Style="{StaticResource updateButtonStyle}" Click="updateButton_Click" IsEnabled="{Binding Text,ElementName=ComEmplyeeID ,Converter={StaticResource InverseIDToIsEnabledConverter}, ConverterParameter=Employee}"/>      
+            
         </StackPanel>
         
         <ScrollViewer VerticalScrollBarVisibility="Visible">

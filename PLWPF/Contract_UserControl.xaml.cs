@@ -57,8 +57,6 @@ namespace PLWPF
             addNewContract_Button.Visibility = Visibility.Collapsed;
             SaveNewContract_Button.Visibility = Visibility.Visible;
             CancelNewContract_Button.Visibility = Visibility.Visible;
-            TerminateContract_Button.Visibility = Visibility.Collapsed;
-            FinalizeContract_Button.Visibility = Visibility.Collapsed;
 
             comboContractID.IsEnabled = false;
             ComboEmployerID.IsEnabled = true;
@@ -106,8 +104,6 @@ namespace PLWPF
             addNewContract_Button.Visibility = Visibility.Visible;
             SaveNewContract_Button.Visibility = Visibility.Collapsed;
             CancelNewContract_Button.Visibility = Visibility.Collapsed;
-            TerminateContract_Button.Visibility = Visibility.Visible;
-            FinalizeContract_Button.Visibility = Visibility.Visible;
 
             comboContractID.IsEnabled = true;
             ComboEmployerID.IsEnabled = false;
@@ -136,7 +132,10 @@ namespace PLWPF
 
         private void FinalizeButton_Click(object sender, RoutedEventArgs e)
         {
-            BE.Contract Contract_ref = BL_Object.getContractListByFilter(x => Equals(x,UIContract)).First();
+            BE.Contract Contract_ref = BL_Object.getContractListByFilter(x => Equals(x,UIContract)).FirstOrDefault();
+            if (Contract_ref == null)
+                return;
+
             Contract_ref.contractFinalized = true;
             updateUIContract(Contract_ref);
             Contract_DS_Change_Event?.Invoke();
@@ -155,7 +154,9 @@ namespace PLWPF
         {
             try
             {
-                BL_Object.terminateContract(UIContract);
+                if (BL_Object.terminateContract(UIContract) == false) // contract not found in DB
+                    return; 
+
                 Contract_DS_Change_Event?.Invoke();
 
                 // refresh UI elements

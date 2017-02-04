@@ -36,48 +36,44 @@ namespace PLWPF
             ComEmplyeeID.ItemsSource = Bl_Object.getEmployeeList();
             ComEmplyeeEduc.ItemsSource = Enum.GetValues(typeof(BE.Education));
             ComEmployeSpec.ItemsSource = Bl_Object.getSpecilizationList();
-            UIEmployee.birthday=Globals.ResetDatePicker();
-
-            //ComEmployeSpec.ItemsSource = from word in (Enum.GetNames(typeof(BE.SpecializationName)))
-            //                             select word.Replace("_", " ");
-            
+            UIEmployee.birthday = Globals.ResetDatePicker();
         }
 
         private void ComEmplyeeID_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             BE.Employee foundEmploye = Bl_Object.getEmployeeList().FirstOrDefault(x => x == (BE.Employee)ComEmplyeeID.SelectedItem);
 
-            if (BE.Employee.Equals(foundEmploye, null))
-            {
-                Globals.ClearAllFields(EmployeeGrid); // Clear the fields in the current grid.
-                return;
-            }
+            // if selected ID not found in DB, reset all fields in UIEmployee, thus resetting all controls in UI
+            if (Equals(foundEmploye, null))
+                Globals.CopyObject(new BE.Employee(), UIEmployee);
 
             else Globals.CopyObject(foundEmploye, UIEmployee);
         }
 
-        private void addButton_Click(object sender, RoutedEventArgs e)
+        private void addNew_Click(object sender, RoutedEventArgs e)
+        {
+            add_ButtonVisib();
+
+            ComEmplyeeID.ItemsSource = null;
+        }
+
+        private void addSecondButton_Click(object sender, RoutedEventArgs e)
         {
             try
-            {
-                //foreach (var property in UIEmployee.GetType().GetProperties())
-                //{
-                //    if (property.Name != "recommendationNotes")
-                //    {
-                //        if (property.GetGetMethod() != null) //Check if Get Method are exist in the specific properity
-                //        {
-                //            if (property.GetValue(UIEmployee) == null)
-                //                throw new Exception("please fill out all fields");
-                //        }
-                //    }
-                //}
-                
+            {                
                 BE.Employee addEmploye = new BE.Employee();
                 Globals.CopyObject(UIEmployee, addEmploye);
                 Bl_Object.addEmployee(addEmploye);
                 Employee_DS_Change_Event?.Invoke();
+                restoreButtonVisib();
             }
             catch (Exception ex) { Globals.exceptionHandler(ex); }
+        }
+
+        private void cancelButton_Click(object sender, RoutedEventArgs e)
+        {
+            restoreButtonVisib();
+            ComEmplyeeID.ItemsSource = Bl_Object.getEmployeeList();
         }
 
         private void deleteButton_Click(object sender, RoutedEventArgs e)
@@ -98,6 +94,24 @@ namespace PLWPF
                 Employee_DS_Change_Event?.Invoke();
             }
             catch (Exception ex) { Globals.exceptionHandler(ex); }        
+        }
+
+        private void add_ButtonVisib()
+        {
+            addFirstButton.Visibility = Visibility.Collapsed;
+            addSecondButton.Visibility = Visibility.Visible;
+            cancelButton.Visibility = Visibility.Visible;
+            deleteButton.Visibility = Visibility.Collapsed;
+            updateButton.Visibility = Visibility.Collapsed;
+        }
+
+        private void restoreButtonVisib()
+        {
+            addFirstButton.Visibility = Visibility.Visible;
+            addSecondButton.Visibility = Visibility.Collapsed;
+            cancelButton.Visibility = Visibility.Collapsed;
+            deleteButton.Visibility = Visibility.Visible;
+            updateButton.Visibility = Visibility.Visible;
         }
     }
 }
