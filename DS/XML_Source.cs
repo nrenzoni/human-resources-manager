@@ -72,25 +72,35 @@ namespace DS
                 // loads saves banks.xml file into bankRoot
                 loadXMLFile(bankName, out bankRoot);
 
-                e.Result = "success";
+                e.Result = "downloadSuccess";
                 return;
 
             }
             catch // if internet problem, enter into catch
             {
-                e.Result = "catch statement";
+                try
+                {
+                    // load local banks.xml
+                    loadXMLFile(bankName, out bankRoot);
+                    Banks = from bank in bankRoot.Elements()
+                            let b = new Bank()
+                            {
+                                BankName = (string)bank.Element("BankName"),
+                                BankNumber = (uint)bank.Element("BankNumber"),
+                                Branch = (uint)bank.Element("Branch"),
+                                Address = (CivicAddress)bank.Element("CivicAddress"),
+                            }
+                            group b by new { bNumber = b.BankNumber, bBranch = b.Branch } into bGrouping
+                            select bGrouping.First();
 
-                loadXMLFile(bankName, out bankRoot);
-                Banks = from bank in bankRoot.Elements()
-                        let b = new Bank()
-                        {
-                            BankName = (string)bank.Element("BankName"),
-                            BankNumber = (uint)bank.Element("BankNumber"),
-                            Branch = (uint)bank.Element("Branch"),
-                            Address = (CivicAddress)bank.Element("CivicAddress"),
-                        }
-                        group b by new { bNumber = b.BankNumber, bBranch = b.Branch } into bGrouping
-                        select bGrouping.First();
+                    e.Result = "loadSuccess";
+                    return;
+                }
+                catch // error loading local banks.xml
+                {
+                    e.Result = "failed";
+                    return;
+                }
 
             }
         }

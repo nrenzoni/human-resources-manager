@@ -32,7 +32,7 @@
 
         </StackPanel>
 
-        <ScrollViewer VerticalScrollBarVisibility="Visible">
+        <ScrollViewer VerticalScrollBarVisibility="Visible" Width="570">
             <Grid Name="EmployeeGrid" Style="{StaticResource GridUserControlStyle}">
                 <Grid.Resources>
                     <Style TargetType="TextBox" BasedOn="{StaticResource TextBox_in_Grid_Style}">
@@ -111,13 +111,11 @@
                 <CheckBox Name="ChecArmyGrad" Content="Yes" IsChecked="{Binding armyGraduate}" Grid.Column="3" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
 
                 <Label Content="_Bank Name:" Grid.Column="2" Grid.Row="2" Target="{Binding ElementName=comEmplyeBankName}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                <ComboBox Name="comEmplyeBankName" Text="{Binding bank.BankName}" DisplayMemberPath="Key" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"  Grid.Column="3" Grid.Row="2" Height="25"/>
+                <ComboBox Name="comEmplyeBankName" Text="{Binding bank.BankName}" DisplayMemberPath="Key" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"  Grid.Column="3" Grid.Row="2" Height="25" Width="100"/>
 
                 <Label Content="_Bank Account:" Grid.Column="2" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center" Target="{Binding ElementName=txtEmployeBaAcc}" />
                 <TextBox Name="txtEmployeBaAcc" Text="{Binding bankAccountNumber, Converter={StaticResource NoValueConverter}}" Grid.Column="3" Grid.Row="3" Width="100" Height="25" VerticalAlignment="Center" HorizontalAlignment="Center"/>
 
-                <Label Content="_Branch Number:" Grid.Column="2" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" Target="{Binding ElementName=ComEmplyeeBranchNum}"/>
-                <ComboBox Name="ComEmplyeeBranchNum" Text="{Binding bank.Branch}" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"  Grid.Column="3" Grid.Row="4" Height="25" Width="{Binding ComEmplyeeBranchNum}" SelectionChanged="ComEmplyeeBranchNum_SelectionChanged"  />
                 <Label Content="_Branch:" Grid.Column="2" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" Target="{Binding ElementName=ComEmplyeeBranchNum}"/>
                 <ComboBox Name="ComEmplyeeBranchNum" Text="{Binding bank.Branch}" ItemsSource="{Binding SelectedItem, ElementName=comEmplyeBankName}" DisplayMemberPath="Branch" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"  Grid.Column="3" Grid.Row="4" Height="25" Width="50" />
 

@@ -54,15 +54,21 @@ namespace PLWPF
 
         void getXMLBankRunner_Completed(object sender, RunWorkerCompletedEventArgs e)
         {
-            if(e.Result?.ToString() == "success")
+            if (e.Result?.ToString() == "downloadSuccess")
             {
-                Globals.exceptionHandler(new Exception("downloading/loading of Banks.xml succeeded"));
+                Globals.exceptionHandler(new Exception("download of Banks.xml succeeded"));
                 DownloadBankXMLCompleted?.Invoke();
             }
 
-            else // error downloading/loading banks.xml
+            else if (e.Result?.ToString() == "loadSuccess")
             {
-                Globals.exceptionHandler(new Exception("error downloading/loading Banks.xml"));
+                Globals.exceptionHandler(new Exception("load of Banks.xml succeeded"));
+            }
+
+            else
+            {
+                Globals.exceptionHandler(new Exception("failed to initalize Banks.xml. Closing Program"));
+                Close();
             }
         }
     }
