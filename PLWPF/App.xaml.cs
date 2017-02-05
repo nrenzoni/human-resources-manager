@@ -182,4 +182,28 @@ namespace PLWPF
             return (value as BE.Employee).ID;
         }
     }
+
+    public class NoValueConverter : IValueConverter
+    {
+        public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+            Type type = value.GetType();
+
+            if (type == typeof(string))
+                if (string.IsNullOrEmpty(value.ToString()))
+                    return "";
+
+            if (type.IsValueType) // check if struct type
+                if (Equals(value, Activator.CreateInstance(type))) // check if equal to default, ex for int, 0
+                    return "";
+
+            // no match return regular value
+            return value;
+        }
+
+        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+            return value;
+        }
+    }
 }

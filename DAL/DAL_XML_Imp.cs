@@ -311,7 +311,7 @@ namespace DAL
                         }
                         ).ToList();
             }
-            catch(Exception ex)
+            catch
             {
                 throw new Exception("getEmployerList() exception");
             }

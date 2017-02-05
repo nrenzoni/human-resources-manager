@@ -18,6 +18,12 @@ namespace BL
         /// <param name="specilization"></param>
         /// <returns></returns>
         bool deleteSpecilization(Specialization specilization);
+
+        /// <summary>
+        /// unconditionaly update any property of specialization, except for ID
+        /// </summary>
+        /// <param name="specilization"></param>
+        /// <returns></returns>
         bool updateSpecilization(Specialization specilization);
 
         /// <summary>

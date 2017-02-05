@@ -11,6 +11,7 @@
         <local:specIDToSpecObjectConverter x:Key="specIDToSpecObjectConverter" />
         <local:EmployerIDToEmployerObjectConverter x:Key="EmployerIDToEmployerObjectConverter" />
         <local:EmployeeIDToEmployeeObjectConverter x:Key="EmployeeIDToEmployeeObjectConverter" />
+        <local:NoValueConverter x:Key="NoValueConverter" />
         <BooleanToVisibilityConverter x:Key="visibilityConverter" />
 
         <Style x:Key="UserControlStyle" TargetType="UserControl">
@@ -57,6 +58,11 @@
             <Setter Property="HorizontalAlignment" Value="Left"/>
             <Setter Property="Margin" Value="0,5"/>
             <Setter Property="Padding" Value="4"/>
+            <Style.Triggers>
+                <Trigger Property="IsFocused" Value="True">
+                    <Setter Property="Background" Value="#FFD0F7D0"/>
+                </Trigger>
+            </Style.Triggers>
         </Style>
 
         <Style x:Key="TextBlock_in_Grid_Style" TargetType="TextBlock">

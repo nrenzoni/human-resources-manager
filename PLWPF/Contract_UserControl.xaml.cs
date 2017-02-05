@@ -97,8 +97,11 @@ namespace PLWPF
         private void comboContractID_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             // check if no selection
-            if ((sender as ComboBox)?.SelectedItem == null) return;
-            updateUIContract(e.AddedItems[0] as BE.Contract); // updates UIContract with new selection
+            if ((sender as ComboBox)?.SelectedItem == null)
+                updateUIContract(new BE.Contract()); // reset UIcontract, thus reseting UI controls
+
+            else
+                updateUIContract(e.AddedItems[0] as BE.Contract); // updates UIContract with new selection
         }
 
         private void FinalizeButton_Click(object sender, RoutedEventArgs e)

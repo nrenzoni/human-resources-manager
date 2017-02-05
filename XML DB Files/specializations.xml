@@ -5,14 +5,14 @@
     <maxWagePerHour>10000</maxWagePerHour>
     <minWagePerHour>450</minWagePerHour>
   </specialization>
-  <specialization ID="100001">
-    <specializationName>electricity</specializationName>
-    <maxWagePerHour>10000</maxWagePerHour>
-    <minWagePerHour>29</minWagePerHour>
-  </specialization>
   <specialization ID="100002">
     <specializationName>graphic design</specializationName>
     <maxWagePerHour>400</maxWagePerHour>
     <minWagePerHour>30</minWagePerHour>
+  </specialization>
+  <specialization ID="100001">
+    <specializationName>electricity</specializationName>
+    <maxWagePerHour>10000</maxWagePerHour>
+    <minWagePerHour>29</minWagePerHour>
   </specialization>
 </specializations>

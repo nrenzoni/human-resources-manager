@@ -74,7 +74,7 @@
             </Grid.Resources>
 
             <TextBlock Text="Contract ID:"/>
-            <ComboBox Name="comboContractID" Grid.Column="2" ItemsSource="{Binding}" SelectionChanged="comboContractID_SelectionChanged" DisplayMemberPath="contractID" IsEditable="True" SelectedIndex="0"/>
+            <ComboBox Name="comboContractID" Grid.Column="2" ItemsSource="{Binding}" SelectionChanged="comboContractID_SelectionChanged" DisplayMemberPath="contractID" IsEditable="True" />
 
             <TextBlock Text="Employer ID:" Grid.Row="1"/>
             <ComboBox Name="ComboEmployerID" Grid.Row="1" Grid.Column="2" SelectedValue="{Binding SelectedValue.EmployerID, ElementName=comboContractID, Converter={StaticResource EmployerIDToEmployerObjectConverter}, Mode=OneWay}" IsEnabled="False"/>
@@ -89,14 +89,14 @@
             <CheckBox Name="checkboxFinalized" Grid.Row="4" Grid.Column="2" IsChecked="{Binding contractFinalized}" IsEnabled="False"/>
 
             <TextBlock Text="Gross Wage Per Hour:" Grid.Row="5"/>
-            <TextBox Name="txtGrossWage" Grid.Row="5" Grid.Column="2" Text="{Binding grossWagePerHour, ConverterCulture='he-IL', StringFormat={}{0:C}}" IsEnabled="False"/>
+            <TextBox Name="txtGrossWage" Grid.Row="5" Grid.Column="2" Text="{Binding grossWagePerHour, ConverterCulture='he-IL', StringFormat={}{0:C}, Converter={StaticResource NoValueConverter}}" IsEnabled="False"/>
 
             <TextBlock Text="Net Wage Per Hour:" Grid.Row="6"/>
-            <TextBox Name="txtNetWage" Grid.Row="6" Grid.Column="2" Text="{Binding netWagePerHour, ConverterCulture='he-IL', StringFormat={}{0:C}}" IsEnabled="False"/>
+            <TextBox Name="txtNetWage" Grid.Row="6" Grid.Column="2" Text="{Binding netWagePerHour, ConverterCulture='he-IL', StringFormat={}{0:C}, Converter={StaticResource NoValueConverter}}" IsEnabled="False"/>
 
 
             <TextBlock Text="Max Work Hours Per Week:" Grid.Row="7" TextWrapping="Wrap" Width="100" HorizontalAlignment="Left"/>
-            <TextBox Name="txtMaxWorkHRS" Grid.Row="7" Grid.Column="2" Text="{Binding maxWorkHours}" Height="25" IsEnabled="False"/>
+            <TextBox Name="txtMaxWorkHRS" Grid.Row="7" Grid.Column="2" Text="{Binding maxWorkHours, Converter={StaticResource NoValueConverter}}" Height="25" IsEnabled="False"/>
 
             <TextBlock Text="Established Date:" Grid.Row="8"/>
             <DatePicker Grid.Row="8" Grid.Column="2" Margin="0,5" Width="200" HorizontalAlignment="Left" SelectedDate="{Binding contractEstablishedDate}" IsEnabled="False"/>

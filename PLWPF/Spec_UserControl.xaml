@@ -9,12 +9,17 @@
     <DockPanel>
 
         <StackPanel Style="{StaticResource StackPanelButtonPane}">
+            
             <Button Style="{StaticResource addButtonStyle}" Name="addButton" Click="addButton_Click" />
-            <Button Style="{StaticResource addButtonStyle}" Name="finalizeButton" Content="Finalize" Click="finalizeButton_Click" Visibility="Collapsed" />
-            <Button Style="{StaticResource addButtonStyle}" Name="cancelButton" Click="cancelButton_Click" Content="Cancel" Visibility="Collapsed" />
 
             <Button Style="{StaticResource deleteButtonStyle}" Name="deleteButton" Click="deleteButton_Click" IsEnabled="{Binding Text, ElementName=ComSpecID, Converter={StaticResource InverseIDToIsEnabledConverter}, ConverterParameter=Spec}"/>
+            
             <Button Style="{StaticResource updateButtonStyle}" Name="updateButton" Click="updateButton_Click" IsEnabled="{Binding Text, ElementName=ComSpecID, Converter={StaticResource InverseIDToIsEnabledConverter},ConverterParameter=Spec}"/>
+
+            <Button Style="{StaticResource addButtonStyle}" Name="saveButton" Content="Save" Click="saveButton_Click" Visibility="Collapsed" />
+            
+            <Button Style="{StaticResource addButtonStyle}" Name="cancelButton" Click="cancelButton_Click" Content="Cancel" Visibility="Collapsed" />
+
         </StackPanel>
 
         <Grid Name="SpecializationGrid" Style="{StaticResource GridUserControlStyle}">
@@ -45,10 +50,10 @@
             <TextBox Name="txtSpecName" IsEnabled="False" Grid.Row="1" Grid.Column="1" Text="{Binding specializationName}"/>
 
             <TextBlock Text="Min Wage Per Hour:" Width="100" TextWrapping="Wrap" Grid.Row="2"/>
-            <TextBox Name="txtMinWagePerHour" IsEnabled="False" Grid.Row="2" Grid.Column="1" Text="{Binding minWagePerHour}"/>
+            <TextBox Name="txtMinWagePerHour" IsEnabled="False" Grid.Row="2" Grid.Column="1" Text="{Binding minWagePerHour, Converter={StaticResource NoValueConverter}}"/>
 
             <TextBlock Text="Max Wage Per Hour:" Width="100" TextWrapping="Wrap" Grid.Row="3"/>
-            <TextBox Name="txtMaxWagePerHour" IsEnabled="False" Grid.Row="3" Grid.Column="1" Text="{Binding maxWagePerHour}"/>
+            <TextBox Name="txtMaxWagePerHour" IsEnabled="False" Grid.Row="3" Grid.Column="1" Text="{Binding maxWagePerHour, Converter={StaticResource NoValueConverter}}"/>
 
         </Grid>
     </DockPanel>
