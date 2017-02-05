@@ -10,9 +10,11 @@
     <DockPanel>
 
         <StackPanel Style="{StaticResource StackPanelButtonPane}" Width="75">
+            
             <StackPanel.Resources>
                 <Style TargetType="Button" BasedOn="{StaticResource baseButtonStyle}"/>
             </StackPanel.Resources>
+            
             <Button Name="addNewContract_Button" Click="addNewContract_Click">
                 <Button.Content>
                     <StackPanel>
@@ -21,8 +23,11 @@
                     </StackPanel>
                 </Button.Content>
             </Button>
+            
             <Button Content="Save" Name="SaveNewContract_Button" Click="saveNewContract_Click" Visibility="Collapsed"/>
+            
             <Button Content="Cancel" Name="CancelNewContract_Button" Click="CancelNewContract_Click" Visibility="Collapsed"/>
+            
             <Button Name="TerminateContract_Button" Click="TerminContract_Click" Visibility="{Binding contractTerminatedDate, Converter={StaticResource ContractTerminatedConverter}}">
                 <Button.Content>
                     <StackPanel>
@@ -31,7 +36,8 @@
                     </StackPanel>
                 </Button.Content>
             </Button>
-            <Button Name="FinalizeContract_Button" Click="FinalizeButton_Click" Visibility="{Binding contractFinalized, Converter={StaticResource visibilityConverter}}" IsEnabled="{Binding contractFinalized, Converter={StaticResource InverseBoolConverter}}">
+            
+            <Button Name="FinalizeContract_Button" Click="FinalizeButton_Click" IsEnabled="{Binding contractFinalized, Converter={StaticResource InverseBoolConverter}}">
                 <Button.Content>
                     <StackPanel>
                         <TextBlock Text="Finalize" HorizontalAlignment="Center"/>
@@ -39,9 +45,10 @@
                     </StackPanel>
                 </Button.Content>
             </Button>
+            
         </StackPanel>
 
-        <Grid x:Name="mainGrid" Style="{StaticResource GridUserControlStyle}">
+        <Grid x:Name="contractUCGrid" Style="{StaticResource GridUserControlStyle}">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="23*"/>
                 <ColumnDefinition Width="10"/>
@@ -70,10 +77,10 @@
             <ComboBox Name="comboContractID" Grid.Column="2" ItemsSource="{Binding}" SelectionChanged="comboContractID_SelectionChanged" DisplayMemberPath="contractID" IsEditable="True" SelectedIndex="0"/>
 
             <TextBlock Text="Employer ID:" Grid.Row="1"/>
-            <ComboBox Name="ComboEmployerID" Grid.Row="1" Grid.Column="2" SelectedItem="{Binding SelectedValue.EmployerID, ElementName=comboContractID}" IsEnabled="False"/>
+            <ComboBox Name="ComboEmployerID" Grid.Row="1" Grid.Column="2" SelectedValue="{Binding SelectedValue.EmployerID, ElementName=comboContractID, Converter={StaticResource EmployerIDToEmployerObjectConverter}, Mode=OneWay}" IsEnabled="False"/>
 
             <TextBlock Text="Employee ID:" Grid.Row="2"/>
-            <ComboBox Name="ComboEmployeeID" Grid.Row="2" Grid.Column="2" SelectedItem="{Binding SelectedValue.EmployeeID, ElementName=comboContractID}" IsEnabled="False"/>
+            <ComboBox Name="ComboEmployeeID" Grid.Row="2" Grid.Column="2" SelectedValue="{Binding SelectedValue.EmployeeID, ElementName=comboContractID, Converter={StaticResource EmployeeIDToEmployeeObjectConverter}, Mode=OneWay}" IsEnabled="False"/>
 
             <TextBlock Text="Interviewed:" Grid.Row="3"/>
             <CheckBox Name="checkboxInterviewed" Checked="checkboxInterviewed_Checked" Grid.Row="3" Grid.Column="2" IsChecked="{Binding isInterviewed}" IsEnabled="False"/>

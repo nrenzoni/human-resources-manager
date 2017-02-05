@@ -128,4 +128,58 @@ namespace PLWPF
             throw new NotImplementedException();
         }
     }
+
+    public class specIDToSpecObjectConverter : IValueConverter
+    {
+        public BL.IBL BL_Object = BL.FactoryBL.IBLInstance;
+
+        public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+            if (value == null)
+                return null;
+
+            return BL_Object.getSpecilizationList().Find(s => s.ID == (uint)value);
+        }
+
+        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+            return (value as BE.Specialization).ID;
+        }
+    }
+
+    public class EmployerIDToEmployerObjectConverter : IValueConverter
+    {
+        public BL.IBL BL_Object = BL.FactoryBL.IBLInstance;
+
+        public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+            return BL_Object.getEmployerList().Find(e => e.ID == (uint)value);
+        }
+
+        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+            if (value == null)
+                return null;
+
+            return (value as BE.Employer).ID;
+        }
+    }
+
+    public class EmployeeIDToEmployeeObjectConverter : IValueConverter
+    {
+        public BL.IBL BL_Object = BL.FactoryBL.IBLInstance;
+
+        public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+            return BL_Object.getEmployeeList().Find(e => e.ID == (uint)value);
+        }
+
+        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+            if (value == null)
+                return null;
+
+            return (value as BE.Employee).ID;
+        }
+    }
 }

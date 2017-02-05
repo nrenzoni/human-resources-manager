@@ -7,6 +7,7 @@ using BE;
 using DAL;
 using System.Collections.ObjectModel;
 using System.Reflection;
+using System.Collections.Generic;
 
 namespace BL
 {
@@ -22,6 +23,11 @@ namespace BL
                 // if bool type, skip, because default of bool is false and that is a valid value
                 if (property.PropertyType == typeof(bool))
                     continue;
+
+                // skip if type is enum
+                if (property.PropertyType.IsEnum)
+                    continue;
+
 
                 // if current property's name matches one of exclude params, skip
                 bool skip = false;
@@ -40,8 +46,8 @@ namespace BL
                 // only check properties which have a set method, since only those are stored in DS
                 if(property.GetSetMethod() != null)
                 {
-                    // if property is civicAddress, recursively check its properties
-                    if (property.PropertyType == typeof(CivicAddress))
+                    // if property is of type civicAddress or Bank, recursively check its properties
+                    if (property.PropertyType == typeof(CivicAddress) || property.PropertyType == typeof(Bank))
                     {
                         if (hasEmptyFields(property.GetValue(obj), exclude) == true)
                             return true;
@@ -104,7 +110,7 @@ namespace BL
 
         public bool addEmployee(Employee employee)
         {
-            if (hasEmptyFields(employee, "recommendationNotes")) // recommendationNotes are optional
+            if (hasEmptyFields(employee, "recommendationNotes", "specializationID", "BankNumber")) // recommendationNotes are optional, specializationID is uint and 0 is valid, and BankNumber is always empty in employee, but employee has Bank struct
                 throw new Exception("please fill out all fields");
 
             if (DateTime.Today.Year - employee.birthday.Year < 18)
@@ -146,7 +152,7 @@ namespace BL
 
         public bool addContract(Contract contract)
         {
-            if (hasEmptyFields(contract))
+            if (hasEmptyFields(contract, "netWagePerHour")) // netwage calculated below in BL
                 throw new Exception("please fill out all fields");
 
             #region check if employee and employer exist in DS
@@ -353,7 +359,17 @@ namespace BL
                 group g_year.Sum() by g_year.Key;
         }
 
+        //public IEnumerable<IGrouping<string, IGrouping<uint, Bank>>> getBanksGrouped()
+        //    => from bank in DAL_Object.getBankList()
+        //       group bank by bank.BankName into bankGroupingByName // outer grouping
+        //       from bank in
+        //           (from bank in bankGroupingByName
+        //            group bank by bank.Branch) // inner grouping
+        //       group bank by bankGroupingByName.Key;
 
+        public IEnumerable<IGrouping<string,Bank>> getBanksGrouped()
+            => from bank in DAL_Object.getBankList()
+                group bank by bank.BankName;
 
         public List<Specialization> getSpecilizationList()
             => new List<Specialization>(DAL_Object.getSpecilizationList());
@@ -370,5 +386,8 @@ namespace BL
         public IEnumerable<ContractGroupingContainer> getContractsInContainer()
             => from contr in DAL_Object.getContractList()
                select new ContractGroupingContainer { key = null, contract = contr };
+
+        public List<Bank> getBankList()
+            => DAL_Object.getBankList();
     }
 }

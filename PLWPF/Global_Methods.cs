@@ -9,6 +9,8 @@ using System.Windows.Controls;
 
 namespace PLWPF
 {
+    enum State { view, createNew, modify }
+
     public static class Globals
     {
         //public static BL.IBL BL_Object = BL.FactoryBL.IBLInstance;

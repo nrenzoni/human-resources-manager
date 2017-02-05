@@ -8,6 +8,9 @@
         <local:InverseIDToIsEnabledConverter x:Key="InverseIDToIsEnabledConverter" />
         <local:InverseBoolConverter x:Key="InverseBoolConverter" />
         <local:ContractTerminatedConverter x:Key="ContractTerminatedConverter" />
+        <local:specIDToSpecObjectConverter x:Key="specIDToSpecObjectConverter" />
+        <local:EmployerIDToEmployerObjectConverter x:Key="EmployerIDToEmployerObjectConverter" />
+        <local:EmployeeIDToEmployeeObjectConverter x:Key="EmployeeIDToEmployeeObjectConverter" />
         <BooleanToVisibilityConverter x:Key="visibilityConverter" />
 
         <Style x:Key="UserControlStyle" TargetType="UserControl">

@@ -28,6 +28,8 @@ namespace PLWPF
         {
             DS_Edit_Event?.Invoke();
             employerUC.refreshCombox();
+            employeeUC.refreshComboBoxes();
+            contractUC.refreshComboxesIDs();
         }
 
         public Edit_UserControl()

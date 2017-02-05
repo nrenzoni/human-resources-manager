@@ -4,10 +4,10 @@
     <companyName>programming inc.</companyName>
     <phoneNumber>583434321</phoneNumber>
     <privatePerson>false</privatePerson>
-    <civicAddress>
+    <CivicAddress>
       <address>hashalom st, 42</address>
       <city>בני ברק</city>
-    </civicAddress>
+    </CivicAddress>
     <specializationID>100000</specializationID>
     <establishmentDate>2014-01-01T00:00:00</establishmentDate>
   </employer>
@@ -17,10 +17,10 @@
     <companyName>b&amp;b co</companyName>
     <phoneNumber>654</phoneNumber>
     <privatePerson>true</privatePerson>
-    <civicAddress>
+    <CivicAddress>
       <address>hh</address>
       <city>ערד</city>
-    </civicAddress>
+    </CivicAddress>
     <specializationID>100001</specializationID>
     <establishmentDate>2011-01-01T00:00:00</establishmentDate>
   </employer>

@@ -23,11 +23,11 @@ namespace PLWPF
 
         public event Action Contract_DS_Change_Event;
 
-        private void refreshComboxesIDs()
+        public void refreshComboxesIDs()
         {
             comboContractID.ItemsSource = BL_Object.getContractList();
-            ComboEmployerID.ItemsSource = BL_Object.getEmployerList().Select(x => x.ID);
-            ComboEmployeeID.ItemsSource = BL_Object.getEmployeeList().Select(x => x.ID);
+            ComboEmployerID.ItemsSource = BL_Object.getEmployerList(); // uses ToString() for display in combobox
+            ComboEmployeeID.ItemsSource = BL_Object.getEmployeeList(); // uses ToString() for display in combobox
         }
 
         // triggers INotify since copy
@@ -39,10 +39,8 @@ namespace PLWPF
             InitializeComponent();
 
             DataContext = UIContract;
-
-            comboContractID.DataContext = BL_Object.getContractList();
-            ComboEmployerID.ItemsSource = BL_Object.getEmployerList().Select(x => x.ID);
-            ComboEmployeeID.ItemsSource = BL_Object.getEmployeeList().Select(x => x.ID);
+            
+            refreshComboxesIDs();
 
             Contract_DS_Change_Event += refreshComboxesIDs;
         }
@@ -54,72 +52,45 @@ namespace PLWPF
 
         private void addNewContract_Click(object sender, RoutedEventArgs e)
         {
-            addNewContract_Button.Visibility = Visibility.Collapsed;
-            SaveNewContract_Button.Visibility = Visibility.Visible;
-            CancelNewContract_Button.Visibility = Visibility.Visible;
+            add_ButtonVisibState();
 
             comboContractID.IsEnabled = false;
-            ComboEmployerID.IsEnabled = true;
-            ComboEmployeeID.IsEnabled = true;
-            checkboxInterviewed.IsEnabled = true;
+            contractUCGrid.setIsEnabled(true, "comboContractID", "txtNetWage");
 
-            txtGrossWage.IsEnabled =   true;
-            txtNetWage.Text = "";
-            txtMaxWorkHRS.IsEnabled =  true;
-            DTtermDate.IsEnabled =     true;
-
-            comboContractID.SelectedIndex = -1;
+            updateUIContract(new BE.Contract()); // resets all controls in UI
             comboContractID.Text = BL_Object.getNextContractID().ToString();
-            UIContract.contractEstablishedDate = DateTime.Today;
-            UIContract.contractFinalized = false; // finalized in later stage by user clicking button
         }
 
         private void saveNewContract_Click(object sender, RoutedEventArgs e)
         {
             try
             {
-                var emplyerID = ComboEmployerID.SelectedValue;
-                var employeeID = ComboEmployeeID.SelectedValue;
-                if (emplyerID == null || employeeID == null)
+                var emplyer = (BE.Employer)ComboEmployerID.SelectedValue;
+                var employee = (BE.Employee)ComboEmployeeID.SelectedValue;
+                if (emplyer == null || employee == null)
                     throw new Exception("please fill out all fields");
 
-                UIContract.EmployerID = (uint)emplyerID;
-                UIContract.EmployeeID = (uint)employeeID;
+                UIContract.EmployerID = emplyer.ID;
+                UIContract.EmployeeID = employee.ID;
+
+                UIContract.contractID = BL_Object.getNextContractID();
 
                 BE.Contract copyContract = new BE.Contract();
                 Globals.CopyObject(UIContract, copyContract); // copy bc otherwise added by reference
 
                 BL_Object.addContract(copyContract); // exception thrown if failed add
                 Contract_DS_Change_Event?.Invoke(); // refreshes ContractList in ViewUC
-                
+                restoreButtonVisibState(); // restore buttons if add succeeded
             }
             catch (Exception ex) { Globals.exceptionHandler(ex); }
-            CancelNewContract_Click(sender, e); // restores original buttons
         }
 
         private void CancelNewContract_Click(object sender, RoutedEventArgs e)
         {
             comboContractID.SelectedIndex = comboContractID.Items.Count -1; // sets selectedIndex to last contract
 
-            addNewContract_Button.Visibility = Visibility.Visible;
-            SaveNewContract_Button.Visibility = Visibility.Collapsed;
-            CancelNewContract_Button.Visibility = Visibility.Collapsed;
-
+            restoreButtonVisibState(); // sets isEnabled to false on all UI controls
             comboContractID.IsEnabled = true;
-            ComboEmployerID.IsEnabled = false;
-            ComboEmployeeID.IsEnabled = false;
-            checkboxFinalized.IsEnabled = false;
-            checkboxInterviewed.IsEnabled = false;
-
-            txtGrossWage.IsEnabled =  false;
-            txtMaxWorkHRS.IsEnabled = false;
-            DTtermDate.IsEnabled =    false;
-
-            comboContractID.IsEnabled = true;
-            ComboEmployerID.IsEnabled = false;
-            ComboEmployeeID.IsEnabled = false;
-
-            //comboContractID.SelectedIndex = 0;
         }
 
         // if comboContractID selection changed, update tempContract by performing copy, in effect triggering INotify on properties
@@ -143,11 +114,11 @@ namespace PLWPF
 
         private void checkboxInterviewed_Checked(object sender, RoutedEventArgs e)
         {
-            checkboxInterviewed.IsEnabled = false;
-            BE.Contract Contract_ref = BL_Object.getContractListByFilter(x => Equals(x,UIContract)).First();
-            Contract_ref.isInterviewed = true;
-            Globals.CopyObject(Contract_ref, UIContract);
-            Contract_DS_Change_Event?.Invoke();
+            //checkboxInterviewed.IsEnabled = false;
+            //BE.Contract Contract_ref = BL_Object.getContractListByFilter(x => Equals(x,UIContract)).FirstOrDefault();
+            //Contract_ref.isInterviewed = true;
+            //Globals.CopyObject(Contract_ref, UIContract);
+            //Contract_DS_Change_Event?.Invoke();
         }
 
         private void TerminContract_Click(object sender, RoutedEventArgs e)
@@ -167,6 +138,26 @@ namespace PLWPF
                 throw new Exception("Contract terminated successfuly");
             }
             catch (Exception ex) { Globals.exceptionHandler(ex); }
+        }
+
+        void add_ButtonVisibState()
+        {
+            addNewContract_Button.Visibility = Visibility.Collapsed;
+            SaveNewContract_Button.Visibility = Visibility.Visible;
+            CancelNewContract_Button.Visibility = Visibility.Visible;
+            TerminateContract_Button.Visibility = Visibility.Collapsed;
+            FinalizeContract_Button.Visibility = Visibility.Collapsed;
+        }
+
+        void restoreButtonVisibState()
+        {
+            addNewContract_Button.Visibility = Visibility.Visible;
+            SaveNewContract_Button.Visibility = Visibility.Collapsed;
+            CancelNewContract_Button.Visibility = Visibility.Collapsed;
+            TerminateContract_Button.Visibility = Visibility.Visible;
+            FinalizeContract_Button.Visibility = Visibility.Visible;
+
+            contractUCGrid.setIsEnabled(false, "comboContractID");
         }
     }
 }

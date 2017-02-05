@@ -30,7 +30,8 @@ namespace PLWPF
 
         public ViewUserControl()
         {
-            InitializeComponent();            
+            InitializeComponent();
+            refreshContractList();
         }
 
         public void refreshContractList()

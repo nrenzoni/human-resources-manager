@@ -147,15 +147,18 @@ namespace BL
         IEnumerable<IGrouping<int, double>> getProfitByYear(bool ordered = false); // <int=year (key), double=profit>
 
         /// <summary>
-        /// returns banks grouped by bank name, then city
+        /// returns banks with grouping of bank names, inner list of branches
         /// </summary>
         /// <returns></returns>
-        //IEnumerable<IGrouping<string, IGrouping<string, Bank>> getBanks();
+        //IEnumerable<IGrouping<string, Bank>> getBanksGrouped();
+
+        IEnumerable<IGrouping<string, Bank>> getBanksGrouped();
 
         List<Specialization> getSpecilizationList();
         List<Employee> getEmployeeList();
         List<Employer> getEmployerList();
         List<Contract> getContractList();
+        List<Bank>     getBankList();
 
         IEnumerable<ContractGroupingContainer> getContractsInContainer();
     }

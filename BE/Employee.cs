@@ -43,7 +43,7 @@ namespace BE
             }
         }
 
-        bool _isMale;
+        bool _isMale = true; // default to male
         public bool isMale
         {
             get { return _isMale; }
@@ -221,19 +221,20 @@ namespace BE
 
 
 
-
-
         public override string ToString()
-        => _lastName + ", " + _firstName + ". ID: " + ID +
-            ", Birthday: " + _birthday.ToString("d") + ", " +
-            (_isMale ? "Male" : "Female") +
-            ", Phone: " +
-            _phoneNumber + ", " + _address + ", Years of Experience: " +
-            _yearsOfExperience + ", Education: " +
-            _education.ToString() + ", " +
-            (_armyGraduate ? " served in Army" : "did not serve in Army") +
-            (string.IsNullOrEmpty(_recommendationNotes) ? ", recommendation Notes: " + _recommendationNotes : "") +
-            ", Bank Account #: " + _bankAccountNumber;
+            => ID + ": " + lastName + ", " + firstName;
+
+        //public override string ToString()
+        //=> _lastName + ", " + _firstName + ". ID: " + ID +
+        //    ", Birthday: " + _birthday.ToString("d") + ", " +
+        //    (_isMale ? "Male" : "Female") +
+        //    ", Phone: " +
+        //    _phoneNumber + ", " + _address + ", Years of Experience: " +
+        //    _yearsOfExperience + ", Education: " +
+        //    _education.ToString() + ", " +
+        //    (_armyGraduate ? " served in Army" : "did not serve in Army") +
+        //    (string.IsNullOrEmpty(_recommendationNotes) ? ", recommendation Notes: " + _recommendationNotes : "") +
+        //    ", Bank Account #: " + _bankAccountNumber;
 
         public override bool Equals(object other)
             => ID == (other as Employee)?.ID;

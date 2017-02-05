@@ -1,2 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<employees />
+<employees>
+  <employee ID="34566">
+    <firstName>jons</firstName>
+    <lastName>row</lastName>
+    <isMale>true</isMale>
+    <phoneNumber>5456765</phoneNumber>
+    <email>ror#gog.com</email>
+    <birthday>1970-01-01T00:00:00</birthday>
+    <education>student</education>
+    <armyGraduate>false</armyGraduate>
+    <yearsOfExperience>3</yearsOfExperience>
+    <specializationID>100001</specializationID>
+    <CivicAddress>
+      <address>11 bab st</address>
+      <city>עפולה</city>
+    </CivicAddress>
+    <bank bankAccount="53567">
+      <BankName>בנק אגוד לישראל בע"מ</BankName>
+      <bankBranch>63</bankBranch>
+    </bank>
+    <recommendationNotes></recommendationNotes>
+  </employee>
+</employees>

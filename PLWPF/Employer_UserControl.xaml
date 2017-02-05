@@ -10,20 +10,25 @@
     <DockPanel>
         
         <StackPanel Style="{StaticResource StackPanelButtonPane}">
-            <Button Name="addFirstButton" Style="{StaticResource addButtonStyle}" Click="addNew_Click">
+            
+            <StackPanel.Resources>
+                <Style TargetType="Button" BasedOn="{StaticResource baseButtonStyle}"/>
+            </StackPanel.Resources>
+            
+            <Button Name="addFirstButton" Click="addNew_Click">
                 <StackPanel>
                     <TextBlock Text="Add New"/>
                     <TextBlock Text="Employer"/>
                 </StackPanel>
             </Button>
 
-            <Button Name="addSecondButton" Style="{StaticResource addButtonStyle}" Click="addButton_Click" Visibility="Collapsed"/>
+            <Button Name="saveButton" Content="Save" Click="saveButton_Click" Visibility="Collapsed"/>
 
-            <Button Name="cancelButton" Content="Cancel" Style="{StaticResource addButtonStyle}" Click="cancelButton_Click" Visibility="Collapsed"/>
+            <Button Name="cancelButton" Content="Cancel" Click="cancelButton_Click" Visibility="Collapsed"/>
 
             <Button Name="deleteButton" Style="{StaticResource deleteButtonStyle}" Click="deleteButton_Click" IsEnabled="{Binding Text, ElementName=ComEmployerID, Converter={StaticResource InverseIDToIsEnabledConverter}, ConverterParameter=Employer}"/>
             
-            <Button Name="updateButton" Style="{StaticResource updateButtonStyle}" Click="updateButton_Click" IsEnabled="{Binding Text, ElementName=ComEmployerID, Converter={StaticResource InverseIDToIsEnabledConverter},ConverterParameter=Employer}"/>
+            <Button Name="updateButton" Style="{StaticResource updateButtonStyle}" Click="makeChangesButton_Click" IsEnabled="{Binding Text, ElementName=ComEmployerID, Converter={StaticResource InverseIDToIsEnabledConverter},ConverterParameter=Employer}"/>
             
         </StackPanel>
         

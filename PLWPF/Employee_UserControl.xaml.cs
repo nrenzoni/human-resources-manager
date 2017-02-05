@@ -24,7 +24,10 @@ namespace PLWPF
         public BL.IBL Bl_Object = BL.FactoryBL.IBLInstance;
         public event Action Employee_DS_Change_Event;
 
-        BE.Employee UIEmployee = new BE.Employee();        
+        BE.Employee UIEmployee = new BE.Employee();
+
+        
+        State EmployeeUC_State = State.view;
 
         public Employee_UserControl()
         {
@@ -37,6 +40,10 @@ namespace PLWPF
             ComEmplyeeEduc.ItemsSource = Enum.GetValues(typeof(BE.Education));
             ComEmployeSpec.ItemsSource = Bl_Object.getSpecilizationList();
             UIEmployee.birthday = Globals.ResetDatePicker();
+
+            comEmplyeBankName.ItemsSource = Bl_Object.getBanksGrouped();
+
+            EmployeeGrid.setIsEnabled(false, "ComEmplyeeID"); // set isEnabled to false on all controls except for ComEmplyeeID
         }
 
         private void ComEmplyeeID_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -47,7 +54,12 @@ namespace PLWPF
             if (Equals(foundEmploye, null))
                 Globals.CopyObject(new BE.Employee(), UIEmployee);
 
-            else Globals.CopyObject(foundEmploye, UIEmployee);
+            else // selection exists in DB
+            {
+                Globals.CopyObject(foundEmploye, UIEmployee);
+                ComEmplyeeBranchNum.SelectedItem = Bl_Object.getBankList().Find(b => b.BankName == UIEmployee.bank.BankName && b.Branch == UIEmployee.bank.Branch);
+            }
+
         }
 
         private void addNew_Click(object sender, RoutedEventArgs e)
@@ -55,25 +67,36 @@ namespace PLWPF
             add_ButtonVisib();
 
             ComEmplyeeID.ItemsSource = null;
+
+            EmployeeGrid.setIsEnabled(true, "txtBranCityLoc", "txtBranAddLoc");
+
+            EmployeeUC_State = State.createNew;
         }
 
-        private void addSecondButton_Click(object sender, RoutedEventArgs e)
+        private void saveButton_Click(object sender, RoutedEventArgs e)
         {
             try
-            {                
-                BE.Employee addEmploye = new BE.Employee();
-                Globals.CopyObject(UIEmployee, addEmploye);
-                Bl_Object.addEmployee(addEmploye);
-                Employee_DS_Change_Event?.Invoke();
-                restoreButtonVisib();
+            {
+                switch (EmployeeUC_State)
+                {
+                    case State.createNew:
+                        BE.Employee addEmploye = new BE.Employee();
+                        Globals.CopyObject(UIEmployee, addEmploye);
+                        Bl_Object.addEmployee(addEmploye);
+                        Employee_DS_Change_Event?.Invoke();
+                        break;
+
+                    case State.modify:
+                        Bl_Object.updateEmployee(UIEmployee);
+                        Employee_DS_Change_Event?.Invoke();
+                        break;
+
+                }
+
+                restoreRegButtonVisib();
+                EmployeeUC_State = State.view;
             }
             catch (Exception ex) { Globals.exceptionHandler(ex); }
-        }
-
-        private void cancelButton_Click(object sender, RoutedEventArgs e)
-        {
-            restoreButtonVisib();
-            ComEmplyeeID.ItemsSource = Bl_Object.getEmployeeList();
         }
 
         private void deleteButton_Click(object sender, RoutedEventArgs e)
@@ -82,36 +105,59 @@ namespace PLWPF
             {
                 Bl_Object.deleteEmployee(UIEmployee);
                 Employee_DS_Change_Event?.Invoke();
+                restoreRegButtonVisib();
             }
             catch (Exception ex) { Globals.exceptionHandler(ex); }
-        }
-
-        private void updateButton_Click(object sender, RoutedEventArgs e)
-        {
-            try
-            { 
-                Bl_Object.updateEmployee(UIEmployee);
-                Employee_DS_Change_Event?.Invoke();
-            }
-            catch (Exception ex) { Globals.exceptionHandler(ex); }        
         }
 
         private void add_ButtonVisib()
         {
             addFirstButton.Visibility = Visibility.Collapsed;
-            addSecondButton.Visibility = Visibility.Visible;
+            saveButton.Visibility = Visibility.Visible;
             cancelButton.Visibility = Visibility.Visible;
             deleteButton.Visibility = Visibility.Collapsed;
             updateButton.Visibility = Visibility.Collapsed;
         }
 
-        private void restoreButtonVisib()
+        private void restoreRegButtonVisib()
         {
             addFirstButton.Visibility = Visibility.Visible;
-            addSecondButton.Visibility = Visibility.Collapsed;
+            saveButton.Visibility = Visibility.Collapsed;
             cancelButton.Visibility = Visibility.Collapsed;
             deleteButton.Visibility = Visibility.Visible;
             updateButton.Visibility = Visibility.Visible;
+
+            // set isEnabled to false on all controls
+            EmployeeGrid.setIsEnabled(false);
+            ComEmplyeeID.IsEnabled = true;
+
+            // refresh 
+            refreshComboBoxes();
+        }
+
+        public void refreshComboBoxes()
+        {
+            ComEmplyeeID.ItemsSource = Bl_Object.getEmployeeList();
+        }
+
+        private void makeChangesButton_Click(object sender, RoutedEventArgs e)
+        {
+            addFirstButton.Visibility = Visibility.Collapsed;
+            saveButton.Visibility = Visibility.Visible;
+            
+            updateButton.Visibility = Visibility.Collapsed;
+            cancelButton.Visibility = Visibility.Visible;
+            deleteButton.Visibility = Visibility.Collapsed;
+
+            EmployeeGrid.setIsEnabled(true);
+            ComEmplyeeID.IsEnabled = false;
+
+            EmployeeUC_State = State.modify;
+        }
+
+        private void cancelButton_Click(object sender, RoutedEventArgs e)
+        {
+            restoreRegButtonVisib();
         }
     }
 }

@@ -4,13 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
+using System.Xml.Serialization;
 
 namespace BE
 {
     public class CivicAddress
     {
-
+        [XmlElement("address")]
         public string Address { get; set; }
+
+        [XmlElement("city")]
         public string City { get; set; }
         public override string ToString()
             => (!string.IsNullOrEmpty(Address) ? "Address: " + Address + ", " : "") + "City: " + City;
