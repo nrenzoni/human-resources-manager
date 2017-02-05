@@ -52,13 +52,13 @@ namespace DS
                             Address = (string)XBank.Element("כתובת_ה-ATM"),
                             City = (string)XBank.Element("ישוב")
                         }
-                        let b= new Bank
+                        let b = new Bank
                         {
                             BankName = (string)XBank.Element("שם_בנק"),
                             BankNumber = (uint)XBank.Element("קוד_בנק"),
                             Address = tempAddress,
                             Branch = (uint)XBank.Element("קוד_סניף")
-                        } 
+                        }
                         orderby b.BankName, b.Branch
                         group b by ((string)XBank.Element("קוד_בנק")).Trim() + ((string)XBank.Element("כתובת_ה-ATM")).Trim() into bankNumAndAddress
                         select bankNumAndAddress.First();
@@ -80,18 +80,19 @@ namespace DS
             {
                 e.Result = "catch statement";
 
-            loadXMLFile(bankName, out bankRoot);
-            Banks = from bank in bankRoot.Elements()
-                    let b=new Bank()
-                    {
-                        BankName = (string)bank.Element("BankName"),
-                        BankNumber = (uint)bank.Element("BankNumber"),
-                        Branch = (uint)bank.Element("Branch"),
-                        Address = (CivicAddress)bank.Element("CivicAddress"),
-                    }
-                    group b by new { bNumber = b.BankNumber, bBranch=b.Branch} into bGrouping
-                    select bGrouping.First();
+                loadXMLFile(bankName, out bankRoot);
+                Banks = from bank in bankRoot.Elements()
+                        let b = new Bank()
+                        {
+                            BankName = (string)bank.Element("BankName"),
+                            BankNumber = (uint)bank.Element("BankNumber"),
+                            Branch = (uint)bank.Element("Branch"),
+                            Address = (CivicAddress)bank.Element("CivicAddress"),
+                        }
+                        group b by new { bNumber = b.BankNumber, bBranch = b.Branch } into bGrouping
+                        select bGrouping.First();
 
+            }
         }
 
 
