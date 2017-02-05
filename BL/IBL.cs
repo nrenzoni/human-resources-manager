@@ -145,6 +145,12 @@ namespace BL
         List<Employer> getEmployerList();
         List<Contract> getContractList();
 
+        /// <summary>
+        /// In the list we have only one ATM from each Branch.
+        /// </summary>
+        /// <returns></returns>
+        List<Bank>     getBankList();
+
         IEnumerable<ContractGroupingContainer> getContractsInContainer();
     }
 }

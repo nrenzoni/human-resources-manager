@@ -5,7 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:PLWPF"
              mc:Ignorable="d" 
-             Width="630"
+            
              Style="{StaticResource UserControlStyle}">
              
     <DockPanel>
@@ -91,18 +91,18 @@
                 <CheckBox Name="ChecArmyGrad" Content="Yes" IsChecked="{Binding armyGraduate,Converter={StaticResource InverseBoolConverter}}" Grid.Column="3" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
 
                 <Label Content="_Bank Name:" Grid.Column="2" Grid.Row="2" Target="{Binding ElementName=comEmplyeBankName}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                <ComboBox Name="comEmplyeBankName" Text="{Binding bank.BankName}" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"  Grid.Column="3" Grid.Row="2" Height="25"/>
+                <ComboBox Name="comEmplyeBankName" Text="{Binding bank.BankName}" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"  Grid.Column="3" Grid.Row="2" Height="25" SelectionChanged="comEmplyeBankName_SelectoinChanged" />
 
                 <Label Content="_Bank Account:" Grid.Column="2" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center" Target="{Binding ElementName=txtEmployeBaAcc}" />
                 <TextBox Name="txtEmployeBaAcc" Text="{Binding bankAccountNumber}" Grid.Column="3" Grid.Row="3" Width="100" Height="25" VerticalAlignment="Center" HorizontalAlignment="Center"/>
 
                 <Label Content="_Branch Number:" Grid.Column="2" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" Target="{Binding ElementName=ComEmplyeeBranchNum}"/>
-                <ComboBox Name="ComEmplyeeBranchNum" Text="{Binding bank.BankNumber}" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"  Grid.Column="3" Grid.Row="4" Height="25" />
+                <ComboBox Name="ComEmplyeeBranchNum" Text="{Binding bank.Branch}" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"  Grid.Column="3" Grid.Row="4" Height="25" Width="{Binding ComEmplyeeBranchNum}" SelectionChanged="ComEmplyeeBranchNum_SelectionChanged"  />
 
                 <Label Content="_Branch Location:" Grid.Column="2" Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center" Target="{Binding ElementName=txtBranLoc}"/>
                 <WrapPanel Grid.Column="3" Grid.Row="5">
-                    <TextBox Name="txtBranAddLoc" Width="50" Text="{Binding bank.Address}" HorizontalAlignment="Center"  IsEnabled="False"/>
-                    <TextBox Name="txtBranCityLoc" Width="50" Text="{Binding bank.City}" HorizontalAlignment="Center"  IsEnabled="False"/>
+                    <TextBox Name="txtBranAddLoc" Width="100" Text="{Binding bank.Address}" HorizontalAlignment="Center"  IsEnabled="False"/>
+                    <TextBox Name="txtBranCityLoc" Width="100" Text="{Binding bank.City}" HorizontalAlignment="Center"  IsEnabled="False"/>
                 </WrapPanel>
                 <!--The value Will be assign automaticlly according to the Branch Number-->
                 <!--need to combined the addres and city together in one combobox-->

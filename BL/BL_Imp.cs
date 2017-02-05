@@ -38,6 +38,9 @@ namespace BL
 
         public bool updateSpecilization(Specialization specilization)
         {
+            if (specilization.maxWagePerHour <= specilization.minWagePerHour)
+                throw new Exception("max wage is under min wage");
+
             return DAL_Object.updateSpecilization(specilization);
         }
 
@@ -288,5 +291,8 @@ namespace BL
         public IEnumerable<ContractGroupingContainer> getContractsInContainer()
             => from contr in DAL_Object.getContractList()
                select new ContractGroupingContainer { key = null, contract = contr };
+
+        public List<Bank> getBankList()
+        => new List<Bank>( DAL_Object.getBankList());
     }
 }

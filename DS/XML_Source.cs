@@ -32,6 +32,7 @@ namespace DS
             {
             // initialize roots
 
+            //Neede the save word 'out' to pass the root by reference, otherwise we get null.
             loadOrCreate(specName, out specializationRoot);
             loadOrCreate(contractName, out contractRoot);
             loadOrCreate(employerName, out employerRoot);
@@ -43,19 +44,19 @@ namespace DS
                 XElement banks = XElement.Load(@"http://www.boi.org.il/he/BankingSupervision/BanksAndBranchLocations/Lists/BoiBankBranchesDocs/atm.xml");
 
                 Banks = from XBank in banks.Elements()
-                         let tempAddress = new CivicAddress
-                         {
-                             Address = (string)XBank.Element("כתובת_ה-ATM"),
-                             City = (string)XBank.Element("ישוב")
-                         }
-                         group new Bank
-                         {
-                             BankName = (string)XBank.Element("שם_בנק"),
-                             BankNumber = (uint)XBank.Element("קוד_בנק"),
-                             Address = tempAddress,
-                             Branch = (uint)XBank.Element("קוד_סניף")
-                         } by (string)XBank.Element("קוד_בנק") + (string)XBank.Element("כתובת_ה-ATM") into bankNumAndAddress
-                         select bankNumAndAddress.First();
+                        let tempAddress = new CivicAddress
+                        {
+                            Address = (string)XBank.Element("כתובת_ה-ATM"),
+                            City = (string)XBank.Element("ישוב")
+                        }
+                        group new Bank
+                        {
+                            BankName = (string)XBank.Element("שם_בנק"),
+                            BankNumber = (uint)XBank.Element("קוד_בנק"),
+                            Address = tempAddress,
+                            Branch = (uint)XBank.Element("קוד_סניף")
+                        } by (string)XBank.Element("קוד_בנק") + (string)XBank.Element("כתובת_ה-ATM") into bankNumAndAddress
+                        select bankNumAndAddress.First();
 
                 XmlSerializer serializer = new XmlSerializer(typeof(List<Bank>));
                 TextWriter writer = new StreamWriter((concatXMLName("banks")));

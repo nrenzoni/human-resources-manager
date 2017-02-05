@@ -33,7 +33,9 @@ namespace PLWPF
 
 
 
-            ComEmplyeCity.ItemsSource = BE.CivicAddress.Cities;
+            ComEmplyeCity.ItemsSource =from name in BE.CivicAddress.Cities
+                                       orderby name
+                                       select name;
             refreshCombox();
             Globals.ClearAllFields(EmployerGrid);
         }

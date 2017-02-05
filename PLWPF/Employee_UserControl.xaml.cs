@@ -14,6 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Reflection;
 
+
 namespace PLWPF
 {
     /// <summary>
@@ -32,11 +33,21 @@ namespace PLWPF
 
             DataContext = UIEmployee;
             
-            ComEmplyeeCity.ItemsSource = BE.CivicAddress.Cities;
+            ComEmplyeeCity.ItemsSource = from name in BE.CivicAddress.Cities
+                                         orderby name
+                                         select name;
+
             ComEmplyeeID.ItemsSource = Bl_Object.getEmployeeList();
             ComEmplyeeEduc.ItemsSource = Enum.GetValues(typeof(BE.Education));
             ComEmployeSpec.ItemsSource = Bl_Object.getSpecilizationList();
             UIEmployee.birthday=Globals.ResetDatePicker();
+            comEmplyeBankName.ItemsSource = (from b in Bl_Object.getBankList()
+                                             select b.BankName).Distinct();
+
+            ComEmplyeeBranchNum.IsEnabled = false;
+
+      
+
 
             //ComEmployeSpec.ItemsSource = from word in (Enum.GetNames(typeof(BE.SpecializationName)))
             //                             select word.Replace("_", " ");
@@ -71,7 +82,7 @@ namespace PLWPF
                 //        }
                 //    }
                 //}
-                
+
                 BE.Employee addEmploye = new BE.Employee();
                 Globals.CopyObject(UIEmployee, addEmploye);
                 Bl_Object.addEmployee(addEmploye);
@@ -99,5 +110,32 @@ namespace PLWPF
             }
             catch (Exception ex) { Globals.exceptionHandler(ex); }        
         }
+
+        private void comEmplyeBankName_SelectoinChanged(object sender, SelectionChangedEventArgs e)
+        {
+          
+            ComEmplyeeBranchNum.IsEnabled = true;
+            ComEmplyeeBranchNum.ItemsSource = (from b in Bl_Object.getBankList()
+                                              where b.BankName == comEmplyeBankName.SelectedItem.ToString()
+                                              orderby b.Branch
+                                              select b.Branch).Distinct();
+           
+        }
+
+        private void ComEmplyeeBranchNum_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            BE.CivicAddress tmpLocation = new BE.CivicAddress();
+
+            tmpLocation = (from b in Bl_Object.getBankList()
+                           where b.Branch== uint.Parse(ComEmplyeeBranchNum.SelectedItem.ToString())
+                           select b.Address).FirstOrDefault();
+
+            txtBranAddLoc.Text = tmpLocation.Address;
+            txtBranCityLoc.Text = tmpLocation.City;
+
+        }
+
+        
+       
     }
 }
