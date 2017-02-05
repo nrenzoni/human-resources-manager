@@ -106,4 +106,104 @@ namespace PLWPF
             return new InverseBoolConverter().Convert(value, targetType, parameter, culture);
         }
     }
+
+    public class ContractTerminatedConverter : IValueConverter
+    {
+        public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+            if(value.GetType() == typeof(DateTime))
+            {
+                // if contract hasn't terminated, return visible for 'Terminate' Button
+                if (((DateTime)value).Date > DateTime.Today)
+                    return "Visible";
+                else
+                    return "Collapsed";
+            }
+
+            throw new Exception("ContractTerminatedConverter only accepts value of type DateTime");
+        }
+
+        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+    public class specIDToSpecObjectConverter : IValueConverter
+    {
+        public BL.IBL BL_Object = BL.FactoryBL.IBLInstance;
+
+        public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+            if (value == null)
+                return null;
+
+            return BL_Object.getSpecilizationList().Find(s => s.ID == (uint)value);
+        }
+
+        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+            return (value as BE.Specialization).ID;
+        }
+    }
+
+    public class EmployerIDToEmployerObjectConverter : IValueConverter
+    {
+        public BL.IBL BL_Object = BL.FactoryBL.IBLInstance;
+
+        public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+            return BL_Object.getEmployerList().Find(e => e.ID == (uint)value);
+        }
+
+        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+            if (value == null)
+                return null;
+
+            return (value as BE.Employer).ID;
+        }
+    }
+
+    public class EmployeeIDToEmployeeObjectConverter : IValueConverter
+    {
+        public BL.IBL BL_Object = BL.FactoryBL.IBLInstance;
+
+        public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+            return BL_Object.getEmployeeList().Find(e => e.ID == (uint)value);
+        }
+
+        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+            if (value == null)
+                return null;
+
+            return (value as BE.Employee).ID;
+        }
+    }
+
+    public class NoValueConverter : IValueConverter
+    {
+        public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+            Type type = value.GetType();
+
+            if (type == typeof(string))
+                if (string.IsNullOrEmpty(value.ToString()))
+                    return "";
+
+            if (type.IsValueType) // check if struct type
+                if (Equals(value, Activator.CreateInstance(type))) // check if equal to default, ex for int, 0
+                    return "";
+
+            // no match return regular value
+            return value;
+        }
+
+        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+            return value;
+        }
+    }
 }

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
+using System.Xml.Serialization;
 
 namespace BE
 {
@@ -12,7 +13,9 @@ namespace BE
         public string BankName { get; set; }
         public uint BankNumber { get; set; }
         public uint Branch { get; set; }
-        public CivicAddress Address { get; set; }
+
+        [XmlElement("CivicAddress")]
+        public CivicAddress Address { get; set; } = new CivicAddress();
 
         public Bank(string _BankName="", uint _BankNumber=0, uint _Branch=0, CivicAddress _Address=null)
         {
@@ -27,10 +30,10 @@ namespace BE
         {
             return new Bank()
             {
-                BankNumber = (uint)XRoot.Attribute("BankNumber"),
+                BankNumber = (uint)XRoot.Attribute("bankNumber"),
                 BankName = (string)XRoot.Element("BankName"),
                 Address = (CivicAddress)XRoot.Element("Address"),
-                Branch = (uint)XRoot.Element("Branch")
+                Branch = (uint)XRoot.Element("bankBranch")
             };
         }
 

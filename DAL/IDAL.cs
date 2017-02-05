@@ -12,6 +12,7 @@ namespace DAL
         bool addSpecilization(Specialization specilization);
         bool deleteSpecilization(Specialization specilization);
         bool updateSpecilization(Specialization specilization);
+        uint getNextSpecID();
 
         bool addEmployee(Employee employee);
         bool deleteEmployee(Employee employee);

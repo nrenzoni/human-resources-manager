@@ -4,12399 +4,12399 @@
     <BankName>בנק אגוד לישראל בע"מ</BankName>
     <BankNumber>13</BankNumber>
     <Branch>63</Branch>
-    <CivicAddress>
-      <address>אחוזת בית 6-8 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>אחוזת בית 6-8 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אגוד לישראל בע"מ</BankName>
     <BankNumber>13</BankNumber>
     <Branch>76</Branch>
-    <CivicAddress>
-      <address>משה דיין 14 </address>
-      <city>פתח תקווה</city>
-    </CivicAddress>
+    <Address>
+      <Address>משה דיין 14 </Address>
+      <City>פתח תקווה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אגוד לישראל בע"מ</BankName>
     <BankNumber>13</BankNumber>
     <Branch>66</Branch>
-    <CivicAddress>
-      <address>גורדון 42 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>גורדון 42 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אגוד לישראל בע"מ</BankName>
     <BankNumber>13</BankNumber>
     <Branch>70</Branch>
-    <CivicAddress>
-      <address>ההסתדרות 26 </address>
-      <city>פתח תקווה</city>
-    </CivicAddress>
+    <Address>
+      <Address>ההסתדרות 26 </Address>
+      <City>פתח תקווה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אגוד לישראל בע"מ</BankName>
     <BankNumber>13</BankNumber>
     <Branch>71</Branch>
-    <CivicAddress>
-      <address>שדרות ירושלים 12 </address>
-      <city>אשדוד</city>
-    </CivicAddress>
+    <Address>
+      <Address>שדרות ירושלים 12 </Address>
+      <City>אשדוד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אגוד לישראל בע"מ</BankName>
     <BankNumber>13</BankNumber>
     <Branch>72</Branch>
-    <CivicAddress>
-      <address>סוקולוב 38 </address>
-      <city>הרצלייה</city>
-    </CivicAddress>
+    <Address>
+      <Address>סוקולוב 38 </Address>
+      <City>הרצלייה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אגוד לישראל בע"מ</BankName>
     <BankNumber>13</BankNumber>
     <Branch>75</Branch>
-    <CivicAddress>
-      <address>אחוזה 153 153 </address>
-      <city>רעננה</city>
-    </CivicAddress>
+    <Address>
+      <Address>אחוזה 153 153 </Address>
+      <City>רעננה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אגוד לישראל בע"מ</BankName>
     <BankNumber>13</BankNumber>
     <Branch>81</Branch>
-    <CivicAddress>
-      <address>פלי"ם 6 </address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>פלי"ם 6 </Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אגוד לישראל בע"מ</BankName>
     <BankNumber>13</BankNumber>
     <Branch>91</Branch>
-    <CivicAddress>
-      <address>שטמפפר 17 </address>
-      <city>נתניה</city>
-    </CivicAddress>
+    <Address>
+      <Address>שטמפפר 17 </Address>
+      <City>נתניה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אגוד לישראל בע"מ</BankName>
     <BankNumber>13</BankNumber>
     <Branch>93</Branch>
-    <CivicAddress>
-      <address>אחד העם 1 </address>
-      <city>רחובות</city>
-    </CivicAddress>
+    <Address>
+      <Address>אחד העם 1 </Address>
+      <City>רחובות</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אגוד לישראל בע"מ</BankName>
     <BankNumber>13</BankNumber>
     <Branch>94</Branch>
-    <CivicAddress>
-      <address>יצחק בן צבי 7 </address>
-      <city>באר שבע</city>
-    </CivicAddress>
+    <Address>
+      <Address>יצחק בן צבי 7 </Address>
+      <City>באר שבע</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אגוד לישראל בע"מ</BankName>
     <BankNumber>13</BankNumber>
     <Branch>95</Branch>
-    <CivicAddress>
-      <address>הבונים 3 אזור תעשיה חדש</address>
-      <city>נתניה</city>
-    </CivicAddress>
+    <Address>
+      <Address>הבונים 3 אזור תעשיה חדש</Address>
+      <City>נתניה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אגוד לישראל בע"מ</BankName>
     <BankNumber>13</BankNumber>
     <Branch>152</Branch>
-    <CivicAddress>
-      <address>סוקולוב 15 </address>
-      <city>הוד השרון</city>
-    </CivicAddress>
+    <Address>
+      <Address>סוקולוב 15 </Address>
+      <City>הוד השרון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אגוד לישראל בע"מ</BankName>
     <BankNumber>13</BankNumber>
     <Branch>153</Branch>
-    <CivicAddress>
-      <address>דבורה 16 </address>
-      <city>קריית מוצקין</city>
-    </CivicAddress>
+    <Address>
+      <Address>דבורה 16 </Address>
+      <City>קריית מוצקין</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אגוד לישראל בע"מ</BankName>
     <BankNumber>13</BankNumber>
     <Branch>190</Branch>
-    <CivicAddress>
-      <address>שד' הגעתון 26 </address>
-      <city>נהרייה</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' הגעתון 26 </Address>
+      <City>נהרייה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אגוד לישראל בע"מ</BankName>
     <BankNumber>13</BankNumber>
     <Branch>78</Branch>
-    <CivicAddress>
-      <address>המלאכה 22 </address>
-      <city>ראש העין</city>
-    </CivicAddress>
+    <Address>
+      <Address>המלאכה 22 </Address>
+      <City>ראש העין</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אגוד לישראל בע"מ</BankName>
     <BankNumber>13</BankNumber>
     <Branch>79</Branch>
-    <CivicAddress>
-      <address>הסדנאות 9 </address>
-      <city>הרצלייה</city>
-    </CivicAddress>
+    <Address>
+      <Address>הסדנאות 9 </Address>
+      <City>הרצלייה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אגוד לישראל בע"מ</BankName>
     <BankNumber>13</BankNumber>
     <Branch>83</Branch>
-    <CivicAddress>
-      <address>מחניים 4 </address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>מחניים 4 </Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אגוד לישראל בע"מ</BankName>
     <BankNumber>13</BankNumber>
     <Branch>92</Branch>
-    <CivicAddress>
-      <address>הרצל 18 </address>
-      <city>חדרה</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרצל 18 </Address>
+      <City>חדרה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אגוד לישראל בע"מ</BankName>
     <BankNumber>13</BankNumber>
     <Branch>141</Branch>
-    <CivicAddress>
-      <address>תמוז 17 </address>
-      <city>אשדוד</city>
-    </CivicAddress>
+    <Address>
+      <Address>תמוז 17 </Address>
+      <City>אשדוד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אגוד לישראל בע"מ</BankName>
     <BankNumber>13</BankNumber>
     <Branch>142</Branch>
-    <CivicAddress>
-      <address>החושן 6 </address>
-      <city>מבשרת ציון</city>
-    </CivicAddress>
+    <Address>
+      <Address>החושן 6 </Address>
+      <City>מבשרת ציון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אגוד לישראל בע"מ</BankName>
     <BankNumber>13</BankNumber>
     <Branch>143</Branch>
-    <CivicAddress>
-      <address>שמאי 1 </address>
-      <city>אלעד</city>
-    </CivicAddress>
+    <Address>
+      <Address>שמאי 1 </Address>
+      <City>אלעד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אגוד לישראל בע"מ</BankName>
     <BankNumber>13</BankNumber>
     <Branch>144</Branch>
-    <CivicAddress>
-      <address>שלמה המלך 40 </address>
-      <city>קריית אונו</city>
-    </CivicAddress>
+    <Address>
+      <Address>שלמה המלך 40 </Address>
+      <City>קריית אונו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אגוד לישראל בע"מ</BankName>
     <BankNumber>13</BankNumber>
     <Branch>145</Branch>
-    <CivicAddress>
-      <address>שמעון פרס   33 </address>
-      <city>ראשון לציון</city>
-    </CivicAddress>
+    <Address>
+      <Address>שמעון פרס   33 </Address>
+      <City>ראשון לציון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אגוד לישראל בע"מ</BankName>
     <BankNumber>13</BankNumber>
     <Branch>146</Branch>
-    <CivicAddress>
-      <address>מלכי ישראל 178 מתחם ישפרו</address>
-      <city>קריית גת</city>
-    </CivicAddress>
+    <Address>
+      <Address>מלכי ישראל 178 מתחם ישפרו</Address>
+      <City>קריית גת</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אגוד לישראל בע"מ</BankName>
     <BankNumber>13</BankNumber>
     <Branch>147</Branch>
-    <CivicAddress>
-      <address>יהודה הנשיא 2 </address>
-      <city>בית שמש</city>
-    </CivicAddress>
+    <Address>
+      <Address>יהודה הנשיא 2 </Address>
+      <City>בית שמש</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אגוד לישראל בע"מ</BankName>
     <BankNumber>13</BankNumber>
     <Branch>148</Branch>
-    <CivicAddress>
-      <address>אהרונוביץ 10 </address>
-      <city>בני ברק</city>
-    </CivicAddress>
+    <Address>
+      <Address>אהרונוביץ 10 </Address>
+      <City>בני ברק</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אגוד לישראל בע"מ</BankName>
     <BankNumber>13</BankNumber>
     <Branch>154</Branch>
-    <CivicAddress>
-      <address>גינת עמק זבולון 24 </address>
-      <city>מודיעין-מכבים-רעות*</city>
-    </CivicAddress>
+    <Address>
+      <Address>גינת עמק זבולון 24 </Address>
+      <City>מודיעין-מכבים-רעות*</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אגוד לישראל בע"מ</BankName>
     <BankNumber>13</BankNumber>
     <Branch>155</Branch>
-    <CivicAddress>
-      <address>סוקולוב 90 </address>
-      <city>רמת השרון</city>
-    </CivicAddress>
+    <Address>
+      <Address>סוקולוב 90 </Address>
+      <City>רמת השרון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אגוד לישראל בע"מ</BankName>
     <BankNumber>13</BankNumber>
     <Branch>157</Branch>
-    <CivicAddress>
-      <address>ויצמן 32 ויצמן 32</address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>ויצמן 32 ויצמן 32</Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אגוד לישראל בע"מ</BankName>
     <BankNumber>13</BankNumber>
     <Branch>192</Branch>
-    <CivicAddress>
-      <address>הגדוד העברי 10 </address>
-      <city>אשקלון</city>
-    </CivicAddress>
+    <Address>
+      <Address>הגדוד העברי 10 </Address>
+      <City>אשקלון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אגוד לישראל בע"מ</BankName>
     <BankNumber>13</BankNumber>
     <Branch>158</Branch>
-    <CivicAddress>
-      <address>פנחס אילון 13 </address>
-      <city>חולון</city>
-    </CivicAddress>
+    <Address>
+      <Address>פנחס אילון 13 </Address>
+      <City>חולון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אגוד לישראל בע"מ</BankName>
     <BankNumber>13</BankNumber>
     <Branch>159</Branch>
-    <CivicAddress>
-      <address>ז'בוטינסקי 20 </address>
-      <city>ראשון לציון</city>
-    </CivicAddress>
+    <Address>
+      <Address>ז'בוטינסקי 20 </Address>
+      <City>ראשון לציון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אגוד לישראל בע"מ</BankName>
     <BankNumber>13</BankNumber>
     <Branch>156</Branch>
-    <CivicAddress>
-      <address>היבנר 29 </address>
-      <city>פתח תקווה</city>
-    </CivicAddress>
+    <Address>
+      <Address>היבנר 29 </Address>
+      <City>פתח תקווה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אגוד לישראל בע"מ</BankName>
     <BankNumber>13</BankNumber>
     <Branch>51</Branch>
-    <CivicAddress>
-      <address>בן יהודה 1 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>בן יהודה 1 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אגוד לישראל בע"מ</BankName>
     <BankNumber>13</BankNumber>
     <Branch>55</Branch>
-    <CivicAddress>
-      <address>רח' אבא הלל סילבר 12 </address>
-      <city>רמת גן</city>
-    </CivicAddress>
+    <Address>
+      <Address>רח' אבא הלל סילבר 12 </Address>
+      <City>רמת גן</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אגוד לישראל בע"מ</BankName>
     <BankNumber>13</BankNumber>
     <Branch>62</Branch>
-    <CivicAddress>
-      <address>ז'בוטינסקי 1-3 </address>
-      <city>רמת גן</city>
-    </CivicAddress>
+    <Address>
+      <Address>ז'בוטינסקי 1-3 </Address>
+      <City>רמת גן</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אגוד לישראל בע"מ</BankName>
     <BankNumber>13</BankNumber>
     <Branch>64</Branch>
-    <CivicAddress>
-      <address>אהרון בקר 8 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>אהרון בקר 8 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אגוד לישראל בע"מ</BankName>
     <BankNumber>13</BankNumber>
     <Branch>73</Branch>
-    <CivicAddress>
-      <address>ניסנבאום 33 </address>
-      <city>בת ים</city>
-    </CivicAddress>
+    <Address>
+      <Address>ניסנבאום 33 </Address>
+      <City>בת ים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אגוד לישראל בע"מ</BankName>
     <BankNumber>13</BankNumber>
     <Branch>74</Branch>
-    <CivicAddress>
-      <address>משה לוי 11 </address>
-      <city>ראשון לציון</city>
-    </CivicAddress>
+    <Address>
+      <Address>משה לוי 11 </Address>
+      <City>ראשון לציון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אוצר החייל בע"מ</BankName>
     <BankNumber>14</BankNumber>
     <Branch>361</Branch>
-    <CivicAddress>
-      <address>החשמונאים 84 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>החשמונאים 84 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אוצר החייל בע"מ</BankName>
     <BankNumber>14</BankNumber>
     <Branch>362</Branch>
-    <CivicAddress>
-      <address>החרושת 0 מתחם חוצות המפרץ (צומת וולקן)</address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>החרושת 0 מתחם חוצות המפרץ (צומת וולקן)</Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אוצר החייל בע"מ</BankName>
     <BankNumber>14</BankNumber>
     <Branch>331</Branch>
-    <CivicAddress>
-      <address>מחנה יוכבד 0 ממ"ס הקניון האדום, אילת</address>
-      <city>אילת</city>
-    </CivicAddress>
+    <Address>
+      <Address>מחנה יוכבד 0 ממ"ס הקניון האדום, אילת</Address>
+      <City>אילת</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אוצר החייל בע"מ</BankName>
     <BankNumber>14</BankNumber>
     <Branch>322</Branch>
-    <CivicAddress>
-      <address>הורודצקי 10 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>הורודצקי 10 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אוצר החייל בע"מ</BankName>
     <BankNumber>14</BankNumber>
     <Branch>336</Branch>
-    <CivicAddress>
-      <address>0 0 ב"ח חיפה, בת-גלים, חיפה</address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>0 0 ב"ח חיפה, בת-גלים, חיפה</Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אוצר החייל בע"מ</BankName>
     <BankNumber>14</BankNumber>
     <Branch>311</Branch>
-    <CivicAddress>
-      <address>דרך הבנים 17 דרך הבנים 17 מרכז מסחרי</address>
-      <city>פרדס חנה-כרכור</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך הבנים 17 דרך הבנים 17 מרכז מסחרי</Address>
+      <City>פרדס חנה-כרכור</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אוצר החייל בע"מ</BankName>
     <BankNumber>14</BankNumber>
     <Branch>312</Branch>
-    <CivicAddress>
-      <address>הדוגית 16 הדוגית 16 יבנה</address>
-      <city>יבנה</city>
-    </CivicAddress>
+    <Address>
+      <Address>הדוגית 16 הדוגית 16 יבנה</Address>
+      <City>יבנה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אוצר החייל בע"מ</BankName>
     <BankNumber>14</BankNumber>
     <Branch>313</Branch>
-    <CivicAddress>
-      <address>האגס 0 קניון סנטר הגליל</address>
-      <city>ראש פינה</city>
-    </CivicAddress>
+    <Address>
+      <Address>האגס 0 קניון סנטר הגליל</Address>
+      <City>ראש פינה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אוצר החייל בע"מ</BankName>
     <BankNumber>14</BankNumber>
     <Branch>314</Branch>
-    <CivicAddress>
-      <address>מתחם גלילות 0 </address>
-      <city>רמת השרון</city>
-    </CivicAddress>
+    <Address>
+      <Address>מתחם גלילות 0 </Address>
+      <City>רמת השרון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אוצר החייל בע"מ</BankName>
     <BankNumber>14</BankNumber>
     <Branch>315</Branch>
-    <CivicAddress>
-      <address>עמק זבולון 24 פינת א.דורי מרכז קייזר</address>
-      <city>מודיעין-מכבים-רעות*</city>
-    </CivicAddress>
+    <Address>
+      <Address>עמק זבולון 24 פינת א.דורי מרכז קייזר</Address>
+      <City>מודיעין-מכבים-רעות*</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אוצר החייל בע"מ</BankName>
     <BankNumber>14</BankNumber>
     <Branch>316</Branch>
-    <CivicAddress>
-      <address>גיבורי ישראל 5 א.ת פולג</address>
-      <city>נתניה</city>
-    </CivicAddress>
+    <Address>
+      <Address>גיבורי ישראל 5 א.ת פולג</Address>
+      <City>נתניה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אוצר החייל בע"מ</BankName>
     <BankNumber>14</BankNumber>
     <Branch>317</Branch>
-    <CivicAddress>
-      <address>העצמאות 65 קניון כפר גנים</address>
-      <city>פתח תקווה</city>
-    </CivicAddress>
+    <Address>
+      <Address>העצמאות 65 קניון כפר גנים</Address>
+      <City>פתח תקווה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אוצר החייל בע"מ</BankName>
     <BankNumber>14</BankNumber>
     <Branch>318</Branch>
-    <CivicAddress>
-      <address>יוהנה ז'בוטינסקי 7 </address>
-      <city>באר שבע</city>
-    </CivicAddress>
+    <Address>
+      <Address>יוהנה ז'בוטינסקי 7 </Address>
+      <City>באר שבע</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אוצר החייל בע"מ</BankName>
     <BankNumber>14</BankNumber>
     <Branch>346</Branch>
-    <CivicAddress>
-      <address>דיזינגוף 22 </address>
-      <city>נתניה</city>
-    </CivicAddress>
+    <Address>
+      <Address>דיזינגוף 22 </Address>
+      <City>נתניה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אוצר החייל בע"מ</BankName>
     <BankNumber>14</BankNumber>
     <Branch>363</Branch>
-    <CivicAddress>
-      <address>בן צבי 9 </address>
-      <city>באר שבע</city>
-    </CivicAddress>
+    <Address>
+      <Address>בן צבי 9 </Address>
+      <City>באר שבע</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אוצר החייל בע"מ</BankName>
     <BankNumber>14</BankNumber>
     <Branch>365</Branch>
-    <CivicAddress>
-      <address>צה"ל 71 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>צה"ל 71 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אוצר החייל בע"מ</BankName>
     <BankNumber>14</BankNumber>
     <Branch>366</Branch>
-    <CivicAddress>
-      <address>בסיס צבאי, מחנה תל-נוף 0 </address>
-      <city>גדרה</city>
-    </CivicAddress>
+    <Address>
+      <Address>בסיס צבאי, מחנה תל-נוף 0 </Address>
+      <City>גדרה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אוצר החייל בע"מ</BankName>
     <BankNumber>14</BankNumber>
     <Branch>367</Branch>
-    <CivicAddress>
-      <address>בסיס צבאי, מחנה מרים 0 </address>
-      <city>חצור-אשדוד</city>
-    </CivicAddress>
+    <Address>
+      <Address>בסיס צבאי, מחנה מרים 0 </Address>
+      <City>חצור-אשדוד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אוצר החייל בע"מ</BankName>
     <BankNumber>14</BankNumber>
     <Branch>369</Branch>
-    <CivicAddress>
-      <address>המלך ג'ורג' 3 מרכז הפעמון</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>המלך ג'ורג' 3 מרכז הפעמון</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אוצר החייל בע"מ</BankName>
     <BankNumber>14</BankNumber>
     <Branch>371</Branch>
-    <CivicAddress>
-      <address>מחנה יהודית 0 </address>
-      <city>רמת דוד</city>
-    </CivicAddress>
+    <Address>
+      <Address>מחנה יהודית 0 </Address>
+      <City>רמת דוד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אוצר החייל בע"מ</BankName>
     <BankNumber>14</BankNumber>
     <Branch>372</Branch>
-    <CivicAddress>
-      <address>תל השומר 0 </address>
-      <city>רמת גן</city>
-    </CivicAddress>
+    <Address>
+      <Address>תל השומר 0 </Address>
+      <City>רמת גן</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אוצר החייל בע"מ</BankName>
     <BankNumber>14</BankNumber>
     <Branch>374</Branch>
-    <CivicAddress>
-      <address>מפעלי התעש"א נתב"ג 0 </address>
-      <city>נמל תעופה בן-גוריון</city>
-    </CivicAddress>
+    <Address>
+      <Address>מפעלי התעש"א נתב"ג 0 </Address>
+      <City>נמל תעופה בן-גוריון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אוצר החייל בע"מ</BankName>
     <BankNumber>14</BankNumber>
     <Branch>375</Branch>
-    <CivicAddress>
-      <address>הסייפן 33 </address>
-      <city>רמת השרון</city>
-    </CivicAddress>
+    <Address>
+      <Address>הסייפן 33 </Address>
+      <City>רמת השרון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אוצר החייל בע"מ</BankName>
     <BankNumber>14</BankNumber>
     <Branch>376</Branch>
-    <CivicAddress>
-      <address>בסיס צבאי חצרים 0 מחנה יפה,</address>
-      <city>חצרים</city>
-    </CivicAddress>
+    <Address>
+      <Address>בסיס צבאי חצרים 0 מחנה יפה,</Address>
+      <City>חצרים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אוצר החייל בע"מ</BankName>
     <BankNumber>14</BankNumber>
     <Branch>377</Branch>
-    <CivicAddress>
-      <address>שד' התמרים 11 שדרות התמרים 11</address>
-      <city>אילת</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' התמרים 11 שדרות התמרים 11</Address>
+      <City>אילת</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אוצר החייל בע"מ</BankName>
     <BankNumber>14</BankNumber>
     <Branch>378</Branch>
-    <CivicAddress>
-      <address>קפלן, הקריה 27 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>קפלן, הקריה 27 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אוצר החייל בע"מ</BankName>
     <BankNumber>14</BankNumber>
     <Branch>379</Branch>
-    <CivicAddress>
-      <address>מחנה הילה, ד"נ גן שורק 0 </address>
-      <city>פלמחים</city>
-    </CivicAddress>
+    <Address>
+      <Address>מחנה הילה, ד"נ גן שורק 0 </Address>
+      <City>פלמחים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אוצר החייל בע"מ</BankName>
     <BankNumber>14</BankNumber>
     <Branch>380</Branch>
-    <CivicAddress>
-      <address>טשרניחובסקי 24 </address>
-      <city>כפר סבא</city>
-    </CivicAddress>
+    <Address>
+      <Address>טשרניחובסקי 24 </Address>
+      <City>כפר סבא</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אוצר החייל בע"מ</BankName>
     <BankNumber>14</BankNumber>
     <Branch>381</Branch>
-    <CivicAddress>
-      <address>מחנה טלי, ד.נ. נגב 0 </address>
-      <city>הר הנגב הצפוני מ"א 48</city>
-    </CivicAddress>
+    <Address>
+      <Address>מחנה טלי, ד.נ. נגב 0 </Address>
+      <City>הר הנגב הצפוני מ"א 48</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אוצר החייל בע"מ</BankName>
     <BankNumber>14</BankNumber>
     <Branch>382</Branch>
-    <CivicAddress>
-      <address>יוספטל 92 קניון בת ים</address>
-      <city>בת ים</city>
-    </CivicAddress>
+    <Address>
+      <Address>יוספטל 92 קניון בת ים</Address>
+      <City>בת ים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אוצר החייל בע"מ</BankName>
     <BankNumber>14</BankNumber>
     <Branch>392</Branch>
-    <CivicAddress>
-      <address>ילדי טהרן 5 מתחם הפאואר סנטר החדש</address>
-      <city>ראשון לציון</city>
-    </CivicAddress>
+    <Address>
+      <Address>ילדי טהרן 5 מתחם הפאואר סנטר החדש</Address>
+      <City>ראשון לציון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אוצר החייל בע"מ</BankName>
     <BankNumber>14</BankNumber>
     <Branch>395</Branch>
-    <CivicAddress>
-      <address>הלל וחנן אופנהיימר 2 וייצמן, ביזנס פארק</address>
-      <city>רחובות</city>
-    </CivicAddress>
+    <Address>
+      <Address>הלל וחנן אופנהיימר 2 וייצמן, ביזנס פארק</Address>
+      <City>רחובות</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אוצר החייל בע"מ</BankName>
     <BankNumber>14</BankNumber>
     <Branch>397</Branch>
-    <CivicAddress>
-      <address>בן גוריון 105 </address>
-      <city>גדרה</city>
-    </CivicAddress>
+    <Address>
+      <Address>בן גוריון 105 </Address>
+      <City>גדרה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אוצר החייל בע"מ</BankName>
     <BankNumber>14</BankNumber>
     <Branch>398</Branch>
-    <CivicAddress>
-      <address>מעלה כמון 9 כרמיאל</address>
-      <city>כרמיאל</city>
-    </CivicAddress>
+    <Address>
+      <Address>מעלה כמון 9 כרמיאל</Address>
+      <City>כרמיאל</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אוצר החייל בע"מ</BankName>
     <BankNumber>14</BankNumber>
     <Branch>341</Branch>
-    <CivicAddress>
-      <address>בסיס צבאי, צריפין 0 מול השקם</address>
-      <city>ראשון לציון</city>
-    </CivicAddress>
+    <Address>
+      <Address>בסיס צבאי, צריפין 0 מול השקם</Address>
+      <City>ראשון לציון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אוצר החייל בע"מ</BankName>
     <BankNumber>14</BankNumber>
     <Branch>342</Branch>
-    <CivicAddress>
-      <address>מחנה עדי, ערד 0 </address>
-      <city>ערד</city>
-    </CivicAddress>
+    <Address>
+      <Address>מחנה עדי, ערד 0 </Address>
+      <City>ערד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אוצר החייל בע"מ</BankName>
     <BankNumber>14</BankNumber>
     <Branch>343</Branch>
-    <CivicAddress>
-      <address>אורי בר-און 2 </address>
-      <city>אריאל</city>
-    </CivicAddress>
+    <Address>
+      <Address>אורי בר-און 2 </Address>
+      <City>אריאל</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אוצר החייל בע"מ</BankName>
     <BankNumber>14</BankNumber>
     <Branch>344</Branch>
-    <CivicAddress>
-      <address>הרצל 91 </address>
-      <city>ראשון לציון</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרצל 91 </Address>
+      <City>ראשון לציון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אוצר החייל בע"מ</BankName>
     <BankNumber>14</BankNumber>
     <Branch>345</Branch>
-    <CivicAddress>
-      <address>מרכז מסחרי רעות 0 ד.נ. מודיעין</address>
-      <city>מודיעין-מכבים-רעות*</city>
-    </CivicAddress>
+    <Address>
+      <Address>מרכז מסחרי רעות 0 ד.נ. מודיעין</Address>
+      <City>מודיעין-מכבים-רעות*</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אוצר החייל בע"מ</BankName>
     <BankNumber>14</BankNumber>
     <Branch>347</Branch>
-    <CivicAddress>
-      <address>אורלוב 77 </address>
-      <city>פתח תקווה</city>
-    </CivicAddress>
+    <Address>
+      <Address>אורלוב 77 </Address>
+      <City>פתח תקווה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אוצר החייל בע"מ</BankName>
     <BankNumber>14</BankNumber>
     <Branch>348</Branch>
-    <CivicAddress>
-      <address>בזק 1 מרכז מסחרי</address>
-      <city>ראש העין</city>
-    </CivicAddress>
+    <Address>
+      <Address>בזק 1 מרכז מסחרי</Address>
+      <City>ראש העין</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אוצר החייל בע"מ</BankName>
     <BankNumber>14</BankNumber>
     <Branch>349</Branch>
-    <CivicAddress>
-      <address>מתחם פאואר סנטר 0 שער אשקלון, א"ת צפוני,</address>
-      <city>אשקלון</city>
-    </CivicAddress>
+    <Address>
+      <Address>מתחם פאואר סנטר 0 שער אשקלון, א"ת צפוני,</Address>
+      <City>אשקלון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אוצר החייל בע"מ</BankName>
     <BankNumber>14</BankNumber>
     <Branch>350</Branch>
-    <CivicAddress>
-      <address>נחום חת 1 א"ת מת"מ - טירת הכרמל</address>
-      <city>טירת כרמל</city>
-    </CivicAddress>
+    <Address>
+      <Address>נחום חת 1 א"ת מת"מ - טירת הכרמל</Address>
+      <City>טירת כרמל</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אוצר החייל בע"מ</BankName>
     <BankNumber>14</BankNumber>
     <Branch>355</Branch>
-    <CivicAddress>
-      <address>שד' מנחם בגין 7 מרכז צימר, ככר הסיטי</address>
-      <city>אשדוד</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' מנחם בגין 7 מרכז צימר, ככר הסיטי</Address>
+      <City>אשדוד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אוצר החייל בע"מ</BankName>
     <BankNumber>14</BankNumber>
     <Branch>357</Branch>
-    <CivicAddress>
-      <address>מנחם בגין 11 </address>
-      <city>רמת גן</city>
-    </CivicAddress>
+    <Address>
+      <Address>מנחם בגין 11 </Address>
+      <City>רמת גן</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אוצר החייל בע"מ</BankName>
     <BankNumber>14</BankNumber>
     <Branch>372</Branch>
-    <CivicAddress>
-      <address>בקו"ם תל השומר 0 בקו"ם תל השומר ר"ג</address>
-      <city>רמת גן</city>
-    </CivicAddress>
+    <Address>
+      <Address>בקו"ם תל השומר 0 בקו"ם תל השומר ר"ג</Address>
+      <City>רמת גן</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אוצר החייל בע"מ</BankName>
     <BankNumber>14</BankNumber>
     <Branch>376</Branch>
-    <CivicAddress>
-      <address>מחנה צאלים 1 מחנה צאלים, בסיס צבאי</address>
-      <city>באר שבע</city>
-    </CivicAddress>
+    <Address>
+      <Address>מחנה צאלים 1 מחנה צאלים, בסיס צבאי</Address>
+      <City>באר שבע</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אוצר החייל בע"מ</BankName>
     <BankNumber>14</BankNumber>
     <Branch>381</Branch>
-    <CivicAddress>
-      <address>בה"ד 1 1 בסיס הכשרת קצינים, בסיס הדרכה 1</address>
-      <city>הר הנגב הצפוני מ"א 48</city>
-    </CivicAddress>
+    <Address>
+      <Address>בה"ד 1 1 בסיס הכשרת קצינים, בסיס הדרכה 1</Address>
+      <City>הר הנגב הצפוני מ"א 48</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אוצר החייל בע"מ</BankName>
     <BankNumber>14</BankNumber>
     <Branch>947</Branch>
-    <CivicAddress>
-      <address>ז'בוטינסקי 94 </address>
-      <city>פתח תקווה</city>
-    </CivicAddress>
+    <Address>
+      <Address>ז'בוטינסקי 94 </Address>
+      <City>פתח תקווה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק אוצר החייל בע"מ</BankName>
     <BankNumber>14</BankNumber>
     <Branch>993</Branch>
-    <CivicAddress>
-      <address>מושב ספיר 0 מ.א ערבה תיכונה,  ד.נ ערבה</address>
-      <city>אילת</city>
-    </CivicAddress>
+    <Address>
+      <Address>מושב ספיר 0 מ.א ערבה תיכונה,  ד.נ ערבה</Address>
+      <City>אילת</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>510</Branch>
-    <CivicAddress>
-      <address>הראל 1 קניון הראל</address>
-      <city>מבשרת ציון</city>
-    </CivicAddress>
+    <Address>
+      <Address>הראל 1 קניון הראל</Address>
+      <City>מבשרת ציון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>515</Branch>
-    <CivicAddress>
-      <address>הברזל 24 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>הברזל 24 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>516</Branch>
-    <CivicAddress>
-      <address>דרך קדם 5 </address>
-      <city>מעלה אדומים</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך קדם 5 </Address>
+      <City>מעלה אדומים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>517</Branch>
-    <CivicAddress>
-      <address>הנריאטה סולד 8 </address>
-      <city>באר שבע</city>
-    </CivicAddress>
+    <Address>
+      <Address>הנריאטה סולד 8 </Address>
+      <City>באר שבע</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>526</Branch>
-    <CivicAddress>
-      <address>גיבורי ישראל 13 </address>
-      <city>נתניה</city>
-    </CivicAddress>
+    <Address>
+      <Address>גיבורי ישראל 13 </Address>
+      <City>נתניה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>151</Branch>
-    <CivicAddress>
-      <address>דרך משה דיין 64 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך משה דיין 64 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>152</Branch>
-    <CivicAddress>
-      <address>ה' באייר 66 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>ה' באייר 66 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>153</Branch>
-    <CivicAddress>
-      <address>רש"י 1 המרכז המסחרי החדש</address>
-      <city>קריית מלאכי</city>
-    </CivicAddress>
+    <Address>
+      <Address>רש"י 1 המרכז המסחרי החדש</Address>
+      <City>קריית מלאכי</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>157</Branch>
-    <CivicAddress>
-      <address>הנחושת 4 </address>
-      <city>חולון</city>
-    </CivicAddress>
+    <Address>
+      <Address>הנחושת 4 </Address>
+      <City>חולון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>159</Branch>
-    <CivicAddress>
-      <address>יפו 97 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>יפו 97 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>162</Branch>
-    <CivicAddress>
-      <address>תלפיות ירושלים 26 קניון הדר</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>תלפיות ירושלים 26 קניון הדר</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>167</Branch>
-    <CivicAddress>
-      <address>יגאל אלון 3 קניון BIG FASHION</address>
-      <city>בית שמש</city>
-    </CivicAddress>
+    <Address>
+      <Address>יגאל אלון 3 קניון BIG FASHION</Address>
+      <City>בית שמש</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>174</Branch>
-    <CivicAddress>
-      <address>מעלה כמון 5 מתחם חוצות כרמיאל</address>
-      <city>כרמיאל</city>
-    </CivicAddress>
+    <Address>
+      <Address>מעלה כמון 5 מתחם חוצות כרמיאל</Address>
+      <City>כרמיאל</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>175</Branch>
-    <CivicAddress>
-      <address>הירמוך 1 </address>
-      <city>יבנה</city>
-    </CivicAddress>
+    <Address>
+      <Address>הירמוך 1 </Address>
+      <City>יבנה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>176</Branch>
-    <CivicAddress>
-      <address>חלוצי התעשיה 3 </address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>חלוצי התעשיה 3 </Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>186</Branch>
-    <CivicAddress>
-      <address>קרית אריה 88 א.ת קרית אריה</address>
-      <city>פתח תקווה</city>
-    </CivicAddress>
+    <Address>
+      <Address>קרית אריה 88 א.ת קרית אריה</Address>
+      <City>פתח תקווה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>187</Branch>
-    <CivicAddress>
-      <address>הבנים 14 </address>
-      <city>הוד השרון</city>
-    </CivicAddress>
+    <Address>
+      <Address>הבנים 14 </Address>
+      <City>הוד השרון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>188</Branch>
-    <CivicAddress>
-      <address>סחרוב 18 א.ת מערב ראשל"צ</address>
-      <city>ראשון לציון</city>
-    </CivicAddress>
+    <Address>
+      <Address>סחרוב 18 א.ת מערב ראשל"צ</Address>
+      <City>ראשון לציון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>198</Branch>
-    <CivicAddress>
-      <address>רמת אביב ג' 25 מרכז שוסטר</address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>רמת אביב ג' 25 מרכז שוסטר</Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>302</Branch>
-    <CivicAddress>
-      <address>גבעת טל 2 מרכז מסחרי גבעת טל</address>
-      <city>ראש העין</city>
-    </CivicAddress>
+    <Address>
+      <Address>גבעת טל 2 מרכז מסחרי גבעת טל</Address>
+      <City>ראש העין</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>303</Branch>
-    <CivicAddress>
-      <address>לב העיר 2 </address>
-      <city>מודיעין-מכבים-רעות*</city>
-    </CivicAddress>
+    <Address>
+      <Address>לב העיר 2 </Address>
+      <City>מודיעין-מכבים-רעות*</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>320</Branch>
-    <CivicAddress>
-      <address>טום לנטוס 26 </address>
-      <city>נתניה</city>
-    </CivicAddress>
+    <Address>
+      <Address>טום לנטוס 26 </Address>
+      <City>נתניה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>321</Branch>
-    <CivicAddress>
-      <address>שד' יצחק רבין 10 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' יצחק רבין 10 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>324</Branch>
-    <CivicAddress>
-      <address>פנחס רוזן 72 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>פנחס רוזן 72 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>330</Branch>
-    <CivicAddress>
-      <address>בי"ח וולפסון 1 </address>
-      <city>בת ים</city>
-    </CivicAddress>
+    <Address>
+      <Address>בי"ח וולפסון 1 </Address>
+      <City>בת ים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>331</Branch>
-    <CivicAddress>
-      <address>כנפי נשרים 15 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>כנפי נשרים 15 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>362</Branch>
-    <CivicAddress>
-      <address>חיה פיינשטיין 11 </address>
-      <city>פתח תקווה</city>
-    </CivicAddress>
+    <Address>
+      <Address>חיה פיינשטיין 11 </Address>
+      <City>פתח תקווה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>396</Branch>
-    <CivicAddress>
-      <address>קניון אסף סנטר 0 </address>
-      <city>ראשון לציון</city>
-    </CivicAddress>
+    <Address>
+      <Address>קניון אסף סנטר 0 </Address>
+      <City>ראשון לציון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>398</Branch>
-    <CivicAddress>
-      <address>בי"ח שיבא 0 </address>
-      <city>רמת גן</city>
-    </CivicAddress>
+    <Address>
+      <Address>בי"ח שיבא 0 </Address>
+      <City>רמת גן</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>425</Branch>
-    <CivicAddress>
-      <address>הרצל 160 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרצל 160 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>443</Branch>
-    <CivicAddress>
-      <address>דרך עכו 194 הקריון</address>
-      <city>קריית ביאליק</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך עכו 194 הקריון</Address>
+      <City>קריית ביאליק</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>477</Branch>
-    <CivicAddress>
-      <address>דרך שמחה גולן 54 </address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך שמחה גולן 54 </Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>506</Branch>
-    <CivicAddress>
-      <address>מורשת ישראל 15 נווה שקמה</address>
-      <city>ראשון לציון</city>
-    </CivicAddress>
+    <Address>
+      <Address>מורשת ישראל 15 נווה שקמה</Address>
+      <City>ראשון לציון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>110</Branch>
-    <CivicAddress>
-      <address>טשרנחובסקי 4 קניון "8 באמצע"</address>
-      <city>קריית שמונה</city>
-    </CivicAddress>
+    <Address>
+      <Address>טשרנחובסקי 4 קניון "8 באמצע"</Address>
+      <City>קריית שמונה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>111</Branch>
-    <CivicAddress>
-      <address>שד' יגאל אלון 1 המרכז המסחרי (אגף חדש)</address>
-      <city>דימונה</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' יגאל אלון 1 המרכז המסחרי (אגף חדש)</Address>
+      <City>דימונה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>112</Branch>
-    <CivicAddress>
-      <address>הבילויים 16 </address>
-      <city>גדרה</city>
-    </CivicAddress>
+    <Address>
+      <Address>הבילויים 16 </Address>
+      <City>גדרה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>114</Branch>
-    <CivicAddress>
-      <address>חיים משה שפירא 0 </address>
-      <city>אשדוד</city>
-    </CivicAddress>
+    <Address>
+      <Address>חיים משה שפירא 0 </Address>
+      <City>אשדוד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>117</Branch>
-    <CivicAddress>
-      <address>ויצמן 31 </address>
-      <city>נס ציונה</city>
-    </CivicAddress>
+    <Address>
+      <Address>ויצמן 31 </Address>
+      <City>נס ציונה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>118</Branch>
-    <CivicAddress>
-      <address>יהודה הנשיא 34 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>יהודה הנשיא 34 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>123</Branch>
-    <CivicAddress>
-      <address>אבא הלל סילבר 12 </address>
-      <city>רמת גן</city>
-    </CivicAddress>
+    <Address>
+      <Address>אבא הלל סילבר 12 </Address>
+      <City>רמת גן</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>125</Branch>
-    <CivicAddress>
-      <address>סוקולוב 46 </address>
-      <city>רמת השרון</city>
-    </CivicAddress>
+    <Address>
+      <Address>סוקולוב 46 </Address>
+      <City>רמת השרון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>127</Branch>
-    <CivicAddress>
-      <address>הרצוג 24 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרצוג 24 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>128</Branch>
-    <CivicAddress>
-      <address>שדרות בן גוריון 15 </address>
-      <city>אשקלון</city>
-    </CivicAddress>
+    <Address>
+      <Address>שדרות בן גוריון 15 </Address>
+      <City>אשקלון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>131</Branch>
-    <CivicAddress>
-      <address>ככר ה-87 1 מרכז מסחרי</address>
-      <city>קריית גת</city>
-    </CivicAddress>
+    <Address>
+      <Address>ככר ה-87 1 מרכז מסחרי</Address>
+      <City>קריית גת</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>132</Branch>
-    <CivicAddress>
-      <address>שדרות ש"י עגנון 6 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>שדרות ש"י עגנון 6 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>136</Branch>
-    <CivicAddress>
-      <address>שלמה המלך 38 </address>
-      <city>קריית אונו</city>
-    </CivicAddress>
+    <Address>
+      <Address>שלמה המלך 38 </Address>
+      <City>קריית אונו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>137</Branch>
-    <CivicAddress>
-      <address>דרך העצמאות 1 </address>
-      <city>מגדל העמק</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך העצמאות 1 </Address>
+      <City>מגדל העמק</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>138</Branch>
-    <CivicAddress>
-      <address>שדרות ירושלים 29 </address>
-      <city>קריית ים</city>
-    </CivicAddress>
+    <Address>
+      <Address>שדרות ירושלים 29 </Address>
+      <City>קריית ים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>139</Branch>
-    <CivicAddress>
-      <address>רבי עקיבא 60 </address>
-      <city>בני ברק</city>
-    </CivicAddress>
+    <Address>
+      <Address>רבי עקיבא 60 </Address>
+      <City>בני ברק</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>143</Branch>
-    <CivicAddress>
-      <address>דניאל 33 </address>
-      <city>בת ים</city>
-    </CivicAddress>
+    <Address>
+      <Address>דניאל 33 </Address>
+      <City>בת ים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>144</Branch>
-    <CivicAddress>
-      <address>אורנים 1 מרכז מסחרי רמת אילן</address>
-      <city>גבעת שמואל</city>
-    </CivicAddress>
+    <Address>
+      <Address>אורנים 1 מרכז מסחרי רמת אילן</Address>
+      <City>גבעת שמואל</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>145</Branch>
-    <CivicAddress>
-      <address>ויצמן 19 </address>
-      <city>גבעתיים</city>
-    </CivicAddress>
+    <Address>
+      <Address>ויצמן 19 </Address>
+      <City>גבעתיים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>146</Branch>
-    <CivicAddress>
-      <address>קדושי השואה 63 </address>
-      <city>הרצלייה</city>
-    </CivicAddress>
+    <Address>
+      <Address>קדושי השואה 63 </Address>
+      <City>הרצלייה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>147</Branch>
-    <CivicAddress>
-      <address>דיזנגוף 55 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>דיזנגוף 55 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>148</Branch>
-    <CivicAddress>
-      <address>בלפור 97 </address>
-      <city>בת ים</city>
-    </CivicAddress>
+    <Address>
+      <Address>בלפור 97 </Address>
+      <City>בת ים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>76</Branch>
-    <CivicAddress>
-      <address>שדרות הנשיא 124 </address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>שדרות הנשיא 124 </Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>77</Branch>
-    <CivicAddress>
-      <address>העצמאות 61 </address>
-      <city>קריית אתא</city>
-    </CivicAddress>
+    <Address>
+      <Address>העצמאות 61 </Address>
+      <City>קריית אתא</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>80</Branch>
-    <CivicAddress>
-      <address>ז'בוטינסקי 3 </address>
-      <city>רמת גן</city>
-    </CivicAddress>
+    <Address>
+      <Address>ז'בוטינסקי 3 </Address>
+      <City>רמת גן</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>83</Branch>
-    <CivicAddress>
-      <address>דיזנגוף 191 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>דיזנגוף 191 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>85</Branch>
-    <CivicAddress>
-      <address>אבן גבירול 66/68 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>אבן גבירול 66/68 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>86</Branch>
-    <CivicAddress>
-      <address>ברודצקי 19 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>ברודצקי 19 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>90</Branch>
-    <CivicAddress>
-      <address>הרברט סמואל 68 </address>
-      <city>חדרה</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרברט סמואל 68 </Address>
+      <City>חדרה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>92</Branch>
-    <CivicAddress>
-      <address>אחוזה 119 </address>
-      <city>רעננה</city>
-    </CivicAddress>
+    <Address>
+      <Address>אחוזה 119 </Address>
+      <City>רעננה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>93</Branch>
-    <CivicAddress>
-      <address>קזנובה 303/4 </address>
-      <city>נצרת</city>
-    </CivicAddress>
+    <Address>
+      <Address>קזנובה 303/4 </Address>
+      <City>נצרת</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>94</Branch>
-    <CivicAddress>
-      <address>שד' דוד טוביהו 125 </address>
-      <city>באר שבע</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' דוד טוביהו 125 </Address>
+      <City>באר שבע</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>95</Branch>
-    <CivicAddress>
-      <address>הדגן 2 </address>
-      <city>זכרון יעקב</city>
-    </CivicAddress>
+    <Address>
+      <Address>הדגן 2 </Address>
+      <City>זכרון יעקב</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>96</Branch>
-    <CivicAddress>
-      <address>לנדאו 7 מרום סנטר</address>
-      <city>רמת גן</city>
-    </CivicAddress>
+    <Address>
+      <Address>לנדאו 7 מרום סנטר</Address>
+      <City>רמת גן</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>97</Branch>
-    <CivicAddress>
-      <address>שדרות הגעתון 29 </address>
-      <city>נהרייה</city>
-    </CivicAddress>
+    <Address>
+      <Address>שדרות הגעתון 29 </Address>
+      <City>נהרייה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>98</Branch>
-    <CivicAddress>
-      <address>העליה ב' 4 מרכז מסחרי</address>
-      <city>צפת</city>
-    </CivicAddress>
+    <Address>
+      <Address>העליה ב' 4 מרכז מסחרי</Address>
+      <City>צפת</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>99</Branch>
-    <CivicAddress>
-      <address>בן עמי 38 </address>
-      <city>עכו</city>
-    </CivicAddress>
+    <Address>
+      <Address>בן עמי 38 </Address>
+      <City>עכו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>100</Branch>
-    <CivicAddress>
-      <address>שדרות רוטשילד 4 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>שדרות רוטשילד 4 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>102</Branch>
-    <CivicAddress>
-      <address>גולני 29 </address>
-      <city>רמת גן</city>
-    </CivicAddress>
+    <Address>
+      <Address>גולני 29 </Address>
+      <City>רמת גן</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>103</Branch>
-    <CivicAddress>
-      <address>פנחס אילון 13 </address>
-      <city>חולון</city>
-    </CivicAddress>
+    <Address>
+      <Address>פנחס אילון 13 </Address>
+      <City>חולון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>104</Branch>
-    <CivicAddress>
-      <address>אילת 36 </address>
-      <city>חולון</city>
-    </CivicAddress>
+    <Address>
+      <Address>אילת 36 </Address>
+      <City>חולון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>106</Branch>
-    <CivicAddress>
-      <address>הרצל 16 </address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרצל 16 </Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>107</Branch>
-    <CivicAddress>
-      <address>שדרות מוריה 128 </address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>שדרות מוריה 128 </Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>109</Branch>
-    <CivicAddress>
-      <address>פארן 9 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>פארן 9 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>45</Branch>
-    <CivicAddress>
-      <address>הרצל 190 </address>
-      <city>רחובות</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרצל 190 </Address>
+      <City>רחובות</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>46</Branch>
-    <CivicAddress>
-      <address>הירדן 1 הככר הסקוטית</address>
-      <city>טבריה</city>
-    </CivicAddress>
+    <Address>
+      <Address>הירדן 1 הככר הסקוטית</Address>
+      <City>טבריה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>49</Branch>
-    <CivicAddress>
-      <address>סוקולוב 68 </address>
-      <city>חולון</city>
-    </CivicAddress>
+    <Address>
+      <Address>סוקולוב 68 </Address>
+      <City>חולון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>51</Branch>
-    <CivicAddress>
-      <address>בלפור 51 </address>
-      <city>בת ים</city>
-    </CivicAddress>
+    <Address>
+      <Address>בלפור 51 </Address>
+      <City>בת ים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>54</Branch>
-    <CivicAddress>
-      <address>ויצמן 75 </address>
-      <city>כפר סבא</city>
-    </CivicAddress>
+    <Address>
+      <Address>ויצמן 75 </Address>
+      <City>כפר סבא</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>55</Branch>
-    <CivicAddress>
-      <address>הרצל 87 </address>
-      <city>ראשון לציון</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרצל 87 </Address>
+      <City>ראשון לציון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>56</Branch>
-    <CivicAddress>
-      <address>הרצל 30 </address>
-      <city>פתח תקווה</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרצל 30 </Address>
+      <City>פתח תקווה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>58</Branch>
-    <CivicAddress>
-      <address>דרך בן גוריון 13 </address>
-      <city>בני ברק</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך בן גוריון 13 </Address>
+      <City>בני ברק</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>59</Branch>
-    <CivicAddress>
-      <address>דוד המלך 2 </address>
-      <city>לוד</city>
-    </CivicAddress>
+    <Address>
+      <Address>דוד המלך 2 </Address>
+      <City>לוד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>61</Branch>
-    <CivicAddress>
-      <address>רח' יפו 121 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>רח' יפו 121 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>62</Branch>
-    <CivicAddress>
-      <address>עמק רפאים 21 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>עמק רפאים 21 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>64</Branch>
-    <CivicAddress>
-      <address>יחזקאל 11 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>יחזקאל 11 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>65</Branch>
-    <CivicAddress>
-      <address>בורוכוב 74 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>בורוכוב 74 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>66</Branch>
-    <CivicAddress>
-      <address>קרן היסוד 5 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>קרן היסוד 5 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>67</Branch>
-    <CivicAddress>
-      <address>יפו 220 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>יפו 220 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>68</Branch>
-    <CivicAddress>
-      <address>סולטן סולימן 19 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>סולטן סולימן 19 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>69</Branch>
-    <CivicAddress>
-      <address>הארזים 2 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>הארזים 2 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>74</Branch>
-    <CivicAddress>
-      <address>שדרות טרומפלדור 53 </address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>שדרות טרומפלדור 53 </Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>75</Branch>
-    <CivicAddress>
-      <address>שדרות משה גושן 20 </address>
-      <city>קריית מוצקין</city>
-    </CivicAddress>
+    <Address>
+      <Address>שדרות משה גושן 20 </Address>
+      <City>קריית מוצקין</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>7</Branch>
-    <CivicAddress>
-      <address>בן גוריון 259 </address>
-      <city>רמת גן</city>
-    </CivicAddress>
+    <Address>
+      <Address>בן גוריון 259 </Address>
+      <City>רמת גן</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>8</Branch>
-    <CivicAddress>
-      <address>שינקין 66 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>שינקין 66 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>10</Branch>
-    <CivicAddress>
-      <address>יהודה הלוי 27-31 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>יהודה הלוי 27-31 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>2</Branch>
-    <CivicAddress>
-      <address>הרב לוין 15 </address>
-      <city>עפולה</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרב לוין 15 </Address>
+      <City>עפולה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>3</Branch>
-    <CivicAddress>
-      <address>שד' התמרים 1 מרכז השלום</address>
-      <city>אילת</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' התמרים 1 מרכז השלום</Address>
+      <City>אילת</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>4</Branch>
-    <CivicAddress>
-      <address>הרצל 1 </address>
-      <city>אשדוד</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרצל 1 </Address>
+      <City>אשדוד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>5</Branch>
-    <CivicAddress>
-      <address>דרך העמק 41 מרכז דודג'</address>
-      <city>נצרת עילית</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך העמק 41 מרכז דודג'</Address>
+      <City>נצרת עילית</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>14</Branch>
-    <CivicAddress>
-      <address>יהודה הלוי 38 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>יהודה הלוי 38 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>17</Branch>
-    <CivicAddress>
-      <address>דרך שלמה 74 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך שלמה 74 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>18</Branch>
-    <CivicAddress>
-      <address>אצ"ל 16 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>אצ"ל 16 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>26</Branch>
-    <CivicAddress>
-      <address>שד' ירושלים 15 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' ירושלים 15 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>34</Branch>
-    <CivicAddress>
-      <address>קפלן 2 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>קפלן 2 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>40</Branch>
-    <CivicAddress>
-      <address>הרצל 50 </address>
-      <city>רמת גן</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרצל 50 </Address>
+      <City>רמת גן</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>41</Branch>
-    <CivicAddress>
-      <address>סלור 22 </address>
-      <city>פתח תקווה</city>
-    </CivicAddress>
+    <Address>
+      <Address>סלור 22 </Address>
+      <City>פתח תקווה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>42</Branch>
-    <CivicAddress>
-      <address>סמילנסקי 6 </address>
-      <city>נתניה</city>
-    </CivicAddress>
+    <Address>
+      <Address>סמילנסקי 6 </Address>
+      <City>נתניה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>43</Branch>
-    <CivicAddress>
-      <address>שדרות הרצל 55 </address>
-      <city>רמלה</city>
-    </CivicAddress>
+    <Address>
+      <Address>שדרות הרצל 55 </Address>
+      <City>רמלה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>44</Branch>
-    <CivicAddress>
-      <address>סוקולוב 22 </address>
-      <city>הרצלייה</city>
-    </CivicAddress>
+    <Address>
+      <Address>סוקולוב 22 </Address>
+      <City>הרצלייה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>44</Branch>
-    <CivicAddress>
-      <address>
-סוקולוב 22 </address>
-      <city>הרצלייה</city>
-    </CivicAddress>
+    <Address>
+      <Address>
+סוקולוב 22 </Address>
+      <City>הרצלייה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>422</Branch>
-    <CivicAddress>
-      <address>שד שבעת הכוכבים פינת דברה 0 ק. שבעת הכוכבים</address>
-      <city>הרצלייה</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד שבעת הכוכבים פינת דברה 0 ק. שבעת הכוכבים</Address>
+      <City>הרצלייה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>422</Branch>
-    <CivicAddress>
-      <address>
-שד שבעת הכוכבים פינת דברה 0 ק. שבעת הכוכבים</address>
-      <city>הרצלייה</city>
-    </CivicAddress>
+    <Address>
+      <Address>
+שד שבעת הכוכבים פינת דברה 0 ק. שבעת הכוכבים</Address>
+      <City>הרצלייה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>327</Branch>
-    <CivicAddress>
-      <address>שד' מת"מ 1 נתיב האור 1, אזור תעשייה מת"מ</address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' מת"מ 1 נתיב האור 1, אזור תעשייה מת"מ</Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>327</Branch>
-    <CivicAddress>
-      <address>פרץ בוני הנגב 0 קניון דימונה</address>
-      <city>דימונה</city>
-    </CivicAddress>
+    <Address>
+      <Address>פרץ בוני הנגב 0 קניון דימונה</Address>
+      <City>דימונה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>327</Branch>
-    <CivicAddress>
-      <address>מול זיכרון 0 מול זיכרון</address>
-      <city>זכרון יעקב</city>
-    </CivicAddress>
+    <Address>
+      <Address>מול זיכרון 0 מול זיכרון</Address>
+      <City>זכרון יעקב</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>373</Branch>
-    <CivicAddress>
-      <address>קיבוץ שמיר 1 קיבוץ שמיר</address>
-      <city>זכרון יעקב</city>
-    </CivicAddress>
+    <Address>
+      <Address>קיבוץ שמיר 1 קיבוץ שמיר</Address>
+      <City>זכרון יעקב</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>391</Branch>
-    <CivicAddress>
-      <address>רוטשילד 180 </address>
-      <city>פתח תקווה</city>
-    </CivicAddress>
+    <Address>
+      <Address>רוטשילד 180 </Address>
+      <City>פתח תקווה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק דיסקונט לישראל בע"מ</BankName>
     <BankNumber>11</BankNumber>
     <Branch>70</Branch>
-    <CivicAddress>
-      <address>דרך העצמאות 47 </address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך העצמאות 47 </Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>813</Branch>
-    <CivicAddress>
-      <address>ד"נ לכיש 1 מרכז כפרי</address>
-      <city>נהורה</city>
-    </CivicAddress>
+    <Address>
+      <Address>ד"נ לכיש 1 מרכז כפרי</Address>
+      <City>נהורה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>820</Branch>
-    <CivicAddress>
-      <address>המרכבה 31 חצי חינם חולון</address>
-      <city>חולון</city>
-    </CivicAddress>
+    <Address>
+      <Address>המרכבה 31 חצי חינם חולון</Address>
+      <City>חולון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>820</Branch>
-    <CivicAddress>
-      <address>גולדה מאיר 7 קניון חולון</address>
-      <city>חולון</city>
-    </CivicAddress>
+    <Address>
+      <Address>גולדה מאיר 7 קניון חולון</Address>
+      <City>חולון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>820</Branch>
-    <CivicAddress>
-      <address>הלח"י 16 חצי חינם ראשון לציון</address>
-      <city>ראשון לציון</city>
-    </CivicAddress>
+    <Address>
+      <Address>הלח"י 16 חצי חינם ראשון לציון</Address>
+      <City>ראשון לציון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>821</Branch>
-    <CivicAddress>
-      <address>ראשל"צ, המכללה למינהל 0 המכללה למינהל ראשל"צ</address>
-      <city>ראשון לציון</city>
-    </CivicAddress>
+    <Address>
+      <Address>ראשל"צ, המכללה למינהל 0 המכללה למינהל ראשל"צ</Address>
+      <City>ראשון לציון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>582</Branch>
-    <CivicAddress>
-      <address>צאלון 21 </address>
-      <city>מודיעין-מכבים-רעות*</city>
-    </CivicAddress>
+    <Address>
+      <Address>צאלון 21 </Address>
+      <City>מודיעין-מכבים-רעות*</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>585</Branch>
-    <CivicAddress>
-      <address>הגננת פינת יפה רום 800 מרכז מסחרי</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>הגננת פינת יפה רום 800 מרכז מסחרי</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>588</Branch>
-    <CivicAddress>
-      <address>עולי הגרדום 1 מרכז מסחרי</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>עולי הגרדום 1 מרכז מסחרי</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>594</Branch>
-    <CivicAddress>
-      <address>שד' ירושלים 42 </address>
-      <city>באר שבע</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' ירושלים 42 </Address>
+      <City>באר שבע</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>600</Branch>
-    <CivicAddress>
-      <address>שד' רוטשילד 50 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' רוטשילד 50 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>603</Branch>
-    <CivicAddress>
-      <address>לה גוורדיה 58 ת"א</address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>לה גוורדיה 58 ת"א</Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>604</Branch>
-    <CivicAddress>
-      <address>שד' ישראל גורי 34 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' ישראל גורי 34 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>861</Branch>
-    <CivicAddress>
-      <address>סינמה סיטי - צומת גלילות מתחם האוכל 0 </address>
-      <city>רמת השרון</city>
-    </CivicAddress>
+    <Address>
+      <Address>סינמה סיטי - צומת גלילות מתחם האוכל 0 </Address>
+      <City>רמת השרון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>821</Branch>
-    <CivicAddress>
-      <address>שדרות ירושלים 159 הבשור תל אביב</address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>שדרות ירושלים 159 הבשור תל אביב</Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>635</Branch>
-    <CivicAddress>
-      <address>שדרות יעקב 50 </address>
-      <city>ראשון לציון</city>
-    </CivicAddress>
+    <Address>
+      <Address>שדרות יעקב 50 </Address>
+      <City>ראשון לציון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>636</Branch>
-    <CivicAddress>
-      <address>הבנים 1 </address>
-      <city>נס ציונה</city>
-    </CivicAddress>
+    <Address>
+      <Address>הבנים 1 </Address>
+      <City>נס ציונה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>672</Branch>
-    <CivicAddress>
-      <address>שד' בן גוריון 1 </address>
-      <city>מצפה רמון</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' בן גוריון 1 </Address>
+      <City>מצפה רמון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>762</Branch>
-    <CivicAddress>
-      <address>שד' דואני 46 מרכז מסחרי</address>
-      <city>יבנה</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' דואני 46 מרכז מסחרי</Address>
+      <City>יבנה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>763</Branch>
-    <CivicAddress>
-      <address>חן 32 מרכז מסחרי</address>
-      <city>ערד</city>
-    </CivicAddress>
+    <Address>
+      <Address>חן 32 מרכז מסחרי</Address>
+      <City>ערד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>770</Branch>
-    <CivicAddress>
-      <address>אברהם אבינו 31 </address>
-      <city>באר שבע</city>
-    </CivicAddress>
+    <Address>
+      <Address>אברהם אבינו 31 </Address>
+      <City>באר שבע</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>516</Branch>
-    <CivicAddress>
-      <address>אנה פרנק 31 </address>
-      <city>בת ים</city>
-    </CivicAddress>
+    <Address>
+      <Address>אנה פרנק 31 </Address>
+      <City>בת ים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>520</Branch>
-    <CivicAddress>
-      <address>כנפי נשרים 22 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>כנפי נשרים 22 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>176</Branch>
-    <CivicAddress>
-      <address>אבא הלל סילבר 12 </address>
-      <city>רמת גן</city>
-    </CivicAddress>
+    <Address>
+      <Address>אבא הלל סילבר 12 </Address>
+      <City>רמת גן</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>211</Branch>
-    <CivicAddress>
-      <address>בנין מגדלי נצרת , כביש עוקף נצרת 1 </address>
-      <city>נצרת</city>
-    </CivicAddress>
+    <Address>
+      <Address>בנין מגדלי נצרת , כביש עוקף נצרת 1 </Address>
+      <City>נצרת</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>213</Branch>
-    <CivicAddress>
-      <address>הפסגה 39 א </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>הפסגה 39 א </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>812</Branch>
-    <CivicAddress>
-      <address>אוניברסיטת הנגב 0 חצר לקוח אונב' הנגב פקו' לרפואה</address>
-      <city>באר שבע</city>
-    </CivicAddress>
+    <Address>
+      <Address>אוניברסיטת הנגב 0 חצר לקוח אונב' הנגב פקו' לרפואה</Address>
+      <City>באר שבע</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>813</Branch>
-    <CivicAddress>
-      <address>דרך לכיש 30 קניון לב העיר קרית גת</address>
-      <city>קריית גת</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך לכיש 30 קניון לב העיר קרית גת</Address>
+      <City>קריית גת</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>813</Branch>
-    <CivicAddress>
-      <address>מרכז מסחרי[ 0 חורה</address>
-      <city>חורה</city>
-    </CivicAddress>
+    <Address>
+      <Address>מרכז מסחרי[ 0 חורה</Address>
+      <City>חורה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>606</Branch>
-    <CivicAddress>
-      <address>ברודצקי 17 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>ברודצקי 17 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>607</Branch>
-    <CivicAddress>
-      <address>דרך ההגנה 63 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך ההגנה 63 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>608</Branch>
-    <CivicAddress>
-      <address>ארלוזורוב 105 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>ארלוזורוב 105 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>609</Branch>
-    <CivicAddress>
-      <address>אבן גבירול 71 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>אבן גבירול 71 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>610</Branch>
-    <CivicAddress>
-      <address>פנחס רוזן 28 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>פנחס רוזן 28 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>611</Branch>
-    <CivicAddress>
-      <address>שד' ירושלים 16 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' ירושלים 16 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>612</Branch>
-    <CivicAddress>
-      <address>הרצל 32 </address>
-      <city>נתניה</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרצל 32 </Address>
+      <City>נתניה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>613</Branch>
-    <CivicAddress>
-      <address>ביאליק 32 </address>
-      <city>רמת גן</city>
-    </CivicAddress>
+    <Address>
+      <Address>ביאליק 32 </Address>
+      <City>רמת גן</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>614</Branch>
-    <CivicAddress>
-      <address>שד' ירושלים 21 </address>
-      <city>רמת גן</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' ירושלים 21 </Address>
+      <City>רמת גן</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>615</Branch>
-    <CivicAddress>
-      <address>הרצל 179 </address>
-      <city>רחובות</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרצל 179 </Address>
+      <City>רחובות</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>616</Branch>
-    <CivicAddress>
-      <address>חובבי ציון 1 </address>
-      <city>פתח תקווה</city>
-    </CivicAddress>
+    <Address>
+      <Address>חובבי ציון 1 </Address>
+      <City>פתח תקווה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>617</Branch>
-    <CivicAddress>
-      <address>ויצמן 9 </address>
-      <city>יהוד</city>
-    </CivicAddress>
+    <Address>
+      <Address>ויצמן 9 </Address>
+      <City>יהוד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>832</Branch>
-    <CivicAddress>
-      <address>ניסים אלוני 10 קניון G צמרת ת"א</address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>ניסים אלוני 10 קניון G צמרת ת"א</Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>840</Branch>
-    <CivicAddress>
-      <address>דרך עכו 271 מרכז מסחרי שכ נוה גנים, ק. מוצקין</address>
-      <city>קריית מוצקין</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך עכו 271 מרכז מסחרי שכ נוה גנים, ק. מוצקין</Address>
+      <City>קריית מוצקין</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>851</Branch>
-    <CivicAddress>
-      <address>מרכז מסחרי נוה יעקב 0 מרכז מסחרי נוה יעקב</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>מרכז מסחרי נוה יעקב 0 מרכז מסחרי נוה יעקב</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>698</Branch>
-    <CivicAddress>
-      <address>יפו 216 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>יפו 216 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>700</Branch>
-    <CivicAddress>
-      <address>הנביאים 18 </address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>הנביאים 18 </Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>701</Branch>
-    <CivicAddress>
-      <address>שד' הנשיא 111 </address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' הנשיא 111 </Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>704</Branch>
-    <CivicAddress>
-      <address>חורב 15 </address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>חורב 15 </Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>706</Branch>
-    <CivicAddress>
-      <address>שד' דגניה 30 </address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' דגניה 30 </Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>618</Branch>
-    <CivicAddress>
-      <address>דני מס 7 </address>
-      <city>רמלה</city>
-    </CivicAddress>
+    <Address>
+      <Address>דני מס 7 </Address>
+      <City>רמלה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>620</Branch>
-    <CivicAddress>
-      <address>הרברט סמואל 85 </address>
-      <city>חדרה</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרברט סמואל 85 </Address>
+      <City>חדרה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>622</Branch>
-    <CivicAddress>
-      <address>שד' הדקלים, ככר הנשיא 1 </address>
-      <city>פרדס חנה-כרכור</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' הדקלים, ככר הנשיא 1 </Address>
+      <City>פרדס חנה-כרכור</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>627</Branch>
-    <CivicAddress>
-      <address>ויצמן 102 </address>
-      <city>כפר סבא</city>
-    </CivicAddress>
+    <Address>
+      <Address>ויצמן 102 </Address>
+      <City>כפר סבא</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>631</Branch>
-    <CivicAddress>
-      <address>העצמאות 40 </address>
-      <city>באר שבע</city>
-    </CivicAddress>
+    <Address>
+      <Address>העצמאות 40 </Address>
+      <City>באר שבע</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>632</Branch>
-    <CivicAddress>
-      <address>יגאל אלון 5 </address>
-      <city>דימונה</city>
-    </CivicAddress>
+    <Address>
+      <Address>יגאל אלון 5 </Address>
+      <City>דימונה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>633</Branch>
-    <CivicAddress>
-      <address>שד' הרצל 11 </address>
-      <city>אופקים</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' הרצל 11 </Address>
+      <City>אופקים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>822</Branch>
-    <CivicAddress>
-      <address>בילו סנטר 0 בילו סנטר רחובות - דן חסכן</address>
-      <city>קריית עקרון</city>
-    </CivicAddress>
+    <Address>
+      <Address>בילו סנטר 0 בילו סנטר רחובות - דן חסכן</Address>
+      <City>קריית עקרון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>822</Branch>
-    <CivicAddress>
-      <address>בילו 2 קניון רחובות</address>
-      <city>רחובות</city>
-    </CivicAddress>
+    <Address>
+      <Address>בילו 2 קניון רחובות</Address>
+      <City>רחובות</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>822</Branch>
-    <CivicAddress>
-      <address>בלפור 14 קניון לב אשדוד</address>
-      <city>אשדוד</city>
-    </CivicAddress>
+    <Address>
+      <Address>בלפור 14 קניון לב אשדוד</Address>
+      <City>אשדוד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>822</Branch>
-    <CivicAddress>
-      <address>רבינוביץ 11 </address>
-      <city>חולון</city>
-    </CivicAddress>
+    <Address>
+      <Address>רבינוביץ 11 </Address>
+      <City>חולון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>830</Branch>
-    <CivicAddress>
-      <address>המסגר 40 בית ישראכרט</address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>המסגר 40 בית ישראכרט</Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>830</Branch>
-    <CivicAddress>
-      <address>שדרות רוקח 101 גני התערוכה</address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>שדרות רוקח 101 גני התערוכה</Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>831</Branch>
-    <CivicAddress>
-      <address>נמל תל אביב מבנה מס 10 (תחנת המשטרה) 0 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>נמל תל אביב מבנה מס 10 (תחנת המשטרה) 0 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>832</Branch>
-    <CivicAddress>
-      <address>הנגב 11 בית רובינשטיין</address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>הנגב 11 בית רובינשטיין</Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>831</Branch>
-    <CivicAddress>
-      <address>לוינסקי 108 תחנה מרכזית תל-אביב</address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>לוינסקי 108 תחנה מרכזית תל-אביב</Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>831</Branch>
-    <CivicAddress>
-      <address>אלנבי 126 אלנבי 126</address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>אלנבי 126 אלנבי 126</Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>831</Branch>
-    <CivicAddress>
-      <address>סאשה ארגוב 18 שכונת צהלה המשתלה תל אביב</address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>סאשה ארגוב 18 שכונת צהלה המשתלה תל אביב</Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>832</Branch>
-    <CivicAddress>
-      <address>אהרון בקר 8 קניון G תל ברוך</address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>אהרון בקר 8 קניון G תל ברוך</Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>832</Branch>
-    <CivicAddress>
-      <address>הנגב 11 בניין הנהלה בית רובינשטיין תל אביב</address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>הנגב 11 בניין הנהלה בית רובינשטיין תל אביב</Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>840</Branch>
-    <CivicAddress>
-      <address>מכללת הגליל המערבי יד נתן עכו 0 </address>
-      <city>עכו</city>
-    </CivicAddress>
+    <Address>
+      <Address>מכללת הגליל המערבי יד נתן עכו 0 </Address>
+      <City>עכו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>840</Branch>
-    <CivicAddress>
-      <address>דרך משה פלימן 8 קניון קסטרא-חיפה</address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך משה פלימן 8 קניון קסטרא-חיפה</Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>841</Branch>
-    <CivicAddress>
-      <address>העצמאות 3 קניון עזריאלי קרית אתא</address>
-      <city>קריית אתא</city>
-    </CivicAddress>
+    <Address>
+      <Address>העצמאות 3 קניון עזריאלי קרית אתא</Address>
+      <City>קריית אתא</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>842</Branch>
-    <CivicAddress>
-      <address>מרכז מסחרי חדש 0 מעלות חצר לקוח</address>
-      <city>מעלות-תרשיחא</city>
-    </CivicAddress>
+    <Address>
+      <Address>מרכז מסחרי חדש 0 מעלות חצר לקוח</Address>
+      <City>מעלות-תרשיחא</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>852</Branch>
-    <CivicAddress>
-      <address>יפו 224 תחנה מרכזית ירושלים</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>יפו 224 תחנה מרכזית ירושלים</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>850</Branch>
-    <CivicAddress>
-      <address>דרך משה דיין 106 קניון פיסגת זאב ירושלים</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך משה דיין 106 קניון פיסגת זאב ירושלים</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>851</Branch>
-    <CivicAddress>
-      <address>בר אילן 0 בר אילן ירושלים (נעלי אבי)</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>בר אילן 0 בר אילן ירושלים (נעלי אבי)</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>851</Branch>
-    <CivicAddress>
-      <address>בית הדפוס 11 בית הדפוס גבעת שאול ירושלים</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>בית הדפוס 11 בית הדפוס גבעת שאול ירושלים</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>860</Branch>
-    <CivicAddress>
-      <address>צומת גרנות דרך 65 0 גן שמואל - תחנת דלק סונול - מתחם ביג</address>
-      <city>פרדס חנה-כרכור</city>
-    </CivicAddress>
+    <Address>
+      <Address>צומת גרנות דרך 65 0 גן שמואל - תחנת דלק סונול - מתחם ביג</Address>
+      <City>פרדס חנה-כרכור</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>860</Branch>
-    <CivicAddress>
-      <address>חנות אופיס דיפו,מ.מ. חוצות שפיים 0 </address>
-      <city>שפיים</city>
-    </CivicAddress>
+    <Address>
+      <Address>חנות אופיס דיפו,מ.מ. חוצות שפיים 0 </Address>
+      <City>שפיים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>861</Branch>
-    <CivicAddress>
-      <address>כנפי נשרים 2 המרכז הבנתחומי הרצליה</address>
-      <city>הרצלייה</city>
-    </CivicAddress>
+    <Address>
+      <Address>כנפי נשרים 2 המרכז הבנתחומי הרצליה</Address>
+      <City>הרצלייה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>861</Branch>
-    <CivicAddress>
-      <address>ירושלים 34 גמלא רעננה</address>
-      <city>רעננה</city>
-    </CivicAddress>
+    <Address>
+      <Address>ירושלים 34 גמלא רעננה</Address>
+      <City>רעננה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>861</Branch>
-    <CivicAddress>
-      <address>שבטי ישראל 102 שכונת מורשה (רמת השרון)</address>
-      <city>רמת השרון</city>
-    </CivicAddress>
+    <Address>
+      <Address>שבטי ישראל 102 שכונת מורשה (רמת השרון)</Address>
+      <City>רמת השרון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>861</Branch>
-    <CivicAddress>
-      <address>לוי אשכול 0 שכונת יוספטל - כפ"ס</address>
-      <city>כפר סבא</city>
-    </CivicAddress>
+    <Address>
+      <Address>לוי אשכול 0 שכונת יוספטל - כפ"ס</Address>
+      <City>כפר סבא</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>861</Branch>
-    <CivicAddress>
-      <address>אנשי בראשית 0 בני ציון</address>
-      <city>רעננה</city>
-    </CivicAddress>
+    <Address>
+      <Address>אנשי בראשית 0 בני ציון</Address>
+      <City>רעננה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>861</Branch>
-    <CivicAddress>
-      <address>הנשיא 1 פרדסיה</address>
-      <city>פרדסייה</city>
-    </CivicAddress>
+    <Address>
+      <Address>הנשיא 1 פרדסיה</Address>
+      <City>פרדסייה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>862</Branch>
-    <CivicAddress>
-      <address>הרקון 2 חצי חינם הוד השרון</address>
-      <city>הוד השרון</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרקון 2 חצי חינם הוד השרון</Address>
+      <City>הוד השרון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>862</Branch>
-    <CivicAddress>
-      <address>צפונית לצומת גלילות 0 </address>
-      <city>רמת השרון</city>
-    </CivicAddress>
+    <Address>
+      <Address>צפונית לצומת גלילות 0 </Address>
+      <City>רמת השרון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>862</Branch>
-    <CivicAddress>
-      <address>הרקון 2 קניון שרונים</address>
-      <city>הוד השרון</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרקון 2 קניון שרונים</Address>
+      <City>הוד השרון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>863</Branch>
-    <CivicAddress>
-      <address>בני ברמן 3 קניון עיר ימים נתניה</address>
-      <city>נתניה</city>
-    </CivicAddress>
+    <Address>
+      <Address>בני ברמן 3 קניון עיר ימים נתניה</Address>
+      <City>נתניה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>871</Branch>
-    <CivicAddress>
-      <address>יהלום 25 בנין המועצה המקומית שערי תקוה</address>
-      <city>שערי תקווה</city>
-    </CivicAddress>
+    <Address>
+      <Address>יהלום 25 בנין המועצה המקומית שערי תקוה</Address>
+      <City>שערי תקווה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>871</Branch>
-    <CivicAddress>
-      <address>נתבג-מקבלי פנים-ימין 0 </address>
-      <city>אזור רמלה של"ש</city>
-    </CivicAddress>
+    <Address>
+      <Address>נתבג-מקבלי פנים-ימין 0 </Address>
+      <City>אזור רמלה של"ש</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>871</Branch>
-    <CivicAddress>
-      <address>נתבג-מקבלי פנים-שמאל 0 </address>
-      <city>אזור רמלה של"ש</city>
-    </CivicAddress>
+    <Address>
+      <Address>נתבג-מקבלי פנים-שמאל 0 </Address>
+      <City>אזור רמלה של"ש</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>871</Branch>
-    <CivicAddress>
-      <address>נתבג-נכנסים-מכס 0 </address>
-      <city>אזור רמלה של"ש</city>
-    </CivicAddress>
+    <Address>
+      <Address>נתבג-נכנסים-מכס 0 </Address>
+      <City>אזור רמלה של"ש</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>871</Branch>
-    <CivicAddress>
-      <address>נתבג-ארקיע-טרמינל 1 0 </address>
-      <city>אזור רמלה של"ש</city>
-    </CivicAddress>
+    <Address>
+      <Address>נתבג-ארקיע-טרמינל 1 0 </Address>
+      <City>אזור רמלה של"ש</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>872</Branch>
-    <CivicAddress>
-      <address>המלאכות 21 מרכז קניות ישפרו מודיעין</address>
-      <city>מודיעין-מכבים-רעות*</city>
-    </CivicAddress>
+    <Address>
+      <Address>המלאכות 21 מרכז קניות ישפרו מודיעין</Address>
+      <City>מודיעין-מכבים-רעות*</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>784</Branch>
-    <CivicAddress>
-      <address>ההגנה 21 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>ההגנה 21 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>785</Branch>
-    <CivicAddress>
-      <address>אילת 54 יוספטל, ת"ד 1252</address>
-      <city>חולון</city>
-    </CivicAddress>
+    <Address>
+      <Address>אילת 54 יוספטל, ת"ד 1252</Address>
+      <City>חולון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>788</Branch>
-    <CivicAddress>
-      <address>אפטר 9 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>אפטר 9 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>791</Branch>
-    <CivicAddress>
-      <address>חלוצי התעשיה 3 מפרץ חיפה</address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>חלוצי התעשיה 3 מפרץ חיפה</Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>792</Branch>
-    <CivicAddress>
-      <address>קרן היסוד 7 </address>
-      <city>קריית ביאליק</city>
-    </CivicAddress>
+    <Address>
+      <Address>קרן היסוד 7 </Address>
+      <City>קריית ביאליק</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>810</Branch>
-    <CivicAddress>
-      <address>שדרות יצחק רגר 0 בית חולים סורוקה</address>
-      <city>באר שבע</city>
-    </CivicAddress>
+    <Address>
+      <Address>שדרות יצחק רגר 0 בית חולים סורוקה</Address>
+      <City>באר שבע</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>811</Branch>
-    <CivicAddress>
-      <address>ישוב תל שבע - מינימרקט אלאעסם 0 </address>
-      <city>באר שבע</city>
-    </CivicAddress>
+    <Address>
+      <Address>ישוב תל שבע - מינימרקט אלאעסם 0 </Address>
+      <City>באר שבע</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>811</Branch>
-    <CivicAddress>
-      <address>שכ שחמון אילת 0 שכ שחמון אילת</address>
-      <city>אילת</city>
-    </CivicAddress>
+    <Address>
+      <Address>שכ שחמון אילת 0 שכ שחמון אילת</Address>
+      <City>אילת</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>812</Branch>
-    <CivicAddress>
-      <address>דרך חברון 0 מרכז G פאור סנטר באר שבע</address>
-      <city>באר שבע</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך חברון 0 מרכז G פאור סנטר באר שבע</Address>
+      <City>באר שבע</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>812</Branch>
-    <CivicAddress>
-      <address>אילת, משרד נסיעות, בית הגשר 0 אילת - שלוחת הגשר</address>
-      <city>אילת</city>
-    </CivicAddress>
+    <Address>
+      <Address>אילת, משרד נסיעות, בית הגשר 0 אילת - שלוחת הגשר</Address>
+      <City>אילת</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>812</Branch>
-    <CivicAddress>
-      <address>ירוחם, צבי בורשטיין 0 מתנס ירוחם</address>
-      <city>ירוחם</city>
-    </CivicAddress>
+    <Address>
+      <Address>ירוחם, צבי בורשטיין 0 מתנס ירוחם</Address>
+      <City>ירוחם</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>821</Branch>
-    <CivicAddress>
-      <address>סחרוב 21 קניון הזהב - קומה 1</address>
-      <city>ראשון לציון</city>
-    </CivicAddress>
+    <Address>
+      <Address>סחרוב 21 קניון הזהב - קומה 1</Address>
+      <City>ראשון לציון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>821</Branch>
-    <CivicAddress>
-      <address>סחרוב 21 קניון הזהב- קומה 0</address>
-      <city>ראשון לציון</city>
-    </CivicAddress>
+    <Address>
+      <Address>סחרוב 21 קניון הזהב- קומה 0</Address>
+      <City>ראשון לציון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>822</Branch>
-    <CivicAddress>
-      <address>סחרוב 21 קניון הזהב - קומה 0 -ע"י המעלית</address>
-      <city>ראשון לציון</city>
-    </CivicAddress>
+    <Address>
+      <Address>סחרוב 21 קניון הזהב - קומה 0 -ע"י המעלית</Address>
+      <City>ראשון לציון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>872</Branch>
-    <CivicAddress>
-      <address>הכרמל 20 מרכז מסחרי מרכז הבמה - גני תקוה</address>
-      <city>גני תקווה</city>
-    </CivicAddress>
+    <Address>
+      <Address>הכרמל 20 מרכז מסחרי מרכז הבמה - גני תקוה</Address>
+      <City>גני תקווה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>872</Branch>
-    <CivicAddress>
-      <address>שדרות הארזים 0 בית אבות רמת אפעל ביתן 103</address>
-      <city>רמת גן</city>
-    </CivicAddress>
+    <Address>
+      <Address>שדרות הארזים 0 בית אבות רמת אפעל ביתן 103</Address>
+      <City>רמת גן</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>872</Branch>
-    <CivicAddress>
-      <address>העצמאות 65 כפר גנים קניון קומת הרחוב</address>
-      <city>פתח תקווה</city>
-    </CivicAddress>
+    <Address>
+      <Address>העצמאות 65 כפר גנים קניון קומת הרחוב</Address>
+      <City>פתח תקווה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>872</Branch>
-    <CivicAddress>
-      <address>דרך רמת הגולן 27 מכללת אריאל מעל בנין הדואר</address>
-      <city>אריאל</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך רמת הגולן 27 מכללת אריאל מעל בנין הדואר</Address>
+      <City>אריאל</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>873</Branch>
-    <CivicAddress>
-      <address>נתבג-שרוול B - משמאל למסוע 0 </address>
-      <city>אזור רמלה של"ש</city>
-    </CivicAddress>
+    <Address>
+      <Address>נתבג-שרוול B - משמאל למסוע 0 </Address>
+      <City>אזור רמלה של"ש</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>873</Branch>
-    <CivicAddress>
-      <address>נתבג-שרוול C - משמאל למסוע 0 </address>
-      <city>אזור רמלה של"ש</city>
-    </CivicAddress>
+    <Address>
+      <Address>נתבג-שרוול C - משמאל למסוע 0 </Address>
+      <City>אזור רמלה של"ש</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>873</Branch>
-    <CivicAddress>
-      <address>נתבג-שרוול D - משמאל למסוע 0 </address>
-      <city>אזור רמלה של"ש</city>
-    </CivicAddress>
+    <Address>
+      <Address>נתבג-שרוול D - משמאל למסוע 0 </Address>
+      <City>אזור רמלה של"ש</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>873</Branch>
-    <CivicAddress>
-      <address>נתבג- דלפק דיוטי פרי (רוטנדה) 0 </address>
-      <city>אזור רמלה של"ש</city>
-    </CivicAddress>
+    <Address>
+      <Address>נתבג- דלפק דיוטי פרי (רוטנדה) 0 </Address>
+      <City>אזור רמלה של"ש</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>873</Branch>
-    <CivicAddress>
-      <address>דרך אבא הלל 301 קניון איילון</address>
-      <city>רמת גן</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך אבא הלל 301 קניון איילון</Address>
+      <City>רמת גן</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>873</Branch>
-    <CivicAddress>
-      <address>רפאל איתן 3 אם המושבות חצר לקוח</address>
-      <city>פתח תקווה</city>
-    </CivicAddress>
+    <Address>
+      <Address>רפאל איתן 3 אם המושבות חצר לקוח</Address>
+      <City>פתח תקווה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>873</Branch>
-    <CivicAddress>
-      <address>שוהם 1 </address>
-      <city>שוהם</city>
-    </CivicAddress>
+    <Address>
+      <Address>שוהם 1 </Address>
+      <City>שוהם</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>890</Branch>
-    <CivicAddress>
-      <address>קניון אלונים - קרית טבעון 0 </address>
-      <city>קריית טבעון</city>
-    </CivicAddress>
+    <Address>
+      <Address>קניון אלונים - קרית טבעון 0 </Address>
+      <City>קריית טבעון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>890</Branch>
-    <CivicAddress>
-      <address>ד.נ עמק ישראל 0 מכללת עמק יזרעאל</address>
-      <city>עמק חרוד מ"א 8</city>
-    </CivicAddress>
+    <Address>
+      <Address>ד.נ עמק ישראל 0 מכללת עמק יזרעאל</Address>
+      <City>עמק חרוד מ"א 8</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>891</Branch>
-    <CivicAddress>
-      <address>קצרין, קניון חוצות הגולן 0 </address>
-      <city>קצרין</city>
-    </CivicAddress>
+    <Address>
+      <Address>קצרין, קניון חוצות הגולן 0 </Address>
+      <City>קצרין</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>891</Branch>
-    <CivicAddress>
-      <address>התמר 6 יקנעם עילית מרכז מסחרי</address>
-      <city>יקנעם עילית</city>
-    </CivicAddress>
+    <Address>
+      <Address>התמר 6 יקנעם עילית מרכז מסחרי</Address>
+      <City>יקנעם עילית</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>892</Branch>
-    <CivicAddress>
-      <address>הנשיא ויצמן 2776 טבריה עילית - חצר לקוח</address>
-      <city>טבריה</city>
-    </CivicAddress>
+    <Address>
+      <Address>הנשיא ויצמן 2776 טבריה עילית - חצר לקוח</Address>
+      <City>טבריה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>892</Branch>
-    <CivicAddress>
-      <address>ארלוזורוב 29 עפולה - חצר לקוח</address>
-      <city>עפולה</city>
-    </CivicAddress>
+    <Address>
+      <Address>ארלוזורוב 29 עפולה - חצר לקוח</Address>
+      <City>עפולה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>892</Branch>
-    <CivicAddress>
-      <address>מורד הגיא 100 קניון האירוסים כרמיאל</address>
-      <city>כרמיאל</city>
-    </CivicAddress>
+    <Address>
+      <Address>מורד הגיא 100 קניון האירוסים כרמיאל</Address>
+      <City>כרמיאל</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>892</Branch>
-    <CivicAddress>
-      <address>בנין כוכב החרמון 6 </address>
-      <city>מג'דל שמס</city>
-    </CivicAddress>
+    <Address>
+      <Address>בנין כוכב החרמון 6 </Address>
+      <City>מג'דל שמס</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>699</Branch>
-    <CivicAddress>
-      <address>שד' משה דיין 106 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' משה דיין 106 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>702</Branch>
-    <CivicAddress>
-      <address>טרומפלדור 47 </address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>טרומפלדור 47 </Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>703</Branch>
-    <CivicAddress>
-      <address>הרצל 39 </address>
-      <city>טירת כרמל</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרצל 39 </Address>
+      <City>טירת כרמל</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>705</Branch>
-    <CivicAddress>
-      <address>הרצל 73 </address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרצל 73 </Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>707</Branch>
-    <CivicAddress>
-      <address>ככר מאירהוף 44 </address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>ככר מאירהוף 44 </Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>708</Branch>
-    <CivicAddress>
-      <address>שונית 12 </address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>שונית 12 </Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>712</Branch>
-    <CivicAddress>
-      <address>דרך השלום 17 </address>
-      <city>נשר</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך השלום 17 </Address>
+      <City>נשר</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>713</Branch>
-    <CivicAddress>
-      <address>בן עמי 6-8 </address>
-      <city>עכו</city>
-    </CivicAddress>
+    <Address>
+      <Address>בן עמי 6-8 </Address>
+      <City>עכו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>714</Branch>
-    <CivicAddress>
-      <address>ירושלים 72 </address>
-      <city>צפת</city>
-    </CivicAddress>
+    <Address>
+      <Address>ירושלים 72 </Address>
+      <City>צפת</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>715</Branch>
-    <CivicAddress>
-      <address>ההסתדרות 1 </address>
-      <city>חצור-אשדוד</city>
-    </CivicAddress>
+    <Address>
+      <Address>ההסתדרות 1 </Address>
+      <City>חצור-אשדוד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>716</Branch>
-    <CivicAddress>
-      <address>שד' הגעתון 37 </address>
-      <city>נהרייה</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' הגעתון 37 </Address>
+      <City>נהרייה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>717</Branch>
-    <CivicAddress>
-      <address>ירושלים הבירה 13 </address>
-      <city>בית שאן</city>
-    </CivicAddress>
+    <Address>
+      <Address>ירושלים הבירה 13 </Address>
+      <City>בית שאן</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>718</Branch>
-    <CivicAddress>
-      <address>ככר צה"ל 200 </address>
-      <city>קריית שמונה</city>
-    </CivicAddress>
+    <Address>
+      <Address>ככר צה"ל 200 </Address>
+      <City>קריית שמונה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>719</Branch>
-    <CivicAddress>
-      <address>יהודה הנשיא 1 </address>
-      <city>קריית טבעון</city>
-    </CivicAddress>
+    <Address>
+      <Address>יהודה הנשיא 1 </Address>
+      <City>קריית טבעון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>720</Branch>
-    <CivicAddress>
-      <address>שד' אח"י אילת 24 </address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' אח"י אילת 24 </Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>621</Branch>
-    <CivicAddress>
-      <address>המייסדים 8 </address>
-      <city>בנימינה-גבעת עדה*</city>
-    </CivicAddress>
+    <Address>
+      <Address>המייסדים 8 </Address>
+      <City>בנימינה-גבעת עדה*</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>625</Branch>
-    <CivicAddress>
-      <address>המייסדים 49 </address>
-      <city>זכרון יעקב</city>
-    </CivicAddress>
+    <Address>
+      <Address>המייסדים 49 </Address>
+      <City>זכרון יעקב</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>626</Branch>
-    <CivicAddress>
-      <address>דרך השרון 69-71 </address>
-      <city>הוד השרון</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך השרון 69-71 </Address>
+      <City>הוד השרון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>628</Branch>
-    <CivicAddress>
-      <address>שד' חן 4 </address>
-      <city>הרצלייה</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' חן 4 </Address>
+      <City>הרצלייה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>629</Branch>
-    <CivicAddress>
-      <address>המעפילים 39 הרצליה פיתוח</address>
-      <city>הרצלייה</city>
-    </CivicAddress>
+    <Address>
+      <Address>המעפילים 39 הרצליה פיתוח</Address>
+      <City>הרצלייה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>630</Branch>
-    <CivicAddress>
-      <address>סוקולוב 90 </address>
-      <city>רמת השרון</city>
-    </CivicAddress>
+    <Address>
+      <Address>סוקולוב 90 </Address>
+      <City>רמת השרון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>634</Branch>
-    <CivicAddress>
-      <address>רוטשילד 13 </address>
-      <city>ראשון לציון</city>
-    </CivicAddress>
+    <Address>
+      <Address>רוטשילד 13 </Address>
+      <City>ראשון לציון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>673</Branch>
-    <CivicAddress>
-      <address>הנשיא 30 מרכז מסחרי</address>
-      <city>אור עקיבא</city>
-    </CivicAddress>
+    <Address>
+      <Address>הנשיא 30 מרכז מסחרי</Address>
+      <City>אור עקיבא</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>675</Branch>
-    <CivicAddress>
-      <address>שרת 6 </address>
-      <city>כפר יונה</city>
-    </CivicAddress>
+    <Address>
+      <Address>שרת 6 </Address>
+      <City>כפר יונה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>676</Branch>
-    <CivicAddress>
-      <address>בן גוריון 38 </address>
-      <city>רמת גן</city>
-    </CivicAddress>
+    <Address>
+      <Address>בן גוריון 38 </Address>
+      <City>רמת גן</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>677</Branch>
-    <CivicAddress>
-      <address>החשמונאים 7 מרכז מסחרי,  ת"ד 9</address>
-      <city>ראש העין</city>
-    </CivicAddress>
+    <Address>
+      <Address>החשמונאים 7 מרכז מסחרי,  ת"ד 9</Address>
+      <City>ראש העין</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>678</Branch>
-    <CivicAddress>
-      <address>דרך מגדיאל 54 </address>
-      <city>הוד השרון</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך מגדיאל 54 </Address>
+      <City>הוד השרון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>680</Branch>
-    <CivicAddress>
-      <address>החורש 2 </address>
-      <city>כפר שמריהו</city>
-    </CivicAddress>
+    <Address>
+      <Address>החורש 2 </Address>
+      <City>כפר שמריהו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>681</Branch>
-    <CivicAddress>
-      <address>דיזנגוף 64 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>דיזנגוף 64 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>684</Branch>
-    <CivicAddress>
-      <address>כ"ג 2 </address>
-      <city>גבעתיים</city>
-    </CivicAddress>
+    <Address>
+      <Address>כ"ג 2 </Address>
+      <City>גבעתיים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>685</Branch>
-    <CivicAddress>
-      <address>שד' הציונות 1 </address>
-      <city>לוד</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' הציונות 1 </Address>
+      <City>לוד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>686</Branch>
-    <CivicAddress>
-      <address>הגבורה 3 מרכז נפתי,  ת"ד 9005</address>
-      <city>אשקלון</city>
-    </CivicAddress>
+    <Address>
+      <Address>הגבורה 3 מרכז נפתי,  ת"ד 9005</Address>
+      <City>אשקלון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>אבשלום גיסין 64 ק' אריה, ת"ד 1019</address>
-      <city>פתח תקווה</city>
-    </CivicAddress>
+    <Address>
+      <Address>אבשלום גיסין 64 ק' אריה, ת"ד 1019</Address>
+      <City>פתח תקווה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>689</Branch>
-    <CivicAddress>
-      <address>בן יהודה 19 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>בן יהודה 19 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>690</Branch>
-    <CivicAddress>
-      <address>המלך ג'ורג' 16 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>המלך ג'ורג' 16 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>691</Branch>
-    <CivicAddress>
-      <address>יעקב טהון 9 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>יעקב טהון 9 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>692</Branch>
-    <CivicAddress>
-      <address>כיכר נוימן 1 מרכז מסחרי</address>
-      <city>בית שמש</city>
-    </CivicAddress>
+    <Address>
+      <Address>כיכר נוימן 1 מרכז מסחרי</Address>
+      <City>בית שמש</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>692</Branch>
-    <CivicAddress>
-      <address>
-כיכר נוימן 1 מרכז מסחרי</address>
-      <city>בית שמש</city>
-    </CivicAddress>
+    <Address>
+      <Address>
+כיכר נוימן 1 מרכז מסחרי</Address>
+      <City>בית שמש</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>694</Branch>
-    <CivicAddress>
-      <address>אביזוהר 8 מרכז מסחרי, רמת בית הכרם</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>אביזוהר 8 מרכז מסחרי, רמת בית הכרם</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>695</Branch>
-    <CivicAddress>
-      <address>פארן 13 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>פארן 13 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>696</Branch>
-    <CivicAddress>
-      <address>נור אל-דין 8 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>נור אל-דין 8 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>721</Branch>
-    <CivicAddress>
-      <address>העצמאות 37 </address>
-      <city>קריית אתא</city>
-    </CivicAddress>
+    <Address>
+      <Address>העצמאות 37 </Address>
+      <City>קריית אתא</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>722</Branch>
-    <CivicAddress>
-      <address>שד' רבין 9 </address>
-      <city>יקנעם עילית</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' רבין 9 </Address>
+      <City>יקנעם עילית</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>723</Branch>
-    <CivicAddress>
-      <address>הבנים 3 </address>
-      <city>טבריה</city>
-    </CivicAddress>
+    <Address>
+      <Address>הבנים 3 </Address>
+      <City>טבריה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>783</Branch>
-    <CivicAddress>
-      <address>ככר ציון 1 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>ככר ציון 1 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>724</Branch>
-    <CivicAddress>
-      <address>המברג 1 </address>
-      <city>טבריה</city>
-    </CivicAddress>
+    <Address>
+      <Address>המברג 1 </Address>
+      <City>טבריה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>726</Branch>
-    <CivicAddress>
-      <address>פאולוס השישי 701 </address>
-      <city>נצרת</city>
-    </CivicAddress>
+    <Address>
+      <Address>פאולוס השישי 701 </Address>
+      <City>נצרת</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>727</Branch>
-    <CivicAddress>
-      <address>המלאכה 20 </address>
-      <city>עפולה</city>
-    </CivicAddress>
+    <Address>
+      <Address>המלאכה 20 </Address>
+      <City>עפולה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>728</Branch>
-    <CivicAddress>
-      <address>דרך העמק 7 קניון לב העמק,  ת"ד 5</address>
-      <city>מגדל העמק</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך העמק 7 קניון לב העמק,  ת"ד 5</Address>
+      <City>מגדל העמק</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>729</Branch>
-    <CivicAddress>
-      <address>שד' משה גושן 19 </address>
-      <city>קריית מוצקין</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' משה גושן 19 </Address>
+      <City>קריית מוצקין</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>730</Branch>
-    <CivicAddress>
-      <address>שד' ויצמן 12 שכ' ג, ת"ד 2047</address>
-      <city>קריית ים</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' ויצמן 12 שכ' ג, ת"ד 2047</Address>
+      <City>קריית ים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>731</Branch>
-    <CivicAddress>
-      <address>ג'ונבלאט שכונת אלעיין לא קיים רח' ג'ונבלאט,</address>
-      <city>שפרעם</city>
-    </CivicAddress>
+    <Address>
+      <Address>ג'ונבלאט שכונת אלעיין לא קיים רח' ג'ונבלאט,</Address>
+      <City>שפרעם</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>732</Branch>
-    <CivicAddress>
-      <address>שלמה שרירא  קניון צים 3 </address>
-      <city>מעלות-תרשיחא</city>
-    </CivicAddress>
+    <Address>
+      <Address>שלמה שרירא  קניון צים 3 </Address>
+      <City>מעלות-תרשיחא</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>735</Branch>
-    <CivicAddress>
-      <address>ככר בן גוריון 1 </address>
-      <city>קריית טבעון</city>
-    </CivicAddress>
+    <Address>
+      <Address>ככר בן גוריון 1 </Address>
+      <City>קריית טבעון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>736</Branch>
-    <CivicAddress>
-      <address>פלי"ם 2 </address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>פלי"ם 2 </Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>738</Branch>
-    <CivicAddress>
-      <address>מרכז מסחרי קפלן 1 </address>
-      <city>עפולה</city>
-    </CivicAddress>
+    <Address>
+      <Address>מרכז מסחרי קפלן 1 </Address>
+      <City>עפולה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>741</Branch>
-    <CivicAddress>
-      <address>מרכז מסחרי שכונה 3 </address>
-      <city>קיסריה</city>
-    </CivicAddress>
+    <Address>
+      <Address>מרכז מסחרי שכונה 3 </Address>
+      <City>קיסריה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>743</Branch>
-    <CivicAddress>
-      <address>משה שרת 6 </address>
-      <city>קריית ים</city>
-    </CivicAddress>
+    <Address>
+      <Address>משה שרת 6 </Address>
+      <City>קריית ים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>744</Branch>
-    <CivicAddress>
-      <address>קניון פריד, אזור התעשיה לא קיים רמת הגולן</address>
-      <city>מג'דל שמס</city>
-    </CivicAddress>
+    <Address>
+      <Address>קניון פריד, אזור התעשיה לא קיים רמת הגולן</Address>
+      <City>מג'דל שמס</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>745</Branch>
-    <CivicAddress>
-      <address>שד' אבא חושי לא קיים </address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' אבא חושי לא קיים </Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>780</Branch>
-    <CivicAddress>
-      <address>יגאל אלון 65 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>יגאל אלון 65 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>781</Branch>
-    <CivicAddress>
-      <address>מונטיפיורי 39 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>מונטיפיורי 39 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>782</Branch>
-    <CivicAddress>
-      <address>עזה 38 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>עזה 38 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>746</Branch>
-    <CivicAddress>
-      <address>דרך עכו 192 דרך עכו 192</address>
-      <city>קריית ביאליק</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך עכו 192 דרך עכו 192</Address>
+      <City>קריית ביאליק</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>747</Branch>
-    <CivicAddress>
-      <address>הגליל 6 </address>
-      <city>כרמיאל</city>
-    </CivicAddress>
+    <Address>
+      <Address>הגליל 6 </Address>
+      <City>כרמיאל</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>748</Branch>
-    <CivicAddress>
-      <address>דרך חברון 101 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך חברון 101 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>749</Branch>
-    <CivicAddress>
-      <address>ככר העצמאות 11 </address>
-      <city>נתניה</city>
-    </CivicAddress>
+    <Address>
+      <Address>ככר העצמאות 11 </Address>
+      <City>נתניה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>752</Branch>
-    <CivicAddress>
-      <address>נתב"ג, ת"ד 101 לא קיים </address>
-      <city>לוד</city>
-    </CivicAddress>
+    <Address>
+      <Address>נתב"ג, ת"ד 101 לא קיים </Address>
+      <City>לוד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>753</Branch>
-    <CivicAddress>
-      <address>ה' באייר 52 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>ה' באייר 52 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>755</Branch>
-    <CivicAddress>
-      <address>חניתה 40 </address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>חניתה 40 </Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>756</Branch>
-    <CivicAddress>
-      <address>שי עגנון 18 מלון מרקיור</address>
-      <city>בת ים</city>
-    </CivicAddress>
+    <Address>
+      <Address>שי עגנון 18 מלון מרקיור</Address>
+      <City>בת ים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>757</Branch>
-    <CivicAddress>
-      <address>ירושלים 34 פינת אחוזה קומה א</address>
-      <city>רעננה</city>
-    </CivicAddress>
+    <Address>
+      <Address>ירושלים 34 פינת אחוזה קומה א</Address>
+      <City>רעננה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>758</Branch>
-    <CivicAddress>
-      <address>קרן היסוד 1 </address>
-      <city>חולון</city>
-    </CivicAddress>
+    <Address>
+      <Address>קרן היסוד 1 </Address>
+      <City>חולון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>759</Branch>
-    <CivicAddress>
-      <address>ההסתדרות 108 </address>
-      <city>חולון</city>
-    </CivicAddress>
+    <Address>
+      <Address>ההסתדרות 108 </Address>
+      <City>חולון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>761</Branch>
-    <CivicAddress>
-      <address>חיים עוזר 22 </address>
-      <city>פתח תקווה</city>
-    </CivicAddress>
+    <Address>
+      <Address>חיים עוזר 22 </Address>
+      <City>פתח תקווה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>769</Branch>
-    <CivicAddress>
-      <address>טרומפלדור 5 </address>
-      <city>רמת השרון</city>
-    </CivicAddress>
+    <Address>
+      <Address>טרומפלדור 5 </Address>
+      <City>רמת השרון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>771</Branch>
-    <CivicAddress>
-      <address>פנחס לבון 30 </address>
-      <city>נתניה</city>
-    </CivicAddress>
+    <Address>
+      <Address>פנחס לבון 30 </Address>
+      <City>נתניה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>765</Branch>
-    <CivicAddress>
-      <address>דבורה הנביאה -ק. עתידים, 4, 4 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>דבורה הנביאה -ק. עתידים, 4, 4 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>766</Branch>
-    <CivicAddress>
-      <address>דב גור 8 </address>
-      <city>אשדוד</city>
-    </CivicAddress>
+    <Address>
+      <Address>דב גור 8 </Address>
+      <City>אשדוד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>772</Branch>
-    <CivicAddress>
-      <address>דרך מנחם בגין 37 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך מנחם בגין 37 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>768</Branch>
-    <CivicAddress>
-      <address>הנחשול 30 </address>
-      <city>ראשון לציון</city>
-    </CivicAddress>
+    <Address>
+      <Address>הנחשול 30 </Address>
+      <City>ראשון לציון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>773</Branch>
-    <CivicAddress>
-      <address>הירדן 29 </address>
-      <city>רמת גן</city>
-    </CivicAddress>
+    <Address>
+      <Address>הירדן 29 </Address>
+      <City>רמת גן</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>774</Branch>
-    <CivicAddress>
-      <address>טרמינל 3 נתב"ג, טרמינל 3, אולם מקבלי פנים ת"ד 131</address>
-      <city>לוד</city>
-    </CivicAddress>
+    <Address>
+      <Address>טרמינל 3 נתב"ג, טרמינל 3, אולם מקבלי פנים ת"ד 131</Address>
+      <City>לוד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>776</Branch>
-    <CivicAddress>
-      <address>בבלי 12 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>בבלי 12 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>777</Branch>
-    <CivicAddress>
-      <address>סנפיר 10 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>סנפיר 10 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>778</Branch>
-    <CivicAddress>
-      <address>ברודצקי 43 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>ברודצקי 43 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>234</Branch>
-    <CivicAddress>
-      <address>מורשת ישראל 15 נאות שקמה</address>
-      <city>ראשון לציון</city>
-    </CivicAddress>
+    <Address>
+      <Address>מורשת ישראל 15 נאות שקמה</Address>
+      <City>ראשון לציון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>266</Branch>
-    <CivicAddress>
-      <address>חזון איש 15 רח' חזון איש 15, בני ברק</address>
-      <city>בני ברק</city>
-    </CivicAddress>
+    <Address>
+      <Address>חזון איש 15 רח' חזון איש 15, בני ברק</Address>
+      <City>בני ברק</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>542</Branch>
-    <CivicAddress>
-      <address>מרכז מסחרי "סנטר הגליל" לא קיים </address>
-      <city>ראש פינה</city>
-    </CivicAddress>
+    <Address>
+      <Address>מרכז מסחרי "סנטר הגליל" לא קיים </Address>
+      <City>ראש פינה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>286</Branch>
-    <CivicAddress>
-      <address>דרך רמת הגולן 27 המרכז האוניברסיטאי אריאל</address>
-      <city>אריאל</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך רמת הגולן 27 המרכז האוניברסיטאי אריאל</Address>
+      <City>אריאל</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>290</Branch>
-    <CivicAddress>
-      <address>ישמח ישראל 2 </address>
-      <city>ביתר עילית</city>
-    </CivicAddress>
+    <Address>
+      <Address>ישמח ישראל 2 </Address>
+      <City>ביתר עילית</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>544</Branch>
-    <CivicAddress>
-      <address>הרצל 111 </address>
-      <city>רחובות</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרצל 111 </Address>
+      <City>רחובות</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>291</Branch>
-    <CivicAddress>
-      <address>דרך קדם 5 </address>
-      <city>מעלה אדומים</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך קדם 5 </Address>
+      <City>מעלה אדומים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>292</Branch>
-    <CivicAddress>
-      <address>שד' יחזקאל 2 שד' יחזקאל 2, מודיעין עילית</address>
-      <city>מודיעין עילית</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' יחזקאל 2 שד' יחזקאל 2, מודיעין עילית</Address>
+      <City>מודיעין עילית</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>546</Branch>
-    <CivicAddress>
-      <address>הירדן 83 </address>
-      <city>רמת גן</city>
-    </CivicAddress>
+    <Address>
+      <Address>הירדן 83 </Address>
+      <City>רמת גן</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>296</Branch>
-    <CivicAddress>
-      <address>שד' יצחק רבין 7 </address>
-      <city>ראשון לציון</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' יצחק רבין 7 </Address>
+      <City>ראשון לציון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>391</Branch>
-    <CivicAddress>
-      <address>משה לוי 11 </address>
-      <city>ראשון לציון</city>
-    </CivicAddress>
+    <Address>
+      <Address>משה לוי 11 </Address>
+      <City>ראשון לציון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>399</Branch>
-    <CivicAddress>
-      <address>האורגים 9 </address>
-      <city>אשדוד</city>
-    </CivicAddress>
+    <Address>
+      <Address>האורגים 9 </Address>
+      <City>אשדוד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>407</Branch>
-    <CivicAddress>
-      <address>התדהר 16 </address>
-      <city>רעננה</city>
-    </CivicAddress>
+    <Address>
+      <Address>התדהר 16 </Address>
+      <City>רעננה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>410</Branch>
-    <CivicAddress>
-      <address>שד' עמק איילון 30 , מרכז מסחרי,ת"ד 1858</address>
-      <city>שוהם</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' עמק איילון 30 , מרכז מסחרי,ת"ד 1858</Address>
+      <City>שוהם</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>547</Branch>
-    <CivicAddress>
-      <address>אוניברסיטת בן גוריון 40 </address>
-      <city>באר שבע</city>
-    </CivicAddress>
+    <Address>
+      <Address>אוניברסיטת בן גוריון 40 </Address>
+      <City>באר שבע</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>418</Branch>
-    <CivicAddress>
-      <address>רח' ראשי בנין מוחמד פאוזי לא קיים בנין מוחמד פאוזי</address>
-      <city>טמרה</city>
-    </CivicAddress>
+    <Address>
+      <Address>רח' ראשי בנין מוחמד פאוזי לא קיים בנין מוחמד פאוזי</Address>
+      <City>טמרה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>418</Branch>
-    <CivicAddress>
-      <address>רח' ראשי בנין מוחמד פאוזי לא קיים בנין מוחמד פאוזי</address>
-      <city>טמרה</city>
-    </CivicAddress>
+    <Address>
+      <Address>רח' ראשי בנין מוחמד פאוזי לא קיים בנין מוחמד פאוזי</Address>
+      <City>טמרה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>421</Branch>
-    <CivicAddress>
-      <address>כיכר הברכיי 1 רח' ראשי עראבה</address>
-      <city>עראבה</city>
-    </CivicAddress>
+    <Address>
+      <Address>כיכר הברכיי 1 רח' ראשי עראבה</Address>
+      <City>עראבה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>436</Branch>
-    <CivicAddress>
-      <address>המרפא (פארק סנטר) 1 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>המרפא (פארק סנטר) 1 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>438</Branch>
-    <CivicAddress>
-      <address>שבט לוי 14 רובע י"ב</address>
-      <city>אשדוד</city>
-    </CivicAddress>
+    <Address>
+      <Address>שבט לוי 14 רובע י"ב</Address>
+      <City>אשדוד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>446</Branch>
-    <CivicAddress>
-      <address>נחל ניצנים 16 </address>
-      <city>בית שמש</city>
-    </CivicAddress>
+    <Address>
+      <Address>נחל ניצנים 16 </Address>
+      <City>בית שמש</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>447</Branch>
-    <CivicAddress>
-      <address>משה דיין 2-4 </address>
-      <city>ראש העין</city>
-    </CivicAddress>
+    <Address>
+      <Address>משה דיין 2-4 </Address>
+      <City>ראש העין</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>448</Branch>
-    <CivicAddress>
-      <address>שדרות החוצבים 10 </address>
-      <city>מבשרת ציון</city>
-    </CivicAddress>
+    <Address>
+      <Address>שדרות החוצבים 10 </Address>
+      <City>מבשרת ציון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>548</Branch>
-    <CivicAddress>
-      <address>רחוב ראשי - כניסה ראשית 1 רח' ראשי אל מדינה</address>
-      <city>אום אל-פחם</city>
-    </CivicAddress>
+    <Address>
+      <Address>רחוב ראשי - כניסה ראשית 1 רח' ראשי אל מדינה</Address>
+      <City>אום אל-פחם</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>449</Branch>
-    <CivicAddress>
-      <address>רחוב ראשי (כביש 75) לא קיים </address>
-      <city>יפיע</city>
-    </CivicAddress>
+    <Address>
+      <Address>רחוב ראשי (כביש 75) לא קיים </Address>
+      <City>יפיע</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>459</Branch>
-    <CivicAddress>
-      <address>המלאכה 45 א"ת קרית ספיר, ת"ד 8517</address>
-      <city>נתניה</city>
-    </CivicAddress>
+    <Address>
+      <Address>המלאכה 45 א"ת קרית ספיר, ת"ד 8517</Address>
+      <City>נתניה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>462</Branch>
-    <CivicAddress>
-      <address>בני ברמן 2 בני ברמן 3, קניון עיר ימים, נתניה</address>
-      <city>נתניה</city>
-    </CivicAddress>
+    <Address>
+      <Address>בני ברמן 2 בני ברמן 3, קניון עיר ימים, נתניה</Address>
+      <City>נתניה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>549</Branch>
-    <CivicAddress>
-      <address>מרכז מסחרי לא קיים </address>
-      <city>כפר תבור</city>
-    </CivicAddress>
+    <Address>
+      <Address>מרכז מסחרי לא קיים </Address>
+      <City>כפר תבור</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>464</Branch>
-    <CivicAddress>
-      <address>הנחילות 2 הנחילות 2, כרכור</address>
-      <city>פרדס חנה-כרכור</city>
-    </CivicAddress>
+    <Address>
+      <Address>הנחילות 2 הנחילות 2, כרכור</Address>
+      <City>פרדס חנה-כרכור</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>465</Branch>
-    <CivicAddress>
-      <address>רפאל איתן 3 </address>
-      <city>פתח תקווה</city>
-    </CivicAddress>
+    <Address>
+      <Address>רפאל איתן 3 </Address>
+      <City>פתח תקווה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>470</Branch>
-    <CivicAddress>
-      <address>רחוב ראשי נצרת 1 רח' ראשי נצרת, ריינה</address>
-      <city>ריינה</city>
-    </CivicAddress>
+    <Address>
+      <Address>רחוב ראשי נצרת 1 רח' ראשי נצרת, ריינה</Address>
+      <City>ריינה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>475</Branch>
-    <CivicAddress>
-      <address>יהודה הנשיא 94 אלעד</address>
-      <city>אלעד</city>
-    </CivicAddress>
+    <Address>
+      <Address>יהודה הנשיא 94 אלעד</Address>
+      <City>אלעד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>476</Branch>
-    <CivicAddress>
-      <address>קלאוזנר 9 , קרית השרון נתניה</address>
-      <city>נתניה</city>
-    </CivicAddress>
+    <Address>
+      <Address>קלאוזנר 9 , קרית השרון נתניה</Address>
+      <City>נתניה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>532</Branch>
-    <CivicAddress>
-      <address>דניאל פריש 3 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>דניאל פריש 3 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>484</Branch>
-    <CivicAddress>
-      <address>דרך אבא חושי לא קיים </address>
-      <city>עספיא</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך אבא חושי לא קיים </Address>
+      <City>עספיא</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>486</Branch>
-    <CivicAddress>
-      <address>מרכז מסחרי לא קיים מרכז מסחרי רהט</address>
-      <city>רהט</city>
-    </CivicAddress>
+    <Address>
+      <Address>מרכז מסחרי לא קיים מרכז מסחרי רהט</Address>
+      <City>רהט</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>503</Branch>
-    <CivicAddress>
-      <address>לוינסקי 69 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>לוינסקי 69 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>504</Branch>
-    <CivicAddress>
-      <address>בני אפרים 246 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>בני אפרים 246 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>506</Branch>
-    <CivicAddress>
-      <address>טארק עבד אל חי 1 </address>
-      <city>טירה</city>
-    </CivicAddress>
+    <Address>
+      <Address>טארק עבד אל חי 1 </Address>
+      <City>טירה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>507</Branch>
-    <CivicAddress>
-      <address>ריב"ל 7 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>ריב"ל 7 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>510</Branch>
-    <CivicAddress>
-      <address>אבן גבירול 2 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>אבן גבירול 2 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>511</Branch>
-    <CivicAddress>
-      <address>אבן גבירול 161 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>אבן גבירול 161 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>522</Branch>
-    <CivicAddress>
-      <address>שנקר 39 </address>
-      <city>חולון</city>
-    </CivicAddress>
+    <Address>
+      <Address>שנקר 39 </Address>
+      <City>חולון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>524</Branch>
-    <CivicAddress>
-      <address>שד' אורנים 10 מרכז מסחרי, ת"ד 9016</address>
-      <city>רמת גן</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' אורנים 10 מרכז מסחרי, ת"ד 9016</Address>
+      <City>רמת גן</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>527</Branch>
-    <CivicAddress>
-      <address>אלנבי 65 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>אלנבי 65 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>529</Branch>
-    <CivicAddress>
-      <address>בן יהודה 99 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>בן יהודה 99 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>533</Branch>
-    <CivicAddress>
-      <address>מלכי ישראל 1 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>מלכי ישראל 1 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>536</Branch>
-    <CivicAddress>
-      <address>שד' אליהו 5 </address>
-      <city>
-מזכרת בתיה</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' אליהו 5 </Address>
+      <City>
+מזכרת בתיה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>537</Branch>
-    <CivicAddress>
-      <address>אבא הלל 7 </address>
-      <city>רמת גן</city>
-    </CivicAddress>
+    <Address>
+      <Address>אבא הלל 7 </Address>
+      <City>רמת גן</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>538</Branch>
-    <CivicAddress>
-      <address>כיסופים 15 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>כיסופים 15 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>540</Branch>
-    <CivicAddress>
-      <address>הציונות 13 </address>
-      <city>אשדוד</city>
-    </CivicAddress>
+    <Address>
+      <Address>הציונות 13 </Address>
+      <City>אשדוד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>637</Branch>
-    <CivicAddress>
-      <address>איילה 34 </address>
-      <city>באר יעקב</city>
-    </CivicAddress>
+    <Address>
+      <Address>איילה 34 </Address>
+      <City>באר יעקב</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>638</Branch>
-    <CivicAddress>
-      <address>ויצמן 46 </address>
-      <city>חולון</city>
-    </CivicAddress>
+    <Address>
+      <Address>ויצמן 46 </Address>
+      <City>חולון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>639</Branch>
-    <CivicAddress>
-      <address>סוקולוב 95 </address>
-      <city>חולון</city>
-    </CivicAddress>
+    <Address>
+      <Address>סוקולוב 95 </Address>
+      <City>חולון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>640</Branch>
-    <CivicAddress>
-      <address>ויצמן 20 </address>
-      <city>גבעתיים</city>
-    </CivicAddress>
+    <Address>
+      <Address>ויצמן 20 </Address>
+      <City>גבעתיים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>641</Branch>
-    <CivicAddress>
-      <address>נחלת יצחק 8 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>נחלת יצחק 8 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>642</Branch>
-    <CivicAddress>
-      <address>רוטשילד 29 </address>
-      <city>בת ים</city>
-    </CivicAddress>
+    <Address>
+      <Address>רוטשילד 29 </Address>
+      <City>בת ים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>643</Branch>
-    <CivicAddress>
-      <address>ההסתדרות 11 </address>
-      <city>אזור</city>
-    </CivicAddress>
+    <Address>
+      <Address>ההסתדרות 11 </Address>
+      <City>אזור</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>644</Branch>
-    <CivicAddress>
-      <address>חטיבת הנגב 3 </address>
-      <city>אילת</city>
-    </CivicAddress>
+    <Address>
+      <Address>חטיבת הנגב 3 </Address>
+      <City>אילת</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>645</Branch>
-    <CivicAddress>
-      <address>שד' לכיש 30 </address>
-      <city>קריית גת</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' לכיש 30 </Address>
+      <City>קריית גת</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>646</Branch>
-    <CivicAddress>
-      <address>הבילויים 6 </address>
-      <city>גדרה</city>
-    </CivicAddress>
+    <Address>
+      <Address>הבילויים 6 </Address>
+      <City>גדרה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>647</Branch>
-    <CivicAddress>
-      <address>העצמאות 7 </address>
-      <city>גן יבנה</city>
-    </CivicAddress>
+    <Address>
+      <Address>העצמאות 7 </Address>
+      <City>גן יבנה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>648</Branch>
-    <CivicAddress>
-      <address>זבוטינסקי 22 </address>
-      <city>קריית מלאכי</city>
-    </CivicAddress>
+    <Address>
+      <Address>זבוטינסקי 22 </Address>
+      <City>קריית מלאכי</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>649</Branch>
-    <CivicAddress>
-      <address>ככר הנשיא 8 </address>
-      <city>שדרות</city>
-    </CivicAddress>
+    <Address>
+      <Address>ככר הנשיא 8 </Address>
+      <City>שדרות</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>650</Branch>
-    <CivicAddress>
-      <address>הרצל 28 </address>
-      <city>אשקלון</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרצל 28 </Address>
+      <City>אשקלון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>651</Branch>
-    <CivicAddress>
-      <address>ככר צפניה 10 </address>
-      <city>אשקלון</city>
-    </CivicAddress>
+    <Address>
+      <Address>ככר צפניה 10 </Address>
+      <City>אשקלון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>652</Branch>
-    <CivicAddress>
-      <address>המייסדים 58 </address>
-      <city>אבן יהודה</city>
-    </CivicAddress>
+    <Address>
+      <Address>המייסדים 58 </Address>
+      <City>אבן יהודה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>653</Branch>
-    <CivicAddress>
-      <address>המעלית פינת רח' הזרם 6 בית הודיה - פארק תעשיות קדימה</address>
-      <city>קדימה-צורן</city>
-    </CivicAddress>
+    <Address>
+      <Address>המעלית פינת רח' הזרם 6 בית הודיה - פארק תעשיות קדימה</Address>
+      <City>קדימה-צורן</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>654</Branch>
-    <CivicAddress>
-      <address>הדקל 52 </address>
-      <city>תל מונד</city>
-    </CivicAddress>
+    <Address>
+      <Address>הדקל 52 </Address>
+      <City>תל מונד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>655</Branch>
-    <CivicAddress>
-      <address>רבי עקיבא 108 </address>
-      <city>בני ברק</city>
-    </CivicAddress>
+    <Address>
+      <Address>רבי עקיבא 108 </Address>
+      <City>בני ברק</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>656</Branch>
-    <CivicAddress>
-      <address>הנשיא 57 </address>
-      <city>קריית אונו</city>
-    </CivicAddress>
+    <Address>
+      <Address>הנשיא 57 </Address>
+      <City>קריית אונו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>657</Branch>
-    <CivicAddress>
-      <address>ההגנה 126 </address>
-      <city>אור יהודה</city>
-    </CivicAddress>
+    <Address>
+      <Address>ההגנה 126 </Address>
+      <City>אור יהודה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>658</Branch>
-    <CivicAddress>
-      <address>שבי ציון 9 </address>
-      <city>אשדוד</city>
-    </CivicAddress>
+    <Address>
+      <Address>שבי ציון 9 </Address>
+      <City>אשדוד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>659</Branch>
-    <CivicAddress>
-      <address>הראשונים 2 </address>
-      <city>חדרה</city>
-    </CivicAddress>
+    <Address>
+      <Address>הראשונים 2 </Address>
+      <City>חדרה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>661</Branch>
-    <CivicAddress>
-      <address>אחוזה 112 </address>
-      <city>רעננה</city>
-    </CivicAddress>
+    <Address>
+      <Address>אחוזה 112 </Address>
+      <City>רעננה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>663</Branch>
-    <CivicAddress>
-      <address>מבצע סיני 16 ת"ד 401</address>
-      <city>בת ים</city>
-    </CivicAddress>
+    <Address>
+      <Address>מבצע סיני 16 ת"ד 401</Address>
+      <City>בת ים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>664</Branch>
-    <CivicAddress>
-      <address>ז'בוטינסקי 168 מגדלי שקל</address>
-      <city>בני ברק</city>
-    </CivicAddress>
+    <Address>
+      <Address>ז'בוטינסקי 168 מגדלי שקל</Address>
+      <City>בני ברק</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>665</Branch>
-    <CivicAddress>
-      <address>שהין סנטר 75 מרכז טייבה</address>
-      <city>טייבה</city>
-    </CivicAddress>
+    <Address>
+      <Address>שהין סנטר 75 מרכז טייבה</Address>
+      <City>טייבה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>666</Branch>
-    <CivicAddress>
-      <address>הנשיא ויצמן 190 </address>
-      <city>באקה אל-גרביה</city>
-    </CivicAddress>
+    <Address>
+      <Address>הנשיא ויצמן 190 </Address>
+      <City>באקה אל-גרביה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>667</Branch>
-    <CivicAddress>
-      <address>מנחם בגין 5 </address>
-      <city>בית דגן</city>
-    </CivicAddress>
+    <Address>
+      <Address>מנחם בגין 5 </Address>
+      <City>בית דגן</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>668</Branch>
-    <CivicAddress>
-      <address>יצחק רגר 17 </address>
-      <city>באר שבע</city>
-    </CivicAddress>
+    <Address>
+      <Address>יצחק רגר 17 </Address>
+      <City>באר שבע</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>671</Branch>
-    <CivicAddress>
-      <address>בורנשטיין צבי 915 מרכז מסחרי</address>
-      <city>ירוחם</city>
-    </CivicAddress>
+    <Address>
+      <Address>בורנשטיין צבי 915 מרכז מסחרי</Address>
+      <City>ירוחם</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>56</Branch>
-    <CivicAddress>
-      <address>צומת העוגן 1 צומת העוגן מתחם אלון השרון</address>
-      <city>משמר השרון</city>
-    </CivicAddress>
+    <Address>
+      <Address>צומת העוגן 1 צומת העוגן מתחם אלון השרון</Address>
+      <City>משמר השרון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>61</Branch>
-    <CivicAddress>
-      <address>שמשון 3 </address>
-      <city>פתח תקווה</city>
-    </CivicAddress>
+    <Address>
+      <Address>שמשון 3 </Address>
+      <City>פתח תקווה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>69</Branch>
-    <CivicAddress>
-      <address>אקליפטוס 3 </address>
-      <city>רמת ישי</city>
-    </CivicAddress>
+    <Address>
+      <Address>אקליפטוס 3 </Address>
+      <City>רמת ישי</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>90</Branch>
-    <CivicAddress>
-      <address>קניון כנעאן 1 </address>
-      <city>ירכא</city>
-    </CivicAddress>
+    <Address>
+      <Address>קניון כנעאן 1 </Address>
+      <City>ירכא</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>91</Branch>
-    <CivicAddress>
-      <address>מוטה גור 17 </address>
-      <city>גבעת שמואל</city>
-    </CivicAddress>
+    <Address>
+      <Address>מוטה גור 17 </Address>
+      <City>גבעת שמואל</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>153</Branch>
-    <CivicAddress>
-      <address>העצמאות 65 </address>
-      <city>פתח תקווה</city>
-    </CivicAddress>
+    <Address>
+      <Address>העצמאות 65 </Address>
+      <City>פתח תקווה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>159</Branch>
-    <CivicAddress>
-      <address>דרך מנחם בגין 23 מנחם בגין (קומת כניסה),מגדל לוינשטיין</address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך מנחם בגין 23 מנחם בגין (קומת כניסה),מגדל לוינשטיין</Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>160</Branch>
-    <CivicAddress>
-      <address>שד' יוהנה ז'בוטינסקי 36 </address>
-      <city>באר שבע</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' יוהנה ז'בוטינסקי 36 </Address>
+      <City>באר שבע</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>168</Branch>
-    <CivicAddress>
-      <address>מתחם ביג - רגבה 1 </address>
-      <city>נהרייה</city>
-    </CivicAddress>
+    <Address>
+      <Address>מתחם ביג - רגבה 1 </Address>
+      <City>נהרייה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>170</Branch>
-    <CivicAddress>
-      <address>רוטשילד 50 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>רוטשילד 50 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>175</Branch>
-    <CivicAddress>
-      <address>הערבה (בנין אייזנברג) 3 קריית שדה התעופה</address>
-      <city>לוד</city>
-    </CivicAddress>
+    <Address>
+      <Address>הערבה (בנין אייזנברג) 3 קריית שדה התעופה</Address>
+      <City>לוד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>551</Branch>
-    <CivicAddress>
-      <address>רחוב ראשי לא קיים המשולש</address>
-      <city>קלנסווה</city>
-    </CivicAddress>
+    <Address>
+      <Address>רחוב ראשי לא קיים המשולש</Address>
+      <City>קלנסווה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>555</Branch>
-    <CivicAddress>
-      <address>רוטשילד 78 </address>
-      <city>ראשון לציון</city>
-    </CivicAddress>
+    <Address>
+      <Address>רוטשילד 78 </Address>
+      <City>ראשון לציון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>556</Branch>
-    <CivicAddress>
-      <address>ירושלים 15 קניון לביא, ת"ד 303</address>
-      <city>נתיבות</city>
-    </CivicAddress>
+    <Address>
+      <Address>ירושלים 15 קניון לביא, ת"ד 303</Address>
+      <City>נתיבות</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>557</Branch>
-    <CivicAddress>
-      <address>יוסף ספיר 9 </address>
-      <city>רמת גן</city>
-    </CivicAddress>
+    <Address>
+      <Address>יוסף ספיר 9 </Address>
+      <City>רמת גן</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>564</Branch>
-    <CivicAddress>
-      <address>מבצע יואב 49 </address>
-      <city>באר שבע</city>
-    </CivicAddress>
+    <Address>
+      <Address>מבצע יואב 49 </Address>
+      <City>באר שבע</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>567</Branch>
-    <CivicAddress>
-      <address>ויצמן 4 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>ויצמן 4 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>568</Branch>
-    <CivicAddress>
-      <address>אחימאיר 33 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>אחימאיר 33 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>570</Branch>
-    <CivicAddress>
-      <address>התמר 1 מרכז מסחרי</address>
-      <city>עומר</city>
-    </CivicAddress>
+    <Address>
+      <Address>התמר 1 מרכז מסחרי</Address>
+      <City>עומר</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>572</Branch>
-    <CivicAddress>
-      <address>ז'בוטינסקי 65 </address>
-      <city>ראשון לציון</city>
-    </CivicAddress>
+    <Address>
+      <Address>ז'בוטינסקי 65 </Address>
+      <City>ראשון לציון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>574</Branch>
-    <CivicAddress>
-      <address>הפלמ"ח 38 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>הפלמ"ח 38 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>575</Branch>
-    <CivicAddress>
-      <address>שמואל הנציב 28 </address>
-      <city>נתניה</city>
-    </CivicAddress>
+    <Address>
+      <Address>שמואל הנציב 28 </Address>
+      <City>נתניה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>576</Branch>
-    <CivicAddress>
-      <address>חרוד 7 </address>
-      <city>נצרת עילית</city>
-    </CivicAddress>
+    <Address>
+      <Address>חרוד 7 </Address>
+      <City>נצרת עילית</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>577</Branch>
-    <CivicAddress>
-      <address>גרינבוים 41 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>גרינבוים 41 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>578</Branch>
-    <CivicAddress>
-      <address>כפר קרע לא קיים </address>
-      <city>כפר קרע</city>
-    </CivicAddress>
+    <Address>
+      <Address>כפר קרע לא קיים </Address>
+      <City>כפר קרע</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>581</Branch>
-    <CivicAddress>
-      <address>כביש טבריה מג'אר לא קיים בנין חשמל אחים הינו</address>
-      <city>מגאר</city>
-    </CivicAddress>
+    <Address>
+      <Address>כביש טבריה מג'אר לא קיים בנין חשמל אחים הינו</Address>
+      <City>מגאר</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>679</Branch>
-    <CivicAddress>
-      <address>טשרניחובסקי 45 </address>
-      <city>כפר סבא</city>
-    </CivicAddress>
+    <Address>
+      <Address>טשרניחובסקי 45 </Address>
+      <City>כפר סבא</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>733</Branch>
-    <CivicAddress>
-      <address>חרמון 1 </address>
-      <city>נצרת עילית</city>
-    </CivicAddress>
+    <Address>
+      <Address>חרמון 1 </Address>
+      <City>נצרת עילית</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>742</Branch>
-    <CivicAddress>
-      <address>המרכז המסחרי 1/22 </address>
-      <city>דאלית אל-כרמל</city>
-    </CivicAddress>
+    <Address>
+      <Address>המרכז המסחרי 1/22 </Address>
+      <City>דאלית אל-כרמל</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>754</Branch>
-    <CivicAddress>
-      <address>פנקס 32 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>פנקס 32 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>240</Branch>
-    <CivicAddress>
-      <address>מורד הגיא 100 קניון לב כרמיאל</address>
-      <city>כרמיאל</city>
-    </CivicAddress>
+    <Address>
+      <Address>מורד הגיא 100 קניון לב כרמיאל</Address>
+      <City>כרמיאל</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>543</Branch>
-    <CivicAddress>
-      <address>כורזין 5 אזור תעשיה, ת"ד 805</address>
-      <city>גבעתיים</city>
-    </CivicAddress>
+    <Address>
+      <Address>כורזין 5 אזור תעשיה, ת"ד 805</Address>
+      <City>גבעתיים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>289</Branch>
-    <CivicAddress>
-      <address>אלי כהן 37/10 </address>
-      <city>אשקלון</city>
-    </CivicAddress>
+    <Address>
+      <Address>אלי כהן 37/10 </Address>
+      <City>אשקלון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>477</Branch>
-    <CivicAddress>
-      <address>הר בוקר 7 מרכז מסחרי  שכונת רמות</address>
-      <city>באר שבע</city>
-    </CivicAddress>
+    <Address>
+      <Address>הר בוקר 7 מרכז מסחרי  שכונת רמות</Address>
+      <City>באר שבע</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>500</Branch>
-    <CivicAddress>
-      <address>הרצל 14 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרצל 14 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>517</Branch>
-    <CivicAddress>
-      <address>הרצל 108 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרצל 108 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>660</Branch>
-    <CivicAddress>
-      <address>הרצל 42 </address>
-      <city>קריית עקרון</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרצל 42 </Address>
+      <City>קריית עקרון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>55</Branch>
-    <CivicAddress>
-      <address>לב העיר 2 קניון מודיעין עזריאלי</address>
-      <city>מודיעין-מכבים-רעות*</city>
-    </CivicAddress>
+    <Address>
+      <Address>לב העיר 2 קניון מודיעין עזריאלי</Address>
+      <City>מודיעין-מכבים-רעות*</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>158</Branch>
-    <CivicAddress>
-      <address>המליץ 4 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>המליץ 4 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>161</Branch>
-    <CivicAddress>
-      <address>אפרים קישון 9 תלמי מנשה</address>
-      <city>באר יעקב</city>
-    </CivicAddress>
+    <Address>
+      <Address>אפרים קישון 9 תלמי מנשה</Address>
+      <City>באר יעקב</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>174</Branch>
-    <CivicAddress>
-      <address>שדרות אבא אבן 10 </address>
-      <city>הרצלייה</city>
-    </CivicAddress>
+    <Address>
+      <Address>שדרות אבא אבן 10 </Address>
+      <City>הרצלייה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>550</Branch>
-    <CivicAddress>
-      <address>מרכז מסחרי חדש "נוף גולן" לא קיים </address>
-      <city>בני יהודה</city>
-    </CivicAddress>
+    <Address>
+      <Address>מרכז מסחרי חדש "נוף גולן" לא קיים </Address>
+      <City>בני יהודה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>552</Branch>
-    <CivicAddress>
-      <address>דנמרק 1 </address>
-      <city>פתח תקווה</city>
-    </CivicAddress>
+    <Address>
+      <Address>דנמרק 1 </Address>
+      <City>פתח תקווה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>559</Branch>
-    <CivicAddress>
-      <address>בקעת נטופה 25 קניון הדרים</address>
-      <city>כפר סבא</city>
-    </CivicAddress>
+    <Address>
+      <Address>בקעת נטופה 25 קניון הדרים</Address>
+      <City>כפר סבא</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>584</Branch>
-    <CivicAddress>
-      <address>שד' אבא אבן 5 ת"ד 2197, הרצליה פיתוח</address>
-      <city>הרצלייה</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' אבא אבן 5 ת"ד 2197, הרצליה פיתוח</Address>
+      <City>הרצלייה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>586</Branch>
-    <CivicAddress>
-      <address>המשביר (פרמיום סנטר) 1 </address>
-      <city>חולון</city>
-    </CivicAddress>
+    <Address>
+      <Address>המשביר (פרמיום סנטר) 1 </Address>
+      <City>חולון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>599</Branch>
-    <CivicAddress>
-      <address>אגודת הפועל בנין 2 2 הגו הטכנולוגי</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>אגודת הפועל בנין 2 2 הגו הטכנולוגי</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>602</Branch>
-    <CivicAddress>
-      <address>דיזנגוף 205 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>דיזנגוף 205 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>874</Branch>
-    <CivicAddress>
-      <address>נתבג-שחקים 0 </address>
-      <city>אזור רמלה של"ש</city>
-    </CivicAddress>
+    <Address>
+      <Address>נתבג-שחקים 0 </Address>
+      <City>אזור רמלה של"ש</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>239</Branch>
-    <CivicAddress>
-      <address>רחוב ראשי לא קיים </address>
-      <city>כפר מנדא</city>
-    </CivicAddress>
+    <Address>
+      <Address>רחוב ראשי לא קיים </Address>
+      <City>כפר מנדא</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>201</Branch>
-    <CivicAddress>
-      <address>עבד אל כרים קאסם לא קיים </address>
-      <city>כפר קאסם</city>
-    </CivicAddress>
+    <Address>
+      <Address>עבד אל כרים קאסם לא קיים </Address>
+      <City>כפר קאסם</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>202</Branch>
-    <CivicAddress>
-      <address>כפר יאסיף די סנטר לא קיים </address>
-      <city>כפר יאסיף</city>
-    </CivicAddress>
+    <Address>
+      <Address>כפר יאסיף די סנטר לא קיים </Address>
+      <City>כפר יאסיף</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>207</Branch>
-    <CivicAddress>
-      <address>קניון סאלח- דבאח לא קיים </address>
-      <city>דייר אל-אסד</city>
-    </CivicAddress>
+    <Address>
+      <Address>קניון סאלח- דבאח לא קיים </Address>
+      <City>דייר אל-אסד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>208</Branch>
-    <CivicAddress>
-      <address>המרד 29 ת"ד 50001</address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>המרד 29 ת"ד 50001</Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>412</Branch>
-    <CivicAddress>
-      <address>אופנהיימר 10 </address>
-      <city>רחובות</city>
-    </CivicAddress>
+    <Address>
+      <Address>אופנהיימר 10 </Address>
+      <City>רחובות</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>474</Branch>
-    <CivicAddress>
-      <address>רודנסקי 5 רמת אביב החדשה</address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>רודנסקי 5 רמת אביב החדשה</Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>478</Branch>
-    <CivicAddress>
-      <address>רחוב ראשי 81 </address>
-      <city>כפר כנא</city>
-    </CivicAddress>
+    <Address>
+      <Address>רחוב ראשי 81 </Address>
+      <City>כפר כנא</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>479</Branch>
-    <CivicAddress>
-      <address>רחוב ראשי פינת רחוב הגליל לא קיים </address>
-      <city>סח'נין</city>
-    </CivicAddress>
+    <Address>
+      <Address>רחוב ראשי פינת רחוב הגליל לא קיים </Address>
+      <City>סח'נין</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>490</Branch>
-    <CivicAddress>
-      <address>הברזל 15 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>הברזל 15 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>515</Branch>
-    <CivicAddress>
-      <address>שד' רוטשילד 46 בנין אלרוב</address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' רוטשילד 46 בנין אלרוב</Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>535</Branch>
-    <CivicAddress>
-      <address>הירקון 104 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>הירקון 104 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>558</Branch>
-    <CivicAddress>
-      <address>דרך מנחם בגין 132 מרכז עזריאלי 1</address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך מנחם בגין 132 מרכז עזריאלי 1</Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>583</Branch>
-    <CivicAddress>
-      <address>הדוגית 16 </address>
-      <city>יבנה</city>
-    </CivicAddress>
+    <Address>
+      <Address>הדוגית 16 </Address>
+      <City>יבנה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>587</Branch>
-    <CivicAddress>
-      <address>שמחה גולן 54 </address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>שמחה גולן 54 </Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>589</Branch>
-    <CivicAddress>
-      <address>בילו 2 </address>
-      <city>רחובות</city>
-    </CivicAddress>
+    <Address>
+      <Address>בילו 2 </Address>
+      <City>רחובות</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>737</Branch>
-    <CivicAddress>
-      <address>אברהם בן שושן 53 </address>
-      <city>עכו</city>
-    </CivicAddress>
+    <Address>
+      <Address>אברהם בן שושן 53 </Address>
+      <City>עכו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>794</Branch>
-    <CivicAddress>
-      <address>המסגר 40 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>המסגר 40 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק הפועלים בע"מ</BankName>
     <BankNumber>12</BankNumber>
     <Branch>842</Branch>
-    <CivicAddress>
-      <address>אברהם בן שושן 53 נווה אלון- חצר לקוח</address>
-      <city>עכו</city>
-    </CivicAddress>
+    <Address>
+      <Address>אברהם בן שושן 53 נווה אלון- חצר לקוח</Address>
+      <City>עכו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק יהב לעובדי המדינה בע"מ</BankName>
     <BankNumber>4</BankNumber>
     <Branch>44</Branch>
-    <CivicAddress>
-      <address>דרך השלום 1 דרך השלום בית החולים הלל יפה חדרה</address>
-      <city>חדרה</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך השלום 1 דרך השלום בית החולים הלל יפה חדרה</Address>
+      <City>חדרה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק יהב לעובדי המדינה בע"מ</BankName>
     <BankNumber>4</BankNumber>
     <Branch>114</Branch>
-    <CivicAddress>
-      <address>הבנים 1 רח' הבנים 1, מרכז הקריה, אשדוד</address>
-      <city>אשדוד</city>
-    </CivicAddress>
+    <Address>
+      <Address>הבנים 1 רח' הבנים 1, מרכז הקריה, אשדוד</Address>
+      <City>אשדוד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק יהב לעובדי המדינה בע"מ</BankName>
     <BankNumber>4</BankNumber>
     <Branch>115</Branch>
-    <CivicAddress>
-      <address>מנחם בגין 125 רח' מנחם בגין 125 תל אביב</address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>מנחם בגין 125 רח' מנחם בגין 125 תל אביב</Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק יהב לעובדי המדינה בע"מ</BankName>
     <BankNumber>4</BankNumber>
     <Branch>116</Branch>
-    <CivicAddress>
-      <address>גינות אילון 10 מודיעין סנטר</address>
-      <city>מודיעין-מכבים-רעות*</city>
-    </CivicAddress>
+    <Address>
+      <Address>גינות אילון 10 מודיעין סנטר</Address>
+      <City>מודיעין-מכבים-רעות*</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק יהב לעובדי המדינה בע"מ</BankName>
     <BankNumber>4</BankNumber>
     <Branch>117</Branch>
-    <CivicAddress>
-      <address>מרכז הנגב דרך מצדה 6 דרך מצדה 6</address>
-      <city>באר שבע</city>
-    </CivicAddress>
+    <Address>
+      <Address>מרכז הנגב דרך מצדה 6 דרך מצדה 6</Address>
+      <City>באר שבע</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק יהב לעובדי המדינה בע"מ</BankName>
     <BankNumber>4</BankNumber>
     <Branch>118</Branch>
-    <CivicAddress>
-      <address>ויצמן 50 ויצמן 50 כפר סבא</address>
-      <city>כפר סבא</city>
-    </CivicAddress>
+    <Address>
+      <Address>ויצמן 50 ויצמן 50 כפר סבא</Address>
+      <City>כפר סבא</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק יהב לעובדי המדינה בע"מ</BankName>
     <BankNumber>4</BankNumber>
     <Branch>119</Branch>
-    <CivicAddress>
-      <address>המכבים 3 המכבים 3</address>
-      <city>פתח תקווה</city>
-    </CivicAddress>
+    <Address>
+      <Address>המכבים 3 המכבים 3</Address>
+      <City>פתח תקווה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק יהב לעובדי המדינה בע"מ</BankName>
     <BankNumber>4</BankNumber>
     <Branch>120</Branch>
-    <CivicAddress>
-      <address>הלל 14 הלל 14 ירושלים</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>הלל 14 הלל 14 ירושלים</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק יהב לעובדי המדינה בע"מ</BankName>
     <BankNumber>4</BankNumber>
     <Branch>121</Branch>
-    <CivicAddress>
-      <address>לחי , מלון דן 23 שייך ג'ארח, מתחם המטה הארצי</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>לחי , מלון דן 23 שייך ג'ארח, מתחם המטה הארצי</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק יהב לעובדי המדינה בע"מ</BankName>
     <BankNumber>4</BankNumber>
     <Branch>123</Branch>
-    <CivicAddress>
-      <address>ירמיהו 80 ירמיהו 80</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>ירמיהו 80 ירמיהו 80</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>
 בנק יהב לעובדי המדינה בע"מ</BankName>
     <BankNumber>4</BankNumber>
     <Branch>124</Branch>
-    <CivicAddress>
-      <address>שדרות שז"ר 33 שד' שז"ר 33 באר שבע</address>
-      <city>באר שבע</city>
-    </CivicAddress>
+    <Address>
+      <Address>שדרות שז"ר 33 שד' שז"ר 33 באר שבע</Address>
+      <City>באר שבע</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק יהב לעובדי המדינה בע"מ</BankName>
     <BankNumber>4</BankNumber>
     <Branch>125</Branch>
-    <CivicAddress>
-      <address>שד' בן גוריון 13 שד' בן גוריון 13</address>
-      <city>אשקלון</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' בן גוריון 13 שד' בן גוריון 13</Address>
+      <City>אשקלון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק יהב לעובדי המדינה בע"מ</BankName>
     <BankNumber>4</BankNumber>
     <Branch>129</Branch>
-    <CivicAddress>
-      <address>כנפי נשרים 15 כנפי נשרים 15</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>כנפי נשרים 15 כנפי נשרים 15</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק יהב לעובדי המדינה בע"מ</BankName>
     <BankNumber>4</BankNumber>
     <Branch>130</Branch>
-    <CivicAddress>
-      <address>שארית ישראל 35 שארית ישראל 35</address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>שארית ישראל 35 שארית ישראל 35</Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק יהב לעובדי המדינה בע"מ</BankName>
     <BankNumber>4</BankNumber>
     <Branch>131</Branch>
-    <CivicAddress>
-      <address>הארבעה 19 הארבעה 19</address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>הארבעה 19 הארבעה 19</Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק יהב לעובדי המדינה בע"מ</BankName>
     <BankNumber>4</BankNumber>
     <Branch>132</Branch>
-    <CivicAddress>
-      <address>ביה"ח שיבא, תל השומר 9 ביתן 9 ביהח תל השומר</address>
-      <city>רמת גן</city>
-    </CivicAddress>
+    <Address>
+      <Address>ביה"ח שיבא, תל השומר 9 ביתן 9 ביהח תל השומר</Address>
+      <City>רמת גן</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק יהב לעובדי המדינה בע"מ</BankName>
     <BankNumber>4</BankNumber>
     <Branch>133</Branch>
-    <CivicAddress>
-      <address>הרצל 23 הרצל 23</address>
-      <city>נתניה</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרצל 23 הרצל 23</Address>
+      <City>נתניה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק יהב לעובדי המדינה בע"מ</BankName>
     <BankNumber>4</BankNumber>
     <Branch>134</Branch>
-    <CivicAddress>
-      <address>לוד נתב"ג 1 טרמינל 1 לוד</address>
-      <city>אזור רמלה של"ש</city>
-    </CivicAddress>
+    <Address>
+      <Address>לוד נתב"ג 1 טרמינל 1 לוד</Address>
+      <City>אזור רמלה של"ש</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק יהב לעובדי המדינה בע"מ</BankName>
     <BankNumber>4</BankNumber>
     <Branch>135</Branch>
-    <CivicAddress>
-      <address>הלוחמים 62 בית חולים וולפסון,</address>
-      <city>חולון</city>
-    </CivicAddress>
+    <Address>
+      <Address>הלוחמים 62 בית חולים וולפסון,</Address>
+      <City>חולון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק יהב לעובדי המדינה בע"מ</BankName>
     <BankNumber>4</BankNumber>
     <Branch>136</Branch>
-    <CivicAddress>
-      <address>ישראל גלילי 3 ישראל גלילי 3 קרית הלאום</address>
-      <city>ראשון לציון</city>
-    </CivicAddress>
+    <Address>
+      <Address>ישראל גלילי 3 ישראל גלילי 3 קרית הלאום</Address>
+      <City>ראשון לציון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק יהב לעובדי המדינה בע"מ</BankName>
     <BankNumber>4</BankNumber>
     <Branch>138</Branch>
-    <CivicAddress>
-      <address>הנשיא  ויצמן 21 הנשיא 21</address>
-      <city>חדרה</city>
-    </CivicAddress>
+    <Address>
+      <Address>הנשיא  ויצמן 21 הנשיא 21</Address>
+      <City>חדרה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק יהב לעובדי המדינה בע"מ</BankName>
     <BankNumber>4</BankNumber>
     <Branch>140</Branch>
-    <CivicAddress>
-      <address>דרך העצמאות 36 העצמאות 36</address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך העצמאות 36 העצמאות 36</Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק יהב לעובדי המדינה בע"מ</BankName>
     <BankNumber>4</BankNumber>
     <Branch>141</Branch>
-    <CivicAddress>
-      <address>הרצל 64 הרצל 64, מרכז הגעתון</address>
-      <city>נהרייה</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרצל 64 הרצל 64, מרכז הגעתון</Address>
+      <City>נהרייה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק יהב לעובדי המדינה בע"מ</BankName>
     <BankNumber>4</BankNumber>
     <Branch>142</Branch>
-    <CivicAddress>
-      <address>המלאכה 3 בנין לב העסקים המלאכה 3</address>
-      <city>נצרת עילית</city>
-    </CivicAddress>
+    <Address>
+      <Address>המלאכה 3 בנין לב העסקים המלאכה 3</Address>
+      <City>נצרת עילית</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק יהב לעובדי המדינה בע"מ</BankName>
     <BankNumber>4</BankNumber>
     <Branch>150</Branch>
-    <CivicAddress>
-      <address>מאיר דיזינגוף 1 </address>
-      <city>באר יעקב</city>
-    </CivicAddress>
+    <Address>
+      <Address>מאיר דיזינגוף 1 </Address>
+      <City>באר יעקב</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק יהב לעובדי המדינה בע"מ</BankName>
     <BankNumber>4</BankNumber>
     <Branch>171</Branch>
-    <CivicAddress>
-      <address>בלפור 72 בלפור 72</address>
-      <city>בת ים</city>
-    </CivicAddress>
+    <Address>
+      <Address>בלפור 72 בלפור 72</Address>
+      <City>בת ים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק יהב לעובדי המדינה בע"מ</BankName>
     <BankNumber>4</BankNumber>
     <Branch>193</Branch>
-    <CivicAddress>
-      <address>דרך קדם 5 קניון אדומים</address>
-      <city>מעלה אדומים</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך קדם 5 קניון אדומים</Address>
+      <City>מעלה אדומים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק יהב לעובדי המדינה בע"מ</BankName>
     <BankNumber>4</BankNumber>
     <Branch>195</Branch>
-    <CivicAddress>
-      <address>ויצמן 14 ביה"ח איכילוב ויצמן 14תל אביב</address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>ויצמן 14 ביה"ח איכילוב ויצמן 14תל אביב</Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק יהב לעובדי המדינה בע"מ</BankName>
     <BankNumber>4</BankNumber>
     <Branch>233</Branch>
-    <CivicAddress>
-      <address>רח' העליה השנייה 8 בית החולים רמב"ם העליה 8</address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>רח' העליה השנייה 8 בית החולים רמב"ם העליה 8</Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק יהב לעובדי המדינה בע"מ</BankName>
     <BankNumber>4</BankNumber>
     <Branch>236</Branch>
-    <CivicAddress>
-      <address>צומת גלילות 1 בניין רב מכר, סינמה סיטי</address>
-      <city>רמת השרון</city>
-    </CivicAddress>
+    <Address>
+      <Address>צומת גלילות 1 בניין רב מכר, סינמה סיטי</Address>
+      <City>רמת השרון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק יהב לעובדי המדינה בע"מ</BankName>
     <BankNumber>4</BankNumber>
     <Branch>245</Branch>
-    <CivicAddress>
-      <address>יהשוע חנקין 14 קניון העמקים , יהושוע חנקין 14</address>
-      <city>עפולה</city>
-    </CivicAddress>
+    <Address>
+      <Address>יהשוע חנקין 14 קניון העמקים , יהושוע חנקין 14</Address>
+      <City>עפולה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק יהב לעובדי המדינה בע"מ</BankName>
     <BankNumber>4</BankNumber>
     <Branch>246</Branch>
-    <CivicAddress>
-      <address>ככר רבין 1 ככר רבין. רסקו.</address>
-      <city>טבריה</city>
-    </CivicAddress>
+    <Address>
+      <Address>ככר רבין 1 ככר רבין. רסקו.</Address>
+      <City>טבריה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק יהב לעובדי המדינה בע"מ</BankName>
     <BankNumber>4</BankNumber>
     <Branch>137</Branch>
-    <CivicAddress>
-      <address>אסף סנטר 1 ביה"ח אסף הרופא, קניון אסף סנטר</address>
-      <city>באר יעקב</city>
-    </CivicAddress>
+    <Address>
+      <Address>אסף סנטר 1 ביה"ח אסף הרופא, קניון אסף סנטר</Address>
+      <City>באר יעקב</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק יהב לעובדי המדינה בע"מ</BankName>
     <BankNumber>4</BankNumber>
     <Branch>311</Branch>
-    <CivicAddress>
-      <address>שד' מוריה 44 שד' מוריה 44, חיפה</address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' מוריה 44 שד' מוריה 44, חיפה</Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק יהב לעובדי המדינה בע"מ</BankName>
     <BankNumber>4</BankNumber>
     <Branch>122</Branch>
-    <CivicAddress>
-      <address>קפלן 1 קרית בן גוריון, בנין משרד השיכון</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>קפלן 1 קרית בן גוריון, בנין משרד השיכון</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק יהב לעובדי המדינה בע"מ</BankName>
     <BankNumber>4</BankNumber>
     <Branch>430</Branch>
-    <CivicAddress>
-      <address>הרצל 52 רח' הרצל 52, ראשון לציון</address>
-      <city>ראשון לציון</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרצל 52 רח' הרצל 52, ראשון לציון</Address>
+      <City>ראשון לציון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק יהב לעובדי המדינה בע"מ</BankName>
     <BankNumber>4</BankNumber>
     <Branch>461</Branch>
-    <CivicAddress>
-      <address>יגאל אלון 3 קניון ביג פאשן</address>
-      <city>בית שמש</city>
-    </CivicAddress>
+    <Address>
+      <Address>יגאל אלון 3 קניון ביג פאשן</Address>
+      <City>בית שמש</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק יהב לעובדי המדינה בע"מ</BankName>
     <BankNumber>4</BankNumber>
     <Branch>488</Branch>
-    <CivicAddress>
-      <address>הנשיא השישי 14 הנשיא השישי 14</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>הנשיא השישי 14 הנשיא השישי 14</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק יהב לעובדי המדינה בע"מ</BankName>
     <BankNumber>4</BankNumber>
     <Branch>497</Branch>
-    <CivicAddress>
-      <address>שד' משה דיין 106 קניון הפסגה משה דיין 106</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' משה דיין 106 קניון הפסגה משה דיין 106</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק יהב לעובדי המדינה בע"מ</BankName>
     <BankNumber>4</BankNumber>
     <Branch>401</Branch>
-    <CivicAddress>
-      <address>דרך בן גוריון 22 בן גוריון 22</address>
-      <city>רמת גן</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך בן גוריון 22 בן גוריון 22</Address>
+      <City>רמת גן</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק יהב לעובדי המדינה בע"מ</BankName>
     <BankNumber>4</BankNumber>
     <Branch>7</Branch>
-    <CivicAddress>
-      <address>אגודת הספורט בית"ר 1 קניון עזריאלי מלחה ירושלים</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>אגודת הספורט בית"ר 1 קניון עזריאלי מלחה ירושלים</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק יהב לעובדי המדינה בע"מ</BankName>
     <BankNumber>4</BankNumber>
     <Branch>279</Branch>
-    <CivicAddress>
-      <address>ויצמן 27 ויצמן 27</address>
-      <city>קריית ביאליק</city>
-    </CivicAddress>
+    <Address>
+      <Address>ויצמן 27 ויצמן 27</Address>
+      <City>קריית ביאליק</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק יהב לעובדי המדינה בע"מ</BankName>
     <BankNumber>4</BankNumber>
     <Branch>284</Branch>
-    <CivicAddress>
-      <address>יהושוע חנקין 95 חנקין 95</address>
-      <city>חולון</city>
-    </CivicAddress>
+    <Address>
+      <Address>יהושוע חנקין 95 חנקין 95</Address>
+      <City>חולון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק יהב לעובדי המדינה בע"מ</BankName>
     <BankNumber>4</BankNumber>
     <Branch>278</Branch>
-    <CivicAddress>
-      <address>הלל וחנן אופנהיימר 2 אופנהימר 2</address>
-      <city>רחובות</city>
-    </CivicAddress>
+    <Address>
+      <Address>הלל וחנן אופנהיימר 2 אופנהימר 2</Address>
+      <City>רחובות</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק יהב לעובדי המדינה בע"מ</BankName>
     <BankNumber>4</BankNumber>
     <Branch>280</Branch>
-    <CivicAddress>
-      <address>מעלה כמון 5 מעלה כמון 5</address>
-      <city>כרמיאל</city>
-    </CivicAddress>
+    <Address>
+      <Address>מעלה כמון 5 מעלה כמון 5</Address>
+      <City>כרמיאל</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק יהב לעובדי המדינה בע"מ</BankName>
     <BankNumber>4</BankNumber>
     <Branch>281</Branch>
-    <CivicAddress>
-      <address>פתן 5 בניין שער העיר, אילת</address>
-      <city>אילת</city>
-    </CivicAddress>
+    <Address>
+      <Address>פתן 5 בניין שער העיר, אילת</Address>
+      <City>אילת</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>50</Branch>
-    <CivicAddress>
-      <address>הרברט סמואל 2 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרברט סמואל 2 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>26</Branch>
-    <CivicAddress>
-      <address>שמגר 21 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>שמגר 21 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>69</Branch>
-    <CivicAddress>
-      <address>הדסה 90 </address>
-      <city>באר שבע</city>
-    </CivicAddress>
+    <Address>
+      <Address>הדסה 90 </Address>
+      <City>באר שבע</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>98</Branch>
-    <CivicAddress>
-      <address>כביש ראשי 999 קניון סכנין מול- הכביש הראשי</address>
-      <city>סח'נין</city>
-    </CivicAddress>
+    <Address>
+      <Address>כביש ראשי 999 קניון סכנין מול- הכביש הראשי</Address>
+      <City>סח'נין</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>96</Branch>
-    <CivicAddress>
-      <address>קניון חוצות - רח. מעלה כמון 5 </address>
-      <city>כרמיאל</city>
-    </CivicAddress>
+    <Address>
+      <Address>קניון חוצות - רח. מעלה כמון 5 </Address>
+      <City>כרמיאל</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>97</Branch>
-    <CivicAddress>
-      <address>אל מדינה 999 קניון אל הרם</address>
-      <city>אום אל-פחם</city>
-    </CivicAddress>
+    <Address>
+      <Address>אל מדינה 999 קניון אל הרם</Address>
+      <City>אום אל-פחם</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>76</Branch>
-    <CivicAddress>
-      <address>יהודה הנשיא 94 </address>
-      <city>אלעד</city>
-    </CivicAddress>
+    <Address>
+      <Address>יהודה הנשיא 94 </Address>
+      <City>אלעד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>68</Branch>
-    <CivicAddress>
-      <address>יוספטל 92 קניון בת ים</address>
-      <city>בת ים</city>
-    </CivicAddress>
+    <Address>
+      <Address>יוספטל 92 קניון בת ים</Address>
+      <City>בת ים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>61</Branch>
-    <CivicAddress>
-      <address>שבי ציון 118 </address>
-      <city>אשדוד</city>
-    </CivicAddress>
+    <Address>
+      <Address>שבי ציון 118 </Address>
+      <City>אשדוד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>93</Branch>
-    <CivicAddress>
-      <address>ההגנה, מידרחוב 10 </address>
-      <city>פתח תקווה</city>
-    </CivicAddress>
+    <Address>
+      <Address>ההגנה, מידרחוב 10 </Address>
+      <City>פתח תקווה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>91</Branch>
-    <CivicAddress>
-      <address>רח' 1100, צומת אום-ואסף 2 </address>
-      <city>נצרת</city>
-    </CivicAddress>
+    <Address>
+      <Address>רח' 1100, צומת אום-ואסף 2 </Address>
+      <City>נצרת</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>52</Branch>
-    <CivicAddress>
-      <address>פלי"ם, בנין צים 9 </address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>פלי"ם, בנין צים 9 </Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>92</Branch>
-    <CivicAddress>
-      <address>הרצל 45 </address>
-      <city>נתניה</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרצל 45 </Address>
+      <City>נתניה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>55</Branch>
-    <CivicAddress>
-      <address>חזון איש, פינת רבי עקיבא 2 </address>
-      <city>בני ברק</city>
-    </CivicAddress>
+    <Address>
+      <Address>חזון איש, פינת רבי עקיבא 2 </Address>
+      <City>בני ברק</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>67</Branch>
-    <CivicAddress>
-      <address>סוקולוב 28 </address>
-      <city>חולון</city>
-    </CivicAddress>
+    <Address>
+      <Address>סוקולוב 28 </Address>
+      <City>חולון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>53</Branch>
-    <CivicAddress>
-      <address>הרצל 63 </address>
-      <city>ראשון לציון</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרצל 63 </Address>
+      <City>ראשון לציון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>69</Branch>
-    <CivicAddress>
-      <address>צומת אלי כהן 1 קניון הנגב</address>
-      <city>באר שבע</city>
-    </CivicAddress>
+    <Address>
+      <Address>צומת אלי כהן 1 קניון הנגב</Address>
+      <City>באר שבע</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>93</Branch>
-    <CivicAddress>
-      <address>דרך יצחק רבין 53 קניון גבעתיים</address>
-      <city>גבעתיים</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך יצחק רבין 53 קניון גבעתיים</Address>
+      <City>גבעתיים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>55</Branch>
-    <CivicAddress>
-      <address>דרך אבא הילל 301 קניון אילון</address>
-      <city>רמת גן</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך אבא הילל 301 קניון אילון</Address>
+      <City>רמת גן</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>63</Branch>
-    <CivicAddress>
-      <address>דרך עכו 192 </address>
-      <city>קריית ביאליק</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך עכו 192 </Address>
+      <City>קריית ביאליק</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>50</Branch>
-    <CivicAddress>
-      <address>דיסקין 9 קניונית וולפסון</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>דיסקין 9 קניונית וולפסון</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>66</Branch>
-    <CivicAddress>
-      <address>אלי כהן 37 מספרת שאנל</address>
-      <city>אשקלון</city>
-    </CivicAddress>
+    <Address>
+      <Address>אלי כהן 37 מספרת שאנל</Address>
+      <City>אשקלון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>38</Branch>
-    <CivicAddress>
-      <address>דרך יצחק רבין 2 קניון נעימי</address>
-      <city>בית שמש</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך יצחק רבין 2 קניון נעימי</Address>
+      <City>בית שמש</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>51</Branch>
-    <CivicAddress>
-      <address>המלך ג'ורג' 2 חנות קוסמטיקה</address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>המלך ג'ורג' 2 חנות קוסמטיקה</Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>66</Branch>
-    <CivicAddress>
-      <address>הרצל 5 </address>
-      <city>אשקלון</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרצל 5 </Address>
+      <City>אשקלון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>39</Branch>
-    <CivicAddress>
-      <address>ישמח ישראל 2 מרכז חיים זקן תמרים</address>
-      <city>ביתר עילית</city>
-    </CivicAddress>
+    <Address>
+      <Address>ישמח ישראל 2 מרכז חיים זקן תמרים</Address>
+      <City>ביתר עילית</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>91</Branch>
-    <CivicAddress>
-      <address>העבודה 1 שוק המזון</address>
-      <city>נצרת עילית</city>
-    </CivicAddress>
+    <Address>
+      <Address>העבודה 1 שוק המזון</Address>
+      <City>נצרת עילית</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>51</Branch>
-    <CivicAddress>
-      <address>ירמיהו 34 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>ירמיהו 34 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>69</Branch>
-    <CivicAddress>
-      <address>צומת בית קמה 1 </address>
-      <city>באר שבע</city>
-    </CivicAddress>
+    <Address>
+      <Address>צומת בית קמה 1 </Address>
+      <City>באר שבע</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>61</Branch>
-    <CivicAddress>
-      <address>גיא אוני 6 חנות 110 - מרכז מסחרי -רובע ט</address>
-      <city>אשדוד</city>
-    </CivicAddress>
+    <Address>
+      <Address>גיא אוני 6 חנות 110 - מרכז מסחרי -רובע ט</Address>
+      <City>אשדוד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>50</Branch>
-    <CivicAddress>
-      <address>אגודת ספורט בית"ר 1 קניון מלחה - קומה 2 ליד ח.רנואר</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>אגודת ספורט בית"ר 1 קניון מלחה - קומה 2 ליד ח.רנואר</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>50</Branch>
-    <CivicAddress>
-      <address>אגודת ספורט בית"ר 1 קניון מלחה - קומה 3 ליד קפה נאמן</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>אגודת ספורט בית"ר 1 קניון מלחה - קומה 3 ליד קפה נאמן</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>55</Branch>
-    <CivicAddress>
-      <address>רבי עקיבא 26 </address>
-      <city>בני ברק</city>
-    </CivicAddress>
+    <Address>
+      <Address>רבי עקיבא 26 </Address>
+      <City>בני ברק</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>92</Branch>
-    <CivicAddress>
-      <address>האופה 1 בית רולדין</address>
-      <city>קדימה-צורן</city>
-    </CivicAddress>
+    <Address>
+      <Address>האופה 1 בית רולדין</Address>
+      <City>קדימה-צורן</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>93</Branch>
-    <CivicAddress>
-      <address>בן ציון גליס 30 חנות "האופה מבגדד"</address>
-      <city>פתח תקווה</city>
-    </CivicAddress>
+    <Address>
+      <Address>בן ציון גליס 30 חנות "האופה מבגדד"</Address>
+      <City>פתח תקווה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>61</Branch>
-    <CivicAddress>
-      <address>צה"ל 1 חנות שווארמה</address>
-      <city>רמלה</city>
-    </CivicAddress>
+    <Address>
+      <Address>צה"ל 1 חנות שווארמה</Address>
+      <City>רמלה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>61</Branch>
-    <CivicAddress>
-      <address>הרי גולן 12 חנות "זול ובגדול"</address>
-      <city>אשדוד</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרי גולן 12 חנות "זול ובגדול"</Address>
+      <City>אשדוד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>69</Branch>
-    <CivicAddress>
-      <address>מנחם בגין 1 ליד STOK</address>
-      <city>שדרות</city>
-    </CivicAddress>
+    <Address>
+      <Address>מנחם בגין 1 ליד STOK</Address>
+      <City>שדרות</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>69</Branch>
-    <CivicAddress>
-      <address>שד' הרצל 5 חנות לוטו טוטו</address>
-      <city>אופקים</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' הרצל 5 חנות לוטו טוטו</Address>
+      <City>אופקים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>69</Branch>
-    <CivicAddress>
-      <address>שדרות הערים התאומות 23 פיצוציה לוטו טוטו</address>
-      <city>באר שבע</city>
-    </CivicAddress>
+    <Address>
+      <Address>שדרות הערים התאומות 23 פיצוציה לוטו טוטו</Address>
+      <City>באר שבע</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>69</Branch>
-    <CivicAddress>
-      <address>יעקב כהן 3 מאפיית אורן משי</address>
-      <city>באר שבע</city>
-    </CivicAddress>
+    <Address>
+      <Address>יעקב כהן 3 מאפיית אורן משי</Address>
+      <City>באר שבע</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>69</Branch>
-    <CivicAddress>
-      <address>בן יהודה 14 מאפיית אורן משי</address>
-      <city>שדרות</city>
-    </CivicAddress>
+    <Address>
+      <Address>בן יהודה 14 מאפיית אורן משי</Address>
+      <City>שדרות</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>69</Branch>
-    <CivicAddress>
-      <address>שדרות דוד טוביהו 125 גראנד קניון באר שבע - מתחם המזון</address>
-      <city>באר שבע</city>
-    </CivicAddress>
+    <Address>
+      <Address>שדרות דוד טוביהו 125 גראנד קניון באר שבע - מתחם המזון</Address>
+      <City>באר שבע</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>55</Branch>
-    <CivicAddress>
-      <address>לנדאו 7 כניסה לקניון מרום נווה</address>
-      <city>רמת גן</city>
-    </CivicAddress>
+    <Address>
+      <Address>לנדאו 7 כניסה לקניון מרום נווה</Address>
+      <City>רמת גן</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>51</Branch>
-    <CivicAddress>
-      <address>אחד העם 21 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>אחד העם 21 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>30</Branch>
-    <CivicAddress>
-      <address>קרן היסוד 18 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>קרן היסוד 18 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>36</Branch>
-    <CivicAddress>
-      <address>אבני נזר 18 </address>
-      <city>מודיעין עילית</city>
-    </CivicAddress>
+    <Address>
+      <Address>אבני נזר 18 </Address>
+      <City>מודיעין עילית</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>50</Branch>
-    <CivicAddress>
-      <address>האביבית 2 עיר גנים</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>האביבית 2 עיר גנים</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>26</Branch>
-    <CivicAddress>
-      <address>יעקב מאיר 10 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>יעקב מאיר 10 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>26</Branch>
-    <CivicAddress>
-      <address>תחכמוני 6 שכונת גאולה</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>תחכמוני 6 שכונת גאולה</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>37</Branch>
-    <CivicAddress>
-      <address>שדרות משה דיין 164 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>שדרות משה דיין 164 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>53</Branch>
-    <CivicAddress>
-      <address>חוף 4X4 1 מסעדת בני הדייג</address>
-      <city>ראשון לציון</city>
-    </CivicAddress>
+    <Address>
+      <Address>חוף 4X4 1 מסעדת בני הדייג</Address>
+      <City>ראשון לציון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>92</Branch>
-    <CivicAddress>
-      <address>דוד שמעוני 42 מאפיית אריאל</address>
-      <city>חדרה</city>
-    </CivicAddress>
+    <Address>
+      <Address>דוד שמעוני 42 מאפיית אריאל</Address>
+      <City>חדרה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>93</Branch>
-    <CivicAddress>
-      <address>ז'בוטינסקי 72 קניון אבנת - ליד פוקס</address>
-      <city>פתח תקווה</city>
-    </CivicAddress>
+    <Address>
+      <Address>ז'בוטינסקי 72 קניון אבנת - ליד פוקס</Address>
+      <City>פתח תקווה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>93</Branch>
-    <CivicAddress>
-      <address>דרך אם המושבות 94 בית תדיראן קשר - פארק אריה</address>
-      <city>פתח תקווה</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך אם המושבות 94 בית תדיראן קשר - פארק אריה</Address>
+      <City>פתח תקווה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>50</Branch>
-    <CivicAddress>
-      <address>שמואל הנביא 101 שכונת בר אילן</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>שמואל הנביא 101 שכונת בר אילן</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>50</Branch>
-    <CivicAddress>
-      <address>אורוגווי 42 שכונת קרית יובל</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>אורוגווי 42 שכונת קרית יובל</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>50</Branch>
-    <CivicAddress>
-      <address>תפארת ישראל 2 הרובע היהודי</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>תפארת ישראל 2 הרובע היהודי</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>52</Branch>
-    <CivicAddress>
-      <address>ראשי 1 כיכר ראשית -ליד חנות הצילום</address>
-      <city>דאלית אל-כרמל</city>
-    </CivicAddress>
+    <Address>
+      <Address>ראשי 1 כיכר ראשית -ליד חנות הצילום</Address>
+      <City>דאלית אל-כרמל</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>52</Branch>
-    <CivicAddress>
-      <address>דרך שמחה גולן 54 קניון גרנד קניון</address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך שמחה גולן 54 קניון גרנד קניון</Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>50</Branch>
-    <CivicAddress>
-      <address>שדרות הנשיא השישי פינת דרך רבין 1 סינצה סיטי - קופות</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>שדרות הנשיא השישי פינת דרך רבין 1 סינצה סיטי - קופות</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>50</Branch>
-    <CivicAddress>
-      <address>שדרות הנשיא השישי פינת דרך רבין 1 סינמה סיטי - מעליות</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>שדרות הנשיא השישי פינת דרך רבין 1 סינמה סיטי - מעליות</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>50</Branch>
-    <CivicAddress>
-      <address>בן זכאי פינת מעגלי יבנה 1 חנות לוטו טוטו -כיכר מש' חנדלי</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>בן זכאי פינת מעגלי יבנה 1 חנות לוטו טוטו -כיכר מש' חנדלי</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>50</Branch>
-    <CivicAddress>
-      <address>צונדק 109 חנות זול ובגדול - רמות ב' - בלובי</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>צונדק 109 חנות זול ובגדול - רמות ב' - בלובי</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>50</Branch>
-    <CivicAddress>
-      <address>יעקב פת פינת הרב הרצוג 1 תחנת דלק</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>יעקב פת פינת הרב הרצוג 1 תחנת דלק</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>50</Branch>
-    <CivicAddress>
-      <address>דוד רמז 4 מתחם התחנה הראשונה</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>דוד רמז 4 מתחם התחנה הראשונה</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>51</Branch>
-    <CivicAddress>
-      <address>יגאל אלון 96 בניין אמפא- צמוד לבניין אלקטרה</address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>יגאל אלון 96 בניין אמפא- צמוד לבניין אלקטרה</Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>51</Branch>
-    <CivicAddress>
-      <address>משה סנה 210 תחנת דלק מנטה - רמת השרון</address>
-      <city>רמת השרון</city>
-    </CivicAddress>
+    <Address>
+      <Address>משה סנה 210 תחנת דלק מנטה - רמת השרון</Address>
+      <City>רמת השרון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>55</Branch>
-    <CivicAddress>
-      <address>יוני נתניהו 22 קניון הגבעה</address>
-      <city>גבעת שמואל</city>
-    </CivicAddress>
+    <Address>
+      <Address>יוני נתניהו 22 קניון הגבעה</Address>
+      <City>גבעת שמואל</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>66</Branch>
-    <CivicAddress>
-      <address>יהודה הלוי 38 סניף זול ובגדול</address>
-      <city>אשקלון</city>
-    </CivicAddress>
+    <Address>
+      <Address>יהודה הלוי 38 סניף זול ובגדול</Address>
+      <City>אשקלון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>67</Branch>
-    <CivicAddress>
-      <address>התנאים 6 </address>
-      <city>חולון</city>
-    </CivicAddress>
+    <Address>
+      <Address>התנאים 6 </Address>
+      <City>חולון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>26</Branch>
-    <CivicAddress>
-      <address>חבקוק 6 שכונת מאה שערים- חנות זול ובגדול</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>חבקוק 6 שכונת מאה שערים- חנות זול ובגדול</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>50</Branch>
-    <CivicAddress>
-      <address>הרב הרצוג 61 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרב הרצוג 61 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>52</Branch>
-    <CivicAddress>
-      <address>דרך השלום 11 </address>
-      <city>נשר</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך השלום 11 </Address>
+      <City>נשר</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>92</Branch>
-    <CivicAddress>
-      <address>הדקלים 101 </address>
-      <city>פרדס חנה-כרכור</city>
-    </CivicAddress>
+    <Address>
+      <Address>הדקלים 101 </Address>
+      <City>פרדס חנה-כרכור</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>38</Branch>
-    <CivicAddress>
-      <address>יחזקאל הנביא 24 רמת בית שמש ג'</address>
-      <city>בית שמש</city>
-    </CivicAddress>
+    <Address>
+      <Address>יחזקאל הנביא 24 רמת בית שמש ג'</Address>
+      <City>בית שמש</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>50</Branch>
-    <CivicAddress>
-      <address>אהליאב 6 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>אהליאב 6 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>50</Branch>
-    <CivicAddress>
-      <address>האבן 15 </address>
-      <city>מעלה אדומים</city>
-    </CivicAddress>
+    <Address>
+      <Address>האבן 15 </Address>
+      <City>מעלה אדומים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>67</Branch>
-    <CivicAddress>
-      <address>דרך השבעה 19 </address>
-      <city>אזור</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך השבעה 19 </Address>
+      <City>אזור</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>50</Branch>
-    <CivicAddress>
-      <address>הרב שאולזון 57 הר נוף</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרב שאולזון 57 הר נוף</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>50</Branch>
-    <CivicAddress>
-      <address>צומת גוש עציון 1 </address>
-      <city>כפר עציון</city>
-    </CivicAddress>
+    <Address>
+      <Address>צומת גוש עציון 1 </Address>
+      <City>כפר עציון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>92</Branch>
-    <CivicAddress>
-      <address>מפגש אולגה 1 תחנת דלק "דלק"</address>
-      <city>חדרה</city>
-    </CivicAddress>
+    <Address>
+      <Address>מפגש אולגה 1 תחנת דלק "דלק"</Address>
+      <City>חדרה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>50</Branch>
-    <CivicAddress>
-      <address>קרית הדסה 1 בית החולים הדסה עין כרם</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>קרית הדסה 1 בית החולים הדסה עין כרם</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>55</Branch>
-    <CivicAddress>
-      <address>בר כוכבא 5 </address>
-      <city>בני ברק</city>
-    </CivicAddress>
+    <Address>
+      <Address>בר כוכבא 5 </Address>
+      <City>בני ברק</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>69</Branch>
-    <CivicAddress>
-      <address>שדרות לכיש 63/5 </address>
-      <city>קריית גת</city>
-    </CivicAddress>
+    <Address>
+      <Address>שדרות לכיש 63/5 </Address>
+      <City>קריית גת</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>91</Branch>
-    <CivicAddress>
-      <address>רח' הירדן פינת השילוח 12 תחנה מרכזית - מפלס עליון</address>
-      <city>טבריה</city>
-    </CivicAddress>
+    <Address>
+      <Address>רח' הירדן פינת השילוח 12 תחנה מרכזית - מפלס עליון</Address>
+      <City>טבריה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>92</Branch>
-    <CivicAddress>
-      <address>גלבוע 1 קניון דרורים - כניסה מזרחית</address>
-      <city>בני דרור</city>
-    </CivicAddress>
+    <Address>
+      <Address>גלבוע 1 קניון דרורים - כניסה מזרחית</Address>
+      <City>בני דרור</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>93</Branch>
-    <CivicAddress>
-      <address>סוקולוב 1 מגדיאל</address>
-      <city>הוד השרון</city>
-    </CivicAddress>
+    <Address>
+      <Address>סוקולוב 1 מגדיאל</Address>
+      <City>הוד השרון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>38</Branch>
-    <CivicAddress>
-      <address>בן איש חי 31 חנות זול ובגדול</address>
-      <city>בית שמש</city>
-    </CivicAddress>
+    <Address>
+      <Address>בן איש חי 31 חנות זול ובגדול</Address>
+      <City>בית שמש</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>26</Branch>
-    <CivicAddress>
-      <address>הרב וולנשטיין 2 מרכז מסחרי אוונגר- שכונת רמות</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרב וולנשטיין 2 מרכז מסחרי אוונגר- שכונת רמות</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>50</Branch>
-    <CivicAddress>
-      <address>שדרות החוצבים 10 קניון רמי לוי מעל מחלף הראל</address>
-      <city>מבשרת ציון</city>
-    </CivicAddress>
+    <Address>
+      <Address>שדרות החוצבים 10 קניון רמי לוי מעל מחלף הראל</Address>
+      <City>מבשרת ציון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>50</Branch>
-    <CivicAddress>
-      <address>ורדינון 14 שכונת גילה</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>ורדינון 14 שכונת גילה</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>93</Branch>
-    <CivicAddress>
-      <address>רח' העמל 1 פארק תעשיות אפק</address>
-      <city>ראש העין</city>
-    </CivicAddress>
+    <Address>
+      <Address>רח' העמל 1 פארק תעשיות אפק</Address>
+      <City>ראש העין</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>98</Branch>
-    <CivicAddress>
-      <address>ראשי 1 </address>
-      <city>מג'ד אל-כרום</city>
-    </CivicAddress>
+    <Address>
+      <Address>ראשי 1 </Address>
+      <City>מג'ד אל-כרום</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>36</Branch>
-    <CivicAddress>
-      <address>שדרות התעשיות 121 ישפרו סנטר</address>
-      <city>מודיעין-מכבים-רעות*</city>
-    </CivicAddress>
+    <Address>
+      <Address>שדרות התעשיות 121 ישפרו סנטר</Address>
+      <City>מודיעין-מכבים-רעות*</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק ירושלים בע"מ</BankName>
     <BankNumber>54</BankNumber>
     <Branch>52</Branch>
-    <CivicAddress>
-      <address>ז'בוטינסקי 48 </address>
-      <city>טירת כרמל</city>
-    </CivicAddress>
+    <Address>
+      <Address>ז'בוטינסקי 48 </Address>
+      <City>טירת כרמל</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>989</Branch>
-    <CivicAddress>
-      <address>אורי 12 חלף סניף מגדלי דוד</address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>אורי 12 חלף סניף מגדלי דוד</Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>916</Branch>
-    <CivicAddress>
-      <address>יגאל אלון 6 </address>
-      <city>בית שמש</city>
-    </CivicAddress>
+    <Address>
+      <Address>יגאל אלון 6 </Address>
+      <City>בית שמש</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>989</Branch>
-    <CivicAddress>
-      <address>ככר דה שליט - חלף סניף הרצליה פיתוח</address>
-      <city>
-הרצלייה</city>
-    </CivicAddress>
+    <Address>
+      <Address>ככר דה שליט - חלף סניף הרצליה פיתוח</Address>
+      <City>
+הרצלייה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>989</Branch>
-    <CivicAddress>
-      <address>אוסישקין 3 חלף סניף אוסישקין</address>
-      <city>רמת השרון</city>
-    </CivicAddress>
+    <Address>
+      <Address>אוסישקין 3 חלף סניף אוסישקין</Address>
+      <City>רמת השרון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>989</Branch>
-    <CivicAddress>
-      <address>אורוגואי 1 חלף סניף קרית היובל</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>אורוגואי 1 חלף סניף קרית היובל</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>989</Branch>
-    <CivicAddress>
-      <address>ילדי טהרן 3 סינמה סיטי ראשון לציון</address>
-      <city>ראשון לציון</city>
-    </CivicAddress>
+    <Address>
+      <Address>ילדי טהרן 3 סינמה סיטי ראשון לציון</Address>
+      <City>ראשון לציון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>989</Branch>
-    <CivicAddress>
-      <address>נתניהו 23 חלף סניף גבעת שמואל</address>
-      <city>גבעת שמואל</city>
-    </CivicAddress>
+    <Address>
+      <Address>נתניהו 23 חלף סניף גבעת שמואל</Address>
+      <City>גבעת שמואל</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>989</Branch>
-    <CivicAddress>
-      <address>יהודה המכבי 72 חלף סניף גשר הירקון</address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>יהודה המכבי 72 חלף סניף גשר הירקון</Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>989</Branch>
-    <CivicAddress>
-      <address>מצדה 28 חלף סניף רמת חן</address>
-      <city>רמת גן</city>
-    </CivicAddress>
+    <Address>
+      <Address>מצדה 28 חלף סניף רמת חן</Address>
+      <City>רמת גן</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>989</Branch>
-    <CivicAddress>
-      <address>הרא"ה 123 חלף סניף הרא"ה</address>
-      <city>רמת גן</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרא"ה 123 חלף סניף הרא"ה</Address>
+      <City>רמת גן</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>939</Branch>
-    <CivicAddress>
-      <address>שדרות שבזי 2 פינת שד' דואני</address>
-      <city>יבנה</city>
-    </CivicAddress>
+    <Address>
+      <Address>שדרות שבזי 2 פינת שד' דואני</Address>
+      <City>יבנה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>941</Branch>
-    <CivicAddress>
-      <address>אהבת ישראל 3 המרכז המסחרי</address>
-      <city>שדרות</city>
-    </CivicAddress>
+    <Address>
+      <Address>אהבת ישראל 3 המרכז המסחרי</Address>
+      <City>שדרות</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>943</Branch>
-    <CivicAddress>
-      <address>הבנים 7 </address>
-      <city>הוד השרון</city>
-    </CivicAddress>
+    <Address>
+      <Address>הבנים 7 </Address>
+      <City>הוד השרון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>
 בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>944</Branch>
-    <CivicAddress>
-      <address>גולדה מאיר 1 </address>
-      <city>ראשון לציון</city>
-    </CivicAddress>
+    <Address>
+      <Address>גולדה מאיר 1 </Address>
+      <City>ראשון לציון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>951</Branch>
-    <CivicAddress>
-      <address>שהין סנטר הרח' הראשי - הרחוב הראשי</address>
-      <city>טייבה</city>
-    </CivicAddress>
+    <Address>
+      <Address>שהין סנטר הרח' הראשי - הרחוב הראשי</Address>
+      <City>טייבה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>952</Branch>
-    <CivicAddress>
-      <address>הרצל 33 </address>
-      <city>נתניה</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרצל 33 </Address>
+      <City>נתניה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>953</Branch>
-    <CivicAddress>
-      <address>הרברט סמואל 58 </address>
-      <city>חדרה</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרברט סמואל 58 </Address>
+      <City>חדרה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>954</Branch>
-    <CivicAddress>
-      <address>שדרות הדקלים 119 </address>
-      <city>פרדס חנה-כרכור</city>
-    </CivicAddress>
+    <Address>
+      <Address>שדרות הדקלים 119 </Address>
+      <City>פרדס חנה-כרכור</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>955</Branch>
-    <CivicAddress>
-      <address>המייסדים 33 </address>
-      <city>בנימינה-גבעת עדה*</city>
-    </CivicAddress>
+    <Address>
+      <Address>המייסדים 33 </Address>
+      <City>בנימינה-גבעת עדה*</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>956</Branch>
-    <CivicAddress>
-      <address>הנדיב 11 </address>
-      <city>זכרון יעקב</city>
-    </CivicAddress>
+    <Address>
+      <Address>הנדיב 11 </Address>
+      <City>זכרון יעקב</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>957</Branch>
-    <CivicAddress>
-      <address>המייסדים 64 </address>
-      <city>אבן יהודה</city>
-    </CivicAddress>
+    <Address>
+      <Address>המייסדים 64 </Address>
+      <City>אבן יהודה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>959</Branch>
-    <CivicAddress>
-      <address>שיבת ציון 1 גבעת אולגה</address>
-      <city>חדרה</city>
-    </CivicAddress>
+    <Address>
+      <Address>שיבת ציון 1 גבעת אולגה</Address>
+      <City>חדרה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>972</Branch>
-    <CivicAddress>
-      <address>מרכז דקל (רסקו) 48 - 46 </address>
-      <city>נצרת עילית</city>
-    </CivicAddress>
+    <Address>
+      <Address>מרכז דקל (רסקו) 48 - 46 </Address>
+      <City>נצרת עילית</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>977</Branch>
-    <CivicAddress>
-      <address>בכניסה לכפר 0 </address>
-      <city>בית ג'ן</city>
-    </CivicAddress>
+    <Address>
+      <Address>בכניסה לכפר 0 </Address>
+      <City>בית ג'ן</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>979</Branch>
-    <CivicAddress>
-      <address>הכביש הראשי, כניסה לכפר 0 </address>
-      <city>דבורייה</city>
-    </CivicAddress>
+    <Address>
+      <Address>הכביש הראשי, כניסה לכפר 0 </Address>
+      <City>דבורייה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>980</Branch>
-    <CivicAddress>
-      <address>טארק עבדול חי - סמרה סנטר</address>
-      <city>טירה</city>
-    </CivicAddress>
+    <Address>
+      <Address>טארק עבדול חי - סמרה סנטר</Address>
+      <City>טירה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>981</Branch>
-    <CivicAddress>
-      <address>אחד 66 </address>
-      <city>דאלית אל-כרמל</city>
-    </CivicAddress>
+    <Address>
+      <Address>אחד 66 </Address>
+      <City>דאלית אל-כרמל</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>983</Branch>
-    <CivicAddress>
-      <address>הנשיא ויצמן 30 </address>
-      <city>באקה אל-גרביה</city>
-    </CivicAddress>
+    <Address>
+      <Address>הנשיא ויצמן 30 </Address>
+      <City>באקה אל-גרביה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>987</Branch>
-    <CivicAddress>
-      <address>שדרות שאול עמור 77 </address>
-      <city>מגדל העמק</city>
-    </CivicAddress>
+    <Address>
+      <Address>שדרות שאול עמור 77 </Address>
+      <City>מגדל העמק</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>995</Branch>
-    <CivicAddress>
-      <address>הרחוב הראשי - </address>
-      <city>פוריידיס</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרחוב הראשי - </Address>
+      <City>פוריידיס</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>946</Branch>
-    <CivicAddress>
-      <address>רפפורט 3 סניף כפר סבא הירוקה לשעבר</address>
-      <city>כפר סבא</city>
-    </CivicAddress>
+    <Address>
+      <Address>רפפורט 3 סניף כפר סבא הירוקה לשעבר</Address>
+      <City>כפר סבא</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>989</Branch>
-    <CivicAddress>
-      <address>ארלוזורוב 149 סניף פייבל לשעבר</address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>ארלוזורוב 149 סניף פייבל לשעבר</Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>832</Branch>
-    <CivicAddress>
-      <address>ארלוזורוב 149 פינת פייבל</address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>ארלוזורוב 149 פינת פייבל</Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>989</Branch>
-    <CivicAddress>
-      <address>שדרות היעלים - שכונה ה'</address>
-      <city>באר שבע</city>
-    </CivicAddress>
+    <Address>
+      <Address>שדרות היעלים - שכונה ה'</Address>
+      <City>באר שבע</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>942</Branch>
-    <CivicAddress>
-      <address>ירושלים 34 לב הפארק</address>
-      <city>רעננה</city>
-    </CivicAddress>
+    <Address>
+      <Address>ירושלים 34 לב הפארק</Address>
+      <City>רעננה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>989</Branch>
-    <CivicAddress>
-      <address>קרן היסוד 1 מרכז מסחרי, קרית שרת</address>
-      <city>חולון</city>
-    </CivicAddress>
+    <Address>
+      <Address>קרן היסוד 1 מרכז מסחרי, קרית שרת</Address>
+      <City>חולון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>930</Branch>
-    <CivicAddress>
-      <address>שדרות אליהו 8 </address>
-      <city>מזכרת בתיה</city>
-    </CivicAddress>
+    <Address>
+      <Address>שדרות אליהו 8 </Address>
+      <City>מזכרת בתיה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>989</Branch>
-    <CivicAddress>
-      <address>אפרים קישון 9 מרכז אלמוג תלמי מנשה</address>
-      <city>באר יעקב</city>
-    </CivicAddress>
+    <Address>
+      <Address>אפרים קישון 9 מרכז אלמוג תלמי מנשה</Address>
+      <City>באר יעקב</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>806</Branch>
-    <CivicAddress>
-      <address>שאול המלך 1 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>שאול המלך 1 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>790</Branch>
-    <CivicAddress>
-      <address>בעלי מלאכה 5 צים סנטר</address>
-      <city>נתיבות</city>
-    </CivicAddress>
+    <Address>
+      <Address>בעלי מלאכה 5 צים סנטר</Address>
+      <City>נתיבות</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>798</Branch>
-    <CivicAddress>
-      <address>גולדה מאיר 1 קניון רמות</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>גולדה מאיר 1 קניון רמות</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>800</Branch>
-    <CivicAddress>
-      <address>הרצל 19 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרצל 19 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>803</Branch>
-    <CivicAddress>
-      <address>אלנבי 43 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>אלנבי 43 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>805</Branch>
-    <CivicAddress>
-      <address>דרך שלמה 60 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך שלמה 60 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>811</Branch>
-    <CivicAddress>
-      <address>מונטיפיורי 31 קומת קרקע</address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>מונטיפיורי 31 קומת קרקע</Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>813</Branch>
-    <CivicAddress>
-      <address>השל"ה 9 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>השל"ה 9 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>814</Branch>
-    <CivicAddress>
-      <address>לה גרדיה 76-78 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>לה גרדיה 76-78 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>820</Branch>
-    <CivicAddress>
-      <address>מרכז מסחרי אלהרם, כניסה לעיר 0 </address>
-      <city>אום אל-פחם</city>
-    </CivicAddress>
+    <Address>
+      <Address>מרכז מסחרי אלהרם, כניסה לעיר 0 </Address>
+      <City>אום אל-פחם</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>825</Branch>
-    <CivicAddress>
-      <address>הכניסה לכפר 0 </address>
-      <city>כפר מנדא</city>
-    </CivicAddress>
+    <Address>
+      <Address>הכניסה לכפר 0 </Address>
+      <City>כפר מנדא</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>827</Branch>
-    <CivicAddress>
-      <address>הרצל 3 </address>
-      <city>אזור</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרצל 3 </Address>
+      <City>אזור</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>831</Branch>
-    <CivicAddress>
-      <address>כניסה לעיר טמרה 0 </address>
-      <city>טמרה</city>
-    </CivicAddress>
+    <Address>
+      <Address>כניסה לעיר טמרה 0 </Address>
+      <City>טמרה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>832</Branch>
-    <CivicAddress>
-      <address>פנקס 48 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>פנקס 48 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>833</Branch>
-    <CivicAddress>
-      <address>ברודצקי 43 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>ברודצקי 43 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>835</Branch>
-    <CivicAddress>
-      <address>הדקל 52 א' </address>
-      <city>תל מונד</city>
-    </CivicAddress>
+    <Address>
+      <Address>הדקל 52 א' </Address>
+      <City>תל מונד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>838</Branch>
-    <CivicAddress>
-      <address>קהילת סלוניקי 7 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>קהילת סלוניקי 7 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>841</Branch>
-    <CivicAddress>
-      <address>הרחוב הראשי 0 </address>
-      <city>ערערה</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרחוב הראשי 0 </Address>
+      <City>ערערה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>844</Branch>
-    <CivicAddress>
-      <address>המעפילים 5 </address>
-      <city>כפר שמריהו</city>
-    </CivicAddress>
+    <Address>
+      <Address>המעפילים 5 </Address>
+      <City>כפר שמריהו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>846</Branch>
-    <CivicAddress>
-      <address>מרכז כפר קרע 0 </address>
-      <city>כפר קרע</city>
-    </CivicAddress>
+    <Address>
+      <Address>מרכז כפר קרע 0 </Address>
+      <City>כפר קרע</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>855</Branch>
-    <CivicAddress>
-      <address>בן גוריון 13 </address>
-      <city>בני ברק</city>
-    </CivicAddress>
+    <Address>
+      <Address>בן גוריון 13 </Address>
+      <City>בני ברק</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>857</Branch>
-    <CivicAddress>
-      <address>כצנלסון 67 </address>
-      <city>גבעתיים</city>
-    </CivicAddress>
+    <Address>
+      <Address>כצנלסון 67 </Address>
+      <City>גבעתיים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>858</Branch>
-    <CivicAddress>
-      <address>סוקולוב 45 </address>
-      <city>חולון</city>
-    </CivicAddress>
+    <Address>
+      <Address>סוקולוב 45 </Address>
+      <City>חולון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>863</Branch>
-    <CivicAddress>
-      <address>אילת 36 נאות רחל</address>
-      <city>חולון</city>
-    </CivicAddress>
+    <Address>
+      <Address>אילת 36 נאות רחל</Address>
+      <City>חולון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>866</Branch>
-    <CivicAddress>
-      <address>פינחס איילון 13 מרגנית 2</address>
-      <city>חולון</city>
-    </CivicAddress>
+    <Address>
+      <Address>פינחס איילון 13 מרגנית 2</Address>
+      <City>חולון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>873</Branch>
-    <CivicAddress>
-      <address>כביש ראשי סכנין עראבה 0 </address>
-      <city>סח'נין</city>
-    </CivicAddress>
+    <Address>
+      <Address>כביש ראשי סכנין עראבה 0 </Address>
+      <City>סח'נין</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>877</Branch>
-    <CivicAddress>
-      <address>ככר מאירהוף 7 </address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>ככר מאירהוף 7 </Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>879</Branch>
-    <CivicAddress>
-      <address>החלוץ 66 </address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>החלוץ 66 </Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>880</Branch>
-    <CivicAddress>
-      <address>חורב 14 אחוזה</address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>חורב 14 אחוזה</Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>885</Branch>
-    <CivicAddress>
-      <address>הרצל 2/30 המרכז המסחרי</address>
-      <city>טירת כרמל</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרצל 2/30 המרכז המסחרי</Address>
+      <City>טירת כרמל</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>887</Branch>
-    <CivicAddress>
-      <address>דרך השלום 18 </address>
-      <city>נשר</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך השלום 18 </Address>
+      <City>נשר</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>896</Branch>
-    <CivicAddress>
-      <address>הצפצפה - </address>
-      <city>רמת ישי</city>
-    </CivicAddress>
+    <Address>
+      <Address>הצפצפה - </Address>
+      <City>רמת ישי</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>897</Branch>
-    <CivicAddress>
-      <address>העצמאות 66 </address>
-      <city>קריית אתא</city>
-    </CivicAddress>
+    <Address>
+      <Address>העצמאות 66 </Address>
+      <City>קריית אתא</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>899</Branch>
-    <CivicAddress>
-      <address>שדרות אח"י 22 </address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>שדרות אח"י 22 </Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>902</Branch>
-    <CivicAddress>
-      <address>המלך ג'ורג' 22 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>המלך ג'ורג' 22 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>903</Branch>
-    <CivicAddress>
-      <address>שדרות הרצל 106 בית הכרם</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>שדרות הרצל 106 בית הכרם</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>904</Branch>
-    <CivicAddress>
-      <address>יפו 208 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>יפו 208 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>905</Branch>
-    <CivicAddress>
-      <address>פארן 15 המרכז המסחרי</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>פארן 15 המרכז המסחרי</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>909</Branch>
-    <CivicAddress>
-      <address>מרכז הכפר 0 </address>
-      <city>עראבה</city>
-    </CivicAddress>
+    <Address>
+      <Address>מרכז הכפר 0 </Address>
+      <City>עראבה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>911</Branch>
-    <CivicAddress>
-      <address>שטראוס 29 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>שטראוס 29 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>912</Branch>
-    <CivicAddress>
-      <address>רמב"ן 21 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>רמב"ן 21 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>914</Branch>
-    <CivicAddress>
-      <address>חנניה 4 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>חנניה 4 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>922</Branch>
-    <CivicAddress>
-      <address>דרך מצדה 6 שכ' ד</address>
-      <city>באר שבע</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך מצדה 6 שכ' ד</Address>
+      <City>באר שבע</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>924</Branch>
-    <CivicAddress>
-      <address>יצחק רגר 11 דרך הנשיאים 11, מגדל שבע</address>
-      <city>באר שבע</city>
-    </CivicAddress>
+    <Address>
+      <Address>יצחק רגר 11 דרך הנשיאים 11, מגדל שבע</Address>
+      <City>באר שבע</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>927</Branch>
-    <CivicAddress>
-      <address>ככר פז 87 המרכז המסחרי החדש</address>
-      <city>קריית גת</city>
-    </CivicAddress>
+    <Address>
+      <Address>ככר פז 87 המרכז המסחרי החדש</Address>
+      <City>קריית גת</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>928</Branch>
-    <CivicAddress>
-      <address>הבילויים 30 </address>
-      <city>גדרה</city>
-    </CivicAddress>
+    <Address>
+      <Address>הבילויים 30 </Address>
+      <City>גדרה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>929</Branch>
-    <CivicAddress>
-      <address>הרצל 145 </address>
-      <city>רחובות</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרצל 145 </Address>
+      <City>רחובות</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>930</Branch>
-    <CivicAddress>
-      <address>הרצל 200 </address>
-      <city>רחובות</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרצל 200 </Address>
+      <City>רחובות</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>933</Branch>
-    <CivicAddress>
-      <address>רוטשילד - פינת ויצמן</address>
-      <city>נס ציונה</city>
-    </CivicAddress>
+    <Address>
+      <Address>רוטשילד - פינת ויצמן</Address>
+      <City>נס ציונה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>93</Branch>
-    <CivicAddress>
-      <address>בית חולים הדסה עין כרם - </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>בית חולים הדסה עין כרם - </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>616</Branch>
-    <CivicAddress>
-      <address>השלושה 9 יד אליהו</address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>השלושה 9 יד אליהו</Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>627</Branch>
-    <CivicAddress>
-      <address>אורי 12 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>אורי 12 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>631</Branch>
-    <CivicAddress>
-      <address>האוזנר 3 תכנית ל'</address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>האוזנר 3 תכנית ל'</Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>635</Branch>
-    <CivicAddress>
-      <address>ליבריה 2 שכ' דניה</address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>ליבריה 2 שכ' דניה</Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>641</Branch>
-    <CivicAddress>
-      <address>דרך האלוף עוזי נרקיס 1 </address>
-      <city>מעלות-תרשיחא</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך האלוף עוזי נרקיס 1 </Address>
+      <City>מעלות-תרשיחא</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>648</Branch>
-    <CivicAddress>
-      <address>טום לנטוס 26 </address>
-      <city>נתניה</city>
-    </CivicAddress>
+    <Address>
+      <Address>טום לנטוס 26 </Address>
+      <City>נתניה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>655</Branch>
-    <CivicAddress>
-      <address>הירדן 79-77 </address>
-      <city>רמת גן</city>
-    </CivicAddress>
+    <Address>
+      <Address>הירדן 79-77 </Address>
+      <City>רמת גן</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>662</Branch>
-    <CivicAddress>
-      <address>שדרות הציונות 13 </address>
-      <city>אשדוד</city>
-    </CivicAddress>
+    <Address>
+      <Address>שדרות הציונות 13 </Address>
+      <City>אשדוד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>669</Branch>
-    <CivicAddress>
-      <address>זד"ל 7 </address>
-      <city>ראשון לציון</city>
-    </CivicAddress>
+    <Address>
+      <Address>זד"ל 7 </Address>
+      <City>ראשון לציון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>673</Branch>
-    <CivicAddress>
-      <address>הברזל 28 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>הברזל 28 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>676</Branch>
-    <CivicAddress>
-      <address>אליהו סעדון קניון קניאור 120 </address>
-      <city>אור יהודה</city>
-    </CivicAddress>
+    <Address>
+      <Address>אליהו סעדון קניון קניאור 120 </Address>
+      <City>אור יהודה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>681</Branch>
-    <CivicAddress>
-      <address>זלמן שזר 10 </address>
-      <city>נתניה</city>
-    </CivicAddress>
+    <Address>
+      <Address>זלמן שזר 10 </Address>
+      <City>נתניה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>683</Branch>
-    <CivicAddress>
-      <address>מרכז מסחרי - </address>
-      <city>כוכב יאיר</city>
-    </CivicAddress>
+    <Address>
+      <Address>מרכז מסחרי - </Address>
+      <City>כוכב יאיר</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>691</Branch>
-    <CivicAddress>
-      <address>צאלון 21 מודיעין</address>
-      <city>מודיעין-מכבים-רעות*</city>
-    </CivicAddress>
+    <Address>
+      <Address>צאלון 21 מודיעין</Address>
+      <City>מודיעין-מכבים-רעות*</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>694</Branch>
-    <CivicAddress>
-      <address>האילנות 2 </address>
-      <city>קריית ים</city>
-    </CivicAddress>
+    <Address>
+      <Address>האילנות 2 </Address>
+      <City>קריית ים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>702</Branch>
-    <CivicAddress>
-      <address>חורי 2 מגדל הנביאים</address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>חורי 2 מגדל הנביאים</Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>703</Branch>
-    <CivicAddress>
-      <address>העצמאות 65 </address>
-      <city>פתח תקווה</city>
-    </CivicAddress>
+    <Address>
+      <Address>העצמאות 65 </Address>
+      <City>פתח תקווה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>705</Branch>
-    <CivicAddress>
-      <address>שדרות גושן 90 </address>
-      <city>קריית מוצקין</city>
-    </CivicAddress>
+    <Address>
+      <Address>שדרות גושן 90 </Address>
+      <City>קריית מוצקין</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>706</Branch>
-    <CivicAddress>
-      <address>הארז 29 </address>
-      <city>פרדסייה</city>
-    </CivicAddress>
+    <Address>
+      <Address>הארז 29 </Address>
+      <City>פרדסייה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>709</Branch>
-    <CivicAddress>
-      <address>יעל רום 8 </address>
-      <city>פתח תקווה</city>
-    </CivicAddress>
+    <Address>
+      <Address>יעל רום 8 </Address>
+      <City>פתח תקווה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>638</Branch>
-    <CivicAddress>
-      <address>שדרות הראל 10 </address>
-      <city>מבשרת ציון</city>
-    </CivicAddress>
+    <Address>
+      <Address>שדרות הראל 10 </Address>
+      <City>מבשרת ציון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>719</Branch>
-    <CivicAddress>
-      <address>קרן היסוד 64 </address>
-      <city>קריית ביאליק</city>
-    </CivicAddress>
+    <Address>
+      <Address>קרן היסוד 64 </Address>
+      <City>קריית ביאליק</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>731</Branch>
-    <CivicAddress>
-      <address>חזון איש 54 </address>
-      <city>בני ברק</city>
-    </CivicAddress>
+    <Address>
+      <Address>חזון איש 54 </Address>
+      <City>בני ברק</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>734</Branch>
-    <CivicAddress>
-      <address>יוהנה ז'בוטינסקי 13 </address>
-      <city>באר שבע</city>
-    </CivicAddress>
+    <Address>
+      <Address>יוהנה ז'בוטינסקי 13 </Address>
+      <City>באר שבע</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>736</Branch>
-    <CivicAddress>
-      <address>האגוז - </address>
-      <city>יבנה</city>
-    </CivicAddress>
+    <Address>
+      <Address>האגוז - </Address>
+      <City>יבנה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>739</Branch>
-    <CivicAddress>
-      <address>הרצל 4 </address>
-      <city>גן יבנה</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרצל 4 </Address>
+      <City>גן יבנה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>752</Branch>
-    <CivicAddress>
-      <address>ככר יהלום - מרכז מסחרי</address>
-      <city>מעלה אדומים</city>
-    </CivicAddress>
+    <Address>
+      <Address>ככר יהלום - מרכז מסחרי</Address>
+      <City>מעלה אדומים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>757</Branch>
-    <CivicAddress>
-      <address>הרחוב הראשי 59 </address>
-      <city>ג'לג'וליה</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרחוב הראשי 59 </Address>
+      <City>ג'לג'וליה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>766</Branch>
-    <CivicAddress>
-      <address>הפסגה 17 בית וגן</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>הפסגה 17 בית וגן</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>784</Branch>
-    <CivicAddress>
-      <address>צביה ויצחק 800 מרכז מסחרי שכ' גילה</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>צביה ויצחק 800 מרכז מסחרי שכ' גילה</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>785</Branch>
-    <CivicAddress>
-      <address>דרך חברון 101 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך חברון 101 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>788</Branch>
-    <CivicAddress>
-      <address>מרכז מסחרי 939 </address>
-      <city>קריית ארבע</city>
-    </CivicAddress>
+    <Address>
+      <Address>מרכז מסחרי 939 </Address>
+      <City>קריית ארבע</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>621</Branch>
-    <CivicAddress>
-      <address>שד' יחזקאל 2 </address>
-      <city>מודיעין עילית</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' יחזקאל 2 </Address>
+      <City>מודיעין עילית</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>796</Branch>
-    <CivicAddress>
-      <address>כביש ראשי 0 </address>
-      <city>ריינה</city>
-    </CivicAddress>
+    <Address>
+      <Address>כביש ראשי 0 </Address>
+      <City>ריינה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>989</Branch>
-    <CivicAddress>
-      <address>שדרות ירושלים 18 סניף קרית ביאליק לשעבר</address>
-      <city>קריית ביאליק</city>
-    </CivicAddress>
+    <Address>
+      <Address>שדרות ירושלים 18 סניף קרית ביאליק לשעבר</Address>
+      <City>קריית ביאליק</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>989</Branch>
-    <CivicAddress>
-      <address>מרכז תעשיות מדע - משרדי אלביט</address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>מרכז תעשיות מדע - משרדי אלביט</Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>618</Branch>
-    <CivicAddress>
-      <address>צה"ל 3 </address>
-      <city>אשדוד</city>
-    </CivicAddress>
+    <Address>
+      <Address>צה"ל 3 </Address>
+      <City>אשדוד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>883</Branch>
-    <CivicAddress>
-      <address>המגינים 53 </address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>המגינים 53 </Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>782</Branch>
-    <CivicAddress>
-      <address>כביש הרכס , בניין 5000/15 שכונת ספאפרה 0 </address>
-      <city>נצרת</city>
-    </CivicAddress>
+    <Address>
+      <Address>כביש הרכס , בניין 5000/15 שכונת ספאפרה 0 </Address>
+      <City>נצרת</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>713</Branch>
-    <CivicAddress>
-      <address>כביש ראשי חיפה - נצרת 40/300 </address>
-      <city>יפיע</city>
-    </CivicAddress>
+    <Address>
+      <Address>כביש ראשי חיפה - נצרת 40/300 </Address>
+      <City>יפיע</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>778</Branch>
-    <CivicAddress>
-      <address>כניסה לכפר 0 </address>
-      <city>ג'ולס</city>
-    </CivicAddress>
+    <Address>
+      <Address>כניסה לכפר 0 </Address>
+      <City>ג'ולס</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>742</Branch>
-    <CivicAddress>
-      <address>המרץ 12 אזור התעשיה</address>
-      <city>ראש העין</city>
-    </CivicAddress>
+    <Address>
+      <Address>המרץ 12 אזור התעשיה</Address>
+      <City>ראש העין</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>743</Branch>
-    <CivicAddress>
-      <address>דרך מנחם בגין 7 בית גיבור</address>
-      <city>רמת גן</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך מנחם בגין 7 בית גיבור</Address>
+      <City>רמת גן</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>727</Branch>
-    <CivicAddress>
-      <address>האגס - </address>
-      <city>ראש פינה</city>
-    </CivicAddress>
+    <Address>
+      <Address>האגס - </Address>
+      <City>ראש פינה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>801</Branch>
-    <CivicAddress>
-      <address>שדרות ירושלים 19 מתחם חצרות יפו</address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>שדרות ירושלים 19 מתחם חצרות יפו</Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>758</Branch>
-    <CivicAddress>
-      <address>חן 4 המרכז המסחרי</address>
-      <city>ערד</city>
-    </CivicAddress>
+    <Address>
+      <Address>חן 4 המרכז המסחרי</Address>
+      <City>ערד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>747</Branch>
-    <CivicAddress>
-      <address>עמק איילון 30 מרכז מסחרי</address>
-      <city>שוהם</city>
-    </CivicAddress>
+    <Address>
+      <Address>עמק איילון 30 מרכז מסחרי</Address>
+      <City>שוהם</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>942</Branch>
-    <CivicAddress>
-      <address>אחוזה 152 </address>
-      <city>רעננה</city>
-    </CivicAddress>
+    <Address>
+      <Address>אחוזה 152 </Address>
+      <City>רעננה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>925</Branch>
-    <CivicAddress>
-      <address>צה"ל 8 </address>
-      <city>אשקלון</city>
-    </CivicAddress>
+    <Address>
+      <Address>צה"ל 8 </Address>
+      <City>אשקלון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>926</Branch>
-    <CivicAddress>
-      <address>הנשיא 3 </address>
-      <city>אשקלון</city>
-    </CivicAddress>
+    <Address>
+      <Address>הנשיא 3 </Address>
+      <City>אשקלון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>937</Branch>
-    <CivicAddress>
-      <address>שדרות דוד המלך - ככר קומנדו</address>
-      <city>לוד</city>
-    </CivicAddress>
+    <Address>
+      <Address>שדרות דוד המלך - ככר קומנדו</Address>
+      <City>לוד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>962</Branch>
-    <CivicAddress>
-      <address>ויצמן 64 </address>
-      <city>נהרייה</city>
-    </CivicAddress>
+    <Address>
+      <Address>ויצמן 64 </Address>
+      <City>נהרייה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>963</Branch>
-    <CivicAddress>
-      <address>שפירא 2 מרכז מסחרי, רובע ד'</address>
-      <city>אשדוד</city>
-    </CivicAddress>
+    <Address>
+      <Address>שפירא 2 מרכז מסחרי, רובע ד'</Address>
+      <City>אשדוד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>989</Branch>
-    <CivicAddress>
-      <address>בילו סנטר - </address>
-      <city>קריית עקרון</city>
-    </CivicAddress>
+    <Address>
+      <Address>בילו סנטר - </Address>
+      <City>קריית עקרון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>615</Branch>
-    <CivicAddress>
-      <address>כפר כאבול - הכניסה לכפר 0 </address>
-      <city>כאוכב אבו אל-היג'א</city>
-    </CivicAddress>
+    <Address>
+      <Address>כפר כאבול - הכניסה לכפר 0 </Address>
+      <City>כאוכב אבו אל-היג'א</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>754</Branch>
-    <CivicAddress>
-      <address>כביש ראשי ג'דיידה מכר 0 </address>
-      <city>ג'דיידה-מכר</city>
-    </CivicAddress>
+    <Address>
+      <Address>כביש ראשי ג'דיידה מכר 0 </Address>
+      <City>ג'דיידה-מכר</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>723</Branch>
-    <CivicAddress>
-      <address>רח' ראשי אכסאל 1 </address>
-      <city>אכסאל</city>
-    </CivicAddress>
+    <Address>
+      <Address>רח' ראשי אכסאל 1 </Address>
+      <City>אכסאל</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>940</Branch>
-    <CivicAddress>
-      <address>רוטשילד 76 פינת ביל"ו</address>
-      <city>פתח תקווה</city>
-    </CivicAddress>
+    <Address>
+      <Address>רוטשילד 76 פינת ביל"ו</Address>
+      <City>פתח תקווה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>678</Branch>
-    <CivicAddress>
-      <address>טוליפמן 7 </address>
-      <city>ראשון לציון</city>
-    </CivicAddress>
+    <Address>
+      <Address>טוליפמן 7 </Address>
+      <City>ראשון לציון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>886</Branch>
-    <CivicAddress>
-      <address>שדרות מוריה 112 אחוזה</address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>שדרות מוריה 112 אחוזה</Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>889</Branch>
-    <CivicAddress>
-      <address>חלוצי התעשיה 9 מפרץ חיפה</address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>חלוצי התעשיה 9 מפרץ חיפה</Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>891</Branch>
-    <CivicAddress>
-      <address>שדרות הנשיא 123 הר הכרמל</address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>שדרות הנשיא 123 הר הכרמל</Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>895</Branch>
-    <CivicAddress>
-      <address>ככר בן גוריון - </address>
-      <city>קריית טבעון</city>
-    </CivicAddress>
+    <Address>
+      <Address>ככר בן גוריון - </Address>
+      <City>קריית טבעון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>898</Branch>
-    <CivicAddress>
-      <address>דרך עכו 192 </address>
-      <city>קריית ביאליק</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך עכו 192 </Address>
+      <City>קריית ביאליק</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>989</Branch>
-    <CivicAddress>
-      <address>תחנה מרכזית חדשה - תל אביב - </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>תחנה מרכזית חדשה - תל אביב - </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>804</Branch>
-    <CivicAddress>
-      <address>בן יהודה 87 א'</address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>בן יהודה 87 א'</Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>780</Branch>
-    <CivicAddress>
-      <address>דוד המלך 19 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>דוד המלך 19 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>744</Branch>
-    <CivicAddress>
-      <address>התדהר 3 אזור התעשיה רעננה</address>
-      <city>רעננה</city>
-    </CivicAddress>
+    <Address>
+      <Address>התדהר 3 אזור התעשיה רעננה</Address>
+      <City>רעננה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>745</Branch>
-    <CivicAddress>
-      <address>קדרון 14 א.ת עפולה</address>
-      <city>עפולה</city>
-    </CivicAddress>
+    <Address>
+      <Address>קדרון 14 א.ת עפולה</Address>
+      <City>עפולה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>651</Branch>
-    <CivicAddress>
-      <address>המשביר 1 אזור התעשיה</address>
-      <city>חולון</city>
-    </CivicAddress>
+    <Address>
+      <Address>המשביר 1 אזור התעשיה</Address>
+      <City>חולון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>960</Branch>
-    <CivicAddress>
-      <address>בן עמי 16 </address>
-      <city>עכו</city>
-    </CivicAddress>
+    <Address>
+      <Address>בן עמי 16 </Address>
+      <City>עכו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>729</Branch>
-    <CivicAddress>
-      <address>התמר 2 קניון דרכים</address>
-      <city>יקנעם עילית</city>
-    </CivicAddress>
+    <Address>
+      <Address>התמר 2 קניון דרכים</Address>
+      <City>יקנעם עילית</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>989</Branch>
-    <CivicAddress>
-      <address>רש"י 33 סניף שיכון ותיקים לשעבר</address>
-      <city>רמת גן</city>
-    </CivicAddress>
+    <Address>
+      <Address>רש"י 33 סניף שיכון ותיקים לשעבר</Address>
+      <City>רמת גן</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>13</Branch>
-    <CivicAddress>
-      <address>לב השרון 42 </address>
-      <city>קדימה-צורן</city>
-    </CivicAddress>
+    <Address>
+      <Address>לב השרון 42 </Address>
+      <City>קדימה-צורן</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>964</Branch>
-    <CivicAddress>
-      <address>איכסל 9 </address>
-      <city>נצרת</city>
-    </CivicAddress>
+    <Address>
+      <Address>איכסל 9 </Address>
+      <City>נצרת</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>965</Branch>
-    <CivicAddress>
-      <address>הרב לוין 10 </address>
-      <city>עפולה</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרב לוין 10 </Address>
+      <City>עפולה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>985</Branch>
-    <CivicAddress>
-      <address>בן גוריון - פינת רש"י</address>
-      <city>קריית מלאכי</city>
-    </CivicAddress>
+    <Address>
+      <Address>בן גוריון - פינת רש"י</Address>
+      <City>קריית מלאכי</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>812</Branch>
-    <CivicAddress>
-      <address>לינקולן 20 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>לינקולן 20 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>160</Branch>
-    <CivicAddress>
-      <address>משה דיין 2 </address>
-      <city>ראש העין</city>
-    </CivicAddress>
+    <Address>
+      <Address>משה דיין 2 </Address>
+      <City>ראש העין</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>989</Branch>
-    <CivicAddress>
-      <address>הראשונים 49 </address>
-      <city>מטולה</city>
-    </CivicAddress>
+    <Address>
+      <Address>הראשונים 49 </Address>
+      <City>מטולה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>806</Branch>
-    <CivicAddress>
-      <address>דיזינגוף 50 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>דיזינגוף 50 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>680</Branch>
-    <CivicAddress>
-      <address>לב העיר 2 קניון עזריאלי</address>
-      <city>מודיעין-מכבים-רעות*</city>
-    </CivicAddress>
+    <Address>
+      <Address>לב העיר 2 קניון עזריאלי</Address>
+      <City>מודיעין-מכבים-רעות*</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>821</Branch>
-    <CivicAddress>
-      <address>שדרות הר ציון 106 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>שדרות הר ציון 106 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>821</Branch>
-    <CivicAddress>
-      <address>
-שדרות הר ציון 106 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>
+שדרות הר ציון 106 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>918</Branch>
-    <CivicAddress>
-      <address>צאלח א דין 23 ליד שער שכם</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>צאלח א דין 23 ליד שער שכם</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>67</Branch>
-    <CivicAddress>
-      <address>הנשיא 520 מרכז מסחרי</address>
-      <city>חצור הגלילית</city>
-    </CivicAddress>
+    <Address>
+      <Address>הנשיא 520 מרכז מסחרי</Address>
+      <City>חצור הגלילית</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>932</Branch>
-    <CivicAddress>
-      <address>שבי ציון 3 מרכז מסחרי א'</address>
-      <city>אשדוד</city>
-    </CivicAddress>
+    <Address>
+      <Address>שבי ציון 3 מרכז מסחרי א'</Address>
+      <City>אשדוד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>934</Branch>
-    <CivicAddress>
-      <address>הרצל 65 </address>
-      <city>ראשון לציון</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרצל 65 </Address>
+      <City>ראשון לציון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>936</Branch>
-    <CivicAddress>
-      <address>שדרות הרצל 84 </address>
-      <city>רמלה</city>
-    </CivicAddress>
+    <Address>
+      <Address>שדרות הרצל 84 </Address>
+      <City>רמלה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>946</Branch>
-    <CivicAddress>
-      <address>ויצמן 101 </address>
-      <city>כפר סבא</city>
-    </CivicAddress>
+    <Address>
+      <Address>ויצמן 101 </Address>
+      <City>כפר סבא</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>948</Branch>
-    <CivicAddress>
-      <address>בן גוריון 2 </address>
-      <city>הרצלייה</city>
-    </CivicAddress>
+    <Address>
+      <Address>בן גוריון 2 </Address>
+      <City>הרצלייה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>949</Branch>
-    <CivicAddress>
-      <address>סוקולוב 69 </address>
-      <city>רמת השרון</city>
-    </CivicAddress>
+    <Address>
+      <Address>סוקולוב 69 </Address>
+      <City>רמת השרון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>950</Branch>
-    <CivicAddress>
-      <address>שטמפפר 9 </address>
-      <city>נתניה</city>
-    </CivicAddress>
+    <Address>
+      <Address>שטמפפר 9 </Address>
+      <City>נתניה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>856</Branch>
-    <CivicAddress>
-      <address>רבי עקיבא 51 </address>
-      <city>בני ברק</city>
-    </CivicAddress>
+    <Address>
+      <Address>רבי עקיבא 51 </Address>
+      <City>בני ברק</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>875</Branch>
-    <CivicAddress>
-      <address>קרית הטכניון - בניין אס"ט</address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>קרית הטכניון - בניין אס"ט</Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>876</Branch>
-    <CivicAddress>
-      <address>יפו 21 </address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>יפו 21 </Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>882</Branch>
-    <CivicAddress>
-      <address>גלבוע 36 </address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>גלבוע 36 </Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>792</Branch>
-    <CivicAddress>
-      <address>מרכז הכפר נחף 0 </address>
-      <city>נחף</city>
-    </CivicAddress>
+    <Address>
+      <Address>מרכז הכפר נחף 0 </Address>
+      <City>נחף</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>791</Branch>
-    <CivicAddress>
-      <address>מרכז הכפר מרכז הכפר </address>
-      <city>טורעאן</city>
-    </CivicAddress>
+    <Address>
+      <Address>מרכז הכפר מרכז הכפר </Address>
+      <City>טורעאן</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>795</Branch>
-    <CivicAddress>
-      <address>כביש ראשי כיכר פקיעין מערבי 0 </address>
-      <city>(פקיעין (בוקייעה</city>
-    </CivicAddress>
+    <Address>
+      <Address>כביש ראשי כיכר פקיעין מערבי 0 </Address>
+      <City>(פקיעין (בוקייעה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>851</Branch>
-    <CivicAddress>
-      <address>ביאליק 22 </address>
-      <city>רמת גן</city>
-    </CivicAddress>
+    <Address>
+      <Address>ביאליק 22 </Address>
+      <City>רמת גן</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>837</Branch>
-    <CivicAddress>
-      <address>דרך העצמאות 54 </address>
-      <city>יהוד</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך העצמאות 54 </Address>
+      <City>יהוד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>838</Branch>
-    <CivicAddress>
-      <address>קהילת סלוניקי 7 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>קהילת סלוניקי 7 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>843</Branch>
-    <CivicAddress>
-      <address>זיידמן 2 </address>
-      <city>קריית אונו</city>
-    </CivicAddress>
+    <Address>
+      <Address>זיידמן 2 </Address>
+      <City>קריית אונו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>864</Branch>
-    <CivicAddress>
-      <address>המנופים 15 בית לידר אזור תעשיה הרצליה</address>
-      <city>הרצלייה</city>
-    </CivicAddress>
+    <Address>
+      <Address>המנופים 15 בית לידר אזור תעשיה הרצליה</Address>
+      <City>הרצלייה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>900</Branch>
-    <CivicAddress>
-      <address>נמיר 5 </address>
-      <city>קריית ים</city>
-    </CivicAddress>
+    <Address>
+      <Address>נמיר 5 </Address>
+      <City>קריית ים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>901</Branch>
-    <CivicAddress>
-      <address>אגודת ספורט הפועל 1 הגן הטכנולוגי</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>אגודת ספורט הפועל 1 הגן הטכנולוגי</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>988</Branch>
-    <CivicAddress>
-      <address>הרצוג 23 </address>
-      <city>גבעתיים</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרצוג 23 </Address>
+      <City>גבעתיים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>693</Branch>
-    <CivicAddress>
-      <address>רחוב הערבה (בית מוטורולה), איירפורט סיטי - אירפורט סיטי</address>
-      <city>לוד</city>
-    </CivicAddress>
+    <Address>
+      <Address>רחוב הערבה (בית מוטורולה), איירפורט סיטי - אירפורט סיטי</Address>
+      <City>לוד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>973</Branch>
-    <CivicAddress>
-      <address>מרכז הכפר, קניון כאן-זמאן 0 </address>
-      <city>מעלות-תרשיחא</city>
-    </CivicAddress>
+    <Address>
+      <Address>מרכז הכפר, קניון כאן-זמאן 0 </Address>
+      <City>מעלות-תרשיחא</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>908</Branch>
-    <CivicAddress>
-      <address>רחוב ראשי 0 </address>
-      <city>אעבלין</city>
-    </CivicAddress>
+    <Address>
+      <Address>רחוב ראשי 0 </Address>
+      <City>אעבלין</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>787</Branch>
-    <CivicAddress>
-      <address>אלשאפעי - פינת ביר אלבום ביר אלבום </address>
-      <city>ג'ת</city>
-    </CivicAddress>
+    <Address>
+      <Address>אלשאפעי - פינת ביר אלבום ביר אלבום </Address>
+      <City>ג'ת</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>945</Branch>
-    <CivicAddress>
-      <address>כביש ראמה-סאג'ור 0 </address>
-      <city>ראמה</city>
-    </CivicAddress>
+    <Address>
+      <Address>כביש ראמה-סאג'ור 0 </Address>
+      <City>ראמה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>969</Branch>
-    <CivicAddress>
-      <address>בנין העיריה 0 </address>
-      <city>שפרעם</city>
-    </CivicAddress>
+    <Address>
+      <Address>בנין העיריה 0 </Address>
+      <City>שפרעם</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>613</Branch>
-    <CivicAddress>
-      <address>אל קודס 0 </address>
-      <city>קלנסווה</city>
-    </CivicAddress>
+    <Address>
+      <Address>אל קודס 0 </Address>
+      <City>קלנסווה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>666</Branch>
-    <CivicAddress>
-      <address>שוהם 2 </address>
-      <city>רמת גן</city>
-    </CivicAddress>
+    <Address>
+      <Address>שוהם 2 </Address>
+      <City>רמת גן</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>626</Branch>
-    <CivicAddress>
-      <address>דיזינגוף 55 מגדל על קומה 17</address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>דיזינגוף 55 מגדל על קומה 17</Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>840</Branch>
-    <CivicAddress>
-      <address>הגליל 16 </address>
-      <city>נצרת</city>
-    </CivicAddress>
+    <Address>
+      <Address>הגליל 16 </Address>
+      <City>נצרת</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>772</Branch>
-    <CivicAddress>
-      <address>מרכז הכפר בועיינה נוג'ידאת 0 </address>
-      <city>בועיינה-נוג'ידאת</city>
-    </CivicAddress>
+    <Address>
+      <Address>מרכז הכפר בועיינה נוג'ידאת 0 </Address>
+      <City>בועיינה-נוג'ידאת</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>966</Branch>
-    <CivicAddress>
-      <address>שאול המלך 81 </address>
-      <city>בית שאן</city>
-    </CivicAddress>
+    <Address>
+      <Address>שאול המלך 81 </Address>
+      <City>בית שאן</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>968</Branch>
-    <CivicAddress>
-      <address>הר חוצבים 1 קריית המדע</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>הר חוצבים 1 קריית המדע</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>970</Branch>
-    <CivicAddress>
-      <address>הבנים 1 </address>
-      <city>טבריה</city>
-    </CivicAddress>
+    <Address>
+      <Address>הבנים 1 </Address>
+      <City>טבריה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>975</Branch>
-    <CivicAddress>
-      <address>ירושלים 35 </address>
-      <city>צפת</city>
-    </CivicAddress>
+    <Address>
+      <Address>ירושלים 35 </Address>
+      <City>צפת</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>976</Branch>
-    <CivicAddress>
-      <address>ככר צה"ל - המרכז המסחרי</address>
-      <city>קריית שמונה</city>
-    </CivicAddress>
+    <Address>
+      <Address>ככר צה"ל - המרכז המסחרי</Address>
+      <City>קריית שמונה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>978</Branch>
-    <CivicAddress>
-      <address>אילן רמון 2 קרית ויצמן, פארק המדע נס ציונה</address>
-      <city>נס ציונה</city>
-    </CivicAddress>
+    <Address>
+      <Address>אילן רמון 2 קרית ויצמן, פארק המדע נס ציונה</Address>
+      <City>נס ציונה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>698</Branch>
-    <CivicAddress>
-      <address>מרכז מסחרי ספיר 0 צומת כוכב יאיר צור יגאל</address>
-      <city>כוכב יאיר</city>
-    </CivicAddress>
+    <Address>
+      <Address>מרכז מסחרי ספיר 0 צומת כוכב יאיר צור יגאל</Address>
+      <City>כוכב יאיר</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>164</Branch>
-    <CivicAddress>
-      <address>נחל זהר 3 </address>
-      <city>בית שמש</city>
-    </CivicAddress>
+    <Address>
+      <Address>נחל זהר 3 </Address>
+      <City>בית שמש</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>861</Branch>
-    <CivicAddress>
-      <address>שדרות העצמאות 67 </address>
-      <city>בת ים</city>
-    </CivicAddress>
+    <Address>
+      <Address>שדרות העצמאות 67 </Address>
+      <City>בת ים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>999</Branch>
-    <CivicAddress>
-      <address>שד' התמרים - מרכז מסחרי</address>
-      <city>אילת</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' התמרים - מרכז מסחרי</Address>
+      <City>אילת</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>707</Branch>
-    <CivicAddress>
-      <address>סוטין 1 אזור תעשיה סגולה</address>
-      <city>פתח תקווה</city>
-    </CivicAddress>
+    <Address>
+      <Address>סוטין 1 אזור תעשיה סגולה</Address>
+      <City>פתח תקווה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>37</Branch>
-    <CivicAddress>
-      <address>נתב"ג, בנין אל על - </address>
-      <city>אזור רמלה של"ש</city>
-    </CivicAddress>
+    <Address>
+      <Address>נתב"ג, בנין אל על - </Address>
+      <City>אזור רמלה של"ש</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>72</Branch>
-    <CivicAddress>
-      <address>פל ים 15 15 א', בניין ב'</address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>פל ים 15 15 א', בניין ב'</Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>80</Branch>
-    <CivicAddress>
-      <address>אבא הלל סילבר 3 </address>
-      <city>לוד</city>
-    </CivicAddress>
+    <Address>
+      <Address>אבא הלל סילבר 3 </Address>
+      <City>לוד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>96</Branch>
-    <CivicAddress>
-      <address>רשב"י 15 </address>
-      <city>אשדוד</city>
-    </CivicAddress>
+    <Address>
+      <Address>רשב"י 15 </Address>
+      <City>אשדוד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>989</Branch>
-    <CivicAddress>
-      <address>נסים אלוני 10 סניף צמרת לשעבר</address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>נסים אלוני 10 סניף צמרת לשעבר</Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>628</Branch>
-    <CivicAddress>
-      <address>אחימאיר 21 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>אחימאיר 21 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>921</Branch>
-    <CivicAddress>
-      <address>החלוץ 90 </address>
-      <city>באר שבע</city>
-    </CivicAddress>
+    <Address>
+      <Address>החלוץ 90 </Address>
+      <City>באר שבע</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>923</Branch>
-    <CivicAddress>
-      <address>המרכז המסחרי - </address>
-      <city>דימונה</city>
-    </CivicAddress>
+    <Address>
+      <Address>המרכז המסחרי - </Address>
+      <City>דימונה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>961</Branch>
-    <CivicAddress>
-      <address>החרושת 9 מרכז ניצנים</address>
-      <city>כרמיאל</city>
-    </CivicAddress>
+    <Address>
+      <Address>החרושת 9 מרכז ניצנים</Address>
+      <City>כרמיאל</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>660</Branch>
-    <CivicAddress>
-      <address>ככר היובל, מכון וייצמן - </address>
-      <city>רחובות</city>
-    </CivicAddress>
+    <Address>
+      <Address>ככר היובל, מכון וייצמן - </Address>
+      <City>רחובות</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>671</Branch>
-    <CivicAddress>
-      <address>משה לוי 11 אזור תעשיה</address>
-      <city>ראשון לציון</city>
-    </CivicAddress>
+    <Address>
+      <Address>משה לוי 11 אזור תעשיה</Address>
+      <City>ראשון לציון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>789</Branch>
-    <CivicAddress>
-      <address>יהדות דרום אפריקה 14 </address>
-      <city>אופקים</city>
-    </CivicAddress>
+    <Address>
+      <Address>יהדות דרום אפריקה 14 </Address>
+      <City>אופקים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>797</Branch>
-    <CivicAddress>
-      <address>עגנון 20 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>עגנון 20 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>859</Branch>
-    <CivicAddress>
-      <address>בלפור 80 </address>
-      <city>בת ים</city>
-    </CivicAddress>
+    <Address>
+      <Address>בלפור 80 </Address>
+      <City>בת ים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>624</Branch>
-    <CivicAddress>
-      <address>עמק הברכה 23 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>עמק הברכה 23 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>625</Branch>
-    <CivicAddress>
-      <address>רב אשי 18 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>רב אשי 18 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>989</Branch>
-    <CivicAddress>
-      <address>פאואר סנטר תל חנן (נשר) - </address>
-      <city>נשר</city>
-    </CivicAddress>
+    <Address>
+      <Address>פאואר סנטר תל חנן (נשר) - </Address>
+      <City>נשר</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>989</Branch>
-    <CivicAddress>
-      <address>מתנ"ס נשר - רמות יצחק - </address>
-      <city>נשר</city>
-    </CivicAddress>
+    <Address>
+      <Address>מתנ"ס נשר - רמות יצחק - </Address>
+      <City>נשר</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>989</Branch>
-    <CivicAddress>
-      <address>מכללה אקדמאית אשקלון - </address>
-      <city>אשקלון</city>
-    </CivicAddress>
+    <Address>
+      <Address>מכללה אקדמאית אשקלון - </Address>
+      <City>אשקלון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>989</Branch>
-    <CivicAddress>
-      <address>משרדי חברת פרטנר - עמל 8 פארק תעשיה אפק ראש העין 8 </address>
-      <city>ראש העין</city>
-    </CivicAddress>
+    <Address>
+      <Address>משרדי חברת פרטנר - עמל 8 פארק תעשיה אפק ראש העין 8 </Address>
+      <City>ראש העין</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>989</Branch>
-    <CivicAddress>
-      <address>קניון האחים ישראל, א"ת תלפיות ירושלים - </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>קניון האחים ישראל, א"ת תלפיות ירושלים - </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>989</Branch>
-    <CivicAddress>
-      <address>משרדי חברת אמדוקס, הפנינה 8 רעננה 8 </address>
-      <city>רעננה</city>
-    </CivicAddress>
+    <Address>
+      <Address>משרדי חברת אמדוקס, הפנינה 8 רעננה 8 </Address>
+      <City>רעננה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>989</Branch>
-    <CivicAddress>
-      <address>אחווה המכללה האקדמית לחינוך - </address>
-      <city>קריית מלאכי</city>
-    </CivicAddress>
+    <Address>
+      <Address>אחווה המכללה האקדמית לחינוך - </Address>
+      <City>קריית מלאכי</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>989</Branch>
-    <CivicAddress>
-      <address>מכללת אריאל - </address>
-      <city>אריאל</city>
-    </CivicAddress>
+    <Address>
+      <Address>מכללת אריאל - </Address>
+      <City>אריאל</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>989</Branch>
-    <CivicAddress>
-      <address>דלפק מתנס עתלית - </address>
-      <city>עתלית</city>
-    </CivicAddress>
+    <Address>
+      <Address>דלפק מתנס עתלית - </Address>
+      <City>עתלית</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>989</Branch>
-    <CivicAddress>
-      <address>אל אופ רחובות - </address>
-      <city>רחובות</city>
-    </CivicAddress>
+    <Address>
+      <Address>אל אופ רחובות - </Address>
+      <City>רחובות</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>989</Branch>
-    <CivicAddress>
-      <address>מכללת הנגב "ספיר " - מועצה אזורית שער הנגב</address>
-      <city>שדרות</city>
-    </CivicAddress>
+    <Address>
+      <Address>מכללת הנגב "ספיר " - מועצה אזורית שער הנגב</Address>
+      <City>שדרות</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>989</Branch>
-    <CivicAddress>
-      <address>פאוור סנטר - עד הלום - </address>
-      <city>אשדוד</city>
-    </CivicAddress>
+    <Address>
+      <Address>פאוור סנטר - עד הלום - </Address>
+      <City>אשדוד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>989</Branch>
-    <CivicAddress>
-      <address>שופרסל דיל נס ציונה - </address>
-      <city>נס ציונה</city>
-    </CivicAddress>
+    <Address>
+      <Address>שופרסל דיל נס ציונה - </Address>
+      <City>נס ציונה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>989</Branch>
-    <CivicAddress>
-      <address>יהודה הלוי 35, תל אביב - </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>יהודה הלוי 35, תל אביב - </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>989</Branch>
-    <CivicAddress>
-      <address>מכללת אורט בראודה, כרמיאל - </address>
-      <city>כרמיאל</city>
-    </CivicAddress>
+    <Address>
+      <Address>מכללת אורט בראודה, כרמיאל - </Address>
+      <City>כרמיאל</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>989</Branch>
-    <CivicAddress>
-      <address>מעונות ברושים - אניברסיטת ת"א - </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>מעונות ברושים - אניברסיטת ת"א - </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>520</Branch>
-    <CivicAddress>
-      <address>ז'בוטינסקי 3 </address>
-      <city>הוד השרון</city>
-    </CivicAddress>
+    <Address>
+      <Address>ז'בוטינסקי 3 </Address>
+      <City>הוד השרון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>716</Branch>
-    <CivicAddress>
-      <address>פלימן 4 </address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>פלימן 4 </Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>717</Branch>
-    <CivicAddress>
-      <address>הצורן 4 ג'</address>
-      <city>נתניה</city>
-    </CivicAddress>
+    <Address>
+      <Address>הצורן 4 ג'</Address>
+      <City>נתניה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>816</Branch>
-    <CivicAddress>
-      <address>אבן גבירול 71 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>אבן גבירול 71 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>816</Branch>
-    <CivicAddress>
-      <address>
-אבן גבירול 71 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>
+אבן גבירול 71 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>817</Branch>
-    <CivicAddress>
-      <address>הארבעה 19 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>הארבעה 19 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>783</Branch>
-    <CivicAddress>
-      <address>משכית 32 הרצליה פיתוח</address>
-      <city>הרצלייה</city>
-    </CivicAddress>
+    <Address>
+      <Address>משכית 32 הרצליה פיתוח</Address>
+      <City>הרצלייה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>652</Branch>
-    <CivicAddress>
-      <address>עלי בן אבו טאלב - עלי בן אבו טאלב פינת חאלד בן אל ואליד</address>
-      <city>כפר קאסם</city>
-    </CivicAddress>
+    <Address>
+      <Address>עלי בן אבו טאלב - עלי בן אבו טאלב פינת חאלד בן אל ואליד</Address>
+      <City>כפר קאסם</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>653</Branch>
-    <CivicAddress>
-      <address>מרכז מסחרי גמיון תל השומר - </address>
-      <city>רמת גן</city>
-    </CivicAddress>
+    <Address>
+      <Address>מרכז מסחרי גמיון תל השומר - </Address>
+      <City>רמת גן</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>639</Branch>
-    <CivicAddress>
-      <address>תרשיש 5 אזור תעשיה קיסריה</address>
-      <city>קיסריה</city>
-    </CivicAddress>
+    <Address>
+      <Address>תרשיש 5 אזור תעשיה קיסריה</Address>
+      <City>קיסריה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק לאומי לישראל בע"מ</BankName>
     <BankNumber>10</BankNumber>
     <Branch>647</Branch>
-    <CivicAddress>
-      <address>כנפי נשרים 13 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>כנפי נשרים 13 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>444</Branch>
-    <CivicAddress>
-      <address>פלי"ם 11 </address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>פלי"ם 11 </Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>445</Branch>
-    <CivicAddress>
-      <address>בן עמי 47 </address>
-      <city>עכו</city>
-    </CivicAddress>
+    <Address>
+      <Address>בן עמי 47 </Address>
+      <City>עכו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>446</Branch>
-    <CivicAddress>
-      <address>שד' ירושלים 3 </address>
-      <city>קריית ים</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' ירושלים 3 </Address>
+      <City>קריית ים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>448</Branch>
-    <CivicAddress>
-      <address>זבולון 4 </address>
-      <city>קריית אתא</city>
-    </CivicAddress>
+    <Address>
+      <Address>זבולון 4 </Address>
+      <City>קריית אתא</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>מנחם בגין 132 קניון עזריאלי</address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>מנחם בגין 132 קניון עזריאלי</Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>דרך משה דיין 3 קניון סביונים</address>
-      <city>יהוד</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך משה דיין 3 קניון סביונים</Address>
+      <City>יהוד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>שניאור 0 </address>
-      <city>קדומים</city>
-    </CivicAddress>
+    <Address>
+      <Address>שניאור 0 </Address>
+      <City>קדומים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>הפלמ"ח 1 קומה עליונה</address>
-      <city>אילת</city>
-    </CivicAddress>
+    <Address>
+      <Address>הפלמ"ח 1 קומה עליונה</Address>
+      <City>אילת</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>ז'בוטינסקי 47 סטאר סנטר</address>
-      <city>אשדוד</city>
-    </CivicAddress>
+    <Address>
+      <Address>ז'בוטינסקי 47 סטאר סנטר</Address>
+      <City>אשדוד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>הפלמ"ח 1 קומת קרקע</address>
-      <city>אילת</city>
-    </CivicAddress>
+    <Address>
+      <Address>הפלמ"ח 1 קומת קרקע</Address>
+      <City>אילת</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>הפלמ"ח 1 קומה תחתונה</address>
-      <city>אילת</city>
-    </CivicAddress>
+    <Address>
+      <Address>הפלמ"ח 1 קומה תחתונה</Address>
+      <City>אילת</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>יפו 208 תחנה מרכזית ירושלים קומה 2</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>יפו 208 תחנה מרכזית ירושלים קומה 2</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>דרך אילת 15 תחנה מרכזית  ב"ש צפוני</address>
-      <city>באר שבע</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך אילת 15 תחנה מרכזית  ב"ש צפוני</Address>
+      <City>באר שבע</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>העצמאות 37 קניון שער הצפון מזרח</address>
-      <city>קריית אתא</city>
-    </CivicAddress>
+    <Address>
+      <Address>העצמאות 37 קניון שער הצפון מזרח</Address>
+      <City>קריית אתא</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>העצמאות 37 קניו שער הצפון - מערב</address>
-      <city>קריית אתא</city>
-    </CivicAddress>
+    <Address>
+      <Address>העצמאות 37 קניו שער הצפון - מערב</Address>
+      <City>קריית אתא</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>בן גוריון 21 קניון גירון</address>
-      <city>אשקלון</city>
-    </CivicAddress>
+    <Address>
+      <Address>בן גוריון 21 קניון גירון</Address>
+      <City>אשקלון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>התעשיה 0 צים סנטר</address>
-      <city>ערד</city>
-    </CivicAddress>
+    <Address>
+      <Address>התעשיה 0 צים סנטר</Address>
+      <City>ערד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>אזור תעשיה דרומי 0 קריית ההדרכה</address>
-      <city>בית שמש</city>
-    </CivicAddress>
+    <Address>
+      <Address>אזור תעשיה דרומי 0 קריית ההדרכה</Address>
+      <City>בית שמש</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>יהודה הנשיא 0 רמת בית שמש</address>
-      <city>בית שמש</city>
-    </CivicAddress>
+    <Address>
+      <Address>יהודה הנשיא 0 רמת בית שמש</Address>
+      <City>בית שמש</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>בעלי המלאכה 203 מתחם גלובוס סנטר</address>
-      <city>נתיבות</city>
-    </CivicAddress>
+    <Address>
+      <Address>בעלי המלאכה 203 מתחם גלובוס סנטר</Address>
+      <City>נתיבות</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>שד' בן צבי 0 קניון ארנה</address>
-      <city>נהרייה</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' בן צבי 0 קניון ארנה</Address>
+      <City>נהרייה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>יצחק רגר 2 קניון הנגב קומה 1</address>
-      <city>באר שבע</city>
-    </CivicAddress>
+    <Address>
+      <Address>יצחק רגר 2 קניון הנגב קומה 1</Address>
+      <City>באר שבע</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>יצחק רגר 2 קניון הנגב קומה 3</address>
-      <city>באר שבע</city>
-    </CivicAddress>
+    <Address>
+      <Address>יצחק רגר 2 קניון הנגב קומה 3</Address>
+      <City>באר שבע</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>מדינת היהודים 85 אאוטלט עזריאלי</address>
-      <city>הרצלייה</city>
-    </CivicAddress>
+    <Address>
+      <Address>מדינת היהודים 85 אאוטלט עזריאלי</Address>
+      <City>הרצלייה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>אגודת ספורט בית"ר 1 קניון מלחה קומת קרקע</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>אגודת ספורט בית"ר 1 קניון מלחה קומת קרקע</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>ירמיהו 43 1 קניון סנטר</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>ירמיהו 43 1 קניון סנטר</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>
 בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>היצירה 2 קרית המגדל</address>
-      <city>פתח תקווה</city>
-    </CivicAddress>
+    <Address>
+      <Address>היצירה 2 קרית המגדל</Address>
+      <City>פתח תקווה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>ז'בוטינסקי 3 </address>
-      <city>הוד השרון</city>
-    </CivicAddress>
+    <Address>
+      <Address>ז'בוטינסקי 3 </Address>
+      <City>הוד השרון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>איינשטיין 14 קניון רמת אביב - קומה 1</address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>איינשטיין 14 קניון רמת אביב - קומה 1</Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>הצורן 9-10 במפעל אינטל</address>
-      <city>קריית גת</city>
-    </CivicAddress>
+    <Address>
+      <Address>הצורן 9-10 במפעל אינטל</Address>
+      <City>קריית גת</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>427</Branch>
-    <CivicAddress>
-      <address>כצנלסון 5 </address>
-      <city>אשקלון</city>
-    </CivicAddress>
+    <Address>
+      <Address>כצנלסון 5 </Address>
+      <City>אשקלון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>428</Branch>
-    <CivicAddress>
-      <address>ירושלים 17 מרכז מסחרי</address>
-      <city>נתיבות</city>
-    </CivicAddress>
+    <Address>
+      <Address>ירושלים 17 מרכז מסחרי</Address>
+      <City>נתיבות</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>429</Branch>
-    <CivicAddress>
-      <address>בר כוכבא 20 </address>
-      <city>פתח תקווה</city>
-    </CivicAddress>
+    <Address>
+      <Address>בר כוכבא 20 </Address>
+      <City>פתח תקווה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>430</Branch>
-    <CivicAddress>
-      <address>טרפון 1 </address>
-      <city>בני ברק</city>
-    </CivicAddress>
+    <Address>
+      <Address>טרפון 1 </Address>
+      <City>בני ברק</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>431</Branch>
-    <CivicAddress>
-      <address>סיבים 2 </address>
-      <city>פתח תקווה</city>
-    </CivicAddress>
+    <Address>
+      <Address>סיבים 2 </Address>
+      <City>פתח תקווה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>432</Branch>
-    <CivicAddress>
-      <address>שד' הרצל 92 </address>
-      <city>רמלה</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' הרצל 92 </Address>
+      <City>רמלה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>433</Branch>
-    <CivicAddress>
-      <address>שד' לכיש 11 </address>
-      <city>קריית גת</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' לכיש 11 </Address>
+      <City>קריית גת</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>434</Branch>
-    <CivicAddress>
-      <address>הרצל 163 </address>
-      <city>רחובות</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרצל 163 </Address>
+      <City>רחובות</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>435</Branch>
-    <CivicAddress>
-      <address>הרצל 73 </address>
-      <city>ראשון לציון</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרצל 73 </Address>
+      <City>ראשון לציון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>436</Branch>
-    <CivicAddress>
-      <address>סלמה 4 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>סלמה 4 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>437</Branch>
-    <CivicAddress>
-      <address>הרצל פינת רח' קדש 32 מרכז המסחרי</address>
-      <city>אופקים</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרצל פינת רח' קדש 32 מרכז המסחרי</Address>
+      <City>אופקים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>438</Branch>
-    <CivicAddress>
-      <address>שד' ויצמן 1 קניון אורות</address>
-      <city>אור עקיבא</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' ויצמן 1 קניון אורות</Address>
+      <City>אור עקיבא</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>439</Branch>
-    <CivicAddress>
-      <address>שאול המלך 18 </address>
-      <city>בית שאן</city>
-    </CivicAddress>
+    <Address>
+      <Address>שאול המלך 18 </Address>
+      <City>בית שאן</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>441</Branch>
-    <CivicAddress>
-      <address>הנביאים 26 </address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>הנביאים 26 </Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>442</Branch>
-    <CivicAddress>
-      <address>מרכז תחנת דלק 0 </address>
-      <city>שלומי</city>
-    </CivicAddress>
+    <Address>
+      <Address>מרכז תחנת דלק 0 </Address>
+      <City>שלומי</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>443</Branch>
-    <CivicAddress>
-      <address>געתון 27 </address>
-      <city>נהרייה</city>
-    </CivicAddress>
+    <Address>
+      <Address>געתון 27 </Address>
+      <City>נהרייה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>חצור הגלילית 0 קניון הגליל העליון</address>
-      <city>חצור הגלילית</city>
-    </CivicAddress>
+    <Address>
+      <Address>חצור הגלילית 0 קניון הגליל העליון</Address>
+      <City>חצור הגלילית</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>השונית 2 קניון ארנה קומה 1</address>
-      <city>הרצלייה</city>
-    </CivicAddress>
+    <Address>
+      <Address>השונית 2 קניון ארנה קומה 1</Address>
+      <City>הרצלייה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>השונית 2 קניון ארנה קומה 2</address>
-      <city>הרצלייה</city>
-    </CivicAddress>
+    <Address>
+      <Address>השונית 2 קניון ארנה קומה 2</Address>
+      <City>הרצלייה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>איינשטיין 14 קניון רמת אביב קומת קרקע</address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>איינשטיין 14 קניון רמת אביב קומת קרקע</Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>401</Branch>
-    <CivicAddress>
-      <address>בן יהודה 12 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>בן יהודה 12 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>403</Branch>
-    <CivicAddress>
-      <address>הלני המלכה 9 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>הלני המלכה 9 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>407</Branch>
-    <CivicAddress>
-      <address>בן יהודה 32 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>בן יהודה 32 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>408</Branch>
-    <CivicAddress>
-      <address>ריב"ל 7 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>ריב"ל 7 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>410</Branch>
-    <CivicAddress>
-      <address>ויצמן 32 ככר המדינה</address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>ויצמן 32 ככר המדינה</Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>411</Branch>
-    <CivicAddress>
-      <address>גולדה מאיר 7 </address>
-      <city>חולון</city>
-    </CivicAddress>
+    <Address>
+      <Address>גולדה מאיר 7 </Address>
+      <City>חולון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>412</Branch>
-    <CivicAddress>
-      <address>סוקולוב 80 </address>
-      <city>חולון</city>
-    </CivicAddress>
+    <Address>
+      <Address>סוקולוב 80 </Address>
+      <City>חולון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>413</Branch>
-    <CivicAddress>
-      <address>ארלוזורוב 1 </address>
-      <city>רמת גן</city>
-    </CivicAddress>
+    <Address>
+      <Address>ארלוזורוב 1 </Address>
+      <City>רמת גן</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>414</Branch>
-    <CivicAddress>
-      <address>אוניברסיטת בר אילן 0 אוניברסיטת בר אילן</address>
-      <city>גבעת שמואל</city>
-    </CivicAddress>
+    <Address>
+      <Address>אוניברסיטת בר אילן 0 אוניברסיטת בר אילן</Address>
+      <City>גבעת שמואל</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>415</Branch>
-    <CivicAddress>
-      <address>סוקולוב 6 </address>
-      <city>הרצלייה</city>
-    </CivicAddress>
+    <Address>
+      <Address>סוקולוב 6 </Address>
+      <City>הרצלייה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>416</Branch>
-    <CivicAddress>
-      <address>רוגוזין , מרכז מסחרי א' 3 </address>
-      <city>אשדוד</city>
-    </CivicAddress>
+    <Address>
+      <Address>רוגוזין , מרכז מסחרי א' 3 </Address>
+      <City>אשדוד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>417</Branch>
-    <CivicAddress>
-      <address>מלכי ישראל 16 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>מלכי ישראל 16 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>418</Branch>
-    <CivicAddress>
-      <address>התבור 1 קרית שדה התעופה</address>
-      <city>נמל תעופה בן-גוריון</city>
-    </CivicAddress>
+    <Address>
+      <Address>התבור 1 קרית שדה התעופה</Address>
+      <City>נמל תעופה בן-גוריון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>484</Branch>
-    <CivicAddress>
-      <address>סמטת הפלדה 8 </address>
-      <city>שדרות</city>
-    </CivicAddress>
+    <Address>
+      <Address>סמטת הפלדה 8 </Address>
+      <City>שדרות</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>449</Branch>
-    <CivicAddress>
-      <address>שד' הנשיא 137 </address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' הנשיא 137 </Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>450</Branch>
-    <CivicAddress>
-      <address>ז'בוטינסקי 22 </address>
-      <city>קריית מלאכי</city>
-    </CivicAddress>
+    <Address>
+      <Address>ז'בוטינסקי 22 </Address>
+      <City>קריית מלאכי</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>453</Branch>
-    <CivicAddress>
-      <address>דיזנגוף 45 דיזנגוף סנטר</address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>דיזנגוף 45 דיזנגוף סנטר</Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>454</Branch>
-    <CivicAddress>
-      <address>מעלה מיכאל 5 </address>
-      <city>אלון שבות</city>
-    </CivicAddress>
+    <Address>
+      <Address>מעלה מיכאל 5 </Address>
+      <City>אלון שבות</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>455</Branch>
-    <CivicAddress>
-      <address>ויצמן 50 </address>
-      <city>גבעתיים</city>
-    </CivicAddress>
+    <Address>
+      <Address>ויצמן 50 </Address>
+      <City>גבעתיים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>456</Branch>
-    <CivicAddress>
-      <address>שד' הנשיא, 0 מרכז מסחרי</address>
-      <city>דימונה</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' הנשיא, 0 מרכז מסחרי</Address>
+      <City>דימונה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>458</Branch>
-    <CivicAddress>
-      <address>גבעת שאול 24 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>גבעת שאול 24 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>459</Branch>
-    <CivicAddress>
-      <address>תפארת ישראל 16 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>תפארת ישראל 16 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>461</Branch>
-    <CivicAddress>
-      <address>אלנבי 105 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>אלנבי 105 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>462</Branch>
-    <CivicAddress>
-      <address>הבנים, פינת הירדן 0 </address>
-      <city>טבריה</city>
-    </CivicAddress>
+    <Address>
+      <Address>הבנים, פינת הירדן 0 </Address>
+      <City>טבריה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>467</Branch>
-    <CivicAddress>
-      <address>הכלנית 2 </address>
-      <city>קריית אונו</city>
-    </CivicAddress>
+    <Address>
+      <Address>הכלנית 2 </Address>
+      <City>קריית אונו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>468</Branch>
-    <CivicAddress>
-      <address>חזון איש 13 </address>
-      <city>בני ברק</city>
-    </CivicAddress>
+    <Address>
+      <Address>חזון איש 13 </Address>
+      <City>בני ברק</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>469</Branch>
-    <CivicAddress>
-      <address>סלמה 54 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>סלמה 54 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>470</Branch>
-    <CivicAddress>
-      <address>שד' התמרים 1 </address>
-      <city>אילת</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' התמרים 1 </Address>
+      <City>אילת</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>472</Branch>
-    <CivicAddress>
-      <address>סוקולוב 67 </address>
-      <city>רמת השרון</city>
-    </CivicAddress>
+    <Address>
+      <Address>סוקולוב 67 </Address>
+      <City>רמת השרון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>473</Branch>
-    <CivicAddress>
-      <address>הבנים 17 </address>
-      <city>פרדס חנה-כרכור</city>
-    </CivicAddress>
+    <Address>
+      <Address>הבנים 17 </Address>
+      <City>פרדס חנה-כרכור</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>474</Branch>
-    <CivicAddress>
-      <address>ירושלים 4 </address>
-      <city>עפולה</city>
-    </CivicAddress>
+    <Address>
+      <Address>ירושלים 4 </Address>
+      <City>עפולה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>477</Branch>
-    <CivicAddress>
-      <address>ז'בוטינסקי 7 </address>
-      <city>רמת גן</city>
-    </CivicAddress>
+    <Address>
+      <Address>ז'בוטינסקי 7 </Address>
+      <City>רמת גן</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>479</Branch>
-    <CivicAddress>
-      <address>שמואל בייט 12 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>שמואל בייט 12 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>481</Branch>
-    <CivicAddress>
-      <address>הנשיאים 45 </address>
-      <city>פתח תקווה</city>
-    </CivicAddress>
+    <Address>
+      <Address>הנשיאים 45 </Address>
+      <City>פתח תקווה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>483</Branch>
-    <CivicAddress>
-      <address>רחבעם זאבי 1 </address>
-      <city>קרני שומרון</city>
-    </CivicAddress>
+    <Address>
+      <Address>רחבעם זאבי 1 </Address>
+      <City>קרני שומרון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>487</Branch>
-    <CivicAddress>
-      <address>שדרות תל חי 77 </address>
-      <city>קריית שמונה</city>
-    </CivicAddress>
+    <Address>
+      <Address>שדרות תל חי 77 </Address>
+      <City>קריית שמונה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>489</Branch>
-    <CivicAddress>
-      <address>שדרות חן 34 </address>
-      <city>ערד</city>
-    </CivicAddress>
+    <Address>
+      <Address>שדרות חן 34 </Address>
+      <City>ערד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>490</Branch>
-    <CivicAddress>
-      <address>אדמונד דה רוטשילד 8 </address>
-      <city>אשקלון</city>
-    </CivicAddress>
+    <Address>
+      <Address>אדמונד דה רוטשילד 8 </Address>
+      <City>אשקלון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>492</Branch>
-    <CivicAddress>
-      <address>טרומפלדור 54 </address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>טרומפלדור 54 </Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>493</Branch>
-    <CivicAddress>
-      <address>טאגור 38 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>טאגור 38 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>494</Branch>
-    <CivicAddress>
-      <address>החשמונאים 123 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>החשמונאים 123 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>495</Branch>
-    <CivicAddress>
-      <address>לישנסקי 3 אזור תעשיה</address>
-      <city>ראשון לציון</city>
-    </CivicAddress>
+    <Address>
+      <Address>לישנסקי 3 אזור תעשיה</Address>
+      <City>ראשון לציון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>505</Branch>
-    <CivicAddress>
-      <address>אנדרה סחרוב 6 </address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>אנדרה סחרוב 6 </Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>511</Branch>
-    <CivicAddress>
-      <address>הבנים 5 </address>
-      <city>נס ציונה</city>
-    </CivicAddress>
+    <Address>
+      <Address>הבנים 5 </Address>
+      <City>נס ציונה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>512</Branch>
-    <CivicAddress>
-      <address>דרך רמתיים 108 </address>
-      <city>הוד השרון</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך רמתיים 108 </Address>
+      <City>הוד השרון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>513</Branch>
-    <CivicAddress>
-      <address>החרושת 9 </address>
-      <city>כרמיאל</city>
-    </CivicAddress>
+    <Address>
+      <Address>החרושת 9 </Address>
+      <City>כרמיאל</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>514</Branch>
-    <CivicAddress>
-      <address>דרך העצמאות 16 </address>
-      <city>יהוד</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך העצמאות 16 </Address>
+      <City>יהוד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>515</Branch>
-    <CivicAddress>
-      <address>בן גוריון 38 </address>
-      <city>רמת גן</city>
-    </CivicAddress>
+    <Address>
+      <Address>בן גוריון 38 </Address>
+      <City>רמת גן</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>אנטיב 8 מלון מלכת שבע</address>
-      <city>אילת</city>
-    </CivicAddress>
+    <Address>
+      <Address>אנטיב 8 מלון מלכת שבע</Address>
+      <City>אילת</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>שד' ירושלים 216 פארק פרס</address>
-      <city>חולון</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' ירושלים 216 פארק פרס</Address>
+      <City>חולון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>
 בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>בייט שמואל 12 בית חולים שערי צדק קומה 9</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>בייט שמואל 12 בית חולים שערי צדק קומה 9</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>המלאכות 121 מרכז עינב</address>
-      <city>מודיעין-מכבים-רעות*</city>
-    </CivicAddress>
+    <Address>
+      <Address>המלאכות 121 מרכז עינב</Address>
+      <City>מודיעין-מכבים-רעות*</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>ז'בוטינסקי 72-74 קניון הגדול קומת תחתונה</address>
-      <city>פתח תקווה</city>
-    </CivicAddress>
+    <Address>
+      <Address>ז'בוטינסקי 72-74 קניון הגדול קומת תחתונה</Address>
+      <City>פתח תקווה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>הערבה 3 </address>
-      <city>אורנית</city>
-    </CivicAddress>
+    <Address>
+      <Address>הערבה 3 </Address>
+      <City>אורנית</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>ענבר 1 </address>
-      <city>שערי תקווה</city>
-    </CivicAddress>
+    <Address>
+      <Address>ענבר 1 </Address>
+      <City>שערי תקווה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>קאמפן 8 אייס מול</address>
-      <city>אילת</city>
-    </CivicAddress>
+    <Address>
+      <Address>קאמפן 8 אייס מול</Address>
+      <City>אילת</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>ז'בוטינסקי 47 סטאר סנטר אשדוד</address>
-      <city>אשדוד</city>
-    </CivicAddress>
+    <Address>
+      <Address>ז'בוטינסקי 47 סטאר סנטר אשדוד</Address>
+      <City>אשדוד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>החרושת 1 מרכז מסחרי</address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>החרושת 1 מרכז מסחרי</Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>420</Branch>
-    <CivicAddress>
-      <address>הרצל 23 </address>
-      <city>חדרה</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרצל 23 </Address>
+      <City>חדרה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>421</Branch>
-    <CivicAddress>
-      <address>אבן גבירול 71 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>אבן גבירול 71 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>422</Branch>
-    <CivicAddress>
-      <address>סמילנסקי 4 </address>
-      <city>נתניה</city>
-    </CivicAddress>
+    <Address>
+      <Address>סמילנסקי 4 </Address>
+      <City>נתניה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>423</Branch>
-    <CivicAddress>
-      <address>אחוזה 96 </address>
-      <city>רעננה</city>
-    </CivicAddress>
+    <Address>
+      <Address>אחוזה 96 </Address>
+      <City>רעננה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>424</Branch>
-    <CivicAddress>
-      <address>ויצמן 132 </address>
-      <city>כפר סבא</city>
-    </CivicAddress>
+    <Address>
+      <Address>ויצמן 132 </Address>
+      <City>כפר סבא</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>425</Branch>
-    <CivicAddress>
-      <address>בלפור 58 </address>
-      <city>בת ים</city>
-    </CivicAddress>
+    <Address>
+      <Address>בלפור 58 </Address>
+      <City>בת ים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>426</Branch>
-    <CivicAddress>
-      <address>קרן היסוד 31 </address>
-      <city>באר שבע</city>
-    </CivicAddress>
+    <Address>
+      <Address>קרן היסוד 31 </Address>
+      <City>באר שבע</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>565</Branch>
-    <CivicAddress>
-      <address>שד' ירושלים 12 אשדוד סיטי</address>
-      <city>אשדוד</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' ירושלים 12 אשדוד סיטי</Address>
+      <City>אשדוד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>566</Branch>
-    <CivicAddress>
-      <address>דרך מצדה 6 </address>
-      <city>באר שבע</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך מצדה 6 </Address>
+      <City>באר שבע</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>567</Branch>
-    <CivicAddress>
-      <address>השבעה 4/2 </address>
-      <city>בית שמש</city>
-    </CivicAddress>
+    <Address>
+      <Address>השבעה 4/2 </Address>
+      <City>בית שמש</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>569</Branch>
-    <CivicAddress>
-      <address>פארן , 5 רמת אשכול</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>פארן , 5 רמת אשכול</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>570</Branch>
-    <CivicAddress>
-      <address>כהנמן 108 </address>
-      <city>בני ברק</city>
-    </CivicAddress>
+    <Address>
+      <Address>כהנמן 108 </Address>
+      <City>בני ברק</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>582</Branch>
-    <CivicAddress>
-      <address>התמר 2 </address>
-      <city>יקנעם עילית</city>
-    </CivicAddress>
+    <Address>
+      <Address>התמר 2 </Address>
+      <City>יקנעם עילית</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>דרך אילת 15 תחנה מרכזית ב"ש צפוני</address>
-      <city>באר שבע</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך אילת 15 תחנה מרכזית ב"ש צפוני</Address>
+      <City>באר שבע</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>
-דרך אילת 15 תחנה מרכזית ב"ש מערבי</address>
-      <city>באר שבע</city>
-    </CivicAddress>
+    <Address>
+      <Address>
+דרך אילת 15 תחנה מרכזית ב"ש מערבי</Address>
+      <City>באר שבע</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>הע"ל 20 קניון מול 7</address>
-      <city>באר שבע</city>
-    </CivicAddress>
+    <Address>
+      <Address>הע"ל 20 קניון מול 7</Address>
+      <City>באר שבע</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>517</Branch>
-    <CivicAddress>
-      <address>יד חרוצים 15 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>יד חרוצים 15 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>518</Branch>
-    <CivicAddress>
-      <address>דרך עכו 194 </address>
-      <city>קריית ביאליק</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך עכו 194 </Address>
+      <City>קריית ביאליק</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>519</Branch>
-    <CivicAddress>
-      <address>שנקר 14 קרית אריה פתח תקוה</address>
-      <city>פתח תקווה</city>
-    </CivicAddress>
+    <Address>
+      <Address>שנקר 14 קרית אריה פתח תקוה</Address>
+      <City>פתח תקווה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>521</Branch>
-    <CivicAddress>
-      <address>לב העיר 2 קניון עזריאלי</address>
-      <city>מודיעין-מכבים-רעות*</city>
-    </CivicAddress>
+    <Address>
+      <Address>לב העיר 2 קניון עזריאלי</Address>
+      <City>מודיעין-מכבים-רעות*</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>522</Branch>
-    <CivicAddress>
-      <address>אבא אבן 12 א.תעשיה הרצליה</address>
-      <city>הרצלייה</city>
-    </CivicAddress>
+    <Address>
+      <Address>אבא אבן 12 א.תעשיה הרצליה</Address>
+      <City>הרצלייה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>523</Branch>
-    <CivicAddress>
-      <address>דרך בר יהודה 63 תל חנן</address>
-      <city>נשר</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך בר יהודה 63 תל חנן</Address>
+      <City>נשר</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>526</Branch>
-    <CivicAddress>
-      <address>ויצמן 61 </address>
-      <city>כפר סבא</city>
-    </CivicAddress>
+    <Address>
+      <Address>ויצמן 61 </Address>
+      <City>כפר סבא</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>528</Branch>
-    <CivicAddress>
-      <address>הברזל 26 רמת החייל</address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>הברזל 26 רמת החייל</Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>529</Branch>
-    <CivicAddress>
-      <address>רחוב מורשת ישראל 15 קניון הבאר</address>
-      <city>ראשון לציון</city>
-    </CivicAddress>
+    <Address>
+      <Address>רחוב מורשת ישראל 15 קניון הבאר</Address>
+      <City>ראשון לציון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>530</Branch>
-    <CivicAddress>
-      <address>שד' מנם בגין 38 קניון הגבעה</address>
-      <city>גבעת שמואל</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' מנם בגין 38 קניון הגבעה</Address>
+      <City>גבעת שמואל</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>532</Branch>
-    <CivicAddress>
-      <address>המדע 6 פארק המדע רחובות</address>
-      <city>רחובות</city>
-    </CivicAddress>
+    <Address>
+      <Address>המדע 6 פארק המדע רחובות</Address>
+      <City>רחובות</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>533</Branch>
-    <CivicAddress>
-      <address>התע"ש 13 </address>
-      <city>כפר סבא</city>
-    </CivicAddress>
+    <Address>
+      <Address>התע"ש 13 </Address>
+      <City>כפר סבא</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>534</Branch>
-    <CivicAddress>
-      <address>חיים לנדאו 6 מרום  נווה</address>
-      <city>רמת גן</city>
-    </CivicAddress>
+    <Address>
+      <Address>חיים לנדאו 6 מרום  נווה</Address>
+      <City>רמת גן</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>537</Branch>
-    <CivicAddress>
-      <address>מרכז מסחרי 0 בנין העיריה</address>
-      <city>אום אל-פחם</city>
-    </CivicAddress>
+    <Address>
+      <Address>מרכז מסחרי 0 בנין העיריה</Address>
+      <City>אום אל-פחם</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>538</Branch>
-    <CivicAddress>
-      <address>די סנטר 0 </address>
-      <city>כפר יאסיף</city>
-    </CivicAddress>
+    <Address>
+      <Address>די סנטר 0 </Address>
+      <City>כפר יאסיף</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>539</Branch>
-    <CivicAddress>
-      <address>כנפי נשרים 7 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>כנפי נשרים 7 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>540</Branch>
-    <CivicAddress>
-      <address>הדוגית 16 </address>
-      <city>יבנה</city>
-    </CivicAddress>
+    <Address>
+      <Address>הדוגית 16 </Address>
+      <City>יבנה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>542</Branch>
-    <CivicAddress>
-      <address>בני ברמן 2 רמת פולג</address>
-      <city>נתניה</city>
-    </CivicAddress>
+    <Address>
+      <Address>בני ברמן 2 רמת פולג</Address>
+      <City>נתניה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>543</Branch>
-    <CivicAddress>
-      <address>שבזי 55 </address>
-      <city>ראש העין</city>
-    </CivicAddress>
+    <Address>
+      <Address>שבזי 55 </Address>
+      <City>ראש העין</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>544</Branch>
-    <CivicAddress>
-      <address>קק"ל 130 </address>
-      <city>באר שבע</city>
-    </CivicAddress>
+    <Address>
+      <Address>קק"ל 130 </Address>
+      <City>באר שבע</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>546</Branch>
-    <CivicAddress>
-      <address>אבא הלל סילבר 13 </address>
-      <city>לוד</city>
-    </CivicAddress>
+    <Address>
+      <Address>אבא הלל סילבר 13 </Address>
+      <City>לוד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>547</Branch>
-    <CivicAddress>
-      <address>אמיר גלבוע 14 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>אמיר גלבוע 14 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>548</Branch>
-    <CivicAddress>
-      <address>העצמאות 65 </address>
-      <city>פתח תקווה</city>
-    </CivicAddress>
+    <Address>
+      <Address>העצמאות 65 </Address>
+      <City>פתח תקווה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>550</Branch>
-    <CivicAddress>
-      <address>רוטשילד 73 </address>
-      <city>פתח תקווה</city>
-    </CivicAddress>
+    <Address>
+      <Address>רוטשילד 73 </Address>
+      <City>פתח תקווה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>551</Branch>
-    <CivicAddress>
-      <address>ז'בוטינסקי 3 בנין פז</address>
-      <city>רמת גן</city>
-    </CivicAddress>
+    <Address>
+      <Address>ז'בוטינסקי 3 בנין פז</Address>
+      <City>רמת גן</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>553</Branch>
-    <CivicAddress>
-      <address>ברקת 3 פינת ספיר 7</address>
-      <city>נתניה</city>
-    </CivicAddress>
+    <Address>
+      <Address>ברקת 3 פינת ספיר 7</Address>
+      <City>נתניה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>554</Branch>
-    <CivicAddress>
-      <address>בלפור 110 </address>
-      <city>בת ים</city>
-    </CivicAddress>
+    <Address>
+      <Address>בלפור 110 </Address>
+      <City>בת ים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>558</Branch>
-    <CivicAddress>
-      <address>שלמה שרירא 3 קניון צים סנטרס</address>
-      <city>מעלות-תרשיחא</city>
-    </CivicAddress>
+    <Address>
+      <Address>שלמה שרירא 3 קניון צים סנטרס</Address>
+      <City>מעלות-תרשיחא</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>559</Branch>
-    <CivicAddress>
-      <address>הגליל 22 </address>
-      <city>נצרת</city>
-    </CivicAddress>
+    <Address>
+      <Address>הגליל 22 </Address>
+      <City>נצרת</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>560</Branch>
-    <CivicAddress>
-      <address>מרכז מסחרי שו"פ 1 </address>
-      <city>נצרת עילית</city>
-    </CivicAddress>
+    <Address>
+      <Address>מרכז מסחרי שו"פ 1 </Address>
+      <City>נצרת עילית</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>561</Branch>
-    <CivicAddress>
-      <address>זרחין 13 </address>
-      <city>רעננה</city>
-    </CivicAddress>
+    <Address>
+      <Address>זרחין 13 </Address>
+      <City>רעננה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>562</Branch>
-    <CivicAddress>
-      <address>רח' העליה ב' 4 </address>
-      <city>צפת</city>
-    </CivicAddress>
+    <Address>
+      <Address>רח' העליה ב' 4 </Address>
+      <City>צפת</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>אחוזה 267 קניון פארק מול רעננ</address>
-      <city>רעננה</city>
-    </CivicAddress>
+    <Address>
+      <Address>אחוזה 267 קניון פארק מול רעננ</Address>
+      <City>רעננה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>החרושת 2 </address>
-      <city>עכו</city>
-    </CivicAddress>
+    <Address>
+      <Address>החרושת 2 </Address>
+      <City>עכו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>צה"ל 35 קניון מיקס חדרה</address>
-      <city>חדרה</city>
-    </CivicAddress>
+    <Address>
+      <Address>צה"ל 35 קניון מיקס חדרה</Address>
+      <City>חדרה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>ז'בוטינסקי 72-74 קניון הגדול קומת מזון</address>
-      <city>פתח תקווה</city>
-    </CivicAddress>
+    <Address>
+      <Address>ז'בוטינסקי 72-74 קניון הגדול קומת מזון</Address>
+      <City>פתח תקווה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>יופסטל 92 קניון בת ים קומה ראשונה</address>
-      <city>בת ים</city>
-    </CivicAddress>
+    <Address>
+      <Address>יופסטל 92 קניון בת ים קומה ראשונה</Address>
+      <City>בת ים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>יוספטל 92 קניון בת ים קומה שניה</address>
-      <city>בת ים</city>
-    </CivicAddress>
+    <Address>
+      <Address>יוספטל 92 קניון בת ים קומה שניה</Address>
+      <City>בת ים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>יפו 208 תחנה מרכזית ירושליטם קומה 3</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>יפו 208 תחנה מרכזית ירושליטם קומה 3</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>יונה גרין 9 כפר אברהם</address>
-      <city>פתח תקווה</city>
-    </CivicAddress>
+    <Address>
+      <Address>יונה גרין 9 כפר אברהם</Address>
+      <City>פתח תקווה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>מנחם בגין 21 הדר גנים</address>
-      <city>פתח תקווה</city>
-    </CivicAddress>
+    <Address>
+      <Address>מנחם בגין 21 הדר גנים</Address>
+      <City>פתח תקווה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>אוניברסיטת בר אילן 0 </address>
-      <city>רמת גן</city>
-    </CivicAddress>
+    <Address>
+      <Address>אוניברסיטת בר אילן 0 </Address>
+      <City>רמת גן</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>לוינסקי 108 תחנה מרכזית ת"א קומה 4</address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>לוינסקי 108 תחנה מרכזית ת"א קומה 4</Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>משה בקר 14 מתחם הרובע</address>
-      <city>ראשון לציון</city>
-    </CivicAddress>
+    <Address>
+      <Address>משה בקר 14 מתחם הרובע</Address>
+      <City>ראשון לציון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>לוינסקי 108 תחנה מרכזית ת"א קומה 6</address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>לוינסקי 108 תחנה מרכזית ת"א קומה 6</Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>שד' בנימין 7 תחנה מרכזית נתניה</address>
-      <city>נתניה</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' בנימין 7 תחנה מרכזית נתניה</Address>
+      <City>נתניה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>הנשיא 4 צומת המצודות, קניון נחמיה</address>
-      <city>קריית שמונה</city>
-    </CivicAddress>
+    <Address>
+      <Address>הנשיא 4 צומת המצודות, קניון נחמיה</Address>
+      <City>קריית שמונה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>615</Branch>
-    <CivicAddress>
-      <address>האורגים 11 </address>
-      <city>אשדוד</city>
-    </CivicAddress>
+    <Address>
+      <Address>האורגים 11 </Address>
+      <City>אשדוד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>419</Branch>
-    <CivicAddress>
-      <address>המשביר 19 </address>
-      <city>חולון</city>
-    </CivicAddress>
+    <Address>
+      <Address>המשביר 19 </Address>
+      <City>חולון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>563</Branch>
-    <CivicAddress>
-      <address>גולדה מאיר 255 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>גולדה מאיר 255 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>583</Branch>
-    <CivicAddress>
-      <address>ירושלים 24 </address>
-      <city>בני ברק</city>
-    </CivicAddress>
+    <Address>
+      <Address>ירושלים 24 </Address>
+      <City>בני ברק</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>אוסקר שינדלר 0 סביוני דניה</address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>אוסקר שינדלר 0 סביוני דניה</Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>מרכז הרים 0 קניון מרכז הרים</address>
-      <city>אלון שבות</city>
-    </CivicAddress>
+    <Address>
+      <Address>מרכז הרים 0 קניון מרכז הרים</Address>
+      <City>אלון שבות</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>שפת אמת 4 הקריה החרדית</address>
-      <city>בית שמש</city>
-    </CivicAddress>
+    <Address>
+      <Address>שפת אמת 4 הקריה החרדית</Address>
+      <City>בית שמש</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>ישפרו פלאנט 0 </address>
-      <city>באר שבע</city>
-    </CivicAddress>
+    <Address>
+      <Address>ישפרו פלאנט 0 </Address>
+      <City>באר שבע</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>463</Branch>
-    <CivicAddress>
-      <address>עלי בן אבי טאלב 0 </address>
-      <city>כפר קאסם</city>
-    </CivicAddress>
+    <Address>
+      <Address>עלי בן אבי טאלב 0 </Address>
+      <City>כפר קאסם</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>552</Branch>
-    <CivicAddress>
-      <address>שד' שאול עמור 77 </address>
-      <city>מגדל העמק</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' שאול עמור 77 </Address>
+      <City>מגדל העמק</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>דרך הים 0 קניון דרך הים</address>
-      <city>עתלית</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך הים 0 קניון דרך הים</Address>
+      <City>עתלית</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>549</Branch>
-    <CivicAddress>
-      <address>אלקודס 0 פינת אל בירייה</address>
-      <city>באקה אל-גרביה</city>
-    </CivicAddress>
+    <Address>
+      <Address>אלקודס 0 פינת אל בירייה</Address>
+      <City>באקה אל-גרביה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>חיל ההנדסה 1 </address>
-      <city>באר שבע</city>
-    </CivicAddress>
+    <Address>
+      <Address>חיל ההנדסה 1 </Address>
+      <City>באר שבע</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>רחל אימנו 1 ישפרו סנטר</address>
-      <city>מודיעין-מכבים-רעות*</city>
-    </CivicAddress>
+    <Address>
+      <Address>רחל אימנו 1 ישפרו סנטר</Address>
+      <City>מודיעין-מכבים-רעות*</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>אנגל 80 בי.סנטר</address>
-      <city>כפר סבא</city>
-    </CivicAddress>
+    <Address>
+      <Address>אנגל 80 בי.סנטר</Address>
+      <City>כפר סבא</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מזרחי טפחות בע"מ</BankName>
     <BankNumber>20</BankNumber>
     <Branch>688</Branch>
-    <CivicAddress>
-      <address>האומן 11 אי. סנטר</address>
-      <city>חדרה</city>
-    </CivicAddress>
+    <Address>
+      <Address>האומן 11 אי. סנטר</Address>
+      <City>חדרה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מסד בע"מ</BankName>
     <BankNumber>46</BankNumber>
     <Branch>539</Branch>
-    <CivicAddress>
-      <address>הרצל 91 </address>
-      <city>באר שבע</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרצל 91 </Address>
+      <City>באר שבע</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מסד בע"מ</BankName>
     <BankNumber>46</BankNumber>
     <Branch>2</Branch>
-    <CivicAddress>
-      <address>המכללה האקדמית לחינוך, דאר טבעון טבעון </address>
-      <city>קריית טבעון</city>
-    </CivicAddress>
+    <Address>
+      <Address>המכללה האקדמית לחינוך, דאר טבעון טבעון </Address>
+      <City>קריית טבעון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מסד בע"מ</BankName>
     <BankNumber>46</BankNumber>
     <Branch>5</Branch>
-    <CivicAddress>
-      <address>צומת כפר קרע קרע מתחם תחנת דלק פז</address>
-      <city>כפר קרע</city>
-    </CivicAddress>
+    <Address>
+      <Address>צומת כפר קרע קרע מתחם תחנת דלק פז</Address>
+      <City>כפר קרע</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מסד בע"מ</BankName>
     <BankNumber>46</BankNumber>
     <Branch>501</Branch>
-    <CivicAddress>
-      <address>תרמב 9 </address>
-      <city>ראשון לציון</city>
-    </CivicAddress>
+    <Address>
+      <Address>תרמב 9 </Address>
+      <City>ראשון לציון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מסד בע"מ</BankName>
     <BankNumber>46</BankNumber>
     <Branch>502</Branch>
-    <CivicAddress>
-      <address>התע"ש 14 אזה"ת כפר-סבא</address>
-      <city>כפר סבא</city>
-    </CivicAddress>
+    <Address>
+      <Address>התע"ש 14 אזה"ת כפר-סבא</Address>
+      <City>כפר סבא</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מסד בע"מ</BankName>
     <BankNumber>46</BankNumber>
     <Branch>503</Branch>
-    <CivicAddress>
-      <address>שד' רוטשילד 76 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' רוטשילד 76 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מסד בע"מ</BankName>
     <BankNumber>46</BankNumber>
     <Branch>504</Branch>
-    <CivicAddress>
-      <address>מעלה כמון, חוצות כרמיאל 5 </address>
-      <city>כרמיאל</city>
-    </CivicAddress>
+    <Address>
+      <Address>מעלה כמון, חוצות כרמיאל 5 </Address>
+      <City>כרמיאל</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מסד בע"מ</BankName>
     <BankNumber>46</BankNumber>
     <Branch>506</Branch>
-    <CivicAddress>
-      <address>רחוב ראשי שכונת אלעין אלעין </address>
-      <city>שפרעם</city>
-    </CivicAddress>
+    <Address>
+      <Address>רחוב ראשי שכונת אלעין אלעין </Address>
+      <City>שפרעם</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מסד בע"מ</BankName>
     <BankNumber>46</BankNumber>
     <Branch>507</Branch>
-    <CivicAddress>
-      <address>ביאליק 10 </address>
-      <city>רמת גן</city>
-    </CivicAddress>
+    <Address>
+      <Address>ביאליק 10 </Address>
+      <City>רמת גן</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מסד בע"מ</BankName>
     <BankNumber>46</BankNumber>
     <Branch>508</Branch>
-    <CivicAddress>
-      <address>דיזנגוף 22 </address>
-      <city>נתניה</city>
-    </CivicAddress>
+    <Address>
+      <Address>דיזנגוף 22 </Address>
+      <City>נתניה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מסד בע"מ</BankName>
     <BankNumber>46</BankNumber>
     <Branch>509</Branch>
-    <CivicAddress>
-      <address>שפיגל 3 </address>
-      <city>פתח תקווה</city>
-    </CivicAddress>
+    <Address>
+      <Address>שפיגל 3 </Address>
+      <City>פתח תקווה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מסד בע"מ</BankName>
     <BankNumber>46</BankNumber>
     <Branch>510</Branch>
-    <CivicAddress>
-      <address>כביש עכו-נהריה, א.ת. אלרם (עכו דרום) 0 </address>
-      <city>עכו</city>
-    </CivicAddress>
+    <Address>
+      <Address>כביש עכו-נהריה, א.ת. אלרם (עכו דרום) 0 </Address>
+      <City>עכו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מסד בע"מ</BankName>
     <BankNumber>46</BankNumber>
     <Branch>511</Branch>
-    <CivicAddress>
-      <address>סוקולוב 48 </address>
-      <city>חולון</city>
-    </CivicAddress>
+    <Address>
+      <Address>סוקולוב 48 </Address>
+      <City>חולון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מסד בע"מ</BankName>
     <BankNumber>46</BankNumber>
     <Branch>512</Branch>
-    <CivicAddress>
-      <address>חורב 6 </address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>חורב 6 </Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מסד בע"מ</BankName>
     <BankNumber>46</BankNumber>
     <Branch>514</Branch>
-    <CivicAddress>
-      <address>עוקף נצרת 83/43 </address>
-      <city>נצרת</city>
-    </CivicAddress>
+    <Address>
+      <Address>עוקף נצרת 83/43 </Address>
+      <City>נצרת</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מסד בע"מ</BankName>
     <BankNumber>46</BankNumber>
     <Branch>515</Branch>
-    <CivicAddress>
-      <address>שמאי 16 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>שמאי 16 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מסד בע"מ</BankName>
     <BankNumber>46</BankNumber>
     <Branch>516</Branch>
-    <CivicAddress>
-      <address>הבנים 7 </address>
-      <city>אשדוד</city>
-    </CivicAddress>
+    <Address>
+      <Address>הבנים 7 </Address>
+      <City>אשדוד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מסד בע"מ</BankName>
     <BankNumber>46</BankNumber>
     <Branch>517</Branch>
-    <CivicAddress>
-      <address>הנשיא 21 </address>
-      <city>חדרה</city>
-    </CivicAddress>
+    <Address>
+      <Address>הנשיא 21 </Address>
+      <City>חדרה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מסד בע"מ</BankName>
     <BankNumber>46</BankNumber>
     <Branch>527</Branch>
-    <CivicAddress>
-      <address>הרצל 4 </address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרצל 4 </Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מסד בע"מ</BankName>
     <BankNumber>46</BankNumber>
     <Branch>904</Branch>
-    <CivicAddress>
-      <address>רחוב ראשי סכנין </address>
-      <city>סח'נין</city>
-    </CivicAddress>
+    <Address>
+      <Address>רחוב ראשי סכנין </Address>
+      <City>סח'נין</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>677</Branch>
-    <CivicAddress>
-      <address>הרברט סמואל 55 </address>
-      <city>חדרה</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרברט סמואל 55 </Address>
+      <City>חדרה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>678</Branch>
-    <CivicAddress>
-      <address>שד' העצמאות 65 </address>
-      <city>בת ים</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' העצמאות 65 </Address>
+      <City>בת ים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>679</Branch>
-    <CivicAddress>
-      <address>שד' הנשיא 134 מרכז הכרמל</address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' הנשיא 134 מרכז הכרמל</Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>681</Branch>
-    <CivicAddress>
-      <address>ג'דידה 0 מכר</address>
-      <city>ג'דיידה-מכר</city>
-    </CivicAddress>
+    <Address>
+      <Address>ג'דידה 0 מכר</Address>
+      <City>ג'דיידה-מכר</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>683</Branch>
-    <CivicAddress>
-      <address>איינשטיין 1 </address>
-      <city>אור יהודה</city>
-    </CivicAddress>
+    <Address>
+      <Address>איינשטיין 1 </Address>
+      <City>אור יהודה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>686</Branch>
-    <CivicAddress>
-      <address>סוקולוב 3 </address>
-      <city>חולון</city>
-    </CivicAddress>
+    <Address>
+      <Address>סוקולוב 3 </Address>
+      <City>חולון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>687</Branch>
-    <CivicAddress>
-      <address>סכנין 0 המרכז המסחרי</address>
-      <city>סח'נין</city>
-    </CivicAddress>
+    <Address>
+      <Address>סכנין 0 המרכז המסחרי</Address>
+      <City>סח'נין</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>691</Branch>
-    <CivicAddress>
-      <address>מרכז מסחרי חדש 0 </address>
-      <city>כפר יאסיף</city>
-    </CivicAddress>
+    <Address>
+      <Address>מרכז מסחרי חדש 0 </Address>
+      <City>כפר יאסיף</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>692</Branch>
-    <CivicAddress>
-      <address>השוק 2 ככר הכפר</address>
-      <city>מעלות-תרשיחא</city>
-    </CivicAddress>
+    <Address>
+      <Address>השוק 2 ככר הכפר</Address>
+      <City>מעלות-תרשיחא</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>694</Branch>
-    <CivicAddress>
-      <address>אלנבי 36 </address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>אלנבי 36 </Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>695</Branch>
-    <CivicAddress>
-      <address>הבזלת 2 </address>
-      <city>כפר תבור</city>
-    </CivicAddress>
+    <Address>
+      <Address>הבזלת 2 </Address>
+      <City>כפר תבור</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>696</Branch>
-    <CivicAddress>
-      <address>מרכז מסחרי 0 </address>
-      <city>רהט</city>
-    </CivicAddress>
+    <Address>
+      <Address>מרכז מסחרי 0 </Address>
+      <City>רהט</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>697</Branch>
-    <CivicAddress>
-      <address>מרכז מסחרי אום אל פחם 0 </address>
-      <city>אום אל-פחם</city>
-    </CivicAddress>
+    <Address>
+      <Address>מרכז מסחרי אום אל פחם 0 </Address>
+      <City>אום אל-פחם</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>699</Branch>
-    <CivicAddress>
-      <address>התע"ש 13 איזור התעשיה התעש 13</address>
-      <city>כפר סבא</city>
-    </CivicAddress>
+    <Address>
+      <Address>התע"ש 13 איזור התעשיה התעש 13</Address>
+      <City>כפר סבא</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>721</Branch>
-    <CivicAddress>
-      <address>בעלי המלאכה 200 </address>
-      <city>נתיבות</city>
-    </CivicAddress>
+    <Address>
+      <Address>בעלי המלאכה 200 </Address>
+      <City>נתיבות</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>732</Branch>
-    <CivicAddress>
-      <address>כהנמן 64 </address>
-      <city>בני ברק</city>
-    </CivicAddress>
+    <Address>
+      <Address>כהנמן 64 </Address>
+      <City>בני ברק</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>733</Branch>
-    <CivicAddress>
-      <address>סוקולוב 111 </address>
-      <city>רמת השרון</city>
-    </CivicAddress>
+    <Address>
+      <Address>סוקולוב 111 </Address>
+      <City>רמת השרון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>734</Branch>
-    <CivicAddress>
-      <address>הר"ן 20 </address>
-      <city>ביתר עילית</city>
-    </CivicAddress>
+    <Address>
+      <Address>הר"ן 20 </Address>
+      <City>ביתר עילית</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>738</Branch>
-    <CivicAddress>
-      <address>כאבול 0 </address>
-      <city>כאוכב אבו אל-היג'א</city>
-    </CivicAddress>
+    <Address>
+      <Address>כאבול 0 </Address>
+      <City>כאוכב אבו אל-היג'א</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>740</Branch>
-    <CivicAddress>
-      <address>רבי יהודה הנשיא 8 </address>
-      <city>אשדוד</city>
-    </CivicAddress>
+    <Address>
+      <Address>רבי יהודה הנשיא 8 </Address>
+      <City>אשדוד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>743</Branch>
-    <CivicAddress>
-      <address>דיר אל אסד 0 </address>
-      <city>דייר אל-אסד</city>
-    </CivicAddress>
+    <Address>
+      <Address>דיר אל אסד 0 </Address>
+      <City>דייר אל-אסד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>614</Branch>
-    <CivicAddress>
-      <address>רחוב ראשי 0 </address>
-      <city>טמרה</city>
-    </CivicAddress>
+    <Address>
+      <Address>רחוב ראשי 0 </Address>
+      <City>טמרה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>638</Branch>
-    <CivicAddress>
-      <address>אבו עובדייה 2 ירושלים המזרחית</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>אבו עובדייה 2 ירושלים המזרחית</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>744</Branch>
-    <CivicAddress>
-      <address>דיר חנא 0 </address>
-      <city>דייר חנא</city>
-    </CivicAddress>
+    <Address>
+      <Address>דיר חנא 0 </Address>
+      <City>דייר חנא</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>745</Branch>
-    <CivicAddress>
-      <address>רבי עקיבא 140 </address>
-      <city>בני ברק</city>
-    </CivicAddress>
+    <Address>
+      <Address>רבי עקיבא 140 </Address>
+      <City>בני ברק</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>746</Branch>
-    <CivicAddress>
-      <address>ירמיהו 48 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>ירמיהו 48 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>750</Branch>
-    <CivicAddress>
-      <address>רח' ראשי 0 </address>
-      <city>כפר קאסם</city>
-    </CivicAddress>
+    <Address>
+      <Address>רח' ראשי 0 </Address>
+      <City>כפר קאסם</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>755</Branch>
-    <CivicAddress>
-      <address>מרכז מסחרי צור יגאל 0 מרכז מסחרי צור יגאל</address>
-      <city>כוכב יאיר</city>
-    </CivicAddress>
+    <Address>
+      <Address>מרכז מסחרי צור יגאל 0 מרכז מסחרי צור יגאל</Address>
+      <City>כוכב יאיר</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>742</Branch>
-    <CivicAddress>
-      <address>שד' גולדה מאיר 255 קניון רמות</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' גולדה מאיר 255 קניון רמות</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>736</Branch>
-    <CivicAddress>
-      <address>גבעת משה 5 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>גבעת משה 5 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>752</Branch>
-    <CivicAddress>
-      <address>ראשי 0 </address>
-      <city>זרזיר</city>
-    </CivicAddress>
+    <Address>
+      <Address>ראשי 0 </Address>
+      <City>זרזיר</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>627</Branch>
-    <CivicAddress>
-      <address>פאולוס השישי 0 </address>
-      <city>נצרת</city>
-    </CivicAddress>
+    <Address>
+      <Address>פאולוס השישי 0 </Address>
+      <City>נצרת</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>628</Branch>
-    <CivicAddress>
-      <address>יאפת אל נאסרה 0 </address>
-      <city>יפיע</city>
-    </CivicAddress>
+    <Address>
+      <Address>יאפת אל נאסרה 0 </Address>
+      <City>יפיע</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>630</Branch>
-    <CivicAddress>
-      <address>ריינה 0 </address>
-      <city>ריינה</city>
-    </CivicAddress>
+    <Address>
+      <Address>ריינה 0 </Address>
+      <City>ריינה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>631</Branch>
-    <CivicAddress>
-      <address>כפר כנא 0 ליד המעיין</address>
-      <city>כפר כנא</city>
-    </CivicAddress>
+    <Address>
+      <Address>כפר כנא 0 ליד המעיין</Address>
+      <City>כפר כנא</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>632</Branch>
-    <CivicAddress>
-      <address>כפר טורעאן 0 ת"ד 51</address>
-      <city>טורעאן</city>
-    </CivicAddress>
+    <Address>
+      <Address>כפר טורעאן 0 ת"ד 51</Address>
+      <City>טורעאן</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>634</Branch>
-    <CivicAddress>
-      <address>
-עילבון 0 ת"ד 136</address>
-      <city>עיילבון</city>
-    </CivicAddress>
+    <Address>
+      <Address>
+עילבון 0 ת"ד 136</Address>
+      <City>עיילבון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>635</Branch>
-    <CivicAddress>
-      <address>חגי 21 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>חגי 21 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>639</Branch>
-    <CivicAddress>
-      <address>דרך הבשורה 29 רח' הגליל 6000/30נצרת</address>
-      <city>נצרת</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך הבשורה 29 רח' הגליל 6000/30נצרת</Address>
+      <City>נצרת</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>640</Branch>
-    <CivicAddress>
-      <address>דרך חיפה 0 פינת כפר החורש</address>
-      <city>נצרת</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך חיפה 0 פינת כפר החורש</Address>
+      <City>נצרת</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>642</Branch>
-    <CivicAddress>
-      <address>יפו 64 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>יפו 64 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>643</Branch>
-    <CivicAddress>
-      <address>ראמה 0 ת"ד</address>
-      <city>ראמה</city>
-    </CivicAddress>
+    <Address>
+      <Address>ראמה 0 ת"ד</Address>
+      <City>ראמה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>644</Branch>
-    <CivicAddress>
-      <address>החרושת 2 צמוד לקניון עזריאלי</address>
-      <city>עכו</city>
-    </CivicAddress>
+    <Address>
+      <Address>החרושת 2 צמוד לקניון עזריאלי</Address>
+      <City>עכו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>645</Branch>
-    <CivicAddress>
-      <address>יצחק רגר 59 </address>
-      <city>באר שבע</city>
-    </CivicAddress>
+    <Address>
+      <Address>יצחק רגר 59 </Address>
+      <City>באר שבע</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>646</Branch>
-    <CivicAddress>
-      <address>אגרון 1 פינת קינג ג'ורג</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>אגרון 1 פינת קינג ג'ורג</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>602</Branch>
-    <CivicAddress>
-      <address>אזוה"ת ירכא 0 אזוה"ת ירכא</address>
-      <city>ירכא</city>
-    </CivicAddress>
+    <Address>
+      <Address>אזוה"ת ירכא 0 אזוה"ת ירכא</Address>
+      <City>ירכא</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>603</Branch>
-    <CivicAddress>
-      <address>שד' המייסדים 2 מרכז מסחרי</address>
-      <city>מיתר</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' המייסדים 2 מרכז מסחרי</Address>
+      <City>מיתר</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>620</Branch>
-    <CivicAddress>
-      <address>ארחי בישוף חג'אר 0 ארחי בישוף חג'אר</address>
-      <city>שפרעם</city>
-    </CivicAddress>
+    <Address>
+      <Address>ארחי בישוף חג'אר 0 ארחי בישוף חג'אר</Address>
+      <City>שפרעם</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>621</Branch>
-    <CivicAddress>
-      <address>שבטי ישראל 35 שבטי ישראל</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>שבטי ישראל 35 שבטי ישראל</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>623</Branch>
-    <CivicAddress>
-      <address>דבוריה 0 דבוריה</address>
-      <city>דבורייה</city>
-    </CivicAddress>
+    <Address>
+      <Address>דבוריה 0 דבוריה</Address>
+      <City>דבורייה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>624</Branch>
-    <CivicAddress>
-      <address>רחוב ראשי 0 מג'ד אל כרום</address>
-      <city>מג'ד אל-כרום</city>
-    </CivicAddress>
+    <Address>
+      <Address>רחוב ראשי 0 מג'ד אל כרום</Address>
+      <City>מג'ד אל-כרום</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>647</Branch>
-    <CivicAddress>
-      <address>שמואל הנציב 20 </address>
-      <city>נתניה</city>
-    </CivicAddress>
+    <Address>
+      <Address>שמואל הנציב 20 </Address>
+      <City>נתניה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>649</Branch>
-    <CivicAddress>
-      <address>המרכז המסחרי הישן 3 </address>
-      <city>דימונה</city>
-    </CivicAddress>
+    <Address>
+      <Address>המרכז המסחרי הישן 3 </Address>
+      <City>דימונה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>650</Branch>
-    <CivicAddress>
-      <address>דרך בר יהודה 147 נשר</address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך בר יהודה 147 נשר</Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>625</Branch>
-    <CivicAddress>
-      <address>מעיליא 0 </address>
-      <city>מעיליא</city>
-    </CivicAddress>
+    <Address>
+      <Address>מעיליא 0 </Address>
+      <City>מעיליא</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>651</Branch>
-    <CivicAddress>
-      <address>הרצל 32 </address>
-      <city>פתח תקווה</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרצל 32 </Address>
+      <City>פתח תקווה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>652</Branch>
-    <CivicAddress>
-      <address>אצ"ל 25 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>אצ"ל 25 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>653</Branch>
-    <CivicAddress>
-      <address>שד'' ירושלים 16 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד'' ירושלים 16 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>654</Branch>
-    <CivicAddress>
-      <address>אלנבי 103 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>אלנבי 103 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>655</Branch>
-    <CivicAddress>
-      <address>דיזינגוף 102 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>דיזינגוף 102 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>656</Branch>
-    <CivicAddress>
-      <address>דרך מנחם בגין 74 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך מנחם בגין 74 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>660</Branch>
-    <CivicAddress>
-      <address>שד' הגעתון 38 </address>
-      <city>נהרייה</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' הגעתון 38 </Address>
+      <City>נהרייה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>661</Branch>
-    <CivicAddress>
-      <address>כנפי נשרים 24 גבעת שאול</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>כנפי נשרים 24 גבעת שאול</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>663</Branch>
-    <CivicAddress>
-      <address>ז'בוטינסקי 54 </address>
-      <city>רמת גן</city>
-    </CivicAddress>
+    <Address>
+      <Address>ז'בוטינסקי 54 </Address>
+      <City>רמת גן</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>666</Branch>
-    <CivicAddress>
-      <address>שד' בן גוריון 182 </address>
-      <city>גבעתיים</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' בן גוריון 182 </Address>
+      <City>גבעתיים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>662</Branch>
-    <CivicAddress>
-      <address>העצמאות 2/1 </address>
-      <city>טירת כרמל</city>
-    </CivicAddress>
+    <Address>
+      <Address>העצמאות 2/1 </Address>
+      <City>טירת כרמל</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>680</Branch>
-    <CivicAddress>
-      <address>שדרות משה גושן 86 </address>
-      <city>קריית מוצקין</city>
-    </CivicAddress>
+    <Address>
+      <Address>שדרות משה גושן 86 </Address>
+      <City>קריית מוצקין</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>724</Branch>
-    <CivicAddress>
-      <address>בועיינה 0 רחוב ראשי בועיינה נג'ידאת</address>
-      <city>בועיינה-נוג'ידאת</city>
-    </CivicAddress>
+    <Address>
+      <Address>בועיינה 0 רחוב ראשי בועיינה נג'ידאת</Address>
+      <City>בועיינה-נוג'ידאת</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>668</Branch>
-    <CivicAddress>
-      <address>רוטשילד 115 </address>
-      <city>ראשון לציון</city>
-    </CivicAddress>
+    <Address>
+      <Address>רוטשילד 115 </Address>
+      <City>ראשון לציון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>669</Branch>
-    <CivicAddress>
-      <address>שד' הרצל 75 </address>
-      <city>רמלה</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' הרצל 75 </Address>
+      <City>רמלה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>671</Branch>
-    <CivicAddress>
-      <address>אכסאל 0 </address>
-      <city>אכסאל</city>
-    </CivicAddress>
+    <Address>
+      <Address>אכסאל 0 </Address>
+      <City>אכסאל</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>672</Branch>
-    <CivicAddress>
-      <address>דרך פ"ת 132 7 מרכז עזריאלי 7</address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך פ"ת 132 7 מרכז עזריאלי 7</Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>753</Branch>
-    <CivicAddress>
-      <address>ראשי חורפיש 0 </address>
-      <city>חורפיש</city>
-    </CivicAddress>
+    <Address>
+      <Address>ראשי חורפיש 0 </Address>
+      <City>חורפיש</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>756</Branch>
-    <CivicAddress>
-      <address>ראשי 0 רחוב ראשי אעבלין</address>
-      <city>אעבלין</city>
-    </CivicAddress>
+    <Address>
+      <Address>ראשי 0 רחוב ראשי אעבלין</Address>
+      <City>אעבלין</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>626</Branch>
-    <CivicAddress>
-      <address>עראבה 0 הרחוב הראשי</address>
-      <city>עראבה</city>
-    </CivicAddress>
+    <Address>
+      <Address>עראבה 0 הרחוב הראשי</Address>
+      <City>עראבה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>674</Branch>
-    <CivicAddress>
-      <address>הרצל 189 </address>
-      <city>רחובות</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרצל 189 </Address>
+      <City>רחובות</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>
 בנק מרכנתיל דיסקונט בע"מ</BankName>
     <BankNumber>17</BankNumber>
     <Branch>676</Branch>
-    <CivicAddress>
-      <address>שבי ציון 3 </address>
-      <city>אשדוד</city>
-    </CivicAddress>
+    <Address>
+      <Address>שבי ציון 3 </Address>
+      <City>אשדוד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק פועלי אגודת ישראל בע"מ</BankName>
     <BankNumber>52</BankNumber>
     <Branch>172</Branch>
-    <CivicAddress>
-      <address>כיסופים 17 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>כיסופים 17 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק פועלי אגודת ישראל בע"מ</BankName>
     <BankNumber>52</BankNumber>
     <Branch>988</Branch>
-    <CivicAddress>
-      <address>אהרונוביץ 10 </address>
-      <city>בני ברק</city>
-    </CivicAddress>
+    <Address>
+      <Address>אהרונוביץ 10 </Address>
+      <City>בני ברק</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק פועלי אגודת ישראל בע"מ</BankName>
     <BankNumber>52</BankNumber>
     <Branch>174</Branch>
-    <CivicAddress>
-      <address>עזרא 4 </address>
-      <city>רחובות</city>
-    </CivicAddress>
+    <Address>
+      <Address>עזרא 4 </Address>
+      <City>רחובות</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק פועלי אגודת ישראל בע"מ</BankName>
     <BankNumber>52</BankNumber>
     <Branch>175</Branch>
-    <CivicAddress>
-      <address>שמגר 16 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>שמגר 16 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק פועלי אגודת ישראל בע"מ</BankName>
     <BankNumber>52</BankNumber>
     <Branch>176</Branch>
-    <CivicAddress>
-      <address>בן שטח 10 </address>
-      <city>אלעד</city>
-    </CivicAddress>
+    <Address>
+      <Address>בן שטח 10 </Address>
+      <City>אלעד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק פועלי אגודת ישראל בע"מ</BankName>
     <BankNumber>52</BankNumber>
     <Branch>177</Branch>
-    <CivicAddress>
-      <address>הר"ן 6 כיכר העיר בגבעה B</address>
-      <city>ביתר עילית</city>
-    </CivicAddress>
+    <Address>
+      <Address>הר"ן 6 כיכר העיר בגבעה B</Address>
+      <City>ביתר עילית</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק פועלי אגודת ישראל בע"מ</BankName>
     <BankNumber>52</BankNumber>
     <Branch>179</Branch>
-    <CivicAddress>
-      <address>נחל קישון 48/12 </address>
-      <city>בית שמש</city>
-    </CivicAddress>
+    <Address>
+      <Address>נחל קישון 48/12 </Address>
+      <City>בית שמש</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק פועלי אגודת ישראל בע"מ</BankName>
     <BankNumber>52</BankNumber>
     <Branch>180</Branch>
-    <CivicAddress>
-      <address>שד' יחזקאל 2 </address>
-      <city>מודיעין עילית</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' יחזקאל 2 </Address>
+      <City>מודיעין עילית</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק פועלי אגודת ישראל בע"מ</BankName>
     <BankNumber>52</BankNumber>
     <Branch>181</Branch>
-    <CivicAddress>
-      <address>קניון סירקין, רח' אלעזר פרידמן 9 </address>
-      <city>פתח תקווה</city>
-    </CivicAddress>
+    <Address>
+      <Address>קניון סירקין, רח' אלעזר פרידמן 9 </Address>
+      <City>פתח תקווה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק פועלי אגודת ישראל בע"מ</BankName>
     <BankNumber>52</BankNumber>
     <Branch>182</Branch>
-    <CivicAddress>
-      <address>כנפי נשרים 24 ת.ד. 575</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>כנפי נשרים 24 ת.ד. 575</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק פועלי אגודת ישראל בע"מ</BankName>
     <BankNumber>52</BankNumber>
     <Branch>183</Branch>
-    <CivicAddress>
-      <address>רבי עקיבא 86 </address>
-      <city>בני ברק</city>
-    </CivicAddress>
+    <Address>
+      <Address>רבי עקיבא 86 </Address>
+      <City>בני ברק</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק פועלי אגודת ישראל בע"מ</BankName>
     <BankNumber>52</BankNumber>
     <Branch>184</Branch>
-    <CivicAddress>
-      <address>מאה שערים 44 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>מאה שערים 44 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק פועלי אגודת ישראל בע"מ</BankName>
     <BankNumber>52</BankNumber>
     <Branch>185</Branch>
-    <CivicAddress>
-      <address>עמוס 12 שכונת גאולה</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>עמוס 12 שכונת גאולה</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק פועלי אגודת ישראל בע"מ</BankName>
     <BankNumber>52</BankNumber>
     <Branch>186</Branch>
-    <CivicAddress>
-      <address>דב גור 8 רובע ו</address>
-      <city>אשדוד</city>
-    </CivicAddress>
+    <Address>
+      <Address>דב גור 8 רובע ו</Address>
+      <City>אשדוד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק פועלי אגודת ישראל בע"מ</BankName>
     <BankNumber>52</BankNumber>
     <Branch>187</Branch>
-    <CivicAddress>
-      <address>ארלוזורוב 13 </address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>ארלוזורוב 13 </Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק פועלי אגודת ישראל בע"מ</BankName>
     <BankNumber>52</BankNumber>
     <Branch>188</Branch>
-    <CivicAddress>
-      <address>יעקב לנדאו 4 </address>
-      <city>בני ברק</city>
-    </CivicAddress>
+    <Address>
+      <Address>יעקב לנדאו 4 </Address>
+      <City>בני ברק</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק פועלי אגודת ישראל בע"מ</BankName>
     <BankNumber>52</BankNumber>
     <Branch>981</Branch>
-    <CivicAddress>
-      <address>מנחם בגין 94 </address>
-      <city>פתח תקווה</city>
-    </CivicAddress>
+    <Address>
+      <Address>מנחם בגין 94 </Address>
+      <City>פתח תקווה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק פועלי אגודת ישראל בע"מ</BankName>
     <BankNumber>52</BankNumber>
     <Branch>986</Branch>
-    <CivicAddress>
-      <address>רשב"י 15 רובע ז',</address>
-      <city>אשדוד</city>
-    </CivicAddress>
+    <Address>
+      <Address>רשב"י 15 רובע ז',</Address>
+      <City>אשדוד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>בנק פועלי אגודת ישראל בע"מ</BankName>
     <BankNumber>52</BankNumber>
     <Branch>173</Branch>
-    <CivicAddress>
-      <address>שד' ירושלים 136 </address>
-      <city>נתיבות</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' ירושלים 136 </Address>
+      <City>נתיבות</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>70</Branch>
-    <CivicAddress>
-      <address>גושן 18 </address>
-      <city>קריית מוצקין</city>
-    </CivicAddress>
+    <Address>
+      <Address>גושן 18 </Address>
+      <City>קריית מוצקין</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>74</Branch>
-    <CivicAddress>
-      <address>דרך חברון 98 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך חברון 98 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>76</Branch>
-    <CivicAddress>
-      <address>האורגים 7 </address>
-      <city>אשדוד</city>
-    </CivicAddress>
+    <Address>
+      <Address>האורגים 7 </Address>
+      <City>אשדוד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>78</Branch>
-    <CivicAddress>
-      <address>המשביר 1 א.ת. חולון</address>
-      <city>חולון</city>
-    </CivicAddress>
+    <Address>
+      <Address>המשביר 1 א.ת. חולון</Address>
+      <City>חולון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>82</Branch>
-    <CivicAddress>
-      <address>בית צורי 15 רמת אביב ג'</address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>בית צורי 15 רמת אביב ג'</Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>91</Branch>
-    <CivicAddress>
-      <address>
-מרכז מסחרי חדש 1 </address>
-      <city>מעלות-תרשיחא</city>
-    </CivicAddress>
+    <Address>
+      <Address>
+מרכז מסחרי חדש 1 </Address>
+      <City>מעלות-תרשיחא</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>92</Branch>
-    <CivicAddress>
-      <address>אחוזה 124 פינת רחוב בר אילן</address>
-      <city>רעננה</city>
-    </CivicAddress>
+    <Address>
+      <Address>אחוזה 124 פינת רחוב בר אילן</Address>
+      <City>רעננה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>93</Branch>
-    <CivicAddress>
-      <address>ויצמן 32 בית לסין</address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>ויצמן 32 בית לסין</Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>94</Branch>
-    <CivicAddress>
-      <address>פנחס רוזן 72 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>פנחס רוזן 72 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>95</Branch>
-    <CivicAddress>
-      <address>בן גוריון 11 א' </address>
-      <city>גבעת שמואל</city>
-    </CivicAddress>
+    <Address>
+      <Address>בן גוריון 11 א' </Address>
+      <City>גבעת שמואל</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>101</Branch>
-    <CivicAddress>
-      <address>בלוך 2 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>בלוך 2 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>109</Branch>
-    <CivicAddress>
-      <address>רמז 5 מרכז מסחרי חדש</address>
-      <city>אשקלון</city>
-    </CivicAddress>
+    <Address>
+      <Address>רמז 5 מרכז מסחרי חדש</Address>
+      <City>אשקלון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>110</Branch>
-    <CivicAddress>
-      <address>דרך העצמאות 56 </address>
-      <city>יהוד</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך העצמאות 56 </Address>
+      <City>יהוד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>111</Branch>
-    <CivicAddress>
-      <address>חטיבה 9 23 </address>
-      <city>עפולה</city>
-    </CivicAddress>
+    <Address>
+      <Address>חטיבה 9 23 </Address>
+      <City>עפולה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>112</Branch>
-    <CivicAddress>
-      <address>לסקוב 1 רמת גולדה</address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>לסקוב 1 רמת גולדה</Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>114</Branch>
-    <CivicAddress>
-      <address>כנפי נשרים 2 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>כנפי נשרים 2 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>118</Branch>
-    <CivicAddress>
-      <address>הצופית 40 </address>
-      <city>רמלה</city>
-    </CivicAddress>
+    <Address>
+      <Address>הצופית 40 </Address>
+      <City>רמלה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>119</Branch>
-    <CivicAddress>
-      <address>ילדי טהרן 5 מתחם הפאואר סנטר החדש</address>
-      <city>ראשון לציון</city>
-    </CivicAddress>
+    <Address>
+      <Address>ילדי טהרן 5 מתחם הפאואר סנטר החדש</Address>
+      <City>ראשון לציון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>120</Branch>
-    <CivicAddress>
-      <address>מרכז מסחרי חדש 1 </address>
-      <city>כפר ורדים</city>
-    </CivicAddress>
+    <Address>
+      <Address>מרכז מסחרי חדש 1 </Address>
+      <City>כפר ורדים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>121</Branch>
-    <CivicAddress>
-      <address>ראול ולנברג 4 רמת החייל</address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>ראול ולנברג 4 רמת החייל</Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>124</Branch>
-    <CivicAddress>
-      <address>ראשון לציון 1 </address>
-      <city>פתח תקווה</city>
-    </CivicAddress>
+    <Address>
+      <Address>ראשון לציון 1 </Address>
+      <City>פתח תקווה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>126</Branch>
-    <CivicAddress>
-      <address>תובל 23 </address>
-      <city>רמת גן</city>
-    </CivicAddress>
+    <Address>
+      <Address>תובל 23 </Address>
+      <City>רמת גן</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>127</Branch>
-    <CivicAddress>
-      <address>זריצקי 4 רמת אביב החדשה</address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>זריצקי 4 רמת אביב החדשה</Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>128</Branch>
-    <CivicAddress>
-      <address>שמואל הנביא 6 </address>
-      <city>מודיעין-מכבים-רעות*</city>
-    </CivicAddress>
+    <Address>
+      <Address>שמואל הנביא 6 </Address>
+      <City>מודיעין-מכבים-רעות*</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>131</Branch>
-    <CivicAddress>
-      <address>שד' רבין 9 </address>
-      <city>יקנעם עילית</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' רבין 9 </Address>
+      <City>יקנעם עילית</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>132</Branch>
-    <CivicAddress>
-      <address>אדמונד דה רוטשילד 8 </address>
-      <city>אשקלון</city>
-    </CivicAddress>
+    <Address>
+      <Address>אדמונד דה רוטשילד 8 </Address>
+      <City>אשקלון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>134</Branch>
-    <CivicAddress>
-      <address>המרגנית 2 </address>
-      <city>חולון</city>
-    </CivicAddress>
+    <Address>
+      <Address>המרגנית 2 </Address>
+      <City>חולון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>135</Branch>
-    <CivicAddress>
-      <address>רפפורט 1 </address>
-      <city>כפר סבא</city>
-    </CivicAddress>
+    <Address>
+      <Address>רפפורט 1 </Address>
+      <City>כפר סבא</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>172</Branch>
-    <CivicAddress>
-      <address>כיסופים 17 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>כיסופים 17 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>173</Branch>
-    <CivicAddress>
-      <address>שד' ירושלים 136 </address>
-      <city>נתיבות</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' ירושלים 136 </Address>
+      <City>נתיבות</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>174</Branch>
-    <CivicAddress>
-      <address>עזרא 4 </address>
-      <city>רחובות</city>
-    </CivicAddress>
+    <Address>
+      <Address>עזרא 4 </Address>
+      <City>רחובות</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>175</Branch>
-    <CivicAddress>
-      <address>שמגר 16 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>שמגר 16 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>176</Branch>
-    <CivicAddress>
-      <address>בן שטח 10 </address>
-      <city>אלעד</city>
-    </CivicAddress>
+    <Address>
+      <Address>בן שטח 10 </Address>
+      <City>אלעד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>177</Branch>
-    <CivicAddress>
-      <address>הר"ן 6 כיכר העיר בגבעה B</address>
-      <city>ביתר עילית</city>
-    </CivicAddress>
+    <Address>
+      <Address>הר"ן 6 כיכר העיר בגבעה B</Address>
+      <City>ביתר עילית</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>179</Branch>
-    <CivicAddress>
-      <address>נחל קישון 48/12 </address>
-      <city>בית שמש</city>
-    </CivicAddress>
+    <Address>
+      <Address>נחל קישון 48/12 </Address>
+      <City>בית שמש</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>180</Branch>
-    <CivicAddress>
-      <address>שד' יחזקאל 2 </address>
-      <city>מודיעין עילית</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' יחזקאל 2 </Address>
+      <City>מודיעין עילית</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>181</Branch>
-    <CivicAddress>
-      <address>קניון סירקין, רח' אלעזר פרידמן 9 </address>
-      <city>פתח תקווה</city>
-    </CivicAddress>
+    <Address>
+      <Address>קניון סירקין, רח' אלעזר פרידמן 9 </Address>
+      <City>פתח תקווה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>182</Branch>
-    <CivicAddress>
-      <address>כנפי נשרים 24 ת.ד. 575</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>כנפי נשרים 24 ת.ד. 575</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>183</Branch>
-    <CivicAddress>
-      <address>רבי עקיבא 86 </address>
-      <city>בני ברק</city>
-    </CivicAddress>
+    <Address>
+      <Address>רבי עקיבא 86 </Address>
+      <City>בני ברק</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>184</Branch>
-    <CivicAddress>
-      <address>מאה שערים 44 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>מאה שערים 44 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>185</Branch>
-    <CivicAddress>
-      <address>עמוס 12 שכונת גאולה</address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>עמוס 12 שכונת גאולה</Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>186</Branch>
-    <CivicAddress>
-      <address>דב גור 8 רובע ו</address>
-      <city>אשדוד</city>
-    </CivicAddress>
+    <Address>
+      <Address>דב גור 8 רובע ו</Address>
+      <City>אשדוד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>187</Branch>
-    <CivicAddress>
-      <address>ארלוזורוב 13 </address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>ארלוזורוב 13 </Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>188</Branch>
-    <CivicAddress>
-      <address>יעקב לנדאו 4 </address>
-      <city>בני ברק</city>
-    </CivicAddress>
+    <Address>
+      <Address>יעקב לנדאו 4 </Address>
+      <City>בני ברק</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>3</Branch>
-    <CivicAddress>
-      <address>שדרות התמרים 11 </address>
-      <city>אילת</city>
-    </CivicAddress>
+    <Address>
+      <Address>שדרות התמרים 11 </Address>
+      <City>אילת</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>46</Branch>
-    <CivicAddress>
-      <address>שד' רוטשילד 42 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' רוטשילד 42 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>279</Branch>
-    <CivicAddress>
-      <address>המדע 1 </address>
-      <city>רחובות</city>
-    </CivicAddress>
+    <Address>
+      <Address>המדע 1 </Address>
+      <City>רחובות</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>9</Branch>
-    <CivicAddress>
-      <address>אלחנן 1 </address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>אלחנן 1 </Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>1</Branch>
-    <CivicAddress>
-      <address>ירושלים 34 </address>
-      <city>צפת</city>
-    </CivicAddress>
+    <Address>
+      <Address>ירושלים 34 </Address>
+      <City>צפת</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>2</Branch>
-    <CivicAddress>
-      <address>ככר רבין (רסקו) 1 </address>
-      <city>טבריה</city>
-    </CivicAddress>
+    <Address>
+      <Address>ככר רבין (רסקו) 1 </Address>
+      <City>טבריה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>4</Branch>
-    <CivicAddress>
-      <address>חלוצי התעשיה 20 </address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>חלוצי התעשיה 20 </Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>5</Branch>
-    <CivicAddress>
-      <address>אורן 25 </address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>אורן 25 </Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>6</Branch>
-    <CivicAddress>
-      <address>הבנקים 3 </address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>הבנקים 3 </Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>7</Branch>
-    <CivicAddress>
-      <address>קומוי 1 </address>
-      <city>חיפה</city>
-    </CivicAddress>
+    <Address>
+      <Address>קומוי 1 </Address>
+      <City>חיפה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>8</Branch>
-    <CivicAddress>
-      <address>קרן היסוד 68 </address>
-      <city>קריית ביאליק</city>
-    </CivicAddress>
+    <Address>
+      <Address>קרן היסוד 68 </Address>
+      <City>קריית ביאליק</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>12</Branch>
-    <CivicAddress>
-      <address>הלל 10 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>הלל 10 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>13</Branch>
-    <CivicAddress>
-      <address>עזה 27 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>עזה 27 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>16</Branch>
-    <CivicAddress>
-      <address>הל"ה 14 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>הל"ה 14 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>17</Branch>
-    <CivicAddress>
-      <address>התקווה 4 </address>
-      <city>באר שבע</city>
-    </CivicAddress>
+    <Address>
+      <Address>התקווה 4 </Address>
+      <City>באר שבע</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>21</Branch>
-    <CivicAddress>
-      <address>רוטשילד 56 </address>
-      <city>כפר סבא</city>
-    </CivicAddress>
+    <Address>
+      <Address>רוטשילד 56 </Address>
+      <City>כפר סבא</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>22</Branch>
-    <CivicAddress>
-      <address>הרצל 5 </address>
-      <city>נתניה</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרצל 5 </Address>
+      <City>נתניה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>23</Branch>
-    <CivicAddress>
-      <address>דרך בן גוריון 11 </address>
-      <city>בני ברק</city>
-    </CivicAddress>
+    <Address>
+      <Address>דרך בן גוריון 11 </Address>
+      <City>בני ברק</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>24</Branch>
-    <CivicAddress>
-      <address>האורזים 1 שכונת קריית השרון</address>
-      <city>נתניה</city>
-    </CivicAddress>
+    <Address>
+      <Address>האורזים 1 שכונת קריית השרון</Address>
+      <City>נתניה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>27</Branch>
-    <CivicAddress>
-      <address>הרברט סמואל 66 </address>
-      <city>חדרה</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרברט סמואל 66 </Address>
+      <City>חדרה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>28</Branch>
-    <CivicAddress>
-      <address>שנקין 3 </address>
-      <city>גבעתיים</city>
-    </CivicAddress>
+    <Address>
+      <Address>שנקין 3 </Address>
+      <City>גבעתיים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>29</Branch>
-    <CivicAddress>
-      <address>הרצל 182 </address>
-      <city>רחובות</city>
-    </CivicAddress>
+    <Address>
+      <Address>הרצל 182 </Address>
+      <City>רחובות</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>30</Branch>
-    <CivicAddress>
-      <address>שד' הרצל 63 </address>
-      <city>רמלה</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' הרצל 63 </Address>
+      <City>רמלה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>32</Branch>
-    <CivicAddress>
-      <address>רוטשילד 14 </address>
-      <city>ראשון לציון</city>
-    </CivicAddress>
+    <Address>
+      <Address>רוטשילד 14 </Address>
+      <City>ראשון לציון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>33</Branch>
-    <CivicAddress>
-      <address>שד' מנחם בגין קניון הסיטי 1 </address>
-      <city>אשדוד</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' מנחם בגין קניון הסיטי 1 </Address>
+      <City>אשדוד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>34</Branch>
-    <CivicAddress>
-      <address>פינסקר 3 </address>
-      <city>פתח תקווה</city>
-    </CivicAddress>
+    <Address>
+      <Address>פינסקר 3 </Address>
+      <City>פתח תקווה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>35</Branch>
-    <CivicAddress>
-      <address>שלמה המלך 37 קניון קיראון</address>
-      <city>קריית אונו</city>
-    </CivicAddress>
+    <Address>
+      <Address>שלמה המלך 37 קניון קיראון</Address>
+      <City>קריית אונו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>36</Branch>
-    <CivicAddress>
-      <address>עמל 1 פארק אפק</address>
-      <city>ראש העין</city>
-    </CivicAddress>
+    <Address>
+      <Address>עמל 1 פארק אפק</Address>
+      <City>ראש העין</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>37</Branch>
-    <CivicAddress>
-      <address>הבנים 12 </address>
-      <city>הוד השרון</city>
-    </CivicAddress>
+    <Address>
+      <Address>הבנים 12 </Address>
+      <City>הוד השרון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>38</Branch>
-    <CivicAddress>
-      <address>הנוף 33 </address>
-      <city>סביון*</city>
-    </CivicAddress>
+    <Address>
+      <Address>הנוף 33 </Address>
+      <City>סביון*</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>39</Branch>
-    <CivicAddress>
-      <address>בלפור 62 </address>
-      <city>בת ים</city>
-    </CivicAddress>
+    <Address>
+      <Address>בלפור 62 </Address>
+      <City>בת ים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>41</Branch>
-    <CivicAddress>
-      <address>ביאליק 27 </address>
-      <city>רמת גן</city>
-    </CivicAddress>
+    <Address>
+      <Address>ביאליק 27 </Address>
+      <City>רמת גן</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>44</Branch>
-    <CivicAddress>
-      <address>אלנבי 1 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>אלנבי 1 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>45</Branch>
-    <CivicAddress>
-      <address>סקולוב 41 </address>
-      <city>חולון</city>
-    </CivicAddress>
+    <Address>
+      <Address>סקולוב 41 </Address>
+      <City>חולון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>48</Branch>
-    <CivicAddress>
-      <address>יצחק שדה 7 </address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>יצחק שדה 7 </Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>50</Branch>
-    <CivicAddress>
-      <address>שד' תל חי פינת סלינגר 1 </address>
-      <city>קריית שמונה</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' תל חי פינת סלינגר 1 </Address>
+      <City>קריית שמונה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>51</Branch>
-    <CivicAddress>
-      <address>משכית 35 </address>
-      <city>הרצלייה</city>
-    </CivicAddress>
+    <Address>
+      <Address>משכית 35 </Address>
+      <City>הרצלייה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>52</Branch>
-    <CivicAddress>
-      <address>שד' הגעתון 41 </address>
-      <city>נהרייה</city>
-    </CivicAddress>
+    <Address>
+      <Address>שד' הגעתון 41 </Address>
+      <City>נהרייה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>59</Branch>
-    <CivicAddress>
-      <address>החרושת 15 </address>
-      <city>כרמיאל</city>
-    </CivicAddress>
+    <Address>
+      <Address>החרושת 15 </Address>
+      <City>כרמיאל</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>62</Branch>
-    <CivicAddress>
-      <address>הזית 54 השוק החדש</address>
-      <city>קריית גת</city>
-    </CivicAddress>
+    <Address>
+      <Address>הזית 54 השוק החדש</Address>
+      <City>קריית גת</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>64</Branch>
-    <CivicAddress>
-      <address>צמרות 2 </address>
-      <city>הרצלייה</city>
-    </CivicAddress>
+    <Address>
+      <Address>צמרות 2 </Address>
+      <City>הרצלייה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>65</Branch>
-    <CivicAddress>
-      <address>ריינס 2 ככר דיזנגוף</address>
-      <city>תל אביב -יפו</city>
-    </CivicAddress>
+    <Address>
+      <Address>ריינס 2 ככר דיזנגוף</Address>
+      <City>תל אביב -יפו</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>981</Branch>
-    <CivicAddress>
-      <address>מנחם בגין 94 </address>
-      <city>פתח תקווה</city>
-    </CivicAddress>
+    <Address>
+      <Address>מנחם בגין 94 </Address>
+      <City>פתח תקווה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>986</Branch>
-    <CivicAddress>
-      <address>רשב"י 15 רובע ז',</address>
-      <city>אשדוד</city>
-    </CivicAddress>
+    <Address>
+      <Address>רשב"י 15 רובע ז',</Address>
+      <City>אשדוד</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>988</Branch>
-    <CivicAddress>
-      <address>אהרונוביץ 10 </address>
-      <city>בני ברק</city>
-    </CivicAddress>
+    <Address>
+      <Address>אהרונוביץ 10 </Address>
+      <City>בני ברק</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>280</Branch>
-    <CivicAddress>
-      <address>ירושלים 34 בית גמלא</address>
-      <city>רעננה</city>
-    </CivicAddress>
+    <Address>
+      <Address>ירושלים 34 בית גמלא</Address>
+      <City>רעננה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>288</Branch>
-    <CivicAddress>
-      <address>קרן היסוד 32 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>קרן היסוד 32 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>הבנק הבינלאומי הראשון לישראל בע"מ</BankName>
     <BankNumber>31</BankNumber>
     <Branch>119</Branch>
-    <CivicAddress>
-      <address>בומה שביט 5 בומה שביט 5 ראשון לציון</address>
-      <city>ראשון לציון</city>
-    </CivicAddress>
+    <Address>
+      <Address>בומה שביט 5 בומה שביט 5 ראשון לציון</Address>
+      <City>ראשון לציון</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>יובנק בע"מ</BankName>
     <BankNumber>26</BankNumber>
     <Branch>279</Branch>
-    <CivicAddress>
-      <address>המדע 1 </address>
-      <city>רחובות</city>
-    </CivicAddress>
+    <Address>
+      <Address>המדע 1 </Address>
+      <City>רחובות</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>יובנק בע"מ</BankName>
     <BankNumber>26</BankNumber>
     <Branch>280</Branch>
-    <CivicAddress>
-      <address>ירושלים 34 בית גמלא</address>
-      <city>רעננה</city>
-    </CivicAddress>
+    <Address>
+      <Address>ירושלים 34 בית גמלא</Address>
+      <City>רעננה</City>
+    </Address>
   </Bank>
   <Bank>
     <BankName>יובנק בע"מ</BankName>
     <BankNumber>26</BankNumber>
     <Branch>288</Branch>
-    <CivicAddress>
-      <address>קרן היסוד 32 </address>
-      <city>ירושלים</city>
-    </CivicAddress>
+    <Address>
+      <Address>קרן היסוד 32 </Address>
+      <City>ירושלים</City>
+    </Address>
   </Bank>
 </ArrayOfBank>

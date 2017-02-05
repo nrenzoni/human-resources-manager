@@ -24,6 +24,11 @@ namespace PLWPF
 
         BE.Specialization UISpec = new BE.Specialization();
 
+        State specUC_State = State.view;
+
+        // exclude from setting the isEnabled property on these properties because they are binded (setting value of property in code behind after property is binded removes binding)
+        string[] isEnabledExclusions = { "ComSpecID" };
+
         public event Action Spec_DS_Change_Event;
 
         public Spec_UserControl()
@@ -31,7 +36,7 @@ namespace PLWPF
             InitializeComponent();
             Spec_DS_Change_Event += refreshCombox;
             DataContext = UISpec;
-            refreshCombox(); // refreshes comspecID itemssource
+            refreshCombox(); // initializes comspecID itemssource
         }
 
 
@@ -40,69 +45,57 @@ namespace PLWPF
 
         private void ComSpecID_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            // check if null because uint cast potentially on null
-            if (ComSpecID.SelectedItem == null || ComSpecID.SelectedIndex == -1)
-            {
-                Globals.ClearAllFields(SpecializationGrid);
-                return;
-
-            }          
+            // if selection is not one of the specs in lcombobox
+            if (ComSpecID.SelectedItem == null)
+                Globals.CopyObject(new BE.Specialization(), UISpec);
             else
                 Globals.CopyObject((BE.Specialization)ComSpecID.SelectedItem, UISpec);
         }
 
         private void addButton_Click(object sender, RoutedEventArgs e)
         {
-            addButton.Visibility = Visibility.Collapsed;
-            finalizeButton.Visibility = Visibility.Visible;
-            cancelButton.Visibility = Visibility.Visible;
-            deleteButton.Visibility = Visibility.Hidden;
-            updateButton.Visibility = Visibility.Hidden;
+            save_buttonVisib();
 
-            txtSpecName.IsEnabled = true;
-            txtMinWagePerHour.IsEnabled = true;
-            txtMaxWagePerHour.IsEnabled = true;
-
+            SpecializationGrid.setIsEnabled(true, isEnabledExclusions);
             ComSpecID.IsEnabled = false;
+
+            specUC_State = State.createNew;
             
-            ComSpecID.Text = BL_Object.getNextContractID().ToString();
+            ComSpecID.Text = BL_Object.getNextSpecID().ToString();
         }
 
-        private void finalizeButton_Click(object sender, RoutedEventArgs e)
+        private void saveButton_Click(object sender, RoutedEventArgs e)
         {
             UISpec.ID = uint.Parse(ComSpecID.Text);
 
             try
             {
-                BE.Specialization addSpec = new BE.Specialization();
-                Globals.CopyObject(UISpec, addSpec);
-                BL_Object.addSpecialization(addSpec);
+                switch (specUC_State)
+                {
 
-                lockFields();
+                    case State.createNew:
+                        BE.Specialization addSpec = new BE.Specialization();
+                        Globals.CopyObject(UISpec, addSpec);
+                        BL_Object.addSpecialization(addSpec);
+                        break;
+
+                    case State.modify:
+                        BL_Object.updateSpecilization(UISpec);
+                        Spec_DS_Change_Event?.Invoke();
+                        break;
+
+                }
 
                 Spec_DS_Change_Event?.Invoke(); // refreshes combobox as well
+                restoreButtonVisib();
             }
             catch (Exception ex) { Globals.exceptionHandler(ex); }
         }
 
         private void cancelButton_Click(object sender, RoutedEventArgs e)
         {
-            lockFields();
-        }
-
-        void lockFields()
-        {
-            addButton.Visibility = Visibility.Visible;
-            finalizeButton.Visibility = Visibility.Collapsed;
-            cancelButton.Visibility = Visibility.Collapsed;
-            deleteButton.Visibility = Visibility.Visible;
-            updateButton.Visibility = Visibility.Visible;
-
-            txtSpecName.IsEnabled = false;
-            txtMinWagePerHour.IsEnabled = false;
-            txtMaxWagePerHour.IsEnabled = false;
-
-            ComSpecID.IsEnabled = true;
+            restoreButtonVisib();
+            specUC_State = State.view;
         }
 
         private void deleteButton_Click(object sender, RoutedEventArgs e)
@@ -117,12 +110,43 @@ namespace PLWPF
 
         private void updateButton_Click(object sender, RoutedEventArgs e)
         {
-            try
-            {
-                BL_Object.updateSpecilization(UISpec);
-                Spec_DS_Change_Event?.Invoke();
-            }
-            catch (Exception ex) { Globals.exceptionHandler(ex); }
+            specUC_State = State.modify;
+
+            update_buttonVisib();
+
+            ComSpecID.IsEnabled = false;
+            SpecializationGrid.setIsEnabled(true, isEnabledExclusions);
+        }
+
+        void update_buttonVisib()
+        {
+            addButton.Visibility = Visibility.Collapsed;
+            deleteButton.Visibility = Visibility.Collapsed;
+            saveButton.Visibility = Visibility.Visible;
+            cancelButton.Visibility = Visibility.Visible;
+            updateButton.Visibility = Visibility.Collapsed;
+        }
+
+        void save_buttonVisib()
+        {
+            addButton.Visibility = Visibility.Collapsed;
+            saveButton.Visibility = Visibility.Visible;
+            cancelButton.Visibility = Visibility.Visible;
+            deleteButton.Visibility = Visibility.Collapsed;
+            updateButton.Visibility = Visibility.Collapsed;
+        }
+
+        void restoreButtonVisib()
+        {
+            addButton.Visibility = Visibility.Visible;
+            saveButton.Visibility = Visibility.Collapsed;
+            cancelButton.Visibility = Visibility.Collapsed;
+            deleteButton.Visibility = Visibility.Visible;
+            updateButton.Visibility = Visibility.Visible;
+
+            SpecializationGrid.setIsEnabled(false, isEnabledExclusions);
+            ComSpecID.IsEnabled = true;
+
         }
     }
 }

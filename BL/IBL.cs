@@ -18,6 +18,12 @@ namespace BL
         /// <param name="specilization"></param>
         /// <returns></returns>
         bool deleteSpecilization(Specialization specilization);
+
+        /// <summary>
+        /// unconditionaly update any property of specialization, except for ID
+        /// </summary>
+        /// <param name="specilization"></param>
+        /// <returns></returns>
         bool updateSpecilization(Specialization specilization);
 
         /// <summary>
@@ -70,6 +76,12 @@ namespace BL
         /// </summary>
         /// <returns></returns>
         uint getNextContractID();
+
+        /// <summary>
+        /// returns next available specialization ID from DAL
+        /// </summary>
+        /// <returns></returns>
+        uint getNextSpecID();
 
         /// <summary>
         /// adds employer on condition that company establishment is not in future, and that same company does not already exist
@@ -140,10 +152,19 @@ namespace BL
         /// <returns></returns>
         IEnumerable<IGrouping<int, double>> getProfitByYear(bool ordered = false); // <int=year (key), double=profit>
 
+        /// <summary>
+        /// returns banks with grouping of bank names, inner list of branches
+        /// </summary>
+        /// <returns></returns>
+        //IEnumerable<IGrouping<string, Bank>> getBanksGrouped();
+
+        IEnumerable<IGrouping<string, Bank>> getBanksGrouped();
+
         List<Specialization> getSpecilizationList();
         List<Employee> getEmployeeList();
         List<Employer> getEmployerList();
         List<Contract> getContractList();
+        List<Bank>     getBankList();
 
         /// <summary>
         /// In the list we have only one ATM from each Branch.

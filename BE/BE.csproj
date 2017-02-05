@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Bank.cs" />
+    <Compile Include="CivicAddress.cs" />
     <Compile Include="Contract.cs" />
     <Compile Include="Employee.cs" />
     <Compile Include="Employer.cs" />

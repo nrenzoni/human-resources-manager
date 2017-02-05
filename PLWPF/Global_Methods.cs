@@ -9,6 +9,8 @@ using System.Windows.Controls;
 
 namespace PLWPF
 {
+    enum State { view, createNew, modify }
+
     public static class Globals
     {
         //public static BL.IBL BL_Object = BL.FactoryBL.IBLInstance;
@@ -47,12 +49,56 @@ namespace PLWPF
                     (item as TextBox).Text = "";
 
                 else if (item.GetType() == typeof(DatePicker))
-                    (item as DatePicker).Text = "";
+                    (item as DatePicker).SelectedDate = ResetDatePicker();
             }
         }
 
         public static DateTime ResetDatePicker()
-            => new DateTime(2000, 1, 1);          
+            => new DateTime(1970, 1, 1);          
               
+    }
+
+    public static class ExtensionMethods
+    {
+        public static bool hasProperty(this object ObjectToCheck, string methodName)
+        {
+            var type = ObjectToCheck.GetType();
+            return type.GetProperty(methodName) != null;
+        }
+
+        public static void setIsEnabled(this object parent, bool val, params string[] exclude)
+        {
+            // set isEnabled to val on all chilren and children's children etc recursively
+            if (!parent.hasProperty("Children"))
+                throw new Exception("cannot perform setIsEnabled on parent that does not have Children");
+
+            foreach (var control in (UIElementCollection)parent.GetType().GetProperty("Children").GetValue(parent, null))
+            {
+                // if sub-child elements exist, recursive call
+                if (control.hasProperty("Children"))
+                    setIsEnabled(control, val, exclude);
+
+                // check exclusion rule by 'Name' property of controls
+                bool skip = false;
+                foreach (var excludeRule in exclude)
+                {
+                    if (control.hasProperty("Name"))
+                    {
+                        if (control.GetType().GetProperty("Name").GetValue(control).ToString() == excludeRule)
+                        {
+                            skip = true;
+                            break;
+                        }
+                    }
+                }
+
+                if (skip)
+                    continue;
+
+                // finally, set isEnabled property to val of current control if it has IsEnabled property
+                if (control.hasProperty("IsEnabled"))
+                    control.GetType().GetProperty("IsEnabled").SetValue(control, val);
+            }
+        }
     }
 }

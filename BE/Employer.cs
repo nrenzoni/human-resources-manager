@@ -69,7 +69,7 @@ namespace BE
             }
         }
 
-        CivicAddress _address;
+        CivicAddress _address = new CivicAddress();
         public CivicAddress address
         {
             get { return _address; }
@@ -97,7 +97,7 @@ namespace BE
             }
         }
 
-        DateTime _establishmentDate;
+        DateTime _establishmentDate = new DateTime(2000,1,1);
         public DateTime establishmentDate
         {
             get { return _establishmentDate; }
@@ -111,16 +111,19 @@ namespace BE
             }
         }
 
+        //public override string ToString()
+        //{
+        //    return ((privatePerson) ? "Private Employer" : "Company") +
+        //        " ID: " + ID +
+        //        ((privatePerson) ? " Name: " +
+        //        lastName + ", " + firstName : "") +
+        //        ((string.IsNullOrEmpty(companyName)) ? "" : " Company Name: " + companyName) +
+        //        " Phone Number: " + phoneNumber +
+        //        ", " + address;
+        //}
+
         public override string ToString()
-        {
-            return ((privatePerson) ? "Private Employer" : "Company") +
-                " ID: " + ID +
-                ((privatePerson) ? " Name: " +
-                lastName + ", " + firstName : "") +
-                ((string.IsNullOrEmpty(companyName)) ? "" : " Company Name: " + companyName) +
-                " Phone Number: " + phoneNumber +
-                ", " + address;
-        }
+            => ID + ": " + companyName;
 
         public event PropertyChangedEventHandler PropertyChanged;
 

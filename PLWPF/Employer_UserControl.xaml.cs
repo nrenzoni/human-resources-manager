@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PLWPF;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
@@ -13,7 +14,6 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using System.Reflection;
 
 namespace PLWPF
 {
@@ -25,22 +25,31 @@ namespace PLWPF
 
         public event Action Employer_DS_Change_Event;
 
+        State EmployerUC_State = State.view;
+
+        // exclude from setting the isEnabled property on these properties because they are binded (setting value of property in code behind after property is binded removes binding)
+        string[] isEnabledExclusions = { "ComEmployerID", "txtEmplyeFirstName", "txtEmplyeLastName" };
+
         public Employer_UserControl()
         {
             InitializeComponent();
             Employer_DS_Change_Event += refreshCombox;
             DataContext = UIEmployer;
 
+            ComEmplyeCity.ItemsSource = BE.CivicAddress.Cities;
 
 
             ComEmplyeCity.ItemsSource =from name in BE.CivicAddress.Cities
                                        orderby name
                                        select name;
             refreshCombox();
-            Globals.ClearAllFields(EmployerGrid);
+
+            EmployerGrid.setIsEnabled(false, isEnabledExclusions);
+
+            restoreButtonVisib();
         }
 
-        private void refreshCombox()
+        public void refreshCombox()
         {
             ComEmployerID.ItemsSource = BL_Object.getEmployerList();
             ComEmplyeSpec.ItemsSource = BL_Object.getSpecilizationList();
@@ -51,9 +60,12 @@ namespace PLWPF
         {
             BE.Employer foundEmployer = BL_Object.getEmployerList().FirstOrDefault(x => x == (BE.Employer)ComEmployerID.SelectedItem);
 
-            if (BE.Employer.Equals(foundEmployer , null)) // check if null because uint cast potentially on null
+            if (Equals(foundEmployer, null)) // check if null because uint cast potentially on null
             {
-                Globals.ClearAllFields(EmployerGrid); // Clear the fields in the current grid.
+                // resets UIEmployer fields, in effect reseting all controls in UI bc of binding
+                Globals.CopyObject(new BE.Employer(), UIEmployer);
+
+                //Globals.ClearAllFields(EmployerGrid); // Clear the fields in the current grid.
                 return;
             }
 
@@ -61,16 +73,49 @@ namespace PLWPF
             else { Globals.CopyObject(foundEmployer, UIEmployer); }
         }
 
-        private void addButton_Click(object sender, RoutedEventArgs e)
+        private void addNew_Click(object sender, RoutedEventArgs e)
+        {
+            add_ButtonVisib();
+
+            ComEmployerID.ItemsSource = null;
+
+            EmployerGrid.setIsEnabled(true, "ComEmployerID", "txtEmplyeFirstName", "txtEmplyeLastName");
+        }
+
+        private void saveButton_Click(object sender, RoutedEventArgs e)
         {
             try
             {
-                BE.Employer addEmployer = new BE.Employer();
-                Globals.CopyObject(UIEmployer, addEmployer);
-                BL_Object.addEmployer(addEmployer);
+                switch (EmployerUC_State)
+                {
+
+                    case State.createNew:
+                        BE.Employer addEmployer = new BE.Employer();
+                        Globals.CopyObject(UIEmployer, addEmployer);
+                        BL_Object.addEmployer(addEmployer);
+                        break;
+
+                    case State.modify:
+                        break;
+                        BL_Object.updateEmployer(UIEmployer);
+                        Employer_DS_Change_Event?.Invoke();
+                    default:
+                        break;
+
+                }
+
                 Employer_DS_Change_Event?.Invoke();
+                restoreButtonVisib();
             }
             catch (Exception ex) { Globals.exceptionHandler(ex); }
+        }
+
+        private void cancelButton_Click(object sender, RoutedEventArgs e)
+        {
+            restoreButtonVisib();
+            ComEmployerID.ItemsSource = BL_Object.getEmployerList();
+
+            EmployerGrid.setIsEnabled(false, isEnabledExclusions);
         }
 
         private void deleteButton_Click(object sender, RoutedEventArgs e)
@@ -79,23 +124,54 @@ namespace PLWPF
             {
                 BL_Object.deleteEmployer(UIEmployer);
                 Employer_DS_Change_Event?.Invoke();
-            }
-            catch(Exception ex) { Globals.exceptionHandler(ex); }
-        }
-
-        private void updateButton_Click(object sender, RoutedEventArgs e)
-        {
-            try
-            {
-                BL_Object.updateEmployer(UIEmployer);
-                Employer_DS_Change_Event?.Invoke();
+                restoreButtonVisib();
             }
             catch (Exception ex) { Globals.exceptionHandler(ex); }
         }
 
-        private void ComEmplyeCity_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void makeChangesButton_Click(object sender, RoutedEventArgs e)
         {
+            addFirstButton.Visibility = Visibility.Collapsed;
+            saveButton.Visibility = Visibility.Visible;
 
+            updateButton.Visibility = Visibility.Collapsed;
+            cancelButton.Visibility = Visibility.Visible;
+            deleteButton.Visibility = Visibility.Collapsed;
+
+            EmployerGrid.setIsEnabled(true, isEnabledExclusions);
+            ComEmployerID.IsEnabled = false;
+
+            EmployerUC_State = State.modify;
+        }
+
+
+        void add_ButtonVisib()
+        {
+            addFirstButton.Visibility = Visibility.Collapsed;
+            saveButton.Visibility = Visibility.Visible;
+            cancelButton.Visibility = Visibility.Visible;
+            deleteButton.Visibility = Visibility.Collapsed;
+            updateButton.Visibility = Visibility.Collapsed;
+        }
+
+        void restoreButtonVisib()
+        {
+            addFirstButton.Visibility = Visibility.Visible;
+            saveButton.Visibility = Visibility.Collapsed;
+            cancelButton.Visibility = Visibility.Collapsed;
+            deleteButton.Visibility = Visibility.Visible;
+            updateButton.Visibility = Visibility.Visible;
+
+            // set isEnabled to false on all children in grid
+            EmployerGrid.setIsEnabled(false, isEnabledExclusions);
+            ComEmployerID.IsEnabled = true;
+        }
+
+        private void cBoxPrivate_Checked(object sender, RoutedEventArgs e)
+        {
+            // resets first and last name if private person
+            UIEmployer.firstName = "";
+            UIEmployer.lastName  = "";
         }
     }
 }

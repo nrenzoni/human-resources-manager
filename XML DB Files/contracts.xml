@@ -1,2 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contracts />
+<contracts>
+  <contract ID="100000">
+    <EmployerID>457754</EmployerID>
+    <EmployeeID>34566</EmployeeID>
+    <isInterviewed>true</isInterviewed>
+    <contractFinalized>false</contractFinalized>
+    <grossWagePerHour>50</grossWagePerHour>
+    <netWagePerHour>40</netWagePerHour>
+    <maxWorkHours>5</maxWorkHours>
+    <contractEstablishedDate>2017-02-05T00:00:00+02:00</contractEstablishedDate>
+    <contractTerminatedDate>2020-02-05T00:00:00+02:00</contractTerminatedDate>
+  </contract>
+  <contract ID="100001">
+    <EmployerID>345645</EmployerID>
+    <EmployeeID>34566</EmployeeID>
+    <isInterviewed>false</isInterviewed>
+    <contractFinalized>true</contractFinalized>
+    <grossWagePerHour>45</grossWagePerHour>
+    <netWagePerHour>36.45</netWagePerHour>
+    <maxWorkHours>50</maxWorkHours>
+    <contractEstablishedDate>2017-02-05T00:00:00+02:00</contractEstablishedDate>
+    <contractTerminatedDate>2020-02-05T00:00:00+02:00</contractTerminatedDate>
+  </contract>
+</contracts>

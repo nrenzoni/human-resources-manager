@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 using BE;
 using DAL;
 using System.Collections.ObjectModel;
+using System.Reflection;
+using System.Collections.Generic;
 
 namespace BL
 {
@@ -13,8 +15,73 @@ namespace BL
     {
         IDAL DAL_Object = FactoryDAL.DALInstance;
 
+        // returns true if obj has property with no value or null
+        bool hasEmptyFields(object obj, params string[] exclude)
+        {
+            foreach (PropertyInfo property in obj.GetType().GetProperties())
+            {
+                // if bool type, skip, because default of bool is false and that is a valid value
+                if (property.PropertyType == typeof(bool))
+                    continue;
+
+                // skip if type is enum
+                if (property.PropertyType.IsEnum)
+                    continue;
+
+
+                // if current property's name matches one of exclude params, skip
+                bool skip = false;
+                foreach (string excludeRule in exclude)
+                {
+                    if (property.Name == excludeRule)
+                    {
+                        skip = true;
+                        break;
+                    }
+                }
+
+                if (skip)
+                    continue;
+
+                // only check properties which have a set method, since only those are stored in DS
+                if(property.GetSetMethod() != null)
+                {
+                    // if property is of type civicAddress or Bank, recursively check its properties
+                    if (property.PropertyType == typeof(CivicAddress) || property.PropertyType == typeof(Bank))
+                    {
+                        if (hasEmptyFields(property.GetValue(obj), exclude) == true)
+                            return true;
+                        else
+                            continue;
+                    }
+
+                    object value = property.GetValue(obj, null);
+
+                    // if obj is equal to its type's default or equal to NULL, return true
+                    if ( Equals(value, getDefault(property.PropertyType)) )
+                        return true;
+                }
+            }
+
+            // if no empty or null properties found, return false
+            return false;
+        }
+
+        static object getDefault(Type type)
+        {
+            if (type.IsValueType)
+                return Activator.CreateInstance(type);
+            else if (type == typeof(string))
+                return "";
+            else
+                return null;
+        }
+
         public bool addSpecialization(Specialization specialization)
         {
+            if (hasEmptyFields(specialization))
+                throw new Exception("please fill out all fields");
+
             if (DAL_Object.getSpecilizationList().Exists(s => s.specializationName.Trim().ToLower() == specialization.specializationName.Trim().ToLower()))
                 throw new Exception("a specialization already exists with name" + specialization.specializationName);
 
@@ -45,8 +112,11 @@ namespace BL
         }
 
         public bool addEmployee(Employee employee)
-        {         
-            if(DateTime.Today.Year - employee.birthday.Year < 18)
+        {
+            if (hasEmptyFields(employee, "recommendationNotes", "specializationID", "BankNumber")) // recommendationNotes are optional, specializationID is uint and 0 is valid, and BankNumber is always empty in employee, but employee has Bank struct
+                throw new Exception("please fill out all fields");
+
+            if (DateTime.Today.Year - employee.birthday.Year < 18)
             {
                 throw new Exception("employee under legal age of 18");
             }
@@ -62,6 +132,9 @@ namespace BL
 
             return DAL_Object.addEmployee(employee);
         }
+
+        public uint getNextSpecID()
+            => DAL_Object.getNextSpecID();
 
         public bool deleteEmployee(Employee employee)
         {
@@ -82,6 +155,9 @@ namespace BL
 
         public bool addContract(Contract contract)
         {
+            if (hasEmptyFields(contract, "netWagePerHour")) // netwage calculated below in BL
+                throw new Exception("please fill out all fields");
+
             #region check if employee and employer exist in DS
             if (DAL_Object.getEmployeeList().Count(x => x.ID == contract.EmployeeID) != 1)
                 throw new Exception("cannot add contract for employee that does not exist");
@@ -160,6 +236,9 @@ namespace BL
         {
             // can only update terminated contract
             Contract foundContr = DAL_Object.getContractList().Find(x => Equals(x,contract));
+            if (foundContr == null)
+                return false; // contract does not exist in DB
+
             if (DateTime.Now < foundContr.contractTerminatedDate) // previous termination date in future
             {
                 foundContr.contractTerminatedDate = DateTime.Now;
@@ -176,6 +255,15 @@ namespace BL
 
         public bool addEmployer(Employer employer)
         {
+            // if private, all properties must be filled, including first name and last name
+            if (employer.privatePerson && hasEmptyFields(employer))
+                throw new Exception("please fill out all fields");
+
+            // if not private, skip check of firstName and lastName
+            else if(hasEmptyFields(employer, "firstName", "lastName"))
+                throw new Exception("please fill out all fields");
+
+
             // establishment date is in the future
             if (DateTime.Today < employer.establishmentDate)
                 throw new Exception("establishment date of employer cannot be in future");
@@ -274,7 +362,17 @@ namespace BL
                 group g_year.Sum() by g_year.Key;
         }
 
+        //public IEnumerable<IGrouping<string, IGrouping<uint, Bank>>> getBanksGrouped()
+        //    => from bank in DAL_Object.getBankList()
+        //       group bank by bank.BankName into bankGroupingByName // outer grouping
+        //       from bank in
+        //           (from bank in bankGroupingByName
+        //            group bank by bank.Branch) // inner grouping
+        //       group bank by bankGroupingByName.Key;
 
+        public IEnumerable<IGrouping<string,Bank>> getBanksGrouped()
+            => from bank in DAL_Object.getBankList()
+                group bank by bank.BankName;
 
         public List<Specialization> getSpecilizationList()
             => new List<Specialization>(DAL_Object.getSpecilizationList());
@@ -293,6 +391,6 @@ namespace BL
                select new ContractGroupingContainer { key = null, contract = contr };
 
         public List<Bank> getBankList()
-        => new List<Bank>( DAL_Object.getBankList());
+            => DAL_Object.getBankList();
     }
 }

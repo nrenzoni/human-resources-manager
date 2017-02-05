@@ -10,46 +10,8 @@ namespace BE
 {
     public enum Education { student, BA, MA, PHD};
 
-    public class CivicAddress
-    {
-        
-        public string Address { get; set; }
-        public string City { get; set; }
-        public override string ToString()
-            => (!string.IsNullOrEmpty(Address) ?  "Address: " + Address + ", " : "" ) + "City: " + City;
-
-        static public List<string> Cities = new List<string> { "עפולה", "עכו", "ערד", "אריאל", "אשדוד", "אשקלון", "בת ים", "באר שבע", "בית שאן", "בית שמש", "ביתר עילית", "בני ברק", "דימונה", "אילת", "גבעתיים", "חדרה", "חיפה", "הרצליה", "הוד השרון", "חולון", "ירושלים", "כרמיאל", "כפר סבא", "קרית אתא", "קרית ביאליק", "קרית גת", "קרית מלאכי", "קרית מוצקין", "קרית אונו", "קרית שמונה", "קרית ים", "לוד", "מעלה אדומים", "מעלות-תרשיחא", "מגדל העמק", "מודיעין-מכבים-רעות", "נצרת", "נצרת עילית", "נס ציונה", "נשר", "נתניה", "נתיבות", "אופקים", "אור עקיבא", "אור יהודה", "פתח תקוה", "רעננה", "רמת השרון", "רמת גן", "רמלה", "רחובות", "ראשון לציון", "ראש העין", "שדרות", "תל אביב-יפו", "טבריה", "טירת כרמל", "צפת", "יבנה", "יהוד-מונוסון" };
-
-        // method accepts XElement and returns CivicAddress
-        public static explicit operator CivicAddress(XElement XRoot)
-        {
-            CivicAddress civicAddress = new CivicAddress();
-            civicAddress.Address = (string)XRoot.Element("Address");
-            civicAddress.City = (string)XRoot.Element("City");
-
-            return civicAddress;
-        }
-    }
-
     public class Employee :INotifyPropertyChanged
     {
-        // no recommendation in constructor; recommendation assigned using property
-        //public Employee(uint _ID, string _firstName, string _lastName, DateTime _birthday, uint _phone, CivicAddress _address, uint _yearsOfExperience, string _email, Education _education, bool _armyGraduate, Bank _bank, uint _bankAccountNumber)
-        //{
-        //    ID = _ID;
-        //    lastName = _lastName;
-        //    firstName = _firstName;
-        //    birthday = _birthday;
-        //    phoneNumber = _phone;
-        //    address = _address;
-        //    yearsOfExperience = _yearsOfExperience;
-        //    email = _email;
-        //    education = _education;
-        //    armyGraduate = _armyGraduate;
-        //    bank = _bank;
-        //    bankAccountNumber = _bankAccountNumber;
-        //}
-
         public uint ID { get; set; }
 
         string _lastName;
@@ -81,7 +43,7 @@ namespace BE
             }
         }
 
-        bool _isMale;
+        bool _isMale = true; // default to male
         public bool isMale
         {
             get { return _isMale; }
@@ -95,7 +57,7 @@ namespace BE
             }
         }
 
-        DateTime _birthday;
+        DateTime _birthday = new DateTime();
         public DateTime birthday
         {
             get { return _birthday; }
@@ -123,7 +85,7 @@ namespace BE
             }
         }
 
-        CivicAddress _address;
+        CivicAddress _address = new CivicAddress();
         public CivicAddress address
         {
             get { return _address; }
@@ -207,7 +169,7 @@ namespace BE
             }
         }
 
-        Bank _bank;
+        Bank _bank = new Bank();
         public Bank bank
         {
             get { return _bank; }
@@ -259,19 +221,20 @@ namespace BE
 
 
 
-
-
         public override string ToString()
-        => _lastName + ", " + _firstName + ". ID: " + ID +
-            ", Birthday: " + _birthday.ToString("d") + ", " +
-            (_isMale ? "Male" : "Female") +
-            ", Phone: " +
-            _phoneNumber + ", " + _address + ", Years of Experience: " +
-            _yearsOfExperience + ", Education: " +
-            _education.ToString() + ", " +
-            (_armyGraduate ? " served in Army" : "did not serve in Army") +
-            (string.IsNullOrEmpty(_recommendationNotes) ? ", recommendation Notes: " + _recommendationNotes : "") +
-            ", Bank Account #: " + _bankAccountNumber;
+            => ID + ": " + lastName + ", " + firstName;
+
+        //public override string ToString()
+        //=> _lastName + ", " + _firstName + ". ID: " + ID +
+        //    ", Birthday: " + _birthday.ToString("d") + ", " +
+        //    (_isMale ? "Male" : "Female") +
+        //    ", Phone: " +
+        //    _phoneNumber + ", " + _address + ", Years of Experience: " +
+        //    _yearsOfExperience + ", Education: " +
+        //    _education.ToString() + ", " +
+        //    (_armyGraduate ? " served in Army" : "did not serve in Army") +
+        //    (string.IsNullOrEmpty(_recommendationNotes) ? ", recommendation Notes: " + _recommendationNotes : "") +
+        //    ", Bank Account #: " + _bankAccountNumber;
 
         public override bool Equals(object other)
             => ID == (other as Employee)?.ID;

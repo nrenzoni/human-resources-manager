@@ -12,17 +12,24 @@ namespace DAL
     public class DAL_XML_Imp : IDAL
     {
         static uint nextContractID;
+        static uint nextSpecID;
 
         static DAL_XML_Imp()
         {
-            if (XML_Source.contractRoot.HasElements == false) // no children nodes
+            setNextID(XML_Source.contractRoot, out nextContractID, 100000);
+            setNextID(XML_Source.specializationRoot, out nextSpecID, 100000);
+        }
+
+        static void setNextID(XElement XRoot, out uint nextParam, uint defaultNext)
+        {
+            if (XRoot.HasElements == false) // no children nodes
             {
-                nextContractID = 100000;
+                nextParam = defaultNext;
             }
             else
-                nextContractID = (from cont in XML_Source.contractRoot.Elements()
-                                  where cont.Attributes("ID").Any()
-                                  select (uint)cont.Attribute("ID")).Max() + 1;
+                nextParam = (from node in XRoot.Elements()
+                            where node.Attributes("ID").Any()
+                            select (uint)node.Attribute("ID")).Max() + 1;
         }
 
         // check if element already exists in XML file
@@ -77,6 +84,8 @@ namespace DAL
 
             XML_Source.specializationRoot.Add(createSpecXElement(spec));
             XML_Source.SaveXML<Specialization>();
+
+            nextSpecID++;
             return true;
         }
 
@@ -93,7 +102,9 @@ namespace DAL
                 removeElementFromXML(XML_Source.specializationRoot, foundElement) 
                 && addSpecilization(spec);
         }
-        
+
+        public uint getNextSpecID() => nextSpecID;
+
         XElement createEmployeeXElement(Employee e)
             => new XElement("employee", new XAttribute("ID", e.ID),
                   new XElement("firstName", e.firstName),
@@ -106,12 +117,12 @@ namespace DAL
                   new XElement("armyGraduate", e.armyGraduate),
                   new XElement("yearsOfExperience", e.yearsOfExperience),
                   new XElement("specializationID", e.specializationID),
-                  new XElement("civicAddress",
+                  new XElement("CivicAddress",
                     new XElement("address", e.address.Address),
                     new XElement("city", e.address.City)
                   ),
                   new XElement("bank", new XAttribute("bankAccount", e.bankAccountNumber),
-                    new XElement("bankNumber", e.bank.BankNumber),
+                    new XElement("BankName", e.bank.BankName),
                     new XElement("bankBranch", e.bank.Branch)
                   ),
                   new XElement("recommendationNotes", e.recommendationNotes)
@@ -150,7 +161,6 @@ namespace DAL
                  new XElement("contractFinalized", c.contractFinalized),
                  new XElement("grossWagePerHour", c.grossWagePerHour),
                  new XElement("netWagePerHour", c.netWagePerHour),
-                 new XElement("isInterviewed", c.isInterviewed),
                  new XElement("maxWorkHours", c.maxWorkHours),
                  new XElement("contractEstablishedDate", c.contractEstablishedDate),
                  new XElement("contractTerminatedDate", c.contractTerminatedDate)
@@ -158,8 +168,6 @@ namespace DAL
 
         public bool addContract(Contract contract)
         {
-            contract.contractID = getNextContractID();
-
             if (ElementIfExists(XML_Source.contractRoot, contract.contractID) != null)
             {
                 throw new Exception(contract.contractID + " already exists in file");
@@ -167,6 +175,8 @@ namespace DAL
 
             XML_Source.contractRoot.Add(createContractXElement(contract));
             XML_Source.SaveXML<Contract>();
+
+            nextContractID++;
             return true;
 
         }
@@ -186,7 +196,7 @@ namespace DAL
                                     new XElement("companyName", e.companyName),
                                     new XElement("phoneNumber", e.phoneNumber),
                                     new XElement("privatePerson", e.privatePerson),
-                                    new XElement("civicAddress",
+                                    new XElement("CivicAddress",
                                     new XElement("address", e.address.Address),
                                     new XElement("city", e.address.City)
                                     ),
@@ -254,12 +264,15 @@ namespace DAL
             try
             {
                 return (from e in XML_Source.employeeRoot.Elements()
+                        let currentBank = new Bank()
+                        { BankName = (string)e.Element("bank").Element("BankName"),
+                          Branch=(uint)e.Element("bank").Element("bankBranch")}
                         select new Employee()
                         {
                             ID = (uint)e.Attribute("ID"),
                             firstName = e.Element("firstName")?.Value,
                             lastName = e.Element("lastName")?.Value,
-                            address = (CivicAddress)e.Element("address"),
+                            address = (CivicAddress)e.Element("CivicAddress"),
                             isMale = (bool)e.Element("isMale"),
                             email = e.Element("email")?.Value,
                             phoneNumber = (uint)e.Element("phoneNumber"),
@@ -267,10 +280,10 @@ namespace DAL
                             yearsOfExperience = (uint)e.Element("yearsOfExperience"),
                             specializationID = (uint)e.Element("specializationID"),
                             birthday = (DateTime)e.Element("birthday"),
-                            education = (Education)Enum.Parse(typeof(Education),e.Element("education").Value),
-                            bankAccountNumber = (uint)e.Element("bankAccountNumber"),
-                            bank = (Bank)e.Element("bank"),
-                            recommendationNotes = e.Element("recommendationNotes")?.Value
+                            education = (Education)Enum.Parse(typeof(Education),e.Element("education").Value, true),
+                            bankAccountNumber = (uint)e.Element("bank").Attribute("bankAccount"),
+                            bank = currentBank,
+                            recommendationNotes = (string)e.Element("recommendationNotes")
                         }).ToList();
             }
             catch
@@ -286,15 +299,15 @@ namespace DAL
                 return (from e in XML_Source.employerRoot.Elements()
                         select new Employer()
                         {
-                            ID = (uint)e.Attribute("ID"),
-                            companyName = (string)e.Element("companyName"),
-                            privatePerson = (bool)e.Element("privatePerson"),
+                            ID = uint.Parse(e.Attribute("ID").Value),
+                            companyName = e.Element("companyName").Value,
+                            privatePerson = bool.Parse(e.Element("privatePerson").Value),
                             firstName = (string)e.Element("firstName"), // check if exists perhaps
                             lastName = (string)e.Element("lastName"),
-                            phoneNumber = (uint)e.Element("phoneNumber"),
-                            specializationID = (uint)e.Element("specializationID"),
-                            establishmentDate = (DateTime)e.Element("establishmentDate"),
-                            address = (CivicAddress)e.Element("address") // calls explicit converter of Xlement to CivicAddress
+                            phoneNumber = uint.Parse(e.Element("phoneNumber").Value),
+                            specializationID = uint.Parse(e.Element("specializationID").Value),
+                            establishmentDate = DateTime.Parse(e.Element("establishmentDate").Value),
+                            address = (CivicAddress)e.Element("CivicAddress") // calls explicit converter of Xlement to CivicAddress
                         }
                         ).ToList();
             }
@@ -309,10 +322,10 @@ namespace DAL
             try
             {
                 return (from cont in XML_Source.contractRoot.Elements()
-                        where cont.Name == "Contract"
+                        where cont.Name == "contract"
                         select new Contract()
                         {
-                            contractID =              (uint)cont.Element("contractID"),
+                            contractID =              (uint)cont.Attribute("ID"),
                             EmployerID =              (uint)cont.Element("EmployerID"),
                             EmployeeID =              (uint)cont.Element("EmployeeID"),
                             isInterviewed =           (bool)cont.Element("isInterviewed"),

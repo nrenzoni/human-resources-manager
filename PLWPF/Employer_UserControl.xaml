@@ -10,9 +10,26 @@
     <DockPanel>
         
         <StackPanel Style="{StaticResource StackPanelButtonPane}">
-            <Button Style="{StaticResource addButtonStyle}" Click="addButton_Click" IsEnabled="{Binding Text, ElementName=ComEmployerID, Converter={StaticResource IDToIsEnabledConverter}, ConverterParameter=Employer}"/>
-            <Button Style="{StaticResource deleteButtonStyle}" Click="deleteButton_Click" IsEnabled="{Binding Text, ElementName=ComEmployerID, Converter={StaticResource InverseIDToIsEnabledConverter}, ConverterParameter=Employer}"/>
-            <Button Style="{StaticResource updateButtonStyle}" Click="updateButton_Click" IsEnabled="{Binding Text, ElementName=ComEmployerID, Converter={StaticResource InverseIDToIsEnabledConverter},ConverterParameter=Employer}"/>
+            
+            <StackPanel.Resources>
+                <Style TargetType="Button" BasedOn="{StaticResource baseButtonStyle}"/>
+            </StackPanel.Resources>
+            
+            <Button Name="addFirstButton" Click="addNew_Click">
+                <StackPanel>
+                    <TextBlock Text="Add New"/>
+                    <TextBlock Text="Employer"/>
+                </StackPanel>
+            </Button>
+
+            <Button Name="saveButton" Content="Save" Click="saveButton_Click" Visibility="Collapsed"/>
+
+            <Button Name="cancelButton" Content="Cancel" Click="cancelButton_Click" Visibility="Collapsed"/>
+
+            <Button Name="deleteButton" Style="{StaticResource deleteButtonStyle}" Click="deleteButton_Click" IsEnabled="{Binding Text, ElementName=ComEmployerID, Converter={StaticResource InverseIDToIsEnabledConverter}, ConverterParameter=Employer}"/>
+            
+            <Button Name="updateButton" Style="{StaticResource updateButtonStyle}" Click="makeChangesButton_Click" IsEnabled="{Binding Text, ElementName=ComEmployerID, Converter={StaticResource InverseIDToIsEnabledConverter},ConverterParameter=Employer}"/>
+            
         </StackPanel>
         
         <Grid Name="EmployerGrid" Style="{StaticResource GridUserControlStyle}">
@@ -21,6 +38,7 @@
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
                 <RowDefinition Height="auto"/>
                 <RowDefinition Height="auto"/>
                 <RowDefinition Height="auto"/>
@@ -39,33 +57,36 @@
             <Label Content="_ID:" Target="{Binding ElementName=ComEmployerID}"/>
             <ComboBox Name="ComEmployerID" Grid.Column="1" Text="{Binding ID, Mode=OneWayToSource}" DisplayMemberPath="ID"  IsEditable="True" SelectedIndex="-1" SelectionChanged="ComEmployerID_SelectionChanged" />
 
-            <Label Content="_First Name:" Target="{Binding ElementName=txtEmplyeFirstName}" Grid.Row="1"/>
-            <TextBox Name="txtEmplyeFirstName" Grid.Row="1" Grid.Column="1" Text="{Binding firstName}"/>
+            <Label Content="Private Person" Grid.Row="1"/>
+            <CheckBox Name="cBoxPrivate" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" IsChecked="{Binding privatePerson}" Checked="cBoxPrivate_Checked"/>
 
-            <Label Content="_Last Name:" Target="{Binding ElementName=txtEmplyeLastName}" Grid.Row="2"/>
-            <TextBox Name="txtEmplyeLastName" Grid.Row="2" Grid.Column="1" Text="{Binding lastName}"/>
+            <Label Content="_First Name:" Target="{Binding ElementName=txtEmplyeFirstName}" Grid.Row="2"/>
+            <TextBox Name="txtEmplyeFirstName" Grid.Row="2" Grid.Column="1" Text="{Binding firstName}" IsEnabled="{Binding IsChecked, ElementName=cBoxPrivate}" />
 
-            <Label Content="_Company Name:" Target="{Binding ElementName=txtEmplyeCompName}" Grid.Row="3"/>
-            <TextBox Name="txtEmplyeCompName" Grid.Row="3" Grid.Column="1" Text="{Binding companyName}"/>
+            <Label Content="_Last Name:" Target="{Binding ElementName=txtEmplyeLastName}" Grid.Row="3"/>
+            <TextBox Name="txtEmplyeLastName" Grid.Row="3" Grid.Column="1" Text="{Binding lastName}" IsEnabled="{Binding IsChecked, ElementName=cBoxPrivate}"/>
 
-            <Label Content="_Phone Number:" Target="{Binding ElementName=txtEmplyePhoneNum}" Grid.Row="4"/>
-            <TextBox Name="txtEmplyePhoneNum" Grid.Row="4" Grid.Column="1" Text="{Binding phoneNumber}"/>
+            <Label Content="_Company Name:" Target="{Binding ElementName=txtEmplyeCompName}" Grid.Row="4"/>
+            <TextBox Name="txtEmplyeCompName" Grid.Row="4" Grid.Column="1" Text="{Binding companyName}"/>
 
-            <Label Content="_Civic Address:" Target="{Binding ElementName=txtEmplyeAddress}" Grid.Row="5"/>
-            <StackPanel Grid.Column="1" Grid.Row="5">
+            <Label Content="_Phone Number:" Target="{Binding ElementName=txtEmplyePhoneNum}" Grid.Row="5"/>
+            <TextBox Name="txtEmplyePhoneNum" Grid.Row="5" Grid.Column="1" Text="{Binding phoneNumber, Converter={StaticResource NoValueConverter}}"/>
+
+            <Label Content="_Civic Address:" Target="{Binding ElementName=txtEmplyeAddress}" Grid.Row="6"/>
+            <StackPanel Grid.Column="1" Grid.Row="6">
                 <Label Content="Address:"/>
-                <TextBox Name="txtEmplyeAddress" Text="{Binding address.Address}"/>
+                <TextBox Name="txtEmplyeAddress" Text="{Binding address.Address, Mode=TwoWay}"/>
                 <WrapPanel>
                     <Label Content="Ci_ty:" Target="{Binding ElementName=ComEmplyeCity}"/>
-                    <ComboBox Name="ComEmplyeCity" Width="135" Margin="30,0,0,0" Text="{Binding address.City}" SelectionChanged="ComEmplyeCity_SelectionChanged"/>
+                    <ComboBox Name="ComEmplyeCity" Width="135" Margin="30,0,0,0" Text="{Binding address.City}"/>
                 </WrapPanel>
             </StackPanel>
 
-            <Label Content="_Speciality:" Target="{Binding ElementName=ComEmplyeSpec}" Grid.Row="6"/>
-            <ComboBox Name="ComEmplyeSpec" Grid.Row="6" Grid.Column="1" Text="{Binding specializationName}" DisplayMemberPath="specializationName"/>
+            <Label Content="_Speciality:" Target="{Binding ElementName=ComEmplyeSpec}" Grid.Row="7"/>
+            <ComboBox Name="ComEmplyeSpec" Grid.Row="7" Grid.Column="1" SelectedValue="{Binding specializationID}" SelectedValuePath="ID" DisplayMemberPath="specializationName"/>
 
-            <Label Content="_Established:" TabIndex="{Binding ElementName=DPEmplyeEstabDate}" Grid.Row="7"/>
-            <DatePicker Name="DPEmplyeEstabDate" Grid.Row="7" Grid.Column="1" Margin="0,5" Width="200" HorizontalAlignment="Left" SelectedDate="{Binding establishmentDate}"/>
+            <Label Content="_Established:" TabIndex="{Binding ElementName=DPEmplyeEstabDate}" Grid.Row="8"/>
+            <DatePicker Name="DPEmplyeEstabDate" Grid.Row="8" Grid.Column="1" Margin="0,5" Width="200" HorizontalAlignment="Left" SelectedDate="{Binding establishmentDate}"/>
         </Grid>
     </DockPanel>
 </UserControl>

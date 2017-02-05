@@ -65,7 +65,7 @@ namespace BE
             }
         }
 
-        bool _contractFinalized;
+        bool _contractFinalized = false; // default to false
         public bool contractFinalized  // contract was signed by both parties
         {
             get { return _contractFinalized; }
@@ -109,7 +109,7 @@ namespace BE
 
         public double profit { get { return grossWagePerHour - netWagePerHour; } }
 
-        DateTime _contractEstablishedDate;
+        DateTime _contractEstablishedDate = DateTime.Today;
         public DateTime contractEstablishedDate
         {
             get { return _contractEstablishedDate; }
@@ -123,7 +123,7 @@ namespace BE
             }
         }
 
-        DateTime _contractTerminatedDate;
+        DateTime _contractTerminatedDate = DateTime.Today.AddYears(3);
         public DateTime contractTerminatedDate
         {
             get { return _contractTerminatedDate; }

@@ -7,14 +7,31 @@
              mc:Ignorable="d" 
             
              Style="{StaticResource UserControlStyle}">
-             
+
     <DockPanel>
+
         <StackPanel Style="{StaticResource StackPanelButtonPane}">
-            <Button Style="{StaticResource addButtonStyle}" Click="addButton_Click" IsEnabled="{Binding Text,ElementName=ComEmplyeeID, Converter={StaticResource IDToIsEnabledConverter},ConverterParameter=Employee}"/>
-            <Button Style="{StaticResource deleteButtonStyle}" Click="deleteButton_Click" IsEnabled="{Binding Text,ElementName=ComEmplyeeID , Converter={StaticResource InverseIDToIsEnabledConverter}, ConverterParameter=Employee}"/>
-            <Button Style="{StaticResource updateButtonStyle}" Click="updateButton_Click" IsEnabled="{Binding Text,ElementName=ComEmplyeeID ,Converter={StaticResource InverseIDToIsEnabledConverter}, ConverterParameter=Employee}"/>          
+            <StackPanel.Resources>
+                <Style TargetType="Button" BasedOn="{StaticResource baseButtonStyle}" />
+            </StackPanel.Resources>
+
+            <Button Name="addFirstButton" Click="addNew_Click">
+                <StackPanel>
+                    <TextBlock Text="Add New"/>
+                    <TextBlock Text="Employee"/>
+                </StackPanel>
+            </Button>
+
+            <Button Name="saveButton" Content="Save" Click="saveButton_Click" Visibility="Collapsed" />
+
+            <Button Name="deleteButton" Style="{StaticResource deleteButtonStyle}" Click="deleteButton_Click" IsEnabled="{Binding Text,ElementName=ComEmplyeeID , Converter={StaticResource InverseIDToIsEnabledConverter}, ConverterParameter=Employee}"/>
+
+            <Button Name="updateButton" Click="makeChangesButton_Click" IsEnabled="{Binding Text,ElementName=ComEmplyeeID ,Converter={StaticResource InverseIDToIsEnabledConverter}, ConverterParameter=Employee}" Content="Update" />
+
+            <Button Name="cancelButton" Content="Cancel" Click="cancelButton_Click" Visibility="Collapsed"/>
+
         </StackPanel>
-        
+
         <ScrollViewer VerticalScrollBarVisibility="Visible">
             <Grid Name="EmployeeGrid" Style="{StaticResource GridUserControlStyle}">
                 <Grid.Resources>
@@ -55,15 +72,18 @@
 
                 <Label Content="_Gender:" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                 <WrapPanel Grid.Row="3" Grid.Column="1">
-                    <RadioButton Name="MaleRadioButton" Content="Male" IsChecked="{Binding isMale, Converter={StaticResource InverseBoolConverter}, Mode=OneWay}" Margin="0,7" />
+                    
+                    <RadioButton Name="MaleRadioButton" Content="Male" IsChecked="{Binding isMale}" Margin="0,7" />
+                    
                     <RadioButton Content="Female" IsChecked="{Binding ElementName=MaleRadioButton, Path=IsChecked, Converter={StaticResource InverseBoolConverter}, Mode=TwoWay}"  Margin="5,7"/>
+                    
                 </WrapPanel>
 
                 <Label Content="_Birthday" Target="{Binding ElementName=Birthday}" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                 <DatePicker Name="txtBirthday" SelectedDate="{Binding birthday}"  Grid.Row="4" Grid.Column="1" Margin="0,5" Width="200" HorizontalAlignment="Left"/>
 
                 <Label Content="_Phone Number:" Target="{Binding ElementName=txtPhoneNumber}" Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                <TextBox Name="txtPhoneNumber" Text="{Binding phoneNumber}" Grid.Row="5" Width="200"/>
+                <TextBox Name="txtPhoneNumber" Text="{Binding phoneNumber, Converter={StaticResource NoValueConverter}}" Grid.Row="5" Width="200" Height="20" />
 
                 <Label Content="_Civic Address:" Grid.Row="6" HorizontalAlignment="Center" />
                 <StackPanel Grid.Column="1" Grid.Row="6" >
@@ -76,7 +96,7 @@
                 </StackPanel>
 
                 <Label Content="_Years of Experience:" Target="{Binding ElementName=txtExperiance}" Grid.Row="7" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                <TextBox Name="txtExperiance" Text="{Binding yearsOfExperience}" Grid.Row="7" Width="200"/>
+                <TextBox Name="txtExperiance" Text="{Binding yearsOfExperience, Converter={StaticResource NoValueConverter}}" Grid.Row="7" Width="200"/>
 
                 <Label Content="_Email:" Target="{Binding ElementName=txtEmail}" Grid.Row="8" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                 <TextBox Name="txtEmail" Text="{Binding email}" Grid.Row="8"/>
@@ -88,27 +108,33 @@
                 <ComboBox Name="ComEmplyeeEduc" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Width="100" Text="{Binding education}" SelectedIndex="-1" Grid.Column="3" HorizontalAlignment="Left"/>
 
                 <Label Content="_Army Graduate:" Grid.Column="2" Grid.Row="1" Target="{Binding ElementName=ChecArmyGrad}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                <CheckBox Name="ChecArmyGrad" Content="Yes" IsChecked="{Binding armyGraduate,Converter={StaticResource InverseBoolConverter}}" Grid.Column="3" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <CheckBox Name="ChecArmyGrad" Content="Yes" IsChecked="{Binding armyGraduate}" Grid.Column="3" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
 
                 <Label Content="_Bank Name:" Grid.Column="2" Grid.Row="2" Target="{Binding ElementName=comEmplyeBankName}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                <ComboBox Name="comEmplyeBankName" Text="{Binding bank.BankName}" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"  Grid.Column="3" Grid.Row="2" Height="25" SelectionChanged="comEmplyeBankName_SelectoinChanged" />
+                <ComboBox Name="comEmplyeBankName" Text="{Binding bank.BankName}" DisplayMemberPath="Key" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"  Grid.Column="3" Grid.Row="2" Height="25"/>
 
                 <Label Content="_Bank Account:" Grid.Column="2" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center" Target="{Binding ElementName=txtEmployeBaAcc}" />
-                <TextBox Name="txtEmployeBaAcc" Text="{Binding bankAccountNumber}" Grid.Column="3" Grid.Row="3" Width="100" Height="25" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <TextBox Name="txtEmployeBaAcc" Text="{Binding bankAccountNumber, Converter={StaticResource NoValueConverter}}" Grid.Column="3" Grid.Row="3" Width="100" Height="25" VerticalAlignment="Center" HorizontalAlignment="Center"/>
 
                 <Label Content="_Branch Number:" Grid.Column="2" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" Target="{Binding ElementName=ComEmplyeeBranchNum}"/>
                 <ComboBox Name="ComEmplyeeBranchNum" Text="{Binding bank.Branch}" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"  Grid.Column="3" Grid.Row="4" Height="25" Width="{Binding ComEmplyeeBranchNum}" SelectionChanged="ComEmplyeeBranchNum_SelectionChanged"  />
+                <Label Content="_Branch:" Grid.Column="2" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" Target="{Binding ElementName=ComEmplyeeBranchNum}"/>
+                <ComboBox Name="ComEmplyeeBranchNum" Text="{Binding bank.Branch}" ItemsSource="{Binding SelectedItem, ElementName=comEmplyeBankName}" DisplayMemberPath="Branch" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"  Grid.Column="3" Grid.Row="4" Height="25" Width="50" />
 
                 <Label Content="_Branch Location:" Grid.Column="2" Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center" Target="{Binding ElementName=txtBranLoc}"/>
-                <WrapPanel Grid.Column="3" Grid.Row="5">
-                    <TextBox Name="txtBranAddLoc" Width="100" Text="{Binding bank.Address}" HorizontalAlignment="Center"  IsEnabled="False"/>
-                    <TextBox Name="txtBranCityLoc" Width="100" Text="{Binding bank.City}" HorizontalAlignment="Center"  IsEnabled="False"/>
-                </WrapPanel>
+                
+                <StackPanel Grid.Column="3" Grid.Row="5">
+                    
+                    <TextBox Name="txtBranCityLoc" Width="100"  DataContext="{Binding SelectedItem, ElementName=ComEmplyeeBranchNum}" Text="{Binding Path=Address.City}" HorizontalAlignment="Center"  IsEnabled="False"/>
+                    
+                    <TextBox Name="txtBranAddLoc" Width="100" DataContext="{Binding SelectedItem, ElementName=ComEmplyeeBranchNum}" Text="{Binding Path=Address.Address}" HorizontalAlignment="Center"  IsEnabled="False" />
+                    
+                </StackPanel>
                 <!--The value Will be assign automaticlly according to the Branch Number-->
                 <!--need to combined the addres and city together in one combobox-->
 
                 <Label Content="_Specialization:" Grid.Column="2" Grid.Row="6" HorizontalAlignment="Center" VerticalAlignment="Top" Target="{Binding ElementName=ComEmployeSpec}"/>
-                <ComboBox Name="ComEmployeSpec" SelectedIndex="{Binding specializationID}" VerticalContentAlignment="Center" VerticalAlignment="Top" HorizontalContentAlignment="Center"  Grid.Column="3" Grid.Row="6" Height="25" DisplayMemberPath="specializationName" />
+                <ComboBox Name="ComEmployeSpec" SelectedItem="{Binding specializationID, Converter={StaticResource specIDToSpecObjectConverter}, Mode=TwoWay}" VerticalContentAlignment="Center" VerticalAlignment="Top" HorizontalContentAlignment="Center"  Grid.Column="3" Grid.Row="6" Height="25" DisplayMemberPath="specializationName" />
 
 
             </Grid>
