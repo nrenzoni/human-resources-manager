@@ -36,7 +36,9 @@ namespace PLWPF
             Employer_DS_Change_Event += refreshCombox;
             DataContext = UIEmployer;
 
-            ComEmplyeCity.ItemsSource = BE.CivicAddress.Cities;
+            ComEmplyeCity.ItemsSource = from name in BE.CivicAddress.Cities
+                                        orderby name
+                                        select name;
             refreshCombox();
 
             EmployerGrid.setIsEnabled(false, isEnabledExclusions);

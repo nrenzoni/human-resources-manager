@@ -15,4 +15,9 @@
     <maxWagePerHour>10000</maxWagePerHour>
     <minWagePerHour>29</minWagePerHour>
   </specialization>
+  <specialization ID="100003">
+    <specializationName>plamal </specializationName>
+    <maxWagePerHour>500</maxWagePerHour>
+    <minWagePerHour>100</minWagePerHour>
+  </specialization>
 </specializations>

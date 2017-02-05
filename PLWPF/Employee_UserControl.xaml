@@ -83,7 +83,7 @@
                 <DatePicker Name="txtBirthday" SelectedDate="{Binding birthday}"  Grid.Row="4" Grid.Column="1" Margin="0,5" Width="200" HorizontalAlignment="Left"/>
 
                 <Label Content="_Phone Number:" Target="{Binding ElementName=txtPhoneNumber}" Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                <TextBox Name="txtPhoneNumber" Text="{Binding phoneNumber, Converter={StaticResource NoValueConverter}}" Grid.Row="5" Width="200" Height="20" />
+                <TextBox Name="txtPhoneNumber" Text="{Binding phoneNumber, Converter={StaticResource NoValueConverter}}" Grid.Row="5" Width="200" Height="25" />
 
                 <Label Content="_Civic Address:" Grid.Row="6" HorizontalAlignment="Center" />
                 <StackPanel Grid.Column="1" Grid.Row="6" >

@@ -43,14 +43,16 @@ namespace DS
 
             loadXMLFile(bankName, out bankRoot);
             Banks = from bank in bankRoot.Elements()
-                    select new Bank()
+                    let b=new Bank()
                     {
                         BankName = (string)bank.Element("BankName"),
-                        BankNumber = (uint)bank.Element("Branch"),
+                        BankNumber = (uint)bank.Element("BankNumber"),
                         Branch = (uint)bank.Element("Branch"),
                         Address = (CivicAddress)bank.Element("CivicAddress"),
-                    };
-
+                    }
+                    group b by new { bNumber = b.BankNumber, bBranch=b.Branch} into bGrouping
+                    select bGrouping.First();
+                    
             //try
             //{
             //    XElement banks = XElement.Load(@"http://www.boi.org.il/he/BankingSupervision/BanksAndBranchLocations/Lists/BoiBankBranchesDocs/atm.xml");
