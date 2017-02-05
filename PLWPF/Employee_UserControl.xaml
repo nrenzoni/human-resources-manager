@@ -5,7 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:PLWPF"
              mc:Ignorable="d" 
-             Width="630"
+            
              Style="{StaticResource UserControlStyle}">
 
     <DockPanel>
@@ -83,7 +83,7 @@
                 <DatePicker Name="txtBirthday" SelectedDate="{Binding birthday}"  Grid.Row="4" Grid.Column="1" Margin="0,5" Width="200" HorizontalAlignment="Left"/>
 
                 <Label Content="_Phone Number:" Target="{Binding ElementName=txtPhoneNumber}" Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                <TextBox Name="txtPhoneNumber" Text="{Binding phoneNumber, Converter={StaticResource NoValueConverter}}" Grid.Row="5" Width="200" Height="20" />
+                <TextBox Name="txtPhoneNumber" Text="{Binding phoneNumber, Converter={StaticResource NoValueConverter}}" Grid.Row="5" Width="200" Height="25" />
 
                 <Label Content="_Civic Address:" Grid.Row="6" HorizontalAlignment="Center" />
                 <StackPanel Grid.Column="1" Grid.Row="6" >
@@ -116,6 +116,8 @@
                 <Label Content="_Bank Account:" Grid.Column="2" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center" Target="{Binding ElementName=txtEmployeBaAcc}" />
                 <TextBox Name="txtEmployeBaAcc" Text="{Binding bankAccountNumber, Converter={StaticResource NoValueConverter}}" Grid.Column="3" Grid.Row="3" Width="100" Height="25" VerticalAlignment="Center" HorizontalAlignment="Center"/>
 
+                <Label Content="_Branch Number:" Grid.Column="2" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" Target="{Binding ElementName=ComEmplyeeBranchNum}"/>
+                <ComboBox Name="ComEmplyeeBranchNum" Text="{Binding bank.Branch}" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"  Grid.Column="3" Grid.Row="4" Height="25" Width="{Binding ComEmplyeeBranchNum}" SelectionChanged="ComEmplyeeBranchNum_SelectionChanged"  />
                 <Label Content="_Branch:" Grid.Column="2" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" Target="{Binding ElementName=ComEmplyeeBranchNum}"/>
                 <ComboBox Name="ComEmplyeeBranchNum" Text="{Binding bank.Branch}" ItemsSource="{Binding SelectedItem, ElementName=comEmplyeBankName}" DisplayMemberPath="Branch" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"  Grid.Column="3" Grid.Row="4" Height="25" Width="50" />
 

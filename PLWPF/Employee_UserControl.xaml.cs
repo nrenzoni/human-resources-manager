@@ -35,8 +35,11 @@ namespace PLWPF
 
             DataContext = UIEmployee;
             
-            ComEmplyeeCity.ItemsSource = BE.CivicAddress.Cities;
-            ComEmplyeeID.ItemsSource = Bl_Object.getEmployeeList();
+            ComEmplyeeCity.ItemsSource = from name in BE.CivicAddress.Cities
+                                         orderby name
+                                         select name;
+
+            ComEmplyeeID.ItemsSource =  Bl_Object.getEmployeeList();
             ComEmplyeeEduc.ItemsSource = Enum.GetValues(typeof(BE.Education));
             ComEmployeSpec.ItemsSource = Bl_Object.getSpecilizationList();
             UIEmployee.birthday = Globals.ResetDatePicker();
