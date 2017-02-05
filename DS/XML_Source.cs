@@ -30,27 +30,12 @@ namespace DS
         static public IEnumerable<Bank> Banks;
 
         static XML_Source()
-            {
+        {
             // initialize roots
-
             loadOrCreate(specName, out specializationRoot);
             loadOrCreate(contractName, out contractRoot);
             loadOrCreate(employerName, out employerRoot);
             loadOrCreate(employeeName, out employeeRoot);
-
-
-
-            // download bank.xml, and load into list
-
-            //loadXMLFile(bankName, out bankRoot);
-            //Banks = from bank in bankRoot.Elements()
-            //        select new Bank()
-            //        {
-            //            BankName = (string)bank.Element("BankName"),
-            //            BankNumber = (uint)bank.Element("Branch"),
-            //            Branch = (uint)bank.Element("Branch"),
-            //            Address = (CivicAddress)bank.Element("CivicAddress"),
-            //        };
         }
 
         public static void downloadBankXml(object sender, DoWorkEventArgs e)
@@ -65,13 +50,15 @@ namespace DS
                             Address = (string)XBank.Element("כתובת_ה-ATM"),
                             City = (string)XBank.Element("ישוב")
                         }
-                        group new Bank
+                        let b= new Bank
                         {
                             BankName = (string)XBank.Element("שם_בנק"),
                             BankNumber = (uint)XBank.Element("קוד_בנק"),
                             Address = tempAddress,
                             Branch = (uint)XBank.Element("קוד_סניף")
-                        } by (string)XBank.Element("קוד_בנק") + (string)XBank.Element("כתובת_ה-ATM") into bankNumAndAddress
+                        } 
+                        orderby b.BankName, b.Branch
+                        group b by ((string)XBank.Element("קוד_בנק")).Trim() + ((string)XBank.Element("כתובת_ה-ATM")).Trim() into bankNumAndAddress
                         select bankNumAndAddress.First();
 
                 // saves banks to banks.xml

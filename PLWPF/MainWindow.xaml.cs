@@ -54,17 +54,16 @@ namespace PLWPF
 
         void getXMLBankRunner_Completed(object sender, RunWorkerCompletedEventArgs e)
         {
-            if(e.Result == null) // error downloading/loading banks.xml, since result should not be Null
-            {
-                Globals.exceptionHandler(new Exception("error downloading/loading Banks.xml"));
-            }
-
-            else if(e.Result.ToString() == "success")
+            if(e.Result?.ToString() == "success")
             {
                 Globals.exceptionHandler(new Exception("downloading/loading of Banks.xml succeeded"));
                 DownloadBankXMLCompleted?.Invoke();
             }
 
+            else // error downloading/loading banks.xml
+            {
+                Globals.exceptionHandler(new Exception("error downloading/loading Banks.xml"));
+            }
         }
     }
 }
