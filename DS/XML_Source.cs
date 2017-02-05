@@ -32,6 +32,7 @@ namespace DS
             {
             // initialize roots
 
+            //Neede the save word 'out' to pass the root by reference, otherwise we get null.
             loadOrCreate(specName, out specializationRoot);
             loadOrCreate(contractName, out contractRoot);
             loadOrCreate(employerName, out employerRoot);

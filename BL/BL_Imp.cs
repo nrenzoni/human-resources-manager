@@ -105,6 +105,9 @@ namespace BL
 
         public bool updateSpecilization(Specialization specilization)
         {
+            if (specilization.maxWagePerHour <= specilization.minWagePerHour)
+                throw new Exception("max wage is under min wage");
+
             return DAL_Object.updateSpecilization(specilization);
         }
 
