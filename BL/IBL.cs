@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using BE;
 using System.Collections.ObjectModel;
+using System.ComponentModel;
 
 namespace BL
 {
@@ -167,5 +168,7 @@ namespace BL
         List<Bank>     getBankList();
 
         IEnumerable<ContractGroupingContainer> getContractsInContainer();
+
+        DoWorkDelegate getXMLBankBackground_DoWork();
     }
 }

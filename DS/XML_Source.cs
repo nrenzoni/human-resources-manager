@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 using System.Xml.Serialization;
 using BE;
+using System.Threading;
+using System.ComponentModel;
 
 namespace DS
 {
@@ -41,62 +42,72 @@ namespace DS
 
             // download bank.xml, and load into list
 
-            loadXMLFile(bankName, out bankRoot);
-            Banks = from bank in bankRoot.Elements()
-                    select new Bank()
-                    {
-                        BankName = (string)bank.Element("BankName"),
-                        BankNumber = (uint)bank.Element("Branch"),
-                        Branch = (uint)bank.Element("Branch"),
-                        Address = (CivicAddress)bank.Element("CivicAddress"),
-                    };
-
-            //try
-            //{
-            //    XElement banks = XElement.Load(@"http://www.boi.org.il/he/BankingSupervision/BanksAndBranchLocations/Lists/BoiBankBranchesDocs/atm.xml");
-
-            //    Banks = from XBank in banks.Elements()
-            //             let tempAddress = new CivicAddress
-            //             {
-            //                 Address = (string)XBank.Element("כתובת_ה-ATM"),
-            //                 City = (string)XBank.Element("ישוב")
-            //             }
-            //             group new Bank
-            //             {
-            //                 BankName = (string)XBank.Element("שם_בנק"),
-            //                 BankNumber = (uint)XBank.Element("קוד_בנק"),
-            //                 Address = tempAddress,
-            //                 Branch = (uint)XBank.Element("קוד_סניף")
-            //             } by (string)XBank.Element("קוד_בנק") + (string)XBank.Element("כתובת_ה-ATM") into bankNumAndAddress
-            //             select bankNumAndAddress.First();
-
-            //    // saves banks to banks.xml
-            //    XmlSerializer serializer = new XmlSerializer(typeof(List<Bank>));
-            //    TextWriter writer = new StreamWriter((concatXMLName("banks")));
-            //    serializer.Serialize(writer, Banks.ToList());
-            //    writer.Close();
-
-            //    // loads saves banks.xml file into bankRoot
-            //    loadXMLFile(bankName, out bankRoot);
-            //}
-            //catch // if internet problem, enter into catch
-            //{
-            //    // banks.xml should be on local hard drive
-            //    loadXMLFile(bankName, out bankRoot);
-            //    Banks = from bank in bankRoot.Elements()
-            //            select new Bank()
-            //            {
-            //                BankName = (string)bank.Element("BankName"),
-            //                BankNumber = (uint)bank.Element("Branch"),
-            //                Branch = (uint)bank.Element("Branch"),
-            //                Address = (CivicAddress)bank.Element("Address"),
-            //            };
-            //}
-
-            if (bankRoot == null)
-                throw new Exception("banks not initalized");
-
+            //loadXMLFile(bankName, out bankRoot);
+            //Banks = from bank in bankRoot.Elements()
+            //        select new Bank()
+            //        {
+            //            BankName = (string)bank.Element("BankName"),
+            //            BankNumber = (uint)bank.Element("Branch"),
+            //            Branch = (uint)bank.Element("Branch"),
+            //            Address = (CivicAddress)bank.Element("CivicAddress"),
+            //        };
         }
+
+        public static void downloadBankXml(object sender, DoWorkEventArgs e)
+        {
+            try
+            {
+                XElement banks = XElement.Load(@"http://www.boi.org.il/he/BankingSupervision/BanksAndBranchLocations/Lists/BoiBankBranchesDocs/atm.xml");
+
+                Banks = from XBank in banks.Elements()
+                        let tempAddress = new CivicAddress
+                        {
+                            Address = (string)XBank.Element("כתובת_ה-ATM"),
+                            City = (string)XBank.Element("ישוב")
+                        }
+                        group new Bank
+                        {
+                            BankName = (string)XBank.Element("שם_בנק"),
+                            BankNumber = (uint)XBank.Element("קוד_בנק"),
+                            Address = tempAddress,
+                            Branch = (uint)XBank.Element("קוד_סניף")
+                        } by (string)XBank.Element("קוד_בנק") + (string)XBank.Element("כתובת_ה-ATM") into bankNumAndAddress
+                        select bankNumAndAddress.First();
+
+                // saves banks to banks.xml
+                XmlSerializer serializer = new XmlSerializer(typeof(List<Bank>));
+                TextWriter writer = new StreamWriter((concatXMLName("banks")));
+                serializer.Serialize(writer, Banks.ToList());
+                writer.Close();
+
+                // loads saves banks.xml file into bankRoot
+                loadXMLFile(bankName, out bankRoot);
+
+                e.Result = "success";
+                return;
+
+            }
+            catch // if internet problem, enter into catch
+            {
+                e.Result = "catch statement";
+
+                // banks.xml should be on local hard drive
+                loadXMLFile(bankName, out bankRoot);
+                Banks = from bank in bankRoot.Elements()
+                        select new Bank()
+                        {
+                            BankName = (string)bank.Element("BankName"),
+                            BankNumber = (uint)bank.Element("Branch"),
+                            Branch = (uint)bank.Element("Branch"),
+                            Address = (CivicAddress)bank.Element("Address"),
+                        };
+            }
+
+            e.Result = "error";
+
+            // else download/load failed
+        }
+
 
         static void loadOrCreate(string filename, out XElement root)
         {

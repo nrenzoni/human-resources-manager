@@ -41,8 +41,6 @@ namespace PLWPF
             ComEmployeSpec.ItemsSource = Bl_Object.getSpecilizationList();
             UIEmployee.birthday = Globals.ResetDatePicker();
 
-            comEmplyeBankName.ItemsSource = Bl_Object.getBanksGrouped();
-
             EmployeeGrid.setIsEnabled(false, "ComEmplyeeID"); // set isEnabled to false on all controls except for ComEmplyeeID
         }
 
@@ -138,6 +136,7 @@ namespace PLWPF
         public void refreshComboBoxes()
         {
             ComEmplyeeID.ItemsSource = Bl_Object.getEmployeeList();
+            comEmplyeBankName.ItemsSource = Bl_Object.getBanksGrouped();
         }
 
         private void makeChangesButton_Click(object sender, RoutedEventArgs e)

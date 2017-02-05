@@ -8,6 +8,7 @@ using DAL;
 using System.Collections.ObjectModel;
 using System.Reflection;
 using System.Collections.Generic;
+using System.ComponentModel;
 
 namespace BL
 {
@@ -389,5 +390,10 @@ namespace BL
 
         public List<Bank> getBankList()
             => DAL_Object.getBankList();
+
+        public DoWorkDelegate getXMLBankBackground_DoWork()
+        => DAL_Object.getXMLBankBackground_DoWork();
+
     }
+
 }

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using BE;
+using System.ComponentModel;
 
 namespace DAL
 {
@@ -31,5 +32,7 @@ namespace DAL
         List<Employer>          getEmployerList();
         List<Contract>          getContractList();
         List<Bank>              getBankList();
+
+        DoWorkDelegate getXMLBankBackground_DoWork();
     }
 }

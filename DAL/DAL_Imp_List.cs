@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using BE;
 using DS;
+using System.ComponentModel;
 
 namespace DAL
 {
@@ -109,6 +110,12 @@ namespace DAL
         public List<Employer> getEmployerList()            => List_Source.employerList;
         public List<Contract> getContractList()            => List_Source.contractList;
         public List<Bank> getBankList()
+        {
+            throw new NotImplementedException();
+        }
+
+
+        public DoWorkDelegate getXMLBankBackground_DoWork()
         {
             throw new NotImplementedException();
         }

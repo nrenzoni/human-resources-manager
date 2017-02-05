@@ -24,6 +24,9 @@ namespace PLWPF
 
         public event Action DS_Edit_Event;
 
+        public void OnDownloadBankXMLCompleted()
+            => employeeUC.refreshComboBoxes();
+
         private void onUCupdate()
         {
             DS_Edit_Event?.Invoke();

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Xml.Linq;
 using BE;
 using DS;
+using System.ComponentModel;
 
 namespace DAL
 {
@@ -341,6 +342,16 @@ namespace DAL
         }
 
         public List<Bank> getBankList()
-            => XML_Source.Banks.ToList();
+        {
+            var returnList = XML_Source.Banks?.ToList();
+
+            if (returnList == null)
+                return new List<Bank>();
+            else
+                return returnList;
+        }
+
+        public DoWorkDelegate getXMLBankBackground_DoWork()
+            => XML_Source.downloadBankXml;
     }
 }

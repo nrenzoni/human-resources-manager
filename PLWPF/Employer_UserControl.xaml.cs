@@ -75,6 +75,8 @@ namespace PLWPF
             ComEmployerID.ItemsSource = null;
 
             EmployerGrid.setIsEnabled(true, "ComEmployerID", "txtEmplyeFirstName", "txtEmplyeLastName");
+
+            EmployerUC_State = State.createNew;
         }
 
         private void saveButton_Click(object sender, RoutedEventArgs e)
@@ -91,11 +93,12 @@ namespace PLWPF
                         break;
 
                     case State.modify:
-                        break;
                         BL_Object.updateEmployer(UIEmployer);
                         Employer_DS_Change_Event?.Invoke();
-                    default:
                         break;
+
+                    default:
+                        throw new Exception("EmployerUC State not set");
 
                 }
 
