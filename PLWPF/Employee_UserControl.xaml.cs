@@ -26,7 +26,9 @@ namespace PLWPF
 
         BE.Employee UIEmployee = new BE.Employee();
 
-        
+        // exclude from setting the isEnabled property on these properties because they are binded (setting value of property in code behind after property is binded removes binding)
+        string[] isEnabledExclusions = { "ComEmplyeeID", "txtBranCityLoc", "txtBranAddLoc" };
+
         State EmployeeUC_State = State.view;
 
         public Employee_UserControl()
@@ -42,7 +44,7 @@ namespace PLWPF
             ComEmplyeeEduc.ItemsSource = Enum.GetValues(typeof(BE.Education));
             refreshComboBoxes();
 
-            EmployeeGrid.setIsEnabled(false, "ComEmplyeeID"); // set isEnabled to false on all controls except for ComEmplyeeID
+            EmployeeGrid.setIsEnabled(false, isEnabledExclusions); // set isEnabled to false on all controls except for ComEmplyeeID
         }
 
         private void ComEmplyeeID_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -67,7 +69,7 @@ namespace PLWPF
 
             ComEmplyeeID.ItemsSource = null;
 
-            EmployeeGrid.setIsEnabled(true, "txtBranCityLoc", "txtBranAddLoc");
+            EmployeeGrid.setIsEnabled(true, isEnabledExclusions);
 
             EmployeeUC_State = State.createNew;
         }
@@ -89,7 +91,6 @@ namespace PLWPF
                         Bl_Object.updateEmployee(UIEmployee);
                         Employee_DS_Change_Event?.Invoke();
                         break;
-
                 }
 
                 restoreRegButtonVisib();
@@ -127,7 +128,7 @@ namespace PLWPF
             updateButton.Visibility = Visibility.Visible;
 
             // set isEnabled to false on all controls
-            EmployeeGrid.setIsEnabled(false);
+            EmployeeGrid.setIsEnabled(false, isEnabledExclusions);
             ComEmplyeeID.IsEnabled = true;
 
             // refresh 
@@ -150,7 +151,7 @@ namespace PLWPF
             cancelButton.Visibility = Visibility.Visible;
             deleteButton.Visibility = Visibility.Collapsed;
 
-            EmployeeGrid.setIsEnabled(true);
+            EmployeeGrid.setIsEnabled(true, isEnabledExclusions);
             ComEmplyeeID.IsEnabled = false;
 
             EmployeeUC_State = State.modify;

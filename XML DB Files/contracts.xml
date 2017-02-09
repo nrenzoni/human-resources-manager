@@ -33,4 +33,26 @@
     <contractEstablishedDate>2015-02-09T00:00:00</contractEstablishedDate>
     <contractTerminatedDate>2025-02-09T00:00:00</contractTerminatedDate>
   </contract>
+  <contract ID="100003">
+    <EmployerID>567634</EmployerID>
+    <EmployeeID>43546786</EmployeeID>
+    <isInterviewed>true</isInterviewed>
+    <contractFinalized>false</contractFinalized>
+    <grossWagePerHour>50</grossWagePerHour>
+    <netWagePerHour>40</netWagePerHour>
+    <maxWorkHours>30</maxWorkHours>
+    <contractEstablishedDate>2017-02-09T00:00:00+02:00</contractEstablishedDate>
+    <contractTerminatedDate>2020-02-09T00:00:00+02:00</contractTerminatedDate>
+  </contract>
+  <contract ID="100004">
+    <EmployerID>567634</EmployerID>
+    <EmployeeID>43546786</EmployeeID>
+    <isInterviewed>true</isInterviewed>
+    <contractFinalized>false</contractFinalized>
+    <grossWagePerHour>50</grossWagePerHour>
+    <netWagePerHour>40.6</netWagePerHour>
+    <maxWorkHours>30</maxWorkHours>
+    <contractEstablishedDate>2017-02-09T00:00:00+02:00</contractEstablishedDate>
+    <contractTerminatedDate>2020-02-09T00:00:00+02:00</contractTerminatedDate>
+  </contract>
 </contracts>

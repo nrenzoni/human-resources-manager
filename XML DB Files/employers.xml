@@ -35,4 +35,15 @@
     <specializationID>100001</specializationID>
     <establishmentDate>2011-01-01T00:00:00</establishmentDate>
   </employer>
+  <employer ID="567634">
+    <companyName>Lev</companyName>
+    <phoneNumber>0535644564</phoneNumber>
+    <privatePerson>false</privatePerson>
+    <CivicAddress>
+      <address>havvad haleiumi</address>
+      <city>באר שבע</city>
+    </CivicAddress>
+    <specializationID>100001</specializationID>
+    <establishmentDate>2010-01-01T00:00:00</establishmentDate>
+  </employer>
 </employers>

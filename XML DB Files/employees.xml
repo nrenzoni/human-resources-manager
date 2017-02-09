@@ -42,4 +42,25 @@
     </bank>
     <recommendationNotes>hard worker!</recommendationNotes>
   </employee>
+  <employee ID="43546786">
+    <firstName>ezra</firstName>
+    <lastName>d</lastName>
+    <isMale>true</isMale>
+    <phoneNumber>0525445643</phoneNumber>
+    <email>fre@fms.com</email>
+    <birthday>1900-01-01T00:00:00</birthday>
+    <education>BA</education>
+    <armyGraduate>false</armyGraduate>
+    <yearsOfExperience>5</yearsOfExperience>
+    <specializationID>100001</specializationID>
+    <CivicAddress>
+      <address>tyhyjujuhhu</address>
+      <city>אשקלון</city>
+    </CivicAddress>
+    <bank bankAccount="46787654">
+      <BankName>בנק מרכנתיל דיסקונט בע"מ</BankName>
+      <bankBranch>626</bankBranch>
+    </bank>
+    <recommendationNotes />
+  </employee>
 </employees>

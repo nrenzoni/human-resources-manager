@@ -32,22 +32,22 @@
                 <GridView>
                     <GridViewColumn DisplayMemberBinding="{Binding contract.contractID, Mode=OneWay}">
                         <GridViewColumn.Header>
-                            <GridViewColumnHeader Content="Contract ID" Tag="contractID" Click="ContractListHeader_Click" />
+                            <GridViewColumnHeader Content="Contract ID" Tag="contract.contractID" Click="ContractListHeader_Click" />
                         </GridViewColumn.Header>
                     </GridViewColumn>
                     <GridViewColumn DisplayMemberBinding="{Binding contract.EmployerID, Mode=OneWay}">
                         <GridViewColumn.Header>
-                            <GridViewColumnHeader Content="Employer ID" Tag="EmployerID" Click="ContractListHeader_Click"/>
+                            <GridViewColumnHeader Content="Employer ID" Tag="contract.EmployerID" Click="ContractListHeader_Click"/>
                         </GridViewColumn.Header>
                     </GridViewColumn>
                     <GridViewColumn DisplayMemberBinding="{Binding contract.EmployeeID, Mode=OneWay}" >
                         <GridViewColumn.Header>
-                            <GridViewColumnHeader Content="Employee ID" Tag="EmployeeID" Click="ContractListHeader_Click"/>
+                            <GridViewColumnHeader Content="Employee ID" Tag="contract.EmployeeID" Click="ContractListHeader_Click"/>
                         </GridViewColumn.Header>
                     </GridViewColumn>
                     <GridViewColumn>
                         <GridViewColumn.Header>
-                            <GridViewColumnHeader Content="Interviewed" Tag="isInterviewed" Click="ContractListHeader_Click"/>
+                            <GridViewColumnHeader Content="Interviewed" Tag="contract.isInterviewed" Click="ContractListHeader_Click"/>
                         </GridViewColumn.Header>
                         <GridViewColumn.CellTemplate>
                             <DataTemplate>
@@ -57,7 +57,7 @@
                     </GridViewColumn>
                     <GridViewColumn>
                         <GridViewColumn.Header>
-                            <GridViewColumnHeader Content="Finalized" Tag="contractFinalized" Click="ContractListHeader_Click"/>
+                            <GridViewColumnHeader Content="Finalized" Tag="contract.contractFinalized" Click="ContractListHeader_Click"/>
                         </GridViewColumn.Header>
                         <GridViewColumn.CellTemplate>
                             <DataTemplate>
@@ -68,17 +68,17 @@
                     </GridViewColumn>
                     <GridViewColumn DisplayMemberBinding="{Binding contract.profit, ConverterCulture='he-IL', StringFormat={}{0:C}}">
                         <GridViewColumn.Header>
-                            <GridViewColumnHeader Content="Profit" Tag="profit" Click="ContractListHeader_Click"/>
+                            <GridViewColumnHeader Content="Profit" Tag="contract.profit" Click="ContractListHeader_Click"/>
                         </GridViewColumn.Header>
                     </GridViewColumn>
                     <GridViewColumn DisplayMemberBinding="{Binding contract.contractEstablishedDate, StringFormat={}{0:dd/MM/yyyy}, Mode=OneWay}">
                         <GridViewColumn.Header>
-                            <GridViewColumnHeader Content="Established" Tag="contractEstablishedDate" Click="ContractListHeader_Click"/>
+                            <GridViewColumnHeader Content="Established" Tag="contract.contractEstablishedDate" Click="ContractListHeader_Click"/>
                         </GridViewColumn.Header>
                     </GridViewColumn>
                     <GridViewColumn DisplayMemberBinding="{Binding contract.contractTerminatedDate, StringFormat={}{0:dd/MM/yyyy}, Mode=OneWay}">
                         <GridViewColumn.Header>
-                            <GridViewColumnHeader Content="Termination" Tag="contractTerminatedDate" Click="ContractListHeader_Click"/>
+                            <GridViewColumnHeader Content="Termination" Tag="contract.contractTerminatedDate" Click="ContractListHeader_Click"/>
                         </GridViewColumn.Header>
                     </GridViewColumn>
                 </GridView>

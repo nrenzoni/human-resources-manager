@@ -23,6 +23,9 @@ namespace PLWPF
 
         public event Action Contract_DS_Change_Event;
 
+        // exclude from setting the isEnabled property on these properties because they are binded (setting value of property in code behind after property is binded removes binding)
+        string[] isEnabledExclusions = { "comboContractID", "txtNetWage" };
+
         public void refreshComboxesIDs()
         {
             comboContractID.ItemsSource = BL_Object.getContractList();
@@ -55,7 +58,7 @@ namespace PLWPF
             add_ButtonVisibState();
 
             comboContractID.IsEnabled = false;
-            contractUCGrid.setIsEnabled(true, "comboContractID", "txtNetWage");
+            contractUCGrid.setIsEnabled(true, isEnabledExclusions);
 
             updateUIContract(new BE.Contract()); // resets all controls in UI
             comboContractID.Text = BL_Object.getNextContractID().ToString();
@@ -90,7 +93,6 @@ namespace PLWPF
             comboContractID.SelectedIndex = comboContractID.Items.Count -1; // sets selectedIndex to last contract
 
             restoreButtonVisibState(); // sets isEnabled to false on all UI controls
-            comboContractID.IsEnabled = true;
         }
 
         // if comboContractID selection changed, update tempContract by performing copy, in effect triggering INotify on properties
@@ -160,7 +162,8 @@ namespace PLWPF
             TerminateContract_Button.Visibility = Visibility.Visible;
             FinalizeContract_Button.Visibility = Visibility.Visible;
 
-            contractUCGrid.setIsEnabled(false, "comboContractID");
+            comboContractID.IsEnabled = true;
+            contractUCGrid.setIsEnabled(false, isEnabledExclusions);
         }
     }
 }

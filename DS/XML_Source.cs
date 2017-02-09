@@ -60,6 +60,7 @@ namespace DS
                             Branch =     (uint)XBank.Element("קוד_סניף")
                         }
                         orderby b.BankName, b.Branch
+                        // remove extra atms from each branch
                         group b by new { bNumber = b.BankNumber, bBranch = b.Branch } into bankNumAndAddress
                         select bankNumAndAddress.First();
 

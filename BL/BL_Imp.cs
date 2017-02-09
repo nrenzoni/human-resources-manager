@@ -1,14 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using BE;
 using DAL;
-using System.Collections.ObjectModel;
 using System.Reflection;
-using System.Collections.Generic;
-using System.ComponentModel;
 
 namespace BL
 {
@@ -70,7 +65,7 @@ namespace BL
 
         static object getDefault(Type type)
         {
-            if (type.IsValueType) // type is an enum
+            if (type.IsValueType) // type is a struct type
                 return Activator.CreateInstance(type);
             else if (type == typeof(string))
                 return "";
