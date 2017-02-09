@@ -93,6 +93,6 @@ namespace BE
                 PropertyChanged(this, new PropertyChangedEventArgs(propName));
         }
 
-        public override string ToString() => "ID: " + ID + ", Specialty: " + specializationName;
+        public override string ToString() => ID + ": " +  specializationName;
     }
 }
