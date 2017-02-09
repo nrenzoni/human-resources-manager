@@ -131,8 +131,7 @@ namespace BE
 
         public void NotifyPropertyChanged([CallerMemberName] string propName = null)
         {
-            if (PropertyChanged != null)
-                PropertyChanged(this, new PropertyChangedEventArgs(propName));
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propName));
         }
 
         public override bool Equals(object other)

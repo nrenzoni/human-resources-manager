@@ -33,7 +33,7 @@ namespace DS
         {
             // initialize roots
 
-            //Needs the save word 'out' to pass the root by reference, otherwise we get null.
+            // 'out' used for reference, otherwise we get null root after method finishes.
             loadOrCreate(specName, out specializationRoot);
             loadOrCreate(contractName, out contractRoot);
             loadOrCreate(employerName, out employerRoot);
@@ -50,26 +50,26 @@ namespace DS
                         let tempAddress = new CivicAddress
                         {
                             Address = (string)XBank.Element("כתובת_ה-ATM"),
-                            City = (string)XBank.Element("ישוב")
+                            City =    (string)XBank.Element("ישוב")
                         }
                         let b = new Bank
                         {
-                            BankName = ((string)XBank.Element("שם_בנק")).Trim(),
+                            BankName =   ((string)XBank.Element("שם_בנק")).Trim(),
                             BankNumber = (uint)XBank.Element("קוד_בנק"),
-                            Address = tempAddress,
-                            Branch = (uint)XBank.Element("קוד_סניף")
+                            Address =    tempAddress,
+                            Branch =     (uint)XBank.Element("קוד_סניף")
                         }
                         orderby b.BankName, b.Branch
                         group b by new { bNumber = b.BankNumber, bBranch = b.Branch } into bankNumAndAddress
                         select bankNumAndAddress.First();
 
-                // saves banks to banks.xml
+                // saves banks into banks.xml
                 XmlSerializer serializer = new XmlSerializer(typeof(List<Bank>));
                 TextWriter writer = new StreamWriter((concatXMLName("banks")));
                 serializer.Serialize(writer, Banks.ToList());
                 writer.Close();
 
-                // loads saves banks.xml file into bankRoot
+                // loads saved banks.xml file into bankRoot
                 loadXMLFile(bankName, out bankRoot);
 
                 e.Result = "downloadSuccess";

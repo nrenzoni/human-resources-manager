@@ -181,7 +181,6 @@ namespace DAL
             XML_Source.SaveXML<Contract>();
 
             return true;
-
         }
 
         public bool deleteContract(Contract contract)
@@ -279,24 +278,26 @@ namespace DAL
             {
                 return (from e in XML_Source.employeeRoot.Elements()
                         let currentBank = new Bank()
-                        { BankName = (string)e.Element("bank").Element("BankName"),
-                          Branch=(uint)e.Element("bank").Element("bankBranch")}
+                        {
+                            BankName = (string)e.Element("bank").Element("BankName"),
+                            Branch =(uint)e.Element("bank").Element("bankBranch")
+                        }
                         select new Employee()
                         {
-                            ID = (uint)e.Attribute("ID"),
-                            firstName = e.Element("firstName")?.Value,
-                            lastName = e.Element("lastName")?.Value,
-                            address = (CivicAddress)e.Element("CivicAddress"),
-                            isMale = (bool)e.Element("isMale"),
-                            email = e.Element("email")?.Value,
-                            phoneNumber = (string)e.Element("phoneNumber"),
-                            armyGraduate = (bool)e.Element("armyGraduate"),
-                            yearsOfExperience = (uint)e.Element("yearsOfExperience"),
-                            specializationID = (uint)e.Element("specializationID"),
-                            birthday = (DateTime)e.Element("birthday"),
-                            education = (Education)Enum.Parse(typeof(Education),e.Element("education").Value, true),
-                            bankAccountNumber = (uint)e.Element("bank").Attribute("bankAccount"),
-                            bank = currentBank,
+                            ID =                  (uint)e.Attribute("ID"),
+                            firstName =           e.Element("firstName")?.Value,
+                            lastName =            e.Element("lastName")?.Value,
+                            address =             (CivicAddress)e.Element("CivicAddress"),
+                            isMale =              (bool)e.Element("isMale"),
+                            email =               e.Element("email")?.Value,
+                            phoneNumber =         (string)e.Element("phoneNumber"),
+                            armyGraduate =        (bool)e.Element("armyGraduate"),
+                            yearsOfExperience =   (uint)e.Element("yearsOfExperience"),
+                            specializationID =    (uint)e.Element("specializationID"),
+                            birthday =            (DateTime)e.Element("birthday"),
+                            education =           (Education)Enum.Parse(typeof(Education),e.Element("education").Value, true),
+                            bankAccountNumber =   (uint)e.Element("bank").Attribute("bankAccount"),
+                            bank =                currentBank,
                             recommendationNotes = (string)e.Element("recommendationNotes")
                         }).ToList();
             }
@@ -313,15 +314,15 @@ namespace DAL
                 return (from e in XML_Source.employerRoot.Elements()
                         select new Employer()
                         {
-                            ID = uint.Parse(e.Attribute("ID").Value),
-                            companyName = e.Element("companyName").Value,
-                            privatePerson = bool.Parse(e.Element("privatePerson").Value),
-                            firstName = (string)e.Element("firstName"), // check if exists perhaps
-                            lastName = (string)e.Element("lastName"),
-                            phoneNumber = (string)e.Element("phoneNumber"),
-                            specializationID = uint.Parse(e.Element("specializationID").Value),
+                            ID =                uint.Parse(e.Attribute("ID").Value),
+                            companyName =       e.Element("companyName").Value,
+                            privatePerson =     bool.Parse(e.Element("privatePerson").Value),
+                            firstName =         (string)e.Element("firstName"), // check if exists perhaps
+                            lastName =          (string)e.Element("lastName"),
+                            phoneNumber =       (string)e.Element("phoneNumber"),
+                            specializationID =  uint.Parse(e.Element("specializationID").Value),
                             establishmentDate = DateTime.Parse(e.Element("establishmentDate").Value),
-                            address = (CivicAddress)e.Element("CivicAddress") // calls explicit converter of Xlement to CivicAddress
+                            address =           (CivicAddress)e.Element("CivicAddress") // calls explicit converter of Xlement to CivicAddress
                         }
                         ).ToList();
             }

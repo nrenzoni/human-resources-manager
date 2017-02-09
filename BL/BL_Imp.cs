@@ -70,7 +70,7 @@ namespace BL
 
         static object getDefault(Type type)
         {
-            if (type.IsValueType)
+            if (type.IsValueType) // type is an enum
                 return Activator.CreateInstance(type);
             else if (type == typeof(string))
                 return "";
@@ -254,7 +254,7 @@ namespace BL
 
         public bool addEmployer(Employer employer)
         {
-            // if private, all properties must be filled, including first name and last name
+            // if private employer, all properties must be filled, including first name and last name
             if (employer.privatePerson && hasEmptyFields(employer))
                 throw new Exception("please fill out all fields");
 
@@ -360,14 +360,6 @@ namespace BL
                     ordered ? g_year : null 
                 group g_year.Sum() by g_year.Key;
         }
-
-        //public IEnumerable<IGrouping<string, IGrouping<uint, Bank>>> getBanksGrouped()
-        //    => from bank in DAL_Object.getBankList()
-        //       group bank by bank.BankName into bankGroupingByName // outer grouping
-        //       from bank in
-        //           (from bank in bankGroupingByName
-        //            group bank by bank.Branch) // inner grouping
-        //       group bank by bankGroupingByName.Key;
 
         public IEnumerable<IGrouping<string,Bank>> getBanksGrouped()
             => from bank in DAL_Object.getBankList()

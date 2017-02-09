@@ -34,6 +34,10 @@ namespace DAL
         List<Contract>          getContractList();
         List<Bank>              getBankList();
 
+        /// <summary>
+        /// returns BackgroundWorker delegate that downloads/loads Bank XML file into DB.
+        /// </summary>
+        /// <returns></returns>
         DoWorkDelegate getXMLBankBackground_DoWork();
     }
 }

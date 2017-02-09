@@ -24,7 +24,7 @@
 
             <Button Name="saveButton" Content="Save" Click="saveButton_Click" Visibility="Collapsed" />
 
-            <Button Name="deleteButton" Style="{StaticResource deleteButtonStyle}" Click="deleteButton_Click" IsEnabled="{Binding Text,ElementName=ComEmplyeeID , Converter={StaticResource InverseIDToIsEnabledConverter}, ConverterParameter=Employee}"/>
+            <Button Name="deleteButton" Content="Delete" Click="deleteButton_Click" IsEnabled="{Binding Text,ElementName=ComEmplyeeID , Converter={StaticResource InverseIDToIsEnabledConverter}, ConverterParameter=Employee}"/>
 
             <Button Name="updateButton" Click="makeChangesButton_Click" IsEnabled="{Binding Text,ElementName=ComEmplyeeID ,Converter={StaticResource InverseIDToIsEnabledConverter}, ConverterParameter=Employee}" Content="Update" />
 
