@@ -1,16 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <contracts>
-  <contract ID="100000">
-    <EmployerID>457754</EmployerID>
-    <EmployeeID>34566</EmployeeID>
-    <isInterviewed>true</isInterviewed>
-    <contractFinalized>false</contractFinalized>
-    <grossWagePerHour>50</grossWagePerHour>
-    <netWagePerHour>40</netWagePerHour>
-    <maxWorkHours>5</maxWorkHours>
-    <contractEstablishedDate>2017-02-05T00:00:00+02:00</contractEstablishedDate>
-    <contractTerminatedDate>2020-02-05T00:00:00+02:00</contractTerminatedDate>
-  </contract>
   <contract ID="100001">
     <EmployerID>345645</EmployerID>
     <EmployeeID>34566</EmployeeID>
@@ -21,5 +10,27 @@
     <maxWorkHours>50</maxWorkHours>
     <contractEstablishedDate>2017-02-05T00:00:00+02:00</contractEstablishedDate>
     <contractTerminatedDate>2020-02-05T00:00:00+02:00</contractTerminatedDate>
+  </contract>
+  <contract ID="100000">
+    <EmployerID>457754</EmployerID>
+    <EmployeeID>34566</EmployeeID>
+    <isInterviewed>true</isInterviewed>
+    <contractFinalized>false</contractFinalized>
+    <grossWagePerHour>50</grossWagePerHour>
+    <netWagePerHour>40</netWagePerHour>
+    <maxWorkHours>5</maxWorkHours>
+    <contractEstablishedDate>2017-02-05T00:00:00+02:00</contractEstablishedDate>
+    <contractTerminatedDate>2017-02-07T00:00:00+02:00</contractTerminatedDate>
+  </contract>
+  <contract ID="100002">
+    <EmployerID>345645</EmployerID>
+    <EmployeeID>34567544</EmployeeID>
+    <isInterviewed>true</isInterviewed>
+    <contractFinalized>true</contractFinalized>
+    <grossWagePerHour>175</grossWagePerHour>
+    <netWagePerHour>140.35</netWagePerHour>
+    <maxWorkHours>30</maxWorkHours>
+    <contractEstablishedDate>2015-02-09T00:00:00</contractEstablishedDate>
+    <contractTerminatedDate>2025-02-09T00:00:00</contractTerminatedDate>
   </contract>
 </contracts>

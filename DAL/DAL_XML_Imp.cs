@@ -167,17 +167,19 @@ namespace DAL
                  new XElement("contractTerminatedDate", c.contractTerminatedDate)
                  );
 
-        public bool addContract(Contract contract)
+        public bool addContract(Contract contract, bool autoAssignID=true)
         {
             if (ElementIfExists(XML_Source.contractRoot, contract.contractID) != null)
             {
                 throw new Exception(contract.contractID + " already exists in file");
             }
 
+            if (autoAssignID)
+                contract.contractID = nextContractID++;
+
             XML_Source.contractRoot.Add(createContractXElement(contract));
             XML_Source.SaveXML<Contract>();
 
-            nextContractID++;
             return true;
 
         }
@@ -185,6 +187,17 @@ namespace DAL
         public bool deleteContract(Contract contract)
             => removeElementFromXML(XML_Source.contractRoot, contract.contractID);
 
+
+        public bool updateContract(Contract contract)
+        {
+            XElement foundElement = ElementIfExists(XML_Source.contractRoot, contract.contractID);
+            if (foundElement == null)
+                throw new Exception(contract.contractID + " does not exist in XML");
+
+            return
+                removeElementFromXML(XML_Source.contractRoot, foundElement)
+                && addContract(contract, false); // don't assign new contract ID
+        }
 
         public uint getNextContractID()
         {
@@ -276,7 +289,7 @@ namespace DAL
                             address = (CivicAddress)e.Element("CivicAddress"),
                             isMale = (bool)e.Element("isMale"),
                             email = e.Element("email")?.Value,
-                            phoneNumber = (uint)e.Element("phoneNumber"),
+                            phoneNumber = (string)e.Element("phoneNumber"),
                             armyGraduate = (bool)e.Element("armyGraduate"),
                             yearsOfExperience = (uint)e.Element("yearsOfExperience"),
                             specializationID = (uint)e.Element("specializationID"),
@@ -305,7 +318,7 @@ namespace DAL
                             privatePerson = bool.Parse(e.Element("privatePerson").Value),
                             firstName = (string)e.Element("firstName"), // check if exists perhaps
                             lastName = (string)e.Element("lastName"),
-                            phoneNumber = uint.Parse(e.Element("phoneNumber").Value),
+                            phoneNumber = (string)e.Element("phoneNumber"),
                             specializationID = uint.Parse(e.Element("specializationID").Value),
                             establishmentDate = DateTime.Parse(e.Element("establishmentDate").Value),
                             address = (CivicAddress)e.Element("CivicAddress") // calls explicit converter of Xlement to CivicAddress

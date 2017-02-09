@@ -54,13 +54,13 @@ namespace DS
                         }
                         let b = new Bank
                         {
-                            BankName = (string)XBank.Element("שם_בנק"),
+                            BankName = ((string)XBank.Element("שם_בנק")).Trim(),
                             BankNumber = (uint)XBank.Element("קוד_בנק"),
                             Address = tempAddress,
                             Branch = (uint)XBank.Element("קוד_סניף")
                         }
                         orderby b.BankName, b.Branch
-                        group b by ((string)XBank.Element("קוד_בנק")).Trim() + ((string)XBank.Element("כתובת_ה-ATM")).Trim() into bankNumAndAddress
+                        group b by new { bNumber = b.BankNumber, bBranch = b.Branch } into bankNumAndAddress
                         select bankNumAndAddress.First();
 
                 // saves banks to banks.xml
@@ -90,8 +90,7 @@ namespace DS
                                 Branch = (uint)bank.Element("Branch"),
                                 Address = (CivicAddress)bank.Element("CivicAddress"),
                             }
-                            group b by new { bNumber = b.BankNumber, bBranch = b.Branch } into bGrouping
-                            select bGrouping.First();
+                            select b;
 
                     e.Result = "loadSuccess";
                     return;

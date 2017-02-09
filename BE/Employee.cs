@@ -8,7 +8,7 @@ using System.Xml.Linq;
 
 namespace BE
 {
-    public enum Education { student, BA, MA, PHD};
+    public enum Education { none, student, BA, MA, PHD};
 
     public class Employee :INotifyPropertyChanged
     {
@@ -57,7 +57,7 @@ namespace BE
             }
         }
 
-        DateTime _birthday = new DateTime();
+        DateTime _birthday = new DateTime(1980,1,1);
         public DateTime birthday
         {
             get { return _birthday; }
@@ -71,8 +71,8 @@ namespace BE
             }
         }
 
-        uint _phoneNumber;
-        public uint phoneNumber
+        string _phoneNumber;
+        public string phoneNumber
         {
             get { return _phoneNumber; }
             set
@@ -223,18 +223,6 @@ namespace BE
 
         public override string ToString()
             => ID + ": " + lastName + ", " + firstName;
-
-        //public override string ToString()
-        //=> _lastName + ", " + _firstName + ". ID: " + ID +
-        //    ", Birthday: " + _birthday.ToString("d") + ", " +
-        //    (_isMale ? "Male" : "Female") +
-        //    ", Phone: " +
-        //    _phoneNumber + ", " + _address + ", Years of Experience: " +
-        //    _yearsOfExperience + ", Education: " +
-        //    _education.ToString() + ", " +
-        //    (_armyGraduate ? " served in Army" : "did not serve in Army") +
-        //    (string.IsNullOrEmpty(_recommendationNotes) ? ", recommendation Notes: " + _recommendationNotes : "") +
-        //    ", Bank Account #: " + _bankAccountNumber;
 
         public override bool Equals(object other)
             => ID == (other as Employee)?.ID;

@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <employers>
   <employer ID="345645">
-    <companyName>programming inc.</companyName>
-    <phoneNumber>583434321</phoneNumber>
+    <companyName>programming inc</companyName>
+    <phoneNumber>0583434321</phoneNumber>
     <privatePerson>false</privatePerson>
     <CivicAddress>
       <address>hashalom st, 42</address>
@@ -11,14 +11,25 @@
     <specializationID>100000</specializationID>
     <establishmentDate>2014-01-01T00:00:00</establishmentDate>
   </employer>
-  <employer ID="457754">
-    <firstName></firstName>
-    <lastName></lastName>
-    <companyName>b&amp;b co</companyName>
-    <phoneNumber>654</phoneNumber>
+  <employer ID="34464354">
+    <firstName>ron</firstName>
+    <lastName>jon</lastName>
+    <companyName>Rojo programming</companyName>
+    <phoneNumber>0524435453</phoneNumber>
     <privatePerson>true</privatePerson>
     <CivicAddress>
-      <address>hh</address>
+      <address>highway 32</address>
+      <city>בית שאן</city>
+    </CivicAddress>
+    <specializationID>100000</specializationID>
+    <establishmentDate>2012-01-02T00:00:00</establishmentDate>
+  </employer>
+  <employer ID="457754">
+    <companyName>b&amp;b Comp.</companyName>
+    <phoneNumber>0565432426</phoneNumber>
+    <privatePerson>false</privatePerson>
+    <CivicAddress>
+      <address>hashish st.</address>
       <city>ערד</city>
     </CivicAddress>
     <specializationID>100001</specializationID>

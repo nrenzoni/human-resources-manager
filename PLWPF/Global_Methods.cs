@@ -38,21 +38,6 @@ namespace PLWPF
             }
         }
 
-        public static void ClearAllFields(Grid resetGrid)
-        {
-            foreach (var item in resetGrid.Children)
-            {
-                if (item.GetType() == typeof(ComboBox))
-                    (item as ComboBox).SelectedIndex = -1;
-
-                else if (item.GetType() == typeof(TextBox))
-                    (item as TextBox).Text = "";
-
-                else if (item.GetType() == typeof(DatePicker))
-                    (item as DatePicker).SelectedDate = ResetDatePicker();
-            }
-        }
-
         public static DateTime ResetDatePicker()
             => new DateTime(1970, 1, 1);          
               

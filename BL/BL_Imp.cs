@@ -95,10 +95,10 @@ namespace BL
 
         public bool deleteSpecilization(Specialization specilization)
         {
-            if (DAL_Object.getEmployeeList().Exists(e => e.specializationID == specilization.ID) != true)
+            if (DAL_Object.getEmployeeList().Exists(e => e.specializationID == specilization.ID) == true)
                 throw new Exception("cannot delete specialization, in use by employee");
 
-            if(DAL_Object.getEmployerList().Exists(e=> e.specializationID == specilization.ID) != true)
+            if(DAL_Object.getEmployerList().Exists(e=> e.specializationID == specilization.ID) == true)
                 throw new Exception("cannot delete specialization, in use by employer");
 
             return DAL_Object.deleteSpecilization(specilization);
@@ -235,20 +235,18 @@ namespace BL
 
         public bool terminateContract(Contract contract)
         {
-            // can only update terminated contract
             Contract foundContr = DAL_Object.getContractList().Find(x => Equals(x,contract));
             if (foundContr == null)
                 return false; // contract does not exist in DB
 
             if (DateTime.Now < foundContr.contractTerminatedDate) // previous termination date in future
             {
-                foundContr.contractTerminatedDate = DateTime.Now;
+                contract.contractTerminatedDate = DateTime.Today;
+                DAL_Object.updateContract(contract);
                 return true;
             }
             else // contract already terminated
                 throw new Exception("Contract already terminated");
-
-            //return DAL_Object.updateContract(oldContract, newContract);
         }
 
         public uint getNextContractID()

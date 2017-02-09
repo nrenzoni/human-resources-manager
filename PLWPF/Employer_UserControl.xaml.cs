@@ -61,8 +61,6 @@ namespace PLWPF
             {
                 // resets UIEmployer fields, in effect reseting all controls in UI bc of binding
                 Globals.CopyObject(new BE.Employer(), UIEmployer);
-
-                //Globals.ClearAllFields(EmployerGrid); // Clear the fields in the current grid.
                 return;
             }
 

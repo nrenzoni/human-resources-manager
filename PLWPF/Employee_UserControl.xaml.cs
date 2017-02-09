@@ -39,10 +39,8 @@ namespace PLWPF
                                          orderby name
                                          select name;
 
-            ComEmplyeeID.ItemsSource =  Bl_Object.getEmployeeList();
             ComEmplyeeEduc.ItemsSource = Enum.GetValues(typeof(BE.Education));
-            ComEmployeSpec.ItemsSource = Bl_Object.getSpecilizationList();
-            UIEmployee.birthday = Globals.ResetDatePicker();
+            refreshComboBoxes();
 
             EmployeeGrid.setIsEnabled(false, "ComEmplyeeID"); // set isEnabled to false on all controls except for ComEmplyeeID
         }
@@ -140,6 +138,7 @@ namespace PLWPF
         {
             ComEmplyeeID.ItemsSource = Bl_Object.getEmployeeList();
             comEmplyeBankName.ItemsSource = Bl_Object.getBanksGrouped();
+            ComEmployeSpec.ItemsSource = Bl_Object.getSpecilizationList();
         }
 
         private void makeChangesButton_Click(object sender, RoutedEventArgs e)

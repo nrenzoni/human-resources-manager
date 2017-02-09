@@ -34,13 +34,12 @@ namespace PLWPF
             InitializeComponent();
             editUC.DS_Edit_Event += EditUC_onChange;
             viewUC.onContractDoubleClick += ViewUC_onContractDoubleClick;
-            
+
+            DownloadBankXMLCompleted += editUC.OnDownloadBankXMLCompleted;
 
             DownloadBankXML.DoWork += new DoWorkEventHandler(BL_Object.getXMLBankBackground_DoWork());
             DownloadBankXML.RunWorkerCompleted += new RunWorkerCompletedEventHandler(getXMLBankRunner_Completed);
             DownloadBankXML.RunWorkerAsync(); // runs downloadBankXml asynchronously 
-
-            DownloadBankXMLCompleted += editUC.OnDownloadBankXMLCompleted;
         }
 
         private void ViewUC_onContractDoubleClick(Contract obj)
@@ -56,19 +55,20 @@ namespace PLWPF
         {
             if (e.Result?.ToString() == "downloadSuccess")
             {
-                Globals.exceptionHandler(new Exception("download of Banks.xml succeeded"));
                 DownloadBankXMLCompleted?.Invoke();
+                Globals.exceptionHandler(new Exception("download of Banks.xml succeeded"));
             }
 
             else if (e.Result?.ToString() == "loadSuccess")
             {
+                DownloadBankXMLCompleted?.Invoke();
                 Globals.exceptionHandler(new Exception("load of Banks.xml succeeded"));
             }
 
             else
             {
                 Globals.exceptionHandler(new Exception("failed to initalize Banks.xml. Closing Program"));
-                Close();
+                this.Close();
             }
         }
     }

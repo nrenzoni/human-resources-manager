@@ -4,7 +4,7 @@
     <firstName>jons</firstName>
     <lastName>row</lastName>
     <isMale>true</isMale>
-    <phoneNumber>5456765</phoneNumber>
+    <phoneNumber>0545676532</phoneNumber>
     <email>ror#gog.com</email>
     <birthday>1970-01-01T00:00:00</birthday>
     <education>student</education>
@@ -20,5 +20,26 @@
       <bankBranch>63</bankBranch>
     </bank>
     <recommendationNotes></recommendationNotes>
+  </employee>
+  <employee ID="34567544">
+    <firstName>yehuda</firstName>
+    <lastName>cohen</lastName>
+    <isMale>true</isMale>
+    <phoneNumber>0543538785</phoneNumber>
+    <email>yehudap@gmail.com</email>
+    <birthday>1983-01-01T00:00:00</birthday>
+    <education>MA</education>
+    <armyGraduate>false</armyGraduate>
+    <yearsOfExperience>4</yearsOfExperience>
+    <specializationID>100004</specializationID>
+    <CivicAddress>
+      <address>hapisga</address>
+      <city>ירושלים</city>
+    </CivicAddress>
+    <bank bankAccount="87655453">
+      <BankName>בנק לאומי לישראל בע"מ</BankName>
+      <bankBranch>93</bankBranch>
+    </bank>
+    <recommendationNotes>hard worker!</recommendationNotes>
   </employee>
 </employees>

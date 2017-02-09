@@ -80,9 +80,12 @@ namespace DAL
         public bool updateEmployee(Employee employee) =>
             updateInList(List_Source.employeeList, employee);
 
-        public bool addContract(Contract contract)
+        public bool addContract(Contract contract, bool autoAssignID = true)
         {
-            contract.contractID = getNextContractID();
+            if(autoAssignID)
+            {
+                contract.contractID = getNextContractID();
+            }
 
             // addToList checks if contract already exists in contractList, however, since nextID is unique, will always work
             return addToList(List_Source.contractList, contract);
@@ -90,6 +93,11 @@ namespace DAL
 
         public bool deleteContract(Contract contract) =>
             deleteFromList(List_Source.contractList, contract);
+
+        public bool updateContract(Contract contract)
+        {
+            throw new NotImplementedException();
+        }
 
         public uint getNextContractID()
             => List_Source.contractList.Count != 0 ?

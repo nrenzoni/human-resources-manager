@@ -187,6 +187,9 @@ namespace PLWPF
     {
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
+            if (value == null)
+                return null;
+
             Type type = value.GetType();
 
             if (type == typeof(string))

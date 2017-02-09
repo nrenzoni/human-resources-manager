@@ -19,8 +19,9 @@ namespace DAL
         bool deleteEmployee(Employee employee);
         bool updateEmployee(Employee employee);
 
-        bool addContract(Contract contract);
+        bool addContract(Contract contract, bool autoAssignID= true);
         bool deleteContract(Contract contract);
+        bool updateContract(Contract contract);
         uint getNextContractID();
 
         bool addEmployer(Employer employer);

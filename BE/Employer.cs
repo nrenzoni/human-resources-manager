@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -9,7 +10,19 @@ namespace BE
 {
     public class Employer : INotifyPropertyChanged
     {
-        public bool privatePerson { get; set; }
+        bool _privatePerson;
+        public bool privatePerson
+        {
+            get { return _privatePerson; }
+            set
+            {
+                if(_privatePerson != value)
+                {
+                    _privatePerson = value;
+                    NotifyPropertyChanged();
+                }
+            }
+        }
 
         public uint ID { get; set; } // ID does not change
 
@@ -22,7 +35,7 @@ namespace BE
                 if(_firstName != value)
                 {
                     _firstName = value;
-                    NotifyPropertyChanged("firstName");
+                    NotifyPropertyChanged();
                 }
             }
         }
@@ -36,7 +49,7 @@ namespace BE
                 if(_lastName != value)
                 {
                     _lastName = value;
-                    NotifyPropertyChanged("lastName");
+                    NotifyPropertyChanged();
                 }
             }
         }
@@ -50,13 +63,13 @@ namespace BE
                 if(_companyName != value)
                 {
                     _companyName = value;
-                    NotifyPropertyChanged("companyName");
+                    NotifyPropertyChanged();
                 }
             }
         }
 
-        uint _phoneNumber;
-        public uint phoneNumber
+        string _phoneNumber;
+        public string phoneNumber
         {
             get { return _phoneNumber; }
             set
@@ -64,7 +77,7 @@ namespace BE
                 if (_phoneNumber != value)
                 {
                     _phoneNumber = value;
-                    NotifyPropertyChanged("phoneNumber");
+                    NotifyPropertyChanged();
                 }
             }
         }
@@ -78,7 +91,7 @@ namespace BE
                 if (_address != value)
                 {
                     _address = value;
-                    NotifyPropertyChanged("address");
+                    NotifyPropertyChanged();
                 }
             }
         }
@@ -92,7 +105,7 @@ namespace BE
                 if (_specializationID != value)
                 {
                     _specializationID = value;
-                    NotifyPropertyChanged("specializationID");
+                    NotifyPropertyChanged();
                 }
             }
         }
@@ -106,28 +119,17 @@ namespace BE
                 if (_establishmentDate != value)
                 {
                     _establishmentDate = value;
-                    NotifyPropertyChanged("establishmentDate");
+                    NotifyPropertyChanged();
                 }
             }
         }
-
-        //public override string ToString()
-        //{
-        //    return ((privatePerson) ? "Private Employer" : "Company") +
-        //        " ID: " + ID +
-        //        ((privatePerson) ? " Name: " +
-        //        lastName + ", " + firstName : "") +
-        //        ((string.IsNullOrEmpty(companyName)) ? "" : " Company Name: " + companyName) +
-        //        " Phone Number: " + phoneNumber +
-        //        ", " + address;
-        //}
-
+        
         public override string ToString()
             => ID + ": " + companyName;
 
         public event PropertyChangedEventHandler PropertyChanged;
 
-        public void NotifyPropertyChanged(string propName)
+        public void NotifyPropertyChanged([CallerMemberName] string propName = null)
         {
             if (PropertyChanged != null)
                 PropertyChanged(this, new PropertyChangedEventArgs(propName));

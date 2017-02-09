@@ -10,14 +10,24 @@
     <maxWagePerHour>400</maxWagePerHour>
     <minWagePerHour>30</minWagePerHour>
   </specialization>
-  <specialization ID="100001">
-    <specializationName>electricity</specializationName>
-    <maxWagePerHour>10000</maxWagePerHour>
-    <minWagePerHour>29</minWagePerHour>
-  </specialization>
   <specialization ID="100003">
     <specializationName>plamal </specializationName>
     <maxWagePerHour>500</maxWagePerHour>
     <minWagePerHour>100</minWagePerHour>
+  </specialization>
+  <specialization ID="100001">
+    <specializationName>Electricity</specializationName>
+    <maxWagePerHour>10000</maxWagePerHour>
+    <minWagePerHour>29</minWagePerHour>
+  </specialization>
+  <specialization ID="100004">
+    <specializationName>machine learning</specializationName>
+    <maxWagePerHour>500</maxWagePerHour>
+    <minWagePerHour>100</minWagePerHour>
+  </specialization>
+  <specialization ID="100005">
+    <specializationName>platform debugging</specializationName>
+    <maxWagePerHour>200</maxWagePerHour>
+    <minWagePerHour>45</minWagePerHour>
   </specialization>
 </specializations>

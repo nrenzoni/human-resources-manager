@@ -73,9 +73,9 @@ namespace DS
             DateTime[] dates = (from offset in Enumerable.Range(1, 20)
                                 select new DateTime(1960, 1, 1).AddYears(randGen.Next(40)).AddMonths(randGen.Next(12)).AddDays(randGen.Next(30))).ToArray();
 
-            int[] phoneNums = (from i in Enumerable.Range(1, 20)
+            string[] phoneNums = (from i in Enumerable.Range(1, 20)
                                let num = "05" + randGen.Next(10000000, 99999999)
-                               select int.Parse(num)).ToArray();
+                               select num).ToArray();
 
             int[] yearsxp = (from i in Enumerable.Range(1, 20)
                              select randGen.Next(1, 40)).ToArray();
@@ -100,7 +100,7 @@ namespace DS
                         email = emails[i],
                         bankAccountNumber = (uint)bankAccnts[i],
                         bank = bankList[randGen.Next(bankList.Count)],
-                        phoneNumber = (uint)phoneNums[i],
+                        phoneNumber = phoneNums[i],
                         yearsOfExperience = (uint)yearsxp[i],
                         armyGraduate = (i%2 == 0 ? true : false),
                         education = (Education)randGen.Next(1, 4),
@@ -114,7 +114,7 @@ namespace DS
                         firstName = firstNames[i + 10],
                         lastName = lastNames[i + 10],
                         address = new CivicAddress { City = cities[randGen.Next(cities.Length)] },
-                        phoneNumber = (uint)phoneNums[i + 10],
+                        phoneNumber = phoneNums[i + 10],
                         privatePerson = false,
                         companyName = compNames[i],
                         establishmentDate = dates[i + 10],

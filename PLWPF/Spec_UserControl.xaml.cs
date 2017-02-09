@@ -77,6 +77,7 @@ namespace PLWPF
                         BE.Specialization addSpec = new BE.Specialization();
                         Globals.CopyObject(UISpec, addSpec);
                         BL_Object.addSpecialization(addSpec);
+                        Spec_DS_Change_Event?.Invoke();
                         break;
 
                     case State.modify:
